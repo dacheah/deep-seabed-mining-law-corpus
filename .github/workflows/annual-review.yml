@@ -1,0 +1,23 @@
+name: Annual review reminder
+on:
+  schedule:
+    - cron: "0 6 15 7 *"   # 15 July — align to the ISA Assembly/Council session cycle
+  workflow_dispatch: {}
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('.github/ISSUE_TEMPLATE/annual-review.md', 'utf8')
+              .replace(/^---[\s\S]*?---\n/, '');
+            await github.rest.issues.create({
+              owner: context.repo.owner, repo: context.repo.repo,
+              title: `Annual review ${new Date().getFullYear()}`,
+              body, labels: ['annual-review']
+            });

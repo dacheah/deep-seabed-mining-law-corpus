@@ -1,0 +1,13 @@
+{
+  "_comment": "Pages watched monthly by scripts/watch_sources.py. A change opens/updates a report for a maintainer to TRIAGE (it may be a new/amended instrument OR a cosmetic page update). Nothing is ingested automatically. Add ISA Council/LTC pages as the Mining Code advances (Phase 1, front-loaded watch).",
+  "sources": [
+    {"name": "ISA — The Mining Code (exploitation regulations)", "url": "https://www.isa.org.jm/the-mining-code/", "last_sha256": null},
+    {"name": "ISA — Exploration regulations", "url": "https://www.isa.org.jm/the-mining-code/exploration-regulations/", "last_sha256": null},
+    {"name": "ISA — Council documents", "url": "https://www.isa.org.jm/sessions/", "last_sha256": null},
+    {"name": "UN DOALOS — 1994 Part XI Implementation Agreement", "url": "https://www.un.org/depts/los/convention_agreements/texts/agreement_part_xi/agreement_part_xi.htm", "last_sha256": null},
+    {"name": "UN DOALOS — UNCLOS Part XI (The Area), Section 1", "url": "https://www.un.org/depts/los/convention_agreements/texts/unclos/part11-1.htm", "last_sha256": null},
+    {"name": "ITLOS — Case No. 17 (2011 Advisory Opinion)", "url": "https://www.itlos.org/en/main/cases/list-of-cases/case-no-17/", "last_sha256": null},
+    {"name": "US eCFR — 15 CFR Part 970 (NOAA deep seabed mining, exploration licences)", "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-D/part-970", "last_sha256": null},
+    {"name": "US eCFR — 15 CFR Part 971 (NOAA commercial recovery permits)", "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-D/part-971", "last_sha256": null}
+  ]
+}

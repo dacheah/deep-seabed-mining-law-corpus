@@ -1,0 +1,12 @@
+{
+  "name": "Deep Seabed Mining Law Corpus",
+  "tagline": "A neutral, authoritative, machine-readable record of the law governing mineral resources of the Area — the seabed beyond national jurisdiction — built provenance-first. Every text carries its source, retrieval date, official citation, language, an authoritative-status flag, and a content hash; every change is a new dated version. Derived structure and concept tags are clearly labelled and never conflated with the authoritative texts.",
+  "groups": [
+    ["convention", "Framework convention (UNCLOS Part XI)"],
+    ["implementing_agreement", "Implementing agreement"],
+    ["advisory_opinion", "Case law (advisory opinions)"],
+    ["isa_regulation", "ISA regulations"],
+    ["national_statute", "National statutes"],
+    ["national_regulation", "National regulations"]
+  ]
+}
