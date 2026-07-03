@@ -2,7 +2,7 @@
 pretty_name: Deep Seabed Mining Law Corpus
 license: other
 license_name: mixed-provenance
-license_link: https://github.com/OWNER/deep-seabed-mining-law-corpus/blob/main/docs/design/04-licensing-policy.md
+license_link: https://github.com/dacheah/deep-seabed-mining-law-corpus/blob/main/docs/design/04-licensing-policy.md
 language:
 - en
 tags:
@@ -29,8 +29,8 @@ configs:
 
 A neutral, **provenance-first**, machine-readable record of the law governing mineral resources of "the Area" (the seabed beyond national jurisdiction): the international ISA/UNCLOS regime and the US non-UNCLOS parallel track. Every record carries its official source, retrieval date, citation, language, an authoritative-status flag, and a SHA-256 content hash; texts are verified against official sources.
 
-- **Source of truth / build history:** https://github.com/OWNER/deep-seabed-mining-law-corpus
-- **Human-browsable site:** https://OWNER.github.io/deep-seabed-mining-law-corpus/
+- **Source of truth / build history:** https://github.com/dacheah/deep-seabed-mining-law-corpus
+- **Human-browsable site:** https://dacheah.github.io/deep-seabed-mining-law-corpus/
 - **7** instruments (7 verified against official sources) · **580** provisions · **1340** neutral concept tags
 
 ## Why this dataset is different
@@ -45,8 +45,8 @@ Most legal datasets are scraped text with no sourcing. Here **every row is trace
 
 ```python
 from datasets import load_dataset
-docs = load_dataset("OWNER/deep-seabed-mining-law-corpus", "documents")
-prov = load_dataset("OWNER/deep-seabed-mining-law-corpus", "provisions")
+docs = load_dataset("dacheah/deep-seabed-mining-law-corpus", "documents")
+prov = load_dataset("dacheah/deep-seabed-mining-law-corpus", "provisions")
 ```
 
 ## Contents
@@ -63,7 +63,7 @@ prov = load_dataset("OWNER/deep-seabed-mining-law-corpus", "provisions")
 
 ## Licensing
 
-**Mixed, and recorded per record.** The compilation, structure, and concept tags (the derived layer) are **CC BY 4.0**. **Source texts are not relicensed** — each keeps its own terms (e.g. UN-materials terms; public-domain government works), recorded in every row's `license` / `rights_note`. See the [licensing policy](https://github.com/OWNER/deep-seabed-mining-law-corpus/blob/main/docs/design/04-licensing-policy.md).
+**Mixed, and recorded per record.** The compilation, structure, and concept tags (the derived layer) are **CC BY 4.0**. **Source texts are not relicensed** — each keeps its own terms (e.g. UN-materials terms; public-domain government works), recorded in every row's `license` / `rights_note`. See the [licensing policy](https://github.com/dacheah/deep-seabed-mining-law-corpus/blob/main/docs/design/04-licensing-policy.md).
 
 ## Disclaimer
 
@@ -72,7 +72,7 @@ This is a **reference record, not legal advice**. The authoritative text of each
 ## Citation
 
 ```
-Deep Seabed Mining Law Corpus (maintainers). https://github.com/OWNER/deep-seabed-mining-law-corpus
+Deep Seabed Mining Law Corpus (maintainers). https://github.com/dacheah/deep-seabed-mining-law-corpus
 ```
 
 _Dataset generated from the repository by `scripts/export_hf_dataset.py` on 2026-07-03 — do not edit by hand._

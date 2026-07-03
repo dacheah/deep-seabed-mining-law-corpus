@@ -77,3 +77,18 @@ Later phases: ISA exploration regulations → draft Mining Code → US DSHMRA tr
 - **Byte-exact originals:** captures here are text extractions via the approved fetch tool, not
   byte-exact PDF downloads. Each record's `provenance_note` says so and flags the byte-exact official
   file as a recommended upgrade — an honest statement of fidelity, per the method.
+
+## Pending human download (fetch tooling can't retrieve cleanly)
+These are in scope and located, but the approved web-fetch tool can't capture them faithfully
+(eCFR is JavaScript-rendered and its API times out; govinfo per-part HTML 404s; the ISA draft PDF
+exceeds the fetch output cap). Per the method, complete them by dropping the byte-exact official PDF
+into `capture/` (as was done for the 2011 Advisory Opinion):
+
+| Instrument | Official source to download |
+|---|---|
+| ISA draft Exploitation Regulations (Mining Code), ISBA/31/C/CRP.2, 23 Dec 2025 | https://isa.org.jm/wp-content/uploads/2025/12/Further-Revised-Consolidated-Text-clean-version.pdf |
+| 15 CFR Part 970 (NOAA exploration licences) | https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-D/part-970 (print → PDF), or the annual govinfo CFR |
+| 15 CFR Part 971 (NOAA commercial-recovery permits) | https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-D/part-971 |
+
+Note: 15 CFR 970/971 were revised by a final rule published 7 July 2025 (Fed. Reg. 2025-12513); capture
+the current (post-revision) eCFR text and record that revision in `capture_history`.

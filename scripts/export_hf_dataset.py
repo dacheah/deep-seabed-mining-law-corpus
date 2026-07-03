@@ -8,8 +8,8 @@ Produces (default: ./hf-dataset/):
   README.md               the HF dataset card (YAML frontmatter + body), auto-synced to the data
 
 Then publish in one command (needs `pip install huggingface_hub` and `huggingface-cli login`):
-  huggingface-cli upload OWNER/REPO ./hf-dataset . --repo-type dataset
-Or pass --push OWNER/REPO to this script to upload directly.
+  huggingface-cli upload dacheah/deep-seabed-mining-law-corpus ./hf-dataset . --repo-type dataset
+Or pass --push dacheah/deep-seabed-mining-law-corpus to this script to upload directly.
 
 Reads only the OPEN layers (authoritative text + derived tags). Nothing proprietary is exported.
 """
@@ -90,7 +90,7 @@ def card(docs, provs, repo_id):
     fm.append("pretty_name: Deep Seabed Mining Law Corpus")
     fm.append("license: other")
     fm.append("license_name: mixed-provenance")
-    fm.append("license_link: https://github.com/OWNER/deep-seabed-mining-law-corpus/blob/main/docs/design/04-licensing-policy.md")
+    fm.append("license_link: https://github.com/dacheah/deep-seabed-mining-law-corpus/blob/main/docs/design/04-licensing-policy.md")
     fm.append("language:")
     for l in langs: fm.append("- " + l)
     fm.append("tags:")
@@ -125,8 +125,8 @@ def card(docs, provs, repo_id):
              "Every record carries its official source, retrieval date, citation, language, an authoritative-status "
              "flag, and a SHA-256 content hash; texts are verified against official sources.")
     b.append("")
-    b.append("- **Source of truth / build history:** https://github.com/OWNER/deep-seabed-mining-law-corpus")
-    b.append("- **Human-browsable site:** https://OWNER.github.io/deep-seabed-mining-law-corpus/")
+    b.append("- **Source of truth / build history:** https://github.com/dacheah/deep-seabed-mining-law-corpus")
+    b.append("- **Human-browsable site:** https://dacheah.github.io/deep-seabed-mining-law-corpus/")
     b.append("- **" + str(len(docs)) + "** instruments (" + str(verified) + " verified against official sources) · **"
              + str(len(provs)) + "** provisions · **" + str(n_tags) + "** neutral concept tags")
     b.append("")
@@ -162,7 +162,7 @@ def card(docs, provs, repo_id):
     b.append("**Mixed, and recorded per record.** The compilation, structure, and concept tags (the derived layer) "
              "are **CC BY 4.0**. **Source texts are not relicensed** — each keeps its own terms (e.g. UN-materials "
              "terms; public-domain government works), recorded in every row's `license` / `rights_note`. See the "
-             "[licensing policy](https://github.com/OWNER/deep-seabed-mining-law-corpus/blob/main/docs/design/04-licensing-policy.md).")
+             "[licensing policy](https://github.com/dacheah/deep-seabed-mining-law-corpus/blob/main/docs/design/04-licensing-policy.md).")
     b.append("")
     b.append("## Disclaimer")
     b.append("")
@@ -174,7 +174,7 @@ def card(docs, provs, repo_id):
     b.append("## Citation")
     b.append("")
     b.append("```")
-    b.append("Deep Seabed Mining Law Corpus (maintainers). https://github.com/OWNER/deep-seabed-mining-law-corpus")
+    b.append("Deep Seabed Mining Law Corpus (maintainers). https://github.com/dacheah/deep-seabed-mining-law-corpus")
     b.append("```")
     b.append("")
     b.append("_Dataset generated from the repository by `scripts/export_hf_dataset.py` on " + today + " — do not edit by hand._")
@@ -183,7 +183,7 @@ def card(docs, provs, repo_id):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default=os.path.join(REPO, "hf-dataset"))
-    ap.add_argument("--repo-id", default="OWNER/REPO")
+    ap.add_argument("--repo-id", default="dacheah/deep-seabed-mining-law-corpus")
     ap.add_argument("--push", metavar="REPO_ID", help="upload to this HF dataset repo (needs huggingface_hub + login)")
     args = ap.parse_args()
 
