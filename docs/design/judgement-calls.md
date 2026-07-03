@@ -17,6 +17,7 @@ a `provenance_note` stating it operates outside the ISA regime. It is never plac
 identifiers.
 **Reason:** neutrality and accuracy — record both regimes faithfully without implying the US track is
 part of, or blessed by, the ISA regime.
+**Status (2026-07-03):** applied — DSHMRA ingested as `usa/statute/dshmra-1980` (jurisdiction USA, document_type national_statute); the `us_non_unclos_parallel_regime` concept marks its provisions.
 
 ---
 

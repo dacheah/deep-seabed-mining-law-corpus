@@ -31,7 +31,7 @@ A neutral, **provenance-first**, machine-readable record of the law governing mi
 
 - **Source of truth / build history:** https://github.com/OWNER/deep-seabed-mining-law-corpus
 - **Human-browsable site:** https://OWNER.github.io/deep-seabed-mining-law-corpus/
-- **5** instruments (5 verified against official sources) · **337** provisions · **896** neutral concept tags
+- **7** instruments (7 verified against official sources) · **580** provisions · **1340** neutral concept tags
 
 ## Why this dataset is different
 
@@ -56,8 +56,10 @@ prov = load_dataset("OWNER/deep-seabed-mining-law-corpus", "provisions")
 | ISA Cobalt-rich Crusts Exploration Regulations (2012) | international | 2012-07-27 | `extracted_verified` |
 | ISA Polymetallic Nodules Exploration Regulations (2013) | international | 2013-07-22 | `extracted_verified` |
 | ISA Polymetallic Sulphides Exploration Regulations (2010) | international | 2010-05-07 | `extracted_verified` |
+| 2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17) | international | 2011-02-01 | `extracted_verified` |
 | 1994 Part XI Implementation Agreement | international | 1994-07-28 | `extracted_verified` |
 | UNCLOS Part XI (The Area) | international | 1982-12-10 | `extracted_verified` |
+| US Deep Seabed Hard Mineral Resources Act (DSHMRA) | USA | 1980-06-28 | `extracted_verified` |
 
 ## Licensing
 

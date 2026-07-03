@@ -93,7 +93,8 @@ KW = {
     "privileges_immunities_and_legal_status": ["privileges and immunities", "immunity", "legal personality",
         "legal status", "inviolable", "exempt from"],
     "review_and_amendment": ["periodic review", "review conference", "amendment", "shall undertake a general"],
-    "us_non_unclos_parallel_regime": ["dshmra", "deep seabed hard mineral", "noaa", "outer continental shelf",
+    "us_non_unclos_parallel_regime": ["dshmra", "deep seabed hard mineral", "hard mineral resources",
+        "commercial recovery", "reciprocating state", "the administrator", "noaa", "outer continental shelf",
         "15 cfr", "hard mineral resources act"],
 }
 

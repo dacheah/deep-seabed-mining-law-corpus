@@ -35,3 +35,12 @@ Environment constraints and fixes recorded for reproducibility and honesty.
 - Second fix to `export_hf_dataset.py`: the provision→concept join now matches on the **exact** unit
   label (falling back to `_key` only for curated tags), because `_key` does not strip "Regulation" and
   would otherwise collapse every "Regulation N" to one key. Authoritative/derived layers unaffected.
+
+## Session addendum — Advisory Opinion completion + US DSHMRA
+- The 2011 ITLOS Advisory Opinion gap was closed with the human-downloaded byte-exact official English
+  PDF (stored as original.pdf; original_sha256 = the PDF's hash). Full text extracted with pdftotext,
+  ligatures normalised, running headers/page numbers removed. JC-004 resolved: EN and FR both authoritative.
+- Ingested the **US DSHMRA** (30 U.S.C. ch. 26, §§ 1401–1473) from the official govinfo US Code 2023
+  edition, all 38 sections across three subchapters, as `official_consolidation` (Title 30 is
+  non-positive-law → prima facie evidence; Statutes at Large is authentic). Kept a distinct parallel
+  track (JC-001). Concept `us_non_unclos_parallel_regime` keyed on DSHMRA-exclusive terms.

@@ -26,6 +26,72 @@
   "index": {
     "the_area_and_common_heritage": [
       {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1401. Congressional findings and declaration of purpose."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1402. International objectives."
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 76"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 148"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 153"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 159"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 179"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 222"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 226"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 230"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 5"
+      },
+      {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
         "version_id": "1994-07-28",
@@ -93,6 +159,12 @@
       }
     ],
     "definitions_and_scope": [
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1419. Protection of the environment."
+      },
       {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
@@ -185,6 +257,624 @@
       }
     ],
     "sponsoring_state_responsibility_and_liability": [
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1425. Relinquishment, surrender, and transfer of licenses and permits."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1462. Civil penalties."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1465. Liability of vessels."
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 29"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 38"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 63"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 69"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 70"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 71"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 75"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 76"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 81"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 82"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 97"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 100"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 101"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 102"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 106"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 107"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 108"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 109"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 110"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 112"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 118"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 119"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 120"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 122"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 123"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 127"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 131"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 133"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 134"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 135"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 137"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 140"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 142"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 143"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 147"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 150"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 152"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 158"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 159"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 160"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 161"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 163"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 166"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 167"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 168"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 169"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 171"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 172"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 173"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 174"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 176"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 177"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 180"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 182"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 183"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 184"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 186"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 187"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 191"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 192"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 195"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 198"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 200"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 201"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 202"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 203"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 204"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 205"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 207"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 209"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 210"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 211"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 214"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 215"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 217"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 219"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 221"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 222"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 224"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 225"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 226"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 228"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 229"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 230"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 231"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 232"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 233"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 234"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 235"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 236"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 238"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 239"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 240"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 5"
+      },
       {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
@@ -655,6 +1345,222 @@
       }
     ],
     "isa_institutional_structure": [
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 6"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 7"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 19"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 26"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 27"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 29"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 30"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 32"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 33"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 34"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 35"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 36"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 37"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 40"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 41"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 42"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 43"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 44"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 45"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 49"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 60"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 71"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 83"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 84"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 137"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 144"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 157"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 198"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 200"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 5"
+      },
       {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
@@ -1827,6 +2733,468 @@
       }
     ],
     "exploration_and_exploitation_system": [
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1403. Definitions."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1441. Declaration of Congressional intent."
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 43"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 44"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 53"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 75"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 77"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 78"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 80"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 81"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 96"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 97"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 100"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 102"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 104"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 105"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 106"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 108"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 109"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 110"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 118"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 120"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 123"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 131"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 133"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 134"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 135"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 137"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 140"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 142"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 143"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 144"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 150"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 163"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 167"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 171"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 172"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 173"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 177"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 180"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 182"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 184"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 186"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 187"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 191"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 192"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 195"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 198"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 200"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 201"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 202"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 203"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 204"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 205"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 209"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 215"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 217"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 219"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 221"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 222"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 224"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 225"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 226"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 229"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 231"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 232"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 233"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 234"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 235"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 238"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 239"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 240"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 5"
+      },
       {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
@@ -3216,6 +4584,60 @@
     ],
     "reserved_areas_and_the_enterprise": [
       {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 71"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 83"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 84"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 134"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 163"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 201"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 204"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 4"
+      },
+      {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
         "version_id": "1994-07-28",
@@ -3632,6 +5054,36 @@
     ],
     "benefit_sharing_and_financial_regime": [
       {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1413. License and permit applications, review, and certification."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1414. License and permit fees."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1423. Records, audits, and public disclosure."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1427. Civil actions."
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 157"
+      },
+      {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
         "version_id": "1994-07-28",
@@ -3712,6 +5164,18 @@
     ],
     "production_policy_and_economic_effects": [
       {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1401. Congressional findings and declaration of purpose."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1403. Definitions."
+      },
+      {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
         "version_id": "1994-07-28",
@@ -3767,6 +5231,186 @@
       }
     ],
     "marine_environmental_protection": [
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1401. Congressional findings and declaration of purpose."
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 85"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 86"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 87"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 88"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 111"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 113"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 122"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 123"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 126"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 127"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 128"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 129"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 130"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 131"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 132"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 133"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 134"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 135"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 137"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 146"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 159"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 161"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 194"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 232"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 236"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 240"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 241"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 5"
+      },
       {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
@@ -3937,6 +5581,150 @@
       }
     ],
     "environmental_assessment_and_monitoring": [
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1401. Congressional findings and declaration of purpose."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1413. License and permit applications, review, and certification."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1415. License and permit terms, conditions, and restrictions; issuance and transfer of licenses and permits."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1419. Protection of the environment."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1424. Monitoring of activities of licensees and permittees."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1428. Reciprocating states."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1442. Effect of international agreement."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1461. Prohibited acts."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1462. Civil penalties."
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 15"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 115"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 122"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 140"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 142"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 143"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 144"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 145"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 146"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 147"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 148"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 149"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 150"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 236"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
       {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
@@ -4156,6 +5944,12 @@
     ],
     "marine_scientific_research": [
       {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 157"
+      },
+      {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
         "version_id": "1994-07-28",
@@ -4247,6 +6041,54 @@
       }
     ],
     "technology_transfer_and_capacity": [
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1467. Jurisdiction of courts."
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 135"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 157"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 162"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 163"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 234"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 5"
+      },
       {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
@@ -4411,6 +6253,72 @@
       }
     ],
     "developing_states_special_interests": [
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 150"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 153"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 154"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 156"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 157"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 158"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 159"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 162"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 163"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
       {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
@@ -4578,6 +6486,24 @@
     ],
     "protection_of_human_life_and_safety": [
       {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 85"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 87"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 241"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -4663,6 +6589,234 @@
       }
     ],
     "compliance_inspection_and_enforcement": [
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1411. Prohibited activities by United States citizens."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1413. License and permit applications, review, and certification."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1416. Denial of certification of applications and of issuance, transfer, suspension, and revocation of licenses and permits; suspension and modification of activities."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1423. Records, audits, and public disclosure."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1425. Relinquishment, surrender, and transfer of licenses and permits."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1461. Prohibited acts."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1462. Civil penalties."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1464. Enforcement."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1465. Liability of vessels."
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 76"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 100"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 102"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 109"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 118"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 119"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 122"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 123"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 133"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 137"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 140"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 142"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 166"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 167"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 186"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 201"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 214"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 215"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 217"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 219"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 222"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 228"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 234"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 236"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 5"
+      },
       {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
@@ -4887,6 +7041,342 @@
       }
     ],
     "dispute_settlement_and_advisory_opinions": [
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1401. Congressional findings and declaration of purpose."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1402. International objectives."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1403. Definitions."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1412. Licenses for exploration and permits for commercial recovery."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1413. License and permit applications, review, and certification."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1415. License and permit terms, conditions, and restrictions; issuance and transfer of licenses and permits."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1427. Civil actions."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1428. Reciprocating states."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1441. Declaration of Congressional intent."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1461. Prohibited acts."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1463. Criminal offenses."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1464. Enforcement."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1465. Liability of vessels."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1466. Civil forfeitures."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1467. Jurisdiction of courts."
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 6"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 7"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 8"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 24"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 26"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 27"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 28"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 30"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 33"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 35"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 37"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 39"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 41"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 45"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 47"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 49"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 52"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 56"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 60"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 97"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 100"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 112"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 113"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 119"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 137"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 140"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 146"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 148"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 156"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 167"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 168"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 177"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 215"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 217"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 226"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 228"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 235"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 242"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 2"
+      },
       {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
@@ -5204,6 +7694,12 @@
     ],
     "review_and_amendment": [
       {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1468. Regulations."
+      },
+      {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
         "version_id": "1994-07-28",
@@ -5312,6 +7808,193 @@
         "unit": "Regulation 42. Review"
       }
     ],
-    "us_non_unclos_parallel_regime": []
+    "us_non_unclos_parallel_regime": [
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1401. Congressional findings and declaration of purpose."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1402. International objectives."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1403. Definitions."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1411. Prohibited activities by United States citizens."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1412. Licenses for exploration and permits for commercial recovery."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1413. License and permit applications, review, and certification."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1414. License and permit fees."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1415. License and permit terms, conditions, and restrictions; issuance and transfer of licenses and permits."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1416. Denial of certification of applications and of issuance, transfer, suspension, and revocation of licenses and permits; suspension and modification of activities."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1417. Duration of licenses and permits."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1418. Diligence requirements."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1419. Protection of the environment."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1420. Conservation of natural resources."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1421. Prevention of interference with other uses of the high seas."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1422. Safety of life and property at sea."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1423. Records, audits, and public disclosure."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1424. Monitoring of activities of licensees and permittees."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1425. Relinquishment, surrender, and transfer of licenses and permits."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1426. Public notice and hearings."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1427. Civil actions."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1428. Reciprocating states."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1441. Declaration of Congressional intent."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1442. Effect of international agreement."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1443. Protection of interim investments."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1444. Disclaimer of obligation to pay compensation."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1461. Prohibited acts."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1462. Civil penalties."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1464. Enforcement."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1466. Civil forfeitures."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1468. Regulations."
+      },
+      {
+        "corpus_id": "usa/statute/dshmra-1980",
+        "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
+        "version_id": "2023-01-01",
+        "unit": "Section 1470. Authorization of appropriations."
+      }
+    ]
   }
 }

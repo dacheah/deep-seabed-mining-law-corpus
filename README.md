@@ -18,10 +18,12 @@ convenience, always.**
 | **ISA Polymetallic Nodules Exploration Regulations** (ISBA/19/C/17, as amended 2013) | authentic English text, complete, `extracted_verified` |
 | **ISA Polymetallic Sulphides Exploration Regulations** (ISBA/16/A/12/Rev.1, 2010) | authentic English text, complete, `extracted_verified` |
 | **ISA Cobalt-rich Crusts Exploration Regulations** (ISBA/18/A/11, 2012) | authentic English text, complete, `extracted_verified` |
-| **2011 Seabed Disputes Chamber Advisory Opinion** (ITLOS Case 17) | `authoritative_missing` — registered with full provenance; complete text pending a human download (fetch-tool output cap truncated it) |
+| **2011 Seabed Disputes Chamber Advisory Opinion** (ITLOS Case 17) | complete authentic English text, `extracted_verified`; **byte-exact official PDF** stored as the original artifact |
+| **US Deep Seabed Hard Mineral Resources Act** (DSHMRA, 30 U.S.C. ch. 26) | complete, `extracted_verified`; `official_consolidation` (non-positive-law US Code) — the **non-UNCLOS parallel track**, kept distinct (JC-001) |
 
-Six instruments; five complete authoritative texts plus one flagged gap. Cross-instrument concept
-coverage (20 neutral concepts, ~800 provision-concept tags) is in `derived/concept-index.md`.
+Seven instruments, all with complete authoritative texts (the Advisory Opinion now anchored to the
+byte-exact official PDF). Cross-instrument concept coverage (20 neutral concepts, ~1,100
+provision-concept tags) is in `derived/concept-index.md`.
 
 ## Layout
 
@@ -89,9 +91,9 @@ Our contributions (derived layer, schema, scripts, site, docs) are **CC BY 4.0**
 
 - Captures are text extractions via an approved fetch tool, **not** byte-exact official PDFs;
   each record flags a byte-exact download as a recommended provenance upgrade.
-- Only the **English** authentic text is stored so far; the other authentic languages are a recorded
-  coverage gap (JC-003).
-- The 2011 Advisory Opinion needs its complete official text added by a human download
-  (https://www.itlos.org/fileadmin/itlos/documents/cases/case_no_17/17_adv_op_010211_en.pdf).
-- The draft Mining Code (exploitation regulations) and the US DSHMRA/OCSLA track are scoped and mapped
-  but not yet ingested — they are the priority next additions.
+- Only the **English** authentic text is stored so far; the other authentic languages (incl. the
+  equally-authoritative French text of the 2011 Advisory Opinion) are a recorded coverage gap (JC-003).
+- The US DSHMRA text is the US Code (non-positive-law, prima facie evidence); the Statutes at Large
+  (Pub. L. 96-283) is the authentic text and a recommended byte-exact upgrade.
+- Still to add: the US implementing regulations (15 CFR parts 970/971) and OCSLA/BOEM activity; the
+  draft Mining Code (exploitation regulations) as dated draft versions; other authentic languages.
