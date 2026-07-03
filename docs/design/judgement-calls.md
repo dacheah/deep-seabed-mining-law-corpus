@@ -32,7 +32,9 @@ cite" is a human call flagged to the maintainer; the corpus records what each dr
 regardless.
 **Reason:** the value now is being the reference record of *how the regime formed*; append-only
 versioning captures that without pretending a draft is binding law.
-**Status this session:** no draft ingested yet (foundational core only); policy pre-agreed for Phase 1.
+**Status (2026-07-03):** applied — the Dec-2025 consolidated draft (ISBA/31/C/CRP.2) is ingested as
+`isa/draft/exploitation-code-2025`, authentic draft text, `entry_into_force_date: null`, short_title and
+provenance marked DRAFT/NOT IN FORCE; alternatives preserved verbatim.
 
 ---
 

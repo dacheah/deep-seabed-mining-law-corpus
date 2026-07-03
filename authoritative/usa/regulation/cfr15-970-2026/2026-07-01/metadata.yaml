@@ -1,0 +1,53 @@
+corpus_id: usa/regulation/cfr15-970-2026
+version_id: '2026-07-01'
+title: Deep Seabed Mining Regulations for Exploration Licenses (15 CFR Part 970)
+short_title: 15 CFR 970 — DSM Exploration Licences (NOAA)
+jurisdiction: USA
+document_type: national_regulation
+official_citation: 15 CFR Part 970 (Deep Seabed Mining Regulations for Exploration Licenses), current
+  as of 1 July 2026 (orig. 46 FR 45896, 15 Sept. 1981; revised by final rule, 90 FR __, published 7 July
+  2025, Fed. Reg. doc. 2025-12513)
+authentic_languages:
+- en
+adoption_date: '1981-09-15'
+source_url: https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-D/part-970
+source_publisher: U.S. Office of the Federal Register / National Archives — eCFR (NOAA, Dept. of Commerce)
+source_is_official: true
+retrieval_date: '2026-07-03'
+retrieved_by: Dan (human download of the eCFR print PDF, current as of 1 July 2026); ingested via Cowork
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:3f39321529ccccaa1a47797f1d663c1f24d446864aaf9465229f5f608f0af9d8
+original_sha256: sha256:cd262769307860a5df02aa9efb50e596b3708987f1d09c69fffe4c80398e8640
+text_sha256: sha256:3f39321529ccccaa1a47797f1d663c1f24d446864aaf9465229f5f608f0af9d8
+text_fidelity: extracted_verified
+language: en
+authoritative_status: official_consolidation
+license: us-gov-public-domain
+rights_note: U.S. Government work, public domain. eCFR self-describes as "authoritative but unofficial";
+  the official codification is the annual GPO Code of Federal Regulations, and promulgation of record
+  is the Federal Register.
+capture_history:
+- date: '2026-07-03'
+  source_url: https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-D/part-970
+  original_sha256: sha256:cd262769307860a5df02aa9efb50e596b3708987f1d09c69fffe4c80398e8640
+  note: Byte-exact eCFR print PDF (human download), current as of 1 July 2026; ingested 2026-07-03.
+supersedes: null
+superseded_by: null
+related_documents:
+- usa/statute/dshmra-1980
+- un/convention/unclos-partxi-1982
+provenance_note: 'US NON-UNCLOS PARALLEL TRACK (JC-001). NOAA''s regulations implementing the DSHMRA licensing
+  regime for exploration; operates OUTSIDE the ISA. Byte-exact official eCFR-print PDF (human download,
+  current as of 1 July 2026, 43 pp.) stored as original.pdf (original_sha256 = the PDF hash); this edition
+  incorporates the 7 July 2025 final rule revising the application regulations. Text extracted with pdftotext
+  and cleaned: eCFR page furniture ("page N of 43", running headers, "enhanced display", the "authoritative
+  but unofficial" banner) removed; section markers "§ 970.NNN" rendered "Section 970.NNN" for machine-readability;
+  Authority/Source credits retained; no regulatory wording altered.'
+verification:
+  status: verified_against_official_source
+  method: 'Structural completeness check (Subparts A–Z incl. reserved J–W, all sections §970.100–970.2601) against the official eCFR print (current as of 1 July 2026); byte-exact PDF stored as original.pdf; page furniture removed, no wording change.'
+  reference: 'https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-D/part-970'
+  verified_by: Cowork provenance-corpus-builder
+  verified_date: '2026-07-03'
+  note: 'Complete and faithful to the official eCFR text current as of 1 July 2026, incorporating the 7 July 2025 final rule. Official codification of record is the annual GPO CFR / Federal Register.'

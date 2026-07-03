@@ -31,7 +31,7 @@ A neutral, **provenance-first**, machine-readable record of the law governing mi
 
 - **Source of truth / build history:** https://github.com/dacheah/deep-seabed-mining-law-corpus
 - **Human-browsable site:** https://dacheah.github.io/deep-seabed-mining-law-corpus/
-- **7** instruments (7 verified against official sources) · **580** provisions · **1340** neutral concept tags
+- **10** instruments (10 verified against official sources) · **959** provisions · **2336** neutral concept tags
 
 ## Why this dataset is different
 
@@ -53,12 +53,15 @@ prov = load_dataset("dacheah/deep-seabed-mining-law-corpus", "provisions")
 
 | Instrument | Jurisdiction | Adopted | Fidelity |
 |---|---|---|---|
+| Draft Exploitation Regulations / Mining Code — Dec 2025 consolidated draft [DRAFT] | international |  | `extracted_verified` |
 | ISA Cobalt-rich Crusts Exploration Regulations (2012) | international | 2012-07-27 | `extracted_verified` |
 | ISA Polymetallic Nodules Exploration Regulations (2013) | international | 2013-07-22 | `extracted_verified` |
 | ISA Polymetallic Sulphides Exploration Regulations (2010) | international | 2010-05-07 | `extracted_verified` |
 | 2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17) | international | 2011-02-01 | `extracted_verified` |
 | 1994 Part XI Implementation Agreement | international | 1994-07-28 | `extracted_verified` |
 | UNCLOS Part XI (The Area) | international | 1982-12-10 | `extracted_verified` |
+| 15 CFR 970 — DSM Exploration Licences (NOAA) | USA | 1981-09-15 | `extracted_verified` |
+| 15 CFR 971 — DSM Commercial Recovery Permits (NOAA) | USA |  | `extracted_verified` |
 | US Deep Seabed Hard Mineral Resources Act (DSHMRA) | USA | 1980-06-28 | `extracted_verified` |
 
 ## Licensing

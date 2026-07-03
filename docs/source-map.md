@@ -78,7 +78,11 @@ Later phases: ISA exploration regulations → draft Mining Code → US DSHMRA tr
   byte-exact PDF downloads. Each record's `provenance_note` says so and flags the byte-exact official
   file as a recommended upgrade — an honest statement of fidelity, per the method.
 
-## Pending human download (fetch tooling can't retrieve cleanly)
+## Completed via human download (2026-07-03)
+The three items below were dropped as byte-exact official PDFs and are now ingested (complete,
+verified). Original section retained for the record:
+
+## (Historical) Pending human download (fetch tooling couldn't retrieve cleanly)
 These are in scope and located, but the approved web-fetch tool can't capture them faithfully
 (eCFR is JavaScript-rendered and its API times out; govinfo per-part HTML 404s; the ISA draft PDF
 exceeds the fetch output cap). Per the method, complete them by dropping the byte-exact official PDF

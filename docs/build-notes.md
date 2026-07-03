@@ -44,3 +44,13 @@ Environment constraints and fixes recorded for reproducibility and honesty.
   edition, all 38 sections across three subchapters, as `official_consolidation` (Title 30 is
   non-positive-law → prima facie evidence; Statutes at Large is authentic). Kept a distinct parallel
   track (JC-001). Concept `us_non_unclos_parallel_regime` keyed on DSHMRA-exclusive terms.
+
+## Session addendum — US regulations + Mining Code draft completed (byte-exact)
+- 15 CFR Part 970 and Part 971 ingested from byte-exact eCFR print PDFs (human download, current as of
+  1 July 2026, incorporating the 7 July 2025 final rule); jurisdiction USA, national_regulation,
+  official_consolidation; the US parallel track is now statute + both regulation parts (JC-001).
+- The Mining Code draft (ISBA/31/C/CRP.2) was completed from the byte-exact 194-page official ISA PDF,
+  superseding the earlier truncated placeholder; authentic draft text (Regs 1-107 + Schedule + Annexes),
+  marked DRAFT/NOT IN FORCE (JC-002), alternatives preserved verbatim.
+- Corpus now: 10 instruments, all with complete authentic texts; every record anchored to a byte-exact
+  official file or a verified source.
