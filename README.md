@@ -20,10 +20,13 @@ convenience, always.**
 | **ISA Cobalt-rich Crusts Exploration Regulations** (ISBA/18/A/11, 2012) | authentic English text, complete, `extracted_verified` |
 | **2011 Seabed Disputes Chamber Advisory Opinion** (ITLOS Case 17) | complete authentic English text, `extracted_verified`; **byte-exact official PDF** stored as the original artifact |
 | **US Deep Seabed Hard Mineral Resources Act** (DSHMRA, 30 U.S.C. ch. 26) | complete, `extracted_verified`; `official_consolidation` (non-positive-law US Code) — the **non-UNCLOS parallel track**, kept distinct (JC-001) |
+| **Draft Exploitation Regulations / "Mining Code"** (ISBA/31/C/CRP.2, 23 Dec 2025) | `authoritative_missing` — registered as a dated **DRAFT, not in force** (JC-002); partial capture (Regs 1–107) preserved, complete text pending a byte-exact PDF |
 
-Seven instruments, all with complete authoritative texts (the Advisory Opinion now anchored to the
-byte-exact official PDF). Cross-instrument concept coverage (20 neutral concepts, ~1,100
-provision-concept tags) is in `derived/concept-index.md`.
+Eight instruments: seven with complete authoritative texts plus the live Mining Code draft registered
+as a flagged, dated draft. Still pending byte-exact capture: the Mining Code draft schedules and the
+US implementing regulations **15 CFR 970/971** (see `docs/source-map.md` → "Pending human download").
+Cross-instrument concept coverage (20 neutral concepts, ~1,100 provision-concept tags) is in
+`derived/concept-index.md`.
 
 ## Layout
 
