@@ -62,14 +62,15 @@ def build_provisions(metas):
         tagmap = {}
         if os.path.exists(cp):
             for t in json.load(open(cp, encoding="utf-8")).get("tags", []):
-                tagmap[_key(t["unit"])] = t["concepts"]
+                tagmap[t["unit"]] = t["concepts"]            # exact label (keyword-tagged docs)
+                tagmap.setdefault(_key(t["unit"]), t["concepts"])  # fuzzy fallback (curated TAGS)
         for u in units:
             rows.append({
                 "corpus_id": cid, "version_id": ver,
                 "short_title": m.get("short_title", cid), "jurisdiction": m.get("jurisdiction"),
                 "document_type": m.get("document_type"), "language": m.get("language"),
                 "unit_label": u.get("label"), "unit_number": u.get("number"),
-                "text": u.get("text"), "concepts": tagmap.get(_key(u.get("label")), []),
+                "text": u.get("text"), "concepts": tagmap.get(u.get("label"), tagmap.get(_key(u.get("label")), [])),
                 "source_text_sha256": m.get("text_sha256"), "source_url": m.get("source_url"),
                 "text_fidelity": m.get("text_fidelity")})
     return rows

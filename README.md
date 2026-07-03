@@ -9,15 +9,19 @@ source texts and anything generated from them, cryptographic provenance on every
 dated versioning. **One principle governs everything: provenance and version integrity override
 convenience, always.**
 
-## What's here (this build — foundational core)
+## What's here
 
 | Instrument | Status |
 |---|---|
 | **UNCLOS Part XI — The Area** (arts. 133–191) | authentic English text, complete, `extracted_verified` |
 | **1994 Part XI Implementation Agreement** | authentic English text, complete, `extracted_verified` |
+| **ISA Polymetallic Nodules Exploration Regulations** (ISBA/19/C/17, as amended 2013) | authentic English text, complete, `extracted_verified` |
+| **ISA Polymetallic Sulphides Exploration Regulations** (ISBA/16/A/12/Rev.1, 2010) | authentic English text, complete, `extracted_verified` |
+| **ISA Cobalt-rich Crusts Exploration Regulations** (ISBA/18/A/11, 2012) | authentic English text, complete, `extracted_verified` |
 | **2011 Seabed Disputes Chamber Advisory Opinion** (ITLOS Case 17) | `authoritative_missing` — registered with full provenance; complete text pending a human download (fetch-tool output cap truncated it) |
 
-Concept coverage, cross-instrument, is in `derived/concept-index.md`.
+Six instruments; five complete authoritative texts plus one flagged gap. Cross-instrument concept
+coverage (20 neutral concepts, ~800 provision-concept tags) is in `derived/concept-index.md`.
 
 ## Layout
 
@@ -87,6 +91,7 @@ Our contributions (derived layer, schema, scripts, site, docs) are **CC BY 4.0**
   each record flags a byte-exact download as a recommended provenance upgrade.
 - Only the **English** authentic text is stored so far; the other authentic languages are a recorded
   coverage gap (JC-003).
-- The 2011 Advisory Opinion needs its complete official text added by a human download.
-- ISA regulations, the draft Mining Code, and the US DSHMRA/OCSLA track are scoped and mapped but not
-  yet ingested — they are the priority next additions.
+- The 2011 Advisory Opinion needs its complete official text added by a human download
+  (https://www.itlos.org/fileadmin/itlos/documents/cases/case_no_17/17_adv_op_010211_en.pdf).
+- The draft Mining Code (exploitation regulations) and the US DSHMRA/OCSLA track are scoped and mapped
+  but not yet ingested — they are the priority next additions.

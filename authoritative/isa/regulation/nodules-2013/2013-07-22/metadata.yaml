@@ -1,0 +1,61 @@
+corpus_id: isa/regulation/nodules-2013
+version_id: '2013-07-22'
+title: Regulations on Prospecting and Exploration for Polymetallic Nodules in the Area (as amended 2013)
+short_title: ISA Polymetallic Nodules Exploration Regulations (2013)
+jurisdiction: international
+document_type: isa_regulation
+official_citation: ISBA/19/C/17, annex — Regulations on Prospecting and Exploration for Polymetallic Nodules
+  in the Area (originally ISBA/6/A/18 (2000), as amended 2013)
+authentic_languages:
+- ar
+- zh
+- en
+- fr
+- ru
+- es
+adoption_date: '2013-07-22'
+source_url: https://isa.org.jm/wp-content/uploads/2022/04/isba-19c-17_0-2.pdf
+source_publisher: International Seabed Authority (ISA)
+source_is_official: true
+retrieval_date: '2026-07-03'
+retrieved_by: Cowork provenance-corpus-builder (approved web-fetch tool)
+original_format: txt
+original_filename: original.txt
+content_hash: sha256:0d49f504b29f11dc81f0ba0416fa892f31e5e9acddc388ea7c203bf541cd601b
+original_sha256: sha256:0d49f504b29f11dc81f0ba0416fa892f31e5e9acddc388ea7c203bf541cd601b
+text_sha256: sha256:0d49f504b29f11dc81f0ba0416fa892f31e5e9acddc388ea7c203bf541cd601b
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: isa-materials-terms
+rights_note: Official ISA document (ISBA/19/C/17), attributed to the International Seabed Authority; UN
+  document series, used with attribution; not relicensed.
+capture_history:
+- date: '2026-07-03'
+  source_url: https://isa.org.jm/wp-content/uploads/2022/04/isba-19c-17_0-2.pdf
+  original_sha256: sha256:0d49f504b29f11dc81f0ba0416fa892f31e5e9acddc388ea7c203bf541cd601b
+  note: Initial capture from ISA official PDF (isba-19c-17_0-2.pdf), 2026-07-03; deterministic de-artifacting
+    + structure reconstruction.
+supersedes: null
+superseded_by: null
+related_documents:
+- un/convention/unclos-partxi-1982
+- un/agreement/unclos-partxi-impl-1994
+- isa/regulation/sulphides-2010
+- isa/regulation/crusts-2012
+provenance_note: English authentic text of the ISA Council decision ISBA/19/C/17 (22 July 2013) and its
+  annex, which contains the consolidated Regulations on Prospecting and Exploration for Polymetallic Nodules
+  in the Area as amended in 2013 (Regulations 1–40 across Parts I–VIII, plus the annexed forms and the
+  standard clauses for exploration contract). The Nodules Regulations were originally adopted by the Assembly
+  in 2000 (ISBA/6/A/18); the 2013 amendments were adopted by the Assembly in ISBA/19/A/9. Captured 2026-07-03
+  from the official ISA PDF via the approved web-fetch tool; a deterministic cleaner removed PDF page
+  artifacts (UN job numbers, running headers, footnote markers) and reconstructed provision boundaries
+  — no wording was altered. Text extraction, NOT a byte-exact PDF; a human-downloaded byte-exact official
+  PDF is a recommended provenance upgrade. Other five authentic languages not yet stored (JC-003).
+verification:
+  status: verified_against_official_source
+  method: 'Structural completeness check (Regulations 1–40 across Parts I–VIII, annexed notification forms, and the standard clauses for exploration contract ending at Section 29) against the official ISA PDF ISBA/19/C/17; deterministic removal of PDF page artifacts (UN job numbers, running headers, footnote markers) with no wording change.'
+  reference: 'https://isa.org.jm/wp-content/uploads/2022/04/isba-19c-17_0-2.pdf'
+  verified_by: Cowork provenance-corpus-builder
+  verified_date: '2026-07-03'
+  note: 'Text verified complete and faithful to the official ISA source PDF. A byte-exact PDF download remains a recommended further provenance upgrade.'

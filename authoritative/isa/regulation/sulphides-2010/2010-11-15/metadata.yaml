@@ -1,0 +1,60 @@
+corpus_id: isa/regulation/sulphides-2010
+version_id: '2010-11-15'
+title: Regulations on Prospecting and Exploration for Polymetallic Sulphides in the Area
+short_title: ISA Polymetallic Sulphides Exploration Regulations (2010)
+jurisdiction: international
+document_type: isa_regulation
+official_citation: ISBA/16/A/12/Rev.1, annex — Regulations on Prospecting and Exploration for Polymetallic
+  Sulphides in the Area
+authentic_languages:
+- ar
+- zh
+- en
+- fr
+- ru
+- es
+adoption_date: '2010-05-07'
+source_url: https://isa.org.jm/wp-content/uploads/2022/06/isba-16a-12rev1_2_0.pdf
+source_publisher: International Seabed Authority (ISA)
+source_is_official: true
+retrieval_date: '2026-07-03'
+retrieved_by: Cowork provenance-corpus-builder (approved web-fetch tool)
+original_format: txt
+original_filename: original.txt
+content_hash: sha256:82ae41a1d38b7a203d114cd902d7b95dd09a3ba5437610f2a317151c26db073c
+original_sha256: sha256:82ae41a1d38b7a203d114cd902d7b95dd09a3ba5437610f2a317151c26db073c
+text_sha256: sha256:82ae41a1d38b7a203d114cd902d7b95dd09a3ba5437610f2a317151c26db073c
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: isa-materials-terms
+rights_note: Official ISA document (ISBA/16/A/12/Rev.1), attributed to the International Seabed Authority;
+  UN document series, used with attribution; not relicensed.
+capture_history:
+- date: '2026-07-03'
+  source_url: https://isa.org.jm/wp-content/uploads/2022/06/isba-16a-12rev1_2_0.pdf
+  original_sha256: sha256:82ae41a1d38b7a203d114cd902d7b95dd09a3ba5437610f2a317151c26db073c
+  note: Initial capture from ISA official PDF (isba-16a-12rev1_2_0.pdf), 2026-07-03; deterministic de-artifacting
+    + structure reconstruction.
+supersedes: null
+superseded_by: null
+related_documents:
+- un/convention/unclos-partxi-1982
+- un/agreement/unclos-partxi-impl-1994
+- isa/regulation/nodules-2013
+- isa/regulation/crusts-2012
+provenance_note: 'English authentic text of the ISA Assembly decision ISBA/16/A/12/Rev.1 (corrected reissue
+  dated 15 November 2010) and its annex, the Regulations on Prospecting and Exploration for Polymetallic
+  Sulphides in the Area (adopted 7 May 2010; Regulations 1–45 across Parts I–VIII, plus annexed forms
+  and the standard clauses for exploration contract). Note: regulation 21(1)(b) was suspended pending
+  an LTC recommendation per ISBA/19/C/17, para. 5 (2013) — see related_documents. Captured 2026-07-03
+  from the official ISA PDF via the approved web-fetch tool; a deterministic cleaner removed PDF page
+  artifacts and reconstructed provision boundaries — no wording altered. Text extraction, NOT byte-exact
+  PDF; byte-exact download recommended as an upgrade. Other five authentic languages not yet stored (JC-003).'
+verification:
+  status: verified_against_official_source
+  method: 'Structural completeness check (Regulations 1–45 across Parts I–VIII, annexed forms, and the standard clauses for exploration contract ending at Section 29) against the official ISA PDF ISBA/16/A/12/Rev.1; deterministic removal of PDF page artifacts with no wording change.'
+  reference: 'https://isa.org.jm/wp-content/uploads/2022/06/isba-16a-12rev1_2_0.pdf'
+  verified_by: Cowork provenance-corpus-builder
+  verified_date: '2026-07-03'
+  note: 'Text verified complete and faithful to the official ISA source PDF. Byte-exact PDF download recommended as a further upgrade.'

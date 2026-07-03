@@ -26,3 +26,12 @@ Environment constraints and fixes recorded for reproducibility and honesty.
   designation (JC-004).
 - Cross-check Part XI / the 1994 Agreement against byte-exact official PDFs to lift them from
   "verified against capture source" to a byte-exact verification.
+
+## Session addendum — ISA exploration regulations
+- Ingested the three ISA exploration regulations (polymetallic nodules ISBA/19/C/17 as amended 2013;
+  polymetallic sulphides ISBA/16/A/12/Rev.1; cobalt-rich crusts ISBA/18/A/11), each captured complete
+  from the official ISA PDF (all fit just under the fetch cap) and cleaned with a deterministic
+  de-artifacting/structure script (`removed UN job numbers, running headers, footnote markers`).
+- Second fix to `export_hf_dataset.py`: the provision→concept join now matches on the **exact** unit
+  label (falling back to `_key` only for curated tags), because `_key` does not strip "Regulation" and
+  would otherwise collapse every "Regulation N" to one key. Authoritative/derived layers unaffected.
