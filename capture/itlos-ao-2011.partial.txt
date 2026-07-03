@@ -1,0 +1,1794 @@
+================================================================================
+PARTIAL CAPTURE — NOT THE COMPLETE AUTHORITATIVE TEXT.
+This is a partial text extraction of the ITLOS Seabed Disputes Chamber Advisory
+Opinion of 1 February 2011 (Case No. 17). Automated capture via the approved
+web-fetch tool truncated at approximately paragraph 204 because the document
+exceeds the tool's output cap. The final paragraphs and the operative reply
+("For these reasons, THE CHAMBER ... Unanimously ... Replies ...") are NOT
+included here. The record's metadata therefore carries authoritative_status:
+authoritative_missing. The COMPLETE official English PDF must be added by a human
+download (a provenance upgrade), from:
+  https://www.itlos.org/fileadmin/itlos/documents/cases/case_no_17/17_adv_op_010211_en.pdf
+Official citation: Responsibilities and obligations of States with respect to
+activities in the Area, Advisory Opinion, 1 February 2011, ITLOS Reports 2011, p. 10.
+Captured: 2026-07-03.
+================================================================================
+
+
+INTERNATIONAL TRIBUNAL FOR THE LAW OF THE SEA
+REPORTS OF JUDGMENTS,
+ADVISORY OPINIONS AND ORDERS
+Responsibilities and obligations of States 
+sponsoring persons and entities with respect 
+to activities in the Area
+(REQUEST FOR ADVISORY OPINION
+SUBMITTED TO THE SEABED DISPUTES CHAMBER)
+List of cases: No. 17
+ADVISORY OPINION OF 1 FEBRUARY 2011
+2011
+TRIBUNAL INTERNATIONAL DU DROIT DE LA MER
+RECUEIL DES ARRÊTS,
+AVIS CONSULTATIFS ET ORDONNANCES
+Responsabilités et obligations des Etats qui 
+patronnent des Personnes et des entités dans 
+le cadre d’activités menées dans la Zone
+(DEMANDE D’AVIS CONSULTATIF SOUMISE À LA CHAMBRE
+POUR LE RÈGLEMENT DES DIFFÉRENDS RELATIFS AUX 
+FONDS MARINS)
+Rôle des affaires : No. 17
+AVIS CONSULTATIF DU 1ER FÉVRIER 2011
+Official citation:
+Responsibilities and obligations of States with respect to activities in the Area,
+Advisory Opinion, 1 February 2011, ITLOS Reports 2011, p. 10
+-----------------
+Mode officiel de citation :
+Responsabilités et obligations des Etats dans le cadre d’activités menées dans la 
+Zone, avis consultatif, 1er février 2011, TIDM Recueil 2011, p. 10
+1 FEBRUARY 2011
+ADVISORY OPINION
+Responsibilities and obligations of States 
+sponsoring persons and entities with respect 
+to activities in the Area
+(REQUEST FOR ADVISORY OPINION
+SUBMITTED TO THE SEABED DISPUTES CHAMBER)
+Responsabilités et obligations des Etats qui 
+patronnent des Personnes et des entités dans 
+le cadre d’activités menées dans la Zone
+(DEMANDE D’AVIS CONSULTATIF SOUMISE À LA CHAMBRE
+POUR LE RÈGLEMENT DES DIFFÉRENDS RELATIFS AUX 
+FONDS MARINS)
+1ER FÉVRIER 2011
+AVIS CONSULTATIF
+10
+Seabed Disputes Chamber of the International 
+Tribunal for the Law of the Sea
+YEAR 2011
+1 February 2011
+List of cases:
+No. 17
+Responsibilities and obligations of States 
+sponsoring persons and entities with respect 
+to activities in the Area
+ADVISORY OPINION
+responsibilities and obligations of states with respect to 11
+activities in the area (advisory opinion of 1 february 2011)
+TABLE OF CONTENTS
+Paragraphs
+Introduction 1-71
+I. The Request 1-3
+II. Events leading to the Request 4
+III. Chronology of the procedure 5-24
+IV. Role of the Chamber in advisory proceedings 25-30
+V. Jurisdiction 31-45
+VI. Admissibility 46-49
+VII. Applicable law and procedural rules 50-56
+VIII. Interpretation 57-71
+In general 57-60
+Multilingual international instruments 61-63
+Meaning of key terms 64-71
+Question 1 72-163
+I. Sponsorship 74-81
+II. “Activities in the Area” 82-97
+III. Prospecting 98
+IV. Responsibilities and obligations 99-120
+Key provisions 99-102
+Obligations of the contractor whose compliance the 
+sponsoring State must ensure 103-106
+“Responsibility to ensure” 107-116
+The content of the “due diligence” obligation to ensure 117-120
+responsibilities and obligations of states with respect to 12
+activities in the area (advisory opinion of 1 february 2011)
+V. Direct obligations of sponsoring States 121-140
+The obligation to assist the Authority 124
+Precautionary approach 125-135
+Best environmental practices 136-137
+Guarantees in the event of an emergency order by the 
+Authority for protection of the marine environment 138
+Availability of recourse for compensation 139-140
+VI. Environmental impact assessment 141-150
+VII. Interests and needs of developing States 151-163
+Question 2 164-211
+I. Applicable provisions 165-169
+II. Liability in general 170-174
+III. Failure to carry out responsibilities 175-177
+IV. Damage 178-184
+Causal link between failure and damage 181-184
+V. Exemption from liability 185-187
+VI. Scope of liability under the Convention 188-205
+Standard of liability 189
+Multiple sponsorship 190-192
+Amount and form of compensation 193-198
+Relationship between the liability of the contractor 
+and of the sponsoring State 199-205
+VII. Liability of sponsoring States for violation of their 
+direct obligations 206-207
+VIII. “Without prejudice” clause 208-211
+responsibilities and obligations of states with respect to 13
+activities in the area (advisory opinion of 1 february 2011)
+Question 3 212-241
+I. General aspects 213-217
+II. Laws and regulations and administrative measures 218-222
+III. Compliance by means of a contract? 223-226
+IV. Content of the measures 227-241
+Operative part 242
+responsibilities and obligations of states with respect to 14
+activities in the area (advisory opinion of 1 february 2011)
+ADVISORY OPINION
+Present: President TREVES; Judges MAROTTA RANGEL, NELSON, 
+CHANDRASEKHARA RAO, WOLFRUM, YANAI, KATEKA, 
+HOFFMANN, GAO, BOUGUETAIA, GOLITSYN; 
+Registrar GAUTIER.
+On Responsibilities and Obligations of States sponsoring persons and 
+entities with respect to activities in the Area,
+THE SEABED DISPUTES CHAMBER,
+composed as above,
+gives the following Advisory Opinion:
+Introduction
+I. The Request
+1. The questions on which the advisory opinion of the Seabed Disputes 
+Chamber of the International Tribunal for the Law of the Sea (hereinafter 
+“the Chamber”) has been requested are set forth in decision ISBA/16/C/13 
+adopted by the Council of the International Seabed Authority (hereinafter 
+“the Council”) on 6 May 2010 at its sixteenth session. By letter dated 11 May 
+2010, transmitted electronically to the Registry of the Tribunal on 14 May 
+2010, the Secretary-General of the International Seabed Authority (hereinafter 
+“the Secretary-General”) officially communicated to the Chamber the decision 
+taken by the Council. The original of that letter was received in the Registry 
+on 17 May 2010. Certified true copies of the English and French versions 
+of the Council’s decision were forwarded by the Legal Counsel of the 
+International Seabed Authority (hereinafter “the Legal Counsel”) on 8 June 
+2010 and received in the Registry on the same date. The decision of the 
+Council reads:
+responsibilities and obligations of states with respect to 15
+activities in the area (advisory opinion of 1 february 2011)
+The Council of the International Seabed Authority,
+Considering the fact that developmental activities in the Area have 
+already commenced,
+Bearing in mind the exchange of views on legal questions arising 
+within the scope of activities of the Council,
+Decides, in accordance with Article 191 of the United Nations 
+Convention on the Law of the Sea (“the Convention”), to request the 
+Seabed Disputes Chamber of the International Tribunal for the Law of the 
+Sea, pursuant to Article 131 of the Rules of the Tribunal, to render an 
+advisory opinion on the following questions:
+1. What are the legal responsibilities and obligations of States Parties 
+to the Convention with respect to the sponsorship of activities in the Area 
+in accordance with the Convention, in particular Part XI, and the 1994 
+Agreement relating to the Implementation of Part XI of the United Nations 
+Convention on the Law of the Sea of 10 December 1982?
+2. What is the extent of liability of a State Party for any failure to 
+comply with the provisions of the Convention, in particular Part XI, and 
+the 1994 Agreement, by an entity whom it has sponsored under Article 
+153, paragraph 2 (b), of the Convention?
+3. What are the necessary and appropriate measures that a sponsoring 
+State must take in order to fulfil its responsibility under the Convention, in 
+particular Article 139 and Annex III, and the 1994 Agreement?
+2. The Request was entered in the List of cases as No. 17 and the case was 
+named “Responsibilities and Obligations of States sponsoring persons and 
+entities with respect to activities in the Area”.
+3. In his letter of 11 May 2010, the Secretary-General informed 
+the Chamber of the appointment of the Legal Counsel as the representative 
+of the International Seabed Authority (hereinafter “the Authority”) for the 
+proceedings.
+responsibilities and obligations of states with respect to 16
+activities in the area (advisory opinion of 1 february 2011)
+II. Events leading to the Request
+4. The Chamber considers it necessary to describe the events that led to 
+the request for an advisory opinion:
+– On 10 April 2008, the Authority received two applications for approval 
+of a plan of work for exploration in the areas reserved for the conduct 
+of activities by the Authority through the Enterprise or in association 
+with developing States pursuant to Annex III, article 8, of the United 
+Nations Convention on the Law of the Sea (hereinafter “the 
+Convention”). These applications were submitted by Nauru Ocean 
+Resources Inc. (sponsored by the Republic of Nauru) and Tonga 
+Offshore Mining Ltd. (sponsored by the Kingdom of Tonga);
+– These applications were submitted to the Legal and Technical 
+Commission of the Authority. On 5 May 2009, the applicants submitted to the Authority a request that consideration of the applications 
+should be postponed. At the fifteenth session of the Authority, held 
+from 25 May to 5 June 2009, the Legal and Technical Commission 
+decided to defer further consideration of the item;
+– On 1 March 2010, the Republic of Nauru transmitted to the SecretaryGeneral a proposal, set out in document ISBA/16/C/6, to seek an 
+advisory opinion from the Chamber on a number of specific questions 
+regarding the responsibility and liability of sponsoring States;
+– In support of its proposal, Nauru submitted, inter alia, the following 
+considerations:
+In 2008 the Republic of Nauru sponsored an application by Nauru 
+Ocean Resources Inc. for a plan of work to explore for polymetallic nodules in the Area. Nauru, like many other developing States, 
+does not yet possess the technical and financial capacity to undertake seafloor mining in international waters. To participate effectively in activities in the Area, these States must engage entities in 
+the global private sector (in much the same way as some developing countries require foreign direct investment). Not only do some 
+developing States lack the financial capacity to execute a seafloor 
+mining project in international waters, but some also cannot afford 
+exposure to the legal risks potentially associated with such a project. Recognizing this, Nauru’s sponsorship of Nauru Ocean 
+Resources Inc. was originally premised on the assumption 
+that Nauru could effectively mitigate (with a high degree of certainty) the potential liabilities or costs arising from its sponsorship. 
+This was important, as these liabilities or costs could, in some 
+responsibilities and obligations of states with respect to 17
+activities in the area (advisory opinion of 1 february 2011)
+circumstances, far exceed the financial capacities of Nauru (as 
+well as those of many other developing States). Unlike terrestrial 
+mining, in which a State generally only risks losing that which it 
+already has (for example, its natural environment), if a developing 
+State can be held liable for activities in the Area, the State may 
+potentially face losing more than it actually has. (ISBA/16/C/6, 
+paragraph 1);
+Ultimately, if sponsoring States are exposed to potential 
+significant liabilities, Nauru, as well as other developing States, 
+may be precluded from effectively participating in activities in the 
+Area, which is one of the purposes and principles of Part XI of the 
+Convention, in particular as provided for in article 148; article 150, 
+subparagraph (c); and article 152, paragraph 2. As a result, Nauru 
+considers it crucial that guidance be provided on the interpretation 
+of the relevant sections of Part XI pertaining to responsibility and 
+liability, so that developing States can assess whether it is within 
+their capabilities to effectively mitigate such risks and in turn 
+make an informed decision on whether or not to participate in 
+activities in the Area. (ISBA/16/C/6, paragraph 5);
+– Nauru’s proposal was included in the agenda for the sixteenth session 
+of the Council of the Authority, during which intensive discussions on 
+this agenda item were held at the 155th, 160th and 161st meetings;
+– The Council decided not to adopt the proposal as formulated by Nauru. 
+In view of the wishes of many participants in the debate, it decided to 
+request an advisory opinion on three more abstract but concise 
+questions;
+– These questions were formulated in decision ISBA/16/C/13, adopted 
+by the Council at its 161st meeting on 6 May 2010. As indicated by the 
+Authority in its written statement and at the hearing, the decision 
+adopted by the Council on 6 May 2010 was taken “without a vote” and 
+“without objection” (written statement of the Authority, paragraph 2.4; 
+ITLOS/PV.2010/1/Rev.1, p. 10, lines 16-21).
+responsibilities and obligations of states with respect to 18
+activities in the area (advisory opinion of 1 february 2011)
+III. Chronology of the procedure
+5. Pursuant to article 133, paragraph 1, of the Rules of the Tribunal 
+(hereinafter “the Rules”), the Registrar, by Note Verbale dated 17 May 2010, 
+notified all States Parties to the United Nations Convention on the Law of the 
+Sea (hereinafter “States Parties”) of the request for an advisory opinion.
+6. By letter dated 18 May 2010, pursuant to article 4 of the Agreement 
+on Cooperation and Relationship between the United Nations and the 
+International Tribunal for the Law of the Sea of 18 December 1997, the 
+Registrar notified the Secretary-General of the United Nations of the request 
+for an advisory opinion.
+7. By Order dated 18 May 2010, pursuant to article 133, paragraph 2, of 
+the Rules, the President decided that the Authority and the organizations 
+invited as intergovernmental organizations to participate as observers in the 
+Assembly of the Authority (hereinafter “the Assembly”) were considered 
+likely to be able to furnish information on the questions submitted to the 
+Chamber for an advisory opinion. Accordingly, the President invited the States 
+Parties, the Authority and the aforementioned intergovernmental organizations 
+to present written statements on those questions. By the same Order, in accordance with article 133, paragraph 3, of the Rules, the President fixed 9 August 
+2010 as the time-limit within which written statements on those questions 
+might be submitted to the Chamber. In the Order, in accordance with article 
+133, paragraph 4, of the Rules, the President further decided that oral proceedings would be held and fixed 14 September 2010 as the date for the opening of 
+the hearing. States Parties, the Authority and the aforementioned intergovernmental organizations were invited to participate in the hearing and to indicate 
+to the Registrar, not later than 3 September 2010, their intention to make oral 
+statements.
+8. Article 191 of the Convention requires the Chamber to give advisory 
+opinions “as a matter of urgency”. In the present case, the time-limits for the 
+submission of written statements and the date of the opening of the hearing, as 
+set out in the Orders of the President, were fixed with a view to meeting this 
+requirement.
+9. By Order dated 28 July 2010, in light of a request submitted to the 
+Chamber, the President extended the time-limit for the submission of written 
+statements to 19 August 2010.
+10. By letter dated 30 July 2010, pursuant to article 131 of the Rules, the 
+Legal Counsel transmitted to the Chamber a dossier containing documents in 
+support of the Request. The dossier was posted on the Tribunal’s website.
+responsibilities and obligations of states with respect to 19
+activities in the area (advisory opinion of 1 february 2011)
+11. Within the time-limit fixed by the President, written statements were 
+submitted by the following 12 States Parties, which are listed in the order in 
+which their statements were received: the United Kingdom, Nauru, the 
+Republic of Korea, Romania, the Netherlands, the Russian Federation, Mexico, 
+Germany, China, Australia, Chile, and the Philippines. Within the same timelimit, written statements were also submitted by the Authority and two organizations, namely, the Interoceanmetal Joint Organization and the International 
+Union for Conservation of Nature and Natural Resources.
+12. Upon receipt of those statements, in accordance with article 133, paragraph 3, of the Rules, the Registrar transmitted copies thereof to the States 
+Parties, the Authority and the organizations that had submitted written statements. On 19 August 2010, pursuant to article 134 of the Rules, the written 
+statements submitted to the Chamber were made accessible to the public on the 
+Tribunal’s website.
+13. On 17 August 2010, the Registry received a statement submitted 
+jointly by Stichting Greenpeace Council (Greenpeace International) and the 
+World Wide Fund for Nature. The statement was accompanied by a petition 
+from these two non-governmental organizations in which they requested permission to participate in the advisory proceedings as amici curiae. At the 
+request of the President, by separate letters dated 27 August 2010, the Registrar 
+informed those organizations that their statement would not be included in the 
+case file since it had not been submitted under article 133 of the Rules; it 
+would, however, be transmitted to the States Parties, the Authority and the 
+intergovernmental organizations that had submitted written statements, which 
+would be informed that the document was not part of the case file and that it 
+would be posted on a separate section of the Tribunal’s website. By communication dated 27 August 2010, the States Parties, the Authority and the intergovernmental organizations in question were so informed.
+14. On 10 September 2010, the Chamber, having considered a petition 
+from Stichting Greenpeace Council (Greenpeace International) and the World 
+Wide Fund for Nature requesting permission to participate in the advisory 
+proceedings as amici curiae, decided not to grant that request. The decision 
+was communicated to the two organizations on the same day by a letter from 
+the President.
+15. By e-mail dated 26 August 2010, the Legal Counsel transmitted to the 
+Registrar, at the latter’s request, a note containing a summary of potential 
+environmental impacts of seabed mining. This document was posted on the 
+Tribunal’s website.
+16. By letter dated 1 September 2010, after the expiry of the time-limit for 
+the submission of written statements, the United Nations Environment 
+responsibilities and obligations of states with respect to 20
+activities in the area (advisory opinion of 1 february 2011)
+Programme submitted a written statement that was received by the Registry on 
+2 September 2010. The President nevertheless decided that the statement 
+should be included in the case file. Accordingly, on 3 September 2010, the 
+Registrar transmitted an electronic copy of that document to the States Parties, 
+the Authority and the intergovernmental organizations that had submitted written statements. The document was also posted on the Tribunal’s website.
+17. Within the time-limit fixed in the Order of the President of 18 May 
+2010, nine States Parties expressed their intention to participate in the oral 
+proceedings, namely, Argentina, Chile, Fiji, Germany, Mexico, Nauru, the 
+Netherlands, the Russian Federation and the United Kingdom. Within the same 
+time-limit, the Authority and two organizations, namely, the Intergovernmental 
+Oceanographic Commission (IOC) of the United Nations Educational, 
+Scientific and Cultural Organization (UNESCO) and the International Union 
+for Conservation of Nature and Natural Resources also expressed their intention to participate in the oral proceedings.
+18. Prior to the opening of the oral proceedings, the Chamber held initial 
+deliberations on 10, 13 and 14 September 2010.
+19. At four public sittings held on 14, 15 and 16 September 2010, the 
+Chamber heard oral statements, in the following order, by:
+For the International Seabed Mr Nii Odunton, Secretary-General,
+Authority:
+Mr Michael Lodge, Legal Counsel,
+Mr Kening Zhang, Senior Legal Officer, 
+and
+Ms Gwenaëlle Le Gurun, Legal Officer;
+For the Federal Republic Ms Susanne Wasum-Rainer, Legal
+of Germany: Adviser, Director-General for Legal 
+Affairs, Federal Foreign Office;
+For the Kingdom of the Ms Liesbeth Lijnzaad, Legal Adviser, 
+Netherlands: Ministry of Foreign Affairs;
+For the Argentine Republic: Ms Susana Ruiz Cerutti, Ambassador, 
+Legal Adviser, Ministry of Foreign Affairs 
+International Trade and Worship;
+responsibilities and obligations of states with respect to 21
+activities in the area (advisory opinion of 1 february 2011)
+For the Republic of Chile: Mr Roberto Plaza, Minister Counsellor, 
+Consul General of Chile in Hamburg;
+For the Republic of Fiji: Mr Pio Bosco Tikoisuva, High Commissioner of Fiji to the United Kingdom of 
+Great Britain and Northern Ireland;
+For the United Mexican States: Mr Joel Hernández G., Ambassador, Legal 
+Adviser, Ministry of Foreign Affairs;
+For the Republic of Nauru: Mr Peter Jacob, First Secretary, Nauru 
+High Commission in Suva (Fiji), and Mr 
+Robert Haydon, Advisor;
+For the United Kingdom of Sir Michael Wood KCMG, Member of the
+Great Britain and Northern English Bar and Member of the InterIreland: national Law Commission;
+For the Russian Federation: Mr Vasiliy Titushkin, Deputy Director, 
+Legal Department, Ministry of Foreign 
+Affairs;
+For the Intergovernmental Mr Ehrlich Desa, Deputy Executive
+Oceanographic Commission Secretary;
+(IOC) of the United Nations 
+Educational, Scientific and 
+Cultural Organization
+(UNESCO):
+For the International Union for Ms Cymie R. Payne, Member of the Bar
+Conservation of Nature and of the State of California, the CommonNatural Resources: wealth of Massachusetts, and the Supreme 
+Court of the United States of America, 
+Counsel,
+Mr Robert A. Makgill, Barrister and 
+Solicitor of the High Court of New 
+ Zealand, Counsel, and
+responsibilities and obligations of states with respect to 22
+activities in the area (advisory opinion of 1 february 2011)
+Mr Donald K. Anton, Barrister and 
+Solicitor of the Supreme Court of Victoria, 
+the Supreme Court of New South Wales 
+and the High Court of Australia; Member 
+of the Bar of the State of Missouri, the 
+State of Idaho, and the Supreme Court of 
+he United States; and Senior Lecturer in 
+International Law at the Australian 
+National University College of Law, 
+Counsel.
+20. The hearing was broadcast over the internet as a webcast.
+21. By letter dated 13 September 2010, pursuant to article 76, paragraph 
+1, of the Rules, the Registrar transmitted to the Authority, prior to the hearing, 
+a list of the following points that the Chamber wished the Authority to 
+address:
+1. With reference to article 153, paragraph 4, of the Convention, how 
+has the Authority been exercising control over activities in the Area for 
+the purpose of securing compliance with the relevant provisions of the 
+Convention and what experience has the Authority accumulated over the 
+years in this regard?
+2. In what form has assistance been provided so far to the Authority 
+by sponsoring States, including the case of various States sponsoring one 
+contractor, for the purpose of securing compliance with provisions referred 
+to in article 153, paragraph 4, and what experience has the Authority accumulated over the years in this regard?
+3. What are the activities in the Area, including activities associated 
+with exploration and exploitation, which so far have been controlled by the 
+Authority?
+4. Would it be possible for the Authority to provide the certificates of 
+sponsorship regarding the contracts it has concluded with contractors, as 
+well as copies of the sponsorship agreements if available?
+22. Responses to points 1 to 3 of this list were provided in the oral statements made on behalf of the Authority during the sitting held on 14 September 
+2010. By letter dated 17 September 2010, the Legal Counsel communicated 
+information on point 4 of the list. This letter was posted on the Tribunal’s 
+website.
+23. At the request of the President, by letter dated 13 October 2010, the 
+Registrar asked the Legal Counsel to provide the Chamber with information 
+responsibilities and obligations of states with respect to 23
+activities in the area (advisory opinion of 1 february 2011)
+on the various phases of the process of exploration and exploitation of 
+resources in the Area (collection, transportation to the surface, initial treatment, etc.), as well as information on the technology available. The Legal 
+Counsel provided this information by letter dated 15 November 2010. The 
+information was posted on the Tribunal’s website.
+24. As indicated by the President at the opening of the oral proceedings, 
+one Member of the Chamber, Judge Chandrasekhara Rao, was prevented by 
+illness from sitting on the bench during the hearing. However, with the 
+approval of the Chamber, he participated in the subsequent deliberations on the 
+advisory opinion.
+IV. Role of the Chamber in advisory proceedings
+25. The Chamber is a separate judicial body within the Tribunal entrusted, 
+through its advisory and contentious jurisdiction, with the exclusive function 
+of interpreting Part XI of the Convention and the relevant annexes and regulations that are the legal basis for the organization and management of activities 
+in the Area.
+26. The advisory jurisdiction is connected with the activities of the 
+Assembly and the Council, the two principal organs of the Authority. The 
+Authority is the international organization established by the Convention in 
+order to “organize and control activities in the Area” (article 157, paragraph 1, 
+of the Convention and section 1, paragraph 1, of the Annex to the 1994 
+Agreement relating to the Implementation of Part XI of the United Nations 
+Convention on the Law of the Sea (hereinafter “the 1994 Agreement”)). In 
+order to exercise its functions properly in accordance with the Convention, the 
+Authority may require the assistance of an independent and impartial judicial 
+body. This is the underlying reason for the advisory jurisdiction of the 
+Chamber. In the exercise of that jurisdiction, the Chamber is part of the system 
+in which the Authority’s organs operate, but its task within that system is to act 
+as an independent and impartial body.
+27. According to article 159, paragraph 10, and article 191 of the 
+Convention, the advisory function of the Chamber concerns legal questions 
+submitted by the Assembly and by the Council. Advisory opinions requested 
+under article 159, paragraph 10, of the Convention serve to assist the Assembly 
+during its decision-making process. The Chamber’s advisory jurisdiction 
+under article 191 of the Convention concerns “legal questions arising within 
+the scope” of the activities of either the Assembly or the Council.
+responsibilities and obligations of states with respect to 24
+activities in the area (advisory opinion of 1 february 2011)
+28. As provided in article 187 of the Convention, the Chamber also has 
+contentious jurisdiction to settle different categories of disputes referred to in 
+that article with respect to activities in the Area.
+29. The functions of the Chamber, set out in Part XI of the Convention, 
+are relevant for the good governance of the Area. The Secretary-General 
+made this point at the hearing: “The Chamber has a high responsibility 
+to ensure that the provisions of Part XI of the Convention and the 1994 
+Agreement are implemented properly and the regime for deep seabed mining 
+as a whole is properly interpreted and applied” (ITLOS/PV.2010/1/Rev.1, 
+p. 5, lines 16-19).
+30. The Chamber is mindful of the fact that by answering the questions it 
+will assist the Council in the performance of its activities and contribute to the 
+implementation of the Convention’s regime.
+V. Jurisdiction
+31. The Chamber will first determine whether it has jurisdiction to give 
+the advisory opinion requested by the Council. The conditions to be met in 
+order to establish the jurisdiction of the Chamber are set out in article 191 of 
+the Convention which reads as follows:
+The Seabed Disputes Chamber shall give advisory opinions at the request 
+of the Assembly or the Council on legal questions arising within the scope 
+of their activities. Such opinions shall be given as a matter of urgency.
+32. As regards the present proceedings, the conditions to be met are: 
+(a) that there is a request from the Council; (b) that the request concerns legal 
+questions; and (c) that these legal questions have arisen within the scope of the 
+Council’s activities.
+33. As to the first condition, the Chamber observes that article 191 of the 
+Convention confers on the Assembly and the Council the power to request 
+advisory opinions from the Chamber. In the present case, the decision to 
+request an advisory opinion from the Chamber was adopted by the Council.
+34. Rule 56, paragraph 1, of the Rules of Procedure of the Council provides that, as a general rule, decision-making in the Council should be by 
+consensus. Section 3, paragraph 2, of the Annex to the 1994 Agreement states 
+that “[a]s a general rule, decision-making in the organs of the Authority should 
+be by consensus”. According to article 161, paragraph 8 (e), of the Convention 
+and rule 59 of the Rules of Procedure of the Council, “consensus” means the 
+absence of any formal objection.
+responsibilities and obligations of states with respect to 25
+activities in the area (advisory opinion of 1 february 2011)
+35. In its written statement, the Authority declared that “[t]he decision of 
+the Council to request the Chamber for an advisory opinion was taken without 
+objection and can thus be regarded as having been taken by consensus”. The 
+information provided by the Authority also shows that the Council’s decision 
+was taken in accordance with the internal rules of procedure of the Authority.
+36. The Chamber thus concludes that there is a valid request by the 
+Council.
+37. With respect to the second condition, the Chamber must satisfy itself 
+that the advisory opinion requested by the Council concerns “legal questions” 
+within the meaning of article 191 of the Convention.
+38. In examining this requirement, the Chamber observes that the three 
+questions before it relate, inter alia, to “the legal responsibilities and obligations of States Parties to the Convention with respect to the sponsorship of 
+activities in the Area”; “the extent of liability of a State Party for any failure to 
+comply with the provisions of the Convention . . . by an entity whom it has 
+sponsored”; and the “measures that a sponsoring State must take in order to 
+fulfil its responsibility under the Convention”.
+39. The questions put to the Chamber concern the interpretation of provisions of the Convention and raise issues of general international law. The 
+Chamber recalls that the International Court of Justice (hereinafter “the ICJ”) 
+has stated that “questions ‘framed in terms of law and rais[ing] problems of 
+international law . . . are by their very nature susceptible of a reply based on 
+law’” (Accordance with International Law of the Unilateral Declaration of 
+Independence in Respect of Kosovo, Advisory Opinion, 22 July 2010, paragraph 25; Western Sahara, Advisory Opinion, I.C.J. Report 1975, p. 12, at 
+paragraph 15).
+40. For these reasons, the Chamber concludes that the questions raised by 
+the Council are of a legal nature.
+41. As to the third condition, article 191 of the Convention also requires 
+that an advisory opinion must concern legal questions “arising within the scope 
+of [the] activities” of the Assembly or the Council. In the present case, it is for 
+the Chamber to determine whether the legal questions submitted to it arose 
+within the scope of the activities of the Council. Therefore, it is pertinent to 
+examine the provisions of the Convention and of the 1994 Agreement that 
+define the Council’s competence.
+42. The powers and functions of the Council are set out in Part XI, section 4, of the Convention and, in particular, article 162 thereof, read together 
+responsibilities and obligations of states with respect to 26
+activities in the area (advisory opinion of 1 february 2011)
+with the 1994 Agreement. Article 162, paragraphs 1 and 2 (a), of the 
+Convention reads as follows:
+1. The Council is the executive organ of the Authority. The Council shall 
+have the power to establish, in conformity with this Convention and 
+the general policies established by the Assembly, the specific policies 
+to be pursued by the Authority on any question or matter within the 
+competence of the Authority.
+2. In addition, the Council shall:
+(a) supervise and coordinate the implementation of the provisions of 
+this Part on all questions and matters within the competence of the 
+Authority and invite the attention of the Assembly to cases of noncompliance.
+43. Section 3, paragraph 11 (a), read together with section 1, paragraphs 
+6 to 11, of the 1994 Agreement, entrusts the Council with the function of 
+approving plans of work in accordance with Annex III, article 6, of the 
+Convention. Article 162, paragraph 2 (l), of the Convention confers on the 
+Council the power to “exercise control over activities in the Area in accordance 
+with article 153, paragraph 4, and the rules, regulations and procedures of the 
+Authority”.
+44. In light of these provisions, the Chamber concludes that the legal questions before it fall within the scope of the activities of the Council, since they 
+relate to the exercise of its powers and functions, including its power to 
+approve plans of work.
+45. For the aforementioned reasons, the Chamber finds that it has jurisdiction to entertain the request for an advisory opinion submitted to it by the 
+Council.
+VI. Admissibility
+46. The Chamber now turns to questions of admissibility.
+47. Some of the participants in the proceedings have drawn attention to 
+the wording of article 191 of the Convention, which states that the Chamber 
+“shall give” advisory opinions, and have compared it to article 65, paragraph 
+1, of the Statute of the ICJ, which states that the Court “may give” an advisory 
+opinion. In light of this difference, they have argued that, contrary to the discretionary powers of the ICJ, the Chamber, once it has established its jurisdiction, has no discretion to decline a request for an advisory opinion.
+48. While noting the difference between the wording of article 191 of the 
+Convention and article 65 of the Statute of the ICJ, the Chamber does not 
+responsibilities and obligations of states with respect to 27
+activities in the area (advisory opinion of 1 february 2011)
+consider it necessary to pronounce on the consequences of that difference with 
+respect to admissibility in the present case.
+49. The Chamber deems it appropriate to render the advisory opinion 
+requested by the Council and will proceed accordingly.
+VII. Applicable law and procedural rules
+50. The Chamber will now proceed to indicate the applicable law.
+51. Article 293, paragraph 1, of the Convention and article 38 of the 
+Statute of the Tribunal (hereinafter “the Statute”) set out the law to be applied 
+by the Chamber.
+52. Article 293, paragraph 1, of the Convention, reads:
+A court or tribunal having jurisdiction under this section [section II of Part 
+XV of the Convention] shall apply this Convention and other rules of 
+international law not incompatible with this Convention.
+53. Article 38 of the Statute reads:
+In addition to the provisions of article 293, the Chamber shall apply:
+a) the rules, regulations and procedures of the Authority adopted in 
+accordance with the Convention; and
+b) the terms of contracts concerning activities in the Area in matters 
+relating to those contracts.
+54. It should be noted that, in accordance with article 2, paragraph 1, of 
+the 1994 Agreement, the provisions of that Agreement and Part XI of the 
+Convention “shall be interpreted and applied together as a single instrument. 
+In the event of any inconsistency between this Agreement and Part XI, the 
+provisions of this Agreement shall prevail”.
+55. The procedural rules applicable during advisory proceedings before 
+the Chamber are set out in article 40, paragraph 2, of the Statute and section H 
+(“Advisory proceedings”) of the Rules, in particular article 130, paragraph 1, 
+thereof.
+56. Article 40, paragraph 2, of the Statute reads:
+In the exercise of its functions relating to advisory opinions, the Chamber 
+shall be guided by the provisions of this Annex relating to procedure 
+before the Tribunal to the extent to which it recognizes them to be 
+applicable.
+responsibilities and obligations of states with respect to 28
+activities in the area (advisory opinion of 1 february 2011)
+Article 130, paragraph 1, of the Rules reads:
+In the exercise of its functions relating to advisory opinions, the Seabed 
+Disputes Chamber shall apply this section and be guided, to the extent to 
+which it recognizes them to be applicable, by the provisions of the Statute 
+and of these Rules applicable in contentious cases.
+VIII. Interpretation
+In general
+57. Among the rules of international law that the Chamber is bound to 
+apply, those concerning the interpretation of treaties play a particularly important role. The applicable rules are set out in Part III, Section 3 entitled 
+“Interpretation of Treaties” and comprising articles 31 to 33 of the 1969 
+Vienna Convention on the Law of Treaties (hereinafter “the Vienna 
+Convention”). These rules are to be considered as reflecting customary international law. Although the Tribunal has never stated this view explicitly, it has 
+done so implicitly by borrowing the terminology and approach of the Vienna 
+Convention’s articles on interpretation (see the Tribunal’s Judgment of 
+23 December 2002 in the “Volga” Case (ITLOS Reports 2002, p. 10, at paragraph 77). The ICJ and other international courts and tribunals have stated this 
+view on a number of occasions (see, for example, Territorial Dispute (Libyan 
+Arab Jamahiriya/Chad), Judgment, I.C.J. Reports 1994, p. 6, at paragraph 41; 
+Oil Platforms (Islamic Republic of Iran v. United States of America), 
+Preliminary Objection, Judgment, I.C.J. Reports 1996, p. 803, at paragraph 23;
+Avena and Other Mexican Nationals (Mexico v. United States of America), 
+Judgment, I.C.J. Reports 2004, p. 12, at paragraph 83; Pulp Mills on the River 
+Uruguay (Argentina v. Uruguay), Judgment of 20 April 2010, paragraphs 
+64-65; Delimitation of the Maritime Boundary between Guinea and GuineaBissau, Arbitral Tribunal, Award of 14 February 1985, UNRIAA, vol. XIX, 
+pp. 149-196, 25 ILM (1986), p. 252, at paragraph 41; United States-Standards 
+for Reformulated and Conventional Gasoline, Report of the Appellate Body 
+(WT/DS2/AB/R), adopted by the Dispute Settlement Body of the World Trade 
+Organization on 20 May 1996, DSR 1996:I, p. 3, at pp. 15-16).
+58. In light of the foregoing, the rules of the Vienna Convention on the 
+interpretation of treaties apply to the interpretation of provisions of the 
+Convention and the 1994 Agreement.
+responsibilities and obligations of states with respect to 29
+activities in the area (advisory opinion of 1 february 2011)
+59. The Chamber is also required to interpret instruments that are not treaties and, in particular, the Regulations adopted by the Authority, namely, the 
+Regulations on Prospecting and Exploration for Polymetallic Nodules in the 
+Area of 2000 (hereinafter “the Nodules Regulations”), and the Regulations on 
+Prospecting and Exploration for Polymetallic Sulphides in the Area of 2010 
+(hereinafter “the Sulphides Regulations”).
+60. The fact that these instruments are binding texts negotiated by States 
+and adopted through a procedure similar to that used in multilateral conferences permits the Chamber to consider that the interpretation rules set out in 
+the Vienna Convention may, by analogy, provide guidance as to their interpretation. In the specific case before the Chamber, the analogy is strengthened 
+because of the close connection between these texts and the Convention. The 
+ICJ seems to have adopted a similar approach when it states in its advisory 
+opinion on Accordance with International Law of the Unilateral Declaration 
+of Independence in Respect of Kosovo, that the rules on interpretation of the 
+Vienna Convention “may provide guidance” as regards the interpretation of 
+resolutions of the United Nations Security Council (ICJ, 22 July 2010, paragraph 94).
+Multilingual international instruments
+61. In interpreting the provisions of the Convention, it should be borne in 
+mind that it is a multilingual treaty: the Arabic, Chinese, English, French, 
+Russian and Spanish texts are equally authentic (article 320 of the Convention). 
+It should also be noted that these six languages are also official languages of 
+the Council and that the Regulations of the Authority, as well as the decision 
+of the Council containing the questions submitted to the Chamber, were 
+adopted in those languages with the original in English.
+62. The relevant provision to be considered in the present context is article 
+33, paragraph 4, of the Vienna Convention. According to this provision, where 
+no particular text prevails according to the treaty and where “a comparison of 
+the authentic texts discloses a difference of meaning which the application of 
+articles 31 and 32 does not remove, the meaning which best reconciles the 
+texts, having regard to the object and purpose of the treaty, shall be adopted”.
+63. An examination of the relevant provisions of the Convention reveals 
+that the terminology used in the different language versions corresponds to the 
+objective stated by the Drafting Committee of the Third United Nations 
+responsibilities and obligations of states with respect to 30
+activities in the area (advisory opinion of 1 february 2011)
+Conference on the Law of the Sea, namely, “to improve linguistic concordance, to the extent possible, and to achieve juridical concordance in all cases” 
+(Report of the Chairman of the Drafting Committee, 2 March 1981, 
+A/CONF.62/L.67/Rev.1, in Third United Nations Conference on the Law of 
+the Sea, Official Records, vol. XV, p.145, at paragraph 8). There are certain 
+inconsistencies in the terminology used within the same language version and 
+as between language versions. In the view of the Chamber, there is, however, 
+no difference of meaning between the authentic texts of the relevant provisions 
+of the Convention. A comparison between the terms used in these provisions 
+of the Convention is nonetheless useful in clarifying their meaning.
+Meaning of key terms
+64. The meaning of the term “responsibility” as used in the English text 
+of article 139, paragraphs 1 and 2; article 235, paragraph 1; and Annex III, 
+article 4, paragraph 4, of the Convention (“States Parties shall have the responsibility to ensure”; “States are responsible for the fulfilment”; “States 
+shall . . . have the responsibility to ensure”) does not correspond to the meaning 
+of the same term in article 304 of the Convention (“responsibility and liability 
+for damage”) and Annex III, article 22, of the Convention (“responsibility or 
+liability for any damage”).
+65. In article 139, article 235, paragraph 1, and Annex III, article 4, paragraph 4, of the Convention, the term “responsibility” means “obligation”. This 
+emerges not only from the context of the aforementioned articles, but also from 
+a comparison with other linguistic versions. The Spanish text uses the expression “estarán obligados” and the French text uses the more indirect but equally 
+explicit expression “il incombe de”. Similarly, the Arabic text uses the expression “ملزمة تكون“. The Chinese text uses the term “义务” and the Russian text 
+the term “обязательство”.
+66. In the view of the Chamber, in the provisions cited in the previous 
+paragraph, the term “responsibility” refers to the primary obligation whereas 
+the term “liability” refers to the secondary obligation, namely, the consequences of a breach of the primary obligation. Notwithstanding their apparent 
+similarity to the English term “responsibility”, the French term “responsabilité” and the Spanish term “responsabilidad”, respectively, indicate also the 
+consequences of the breach of the primary obligation. The same applies to the 
+Arabic term “مسؤولية“, the Chinese term “责任” and the Russian term 
+responsibilities and obligations of states with respect to 31
+activities in the area (advisory opinion of 1 february 2011)
+“ответственность”. The fact that the International Law Commission’s 
+Articles on Responsibility of States for Internationally Wrongful Acts (hereinafter “the ILC Articles on State Responsibility”), adopted in 2001, give the 
+term “responsibility” a meaning corresponding to “responsabilité”, “responsabilidad”, “مسؤولية“,” 责任” and “ответственность” may create confusion, 
+which can be avoided by comparing the English text of article 139, article 235, 
+and Annex III, article 4, paragraph 4, of the Convention with the other language versions.
+67. It should be further observed that in article 235, paragraph 3, and 
+Annex III, article 22, of the Convention, the English version of which uses the 
+terms “responsibility and liability” together, the term “responsibility” has the 
+same meaning as in the ILC Articles on State Responsibility. This is clear from 
+a comparison of the English version with the French and Spanish versions, 
+which use only the term “responsabilité” and “responsabilidad”. Similarly, the 
+Arabic, Chinese and Russian versions use the term “مسؤولية“,” 责任” and 
+“ответственность”, respectively.
+68. This analysis of the terms used in the provisions of the Convention 
+provides a basis for determining their meaning as used in the three 
+Questions.
+69. Thus, in Question 1, the expression “legal responsibilities and obligations” refers to primary obligations, that is, to what sponsoring States are 
+obliged to do under the Convention.
+70. In Question 2, the English term “liability” refers to the consequences 
+of a breach of the sponsoring State’s obligations.
+71. In Question 3, as in Question 1, “responsibility” means “obligation”. 
+The terms “responsabilité” and “responsabilidad”, used, respectively, in the 
+French and Spanish versions of Question 3, are translations of the English term 
+“responsibility” and were apparently introduced for the sake of uniformity. 
+However, in light of the English version and of the terminology used in the 
+French and Spanish versions of article 139 of the Convention, the meaning 
+intended is that of “obligation”. Similarly, the Arabic, Chinese and Russian 
+versions of Question 3 use the term “مسؤولية“,” 义务” and “обязательство”, 
+respectively.
+responsibilities and obligations of states with respect to 32
+activities in the area (advisory opinion of 1 february 2011)
+Question 1
+72. The first question submitted to the Chamber is as follows:
+What are the legal responsibilities and obligations of States Parties to the 
+Convention with respect to the sponsorship of activities in the Area in 
+accordance with the Convention, in particular Part XI, and the 1994 
+Agreement relating to the Implementation of Part XI of the United Nations 
+Convention on the Law of the Sea of 10 December 1982?
+73. This question concerns the obligations of sponsoring States. Before 
+examining the provisions of the Convention, the 1994 Agreement as well as 
+the Nodules Regulations and the Sulphides Regulations (hereinafter “the 
+Convention and related instruments”), the Chamber must determine the meaning of two of the terms used in the Question, namely: “sponsorship” and 
+“activities in the Area”.
+I. Sponsorship
+74. The notion of “sponsorship” is a key element in the system for the 
+exploration and exploitation of the resources of the Area set out in the 
+Convention. Article 153, paragraph 2, of the Convention describes the “parallel system” of exploration and exploitation activities indicating that such 
+activities shall be carried out by the Enterprise, and, in association with the 
+Authority, by States Parties or state enterprises or natural or juridical persons. 
+It further states that, in order to be eligible to carry out such activities, natural 
+and juridical persons must satisfy two requirements. First, they must be either 
+nationals of a State Party or effectively controlled by it or its nationals. Second, 
+they must be “sponsored by such States”. Article 153, paragraph 2(b), of the 
+Convention makes the requirement of sponsorship applicable also to state 
+enterprises.
+75. The purpose of requiring the sponsorship of applicants for contracts 
+for the exploration and exploitation of the resources of the Area is to achieve 
+the result that the obligations set out in the Convention, a treaty under international law which binds only States Parties thereto, are complied with by 
+entities that are subjects of domestic legal systems. This result is obtained 
+through the provisions of the Authority’s Regulations that apply to such 
+entities and through the implementation by the sponsoring States of their obligations under the Convention and related instruments.
+responsibilities and obligations of states with respect to 33
+activities in the area (advisory opinion of 1 february 2011)
+76. The role of the sponsoring State, as set out in the Convention, contributes to the realization of the common interest of all States in the proper application of the principle of the common heritage of mankind which requires 
+faithful compliance with the obligations set out in Part XI. The commoninterest role of the sponsoring State is further confirmed by its obligation, set 
+out in article 153, paragraph 4, of the Convention, to “assist” the Authority, 
+which, as stated in article 137, paragraph 2, of the Convention, acts on behalf 
+of mankind.
+77. The connection between States Parties and domestic law entities 
+required by the Convention is twofold, namely, that of nationality and that of 
+effective control. All contractors and applicants for contracts must secure and 
+maintain the sponsorship of the State or States of which they are nationals. If 
+another State or its nationals exercises effective control, the sponsorship of that 
+State is also necessary. This is provided for in Annex III, article 4, paragraph 
+3, of the Convention and confirmed in regulation 11, paragraph 2, of the 
+Nodules Regulations and of the Sulphides Regulations.
+78. No provision of the Convention imposes an obligation on a State Party 
+to sponsor an entity that holds its nationality or is controlled by it or by its 
+nationals. As the Convention does not consider the links of nationality and 
+effective control sufficient to obtain the result that the contractor conforms 
+with the Convention and related instruments, it requires a specific act emanating from the will of the State or States of nationality and of effective control. 
+Such act consists in the decision to sponsor.
+79. As subjects of international law, States Parties engaged in deep seabed 
+mining under the Convention are directly bound by the obligations set out 
+therein. Consequently, there is no reason to apply to them the requirement of 
+sponsorship. Article 153, paragraph 2(b), of the Convention as well as the 
+identical regulation 11, paragraph 1, of the Nodules Regulations and the 
+Sulphides Regulations confirm that the requirement of sponsorship does not 
+apply to States. This point is further supported by Annex III, article 4, paragraph 5, of the Convention which reads as follows: “The procedures for assessing the qualifications of States Parties which are applicants shall take into 
+account their character as States”.
+80. The practice of the Authority, however, indicates that at least two 
+contractor States, when applying for a contract, considered it necessary to 
+submit to the Authority documents of sponsorship.
+81. It may also be noted that all but one of the existing contractors, as 
+“registered pioneer investors” under the provisional system set out in 
+Resolution II of the Third United Nations Conference on the Law of the Sea, 
+responsibilities and obligations of states with respect to 34
+activities in the area (advisory opinion of 1 february 2011)
+obtained their contracts for exploration through the simplified procedure set 
+out in section 1, paragraph 6(a)(ii) of the Annex to the 1994 Agreement. As 
+“certifying States” under paragraph 1(c) of Resolution II, they stand in the 
+same relationship to a pioneer investor as would a sponsoring State stand to a 
+contractor pursuant to Annex III, article 4, of the Convention.
+II. “Activities in the Area”
+82. Question 1 concerns the responsibilities and obligations of sponsoring 
+States in respect of “activities in the Area”. This expression is defined in article 
+1, paragraph 1 (3), of the Convention as “all activities of exploration for, and 
+exploitation of, the resources of the Area”. According to article 133 (a) of the 
+Convention, for the purposes of Part XI, the term “resources” means “all solid, 
+liquid or gaseous mineral resources in situ in the Area at or beneath the seabed, 
+including polymetallic nodules”. The two definitions, however, do not indicate 
+what is meant by “exploration” and “exploitation”. It is important to note that 
+according to article 133 (b), “resources, when recovered from the Area, are 
+referred to as ‘minerals’”.
+83. Some indication of the meaning of the term “activities in the Area” 
+may be found in Annex IV, article 1, paragraph 1, of the Convention. It reads 
+as follows:
+The Enterprise is the organ of the Authority which shall carry out activities 
+in the Area directly, pursuant to article 153, paragraph 2(a), as well as the 
+transporting, processing and marketing of minerals recovered from 
+the Area.
+84. This provision distinguishes “activities in the Area” which the 
+Enterprise carries out directly pursuant to article 153, paragraph 2(a), of the 
+Convention, from other activities with which the Enterprise is entrusted, 
+namely, the transporting, processing and marketing of minerals recovered 
+from the Area. Consequently, the latter activities are not included in the notion 
+of “activities in the Area” referred to in Annex IV, article 1, paragraph 1, of the 
+Convention.
+85.  Article 145 of the Convention, which prescribes the taking of 
+“[n]ecessary measures . . . with respect to activities in the Area to ensure 
+responsibilities and obligations of states with respect to 35
+activities in the area (advisory opinion of 1 february 2011)
+effective protection for the marine environment from harmful effects which 
+may arise from such activities”, indicates the activities in respect of which the 
+Authority should adopt rules, regulations and procedures. These activities 
+include: “drilling, dredging, excavation, disposal of waste, construction and 
+operation or maintenance of installations, pipelines and other devices related 
+to such activities”. In the view of the Chamber, these activities are included in 
+the notion of “activities in the Area”.
+86. Annex III, article 17, paragraph 2(f ), of the Convention, which sets 
+out the criteria for the rules, regulations and procedures concerning protection 
+of the marine environment to be drawn up by the Authority gives further useful 
+indications of what is included in the notion of “activities in the Area”. The 
+provision reads as follows:
+Rules, regulations and procedures shall be drawn up in order to secure 
+effective protection of the marine environment from harmful effects 
+directly resulting from activities in the Area or from shipboard processing 
+immediately above a mine site of minerals derived from that mine site, 
+taking into account the extent to which such harmful effects may directly 
+result from drilling, dredging, coring and excavation and from disposal, 
+dumping and discharge into the marine environment of sediment, wastes 
+or other effluents.
+87. The provisions considered in the preceding paragraphs confirm that 
+processing and transporting as mentioned in Annex IV, article 1, paragraph 1, 
+of the Convention are excluded from the notion of “activities in the Area”. 
+They set out lists of activities whose harmful effects are indicated as directly 
+resulting from such activities. These lists may be seen as an indication of what 
+the Convention considers as included in the notion of “activities in the Area”. 
+These activities include: drilling, dredging, coring, and excavation; disposal, 
+dumping and discharge into the marine environment of sediment, wastes or 
+other effluents; and construction and operation or maintenance of installations, 
+pipelines and other devices related to such activities.
+88. Under Annex III, article 17, paragraph 2(f ), of the Convention, “shipboard processing immediately above a mine site of minerals derived from that 
+mine site” is to be considered as included in “activities in the Area”. As the 
+aforementioned list of activities refers without distinction to the harmful 
+effects resulting directly from “activities in the Area” and from “shipboard 
+processing”, the two are to be seen as part of the same kind of activities.
+responsibilities and obligations of states with respect to 36
+activities in the area (advisory opinion of 1 february 2011)
+89. The Nodules Regulations and the Sulphides Regulations define 
+“exploration” and “exploitation” in the context of polymetallic nodules and 
+polymetallic sulphides, respectively. According to regulation 1, paragraph 3(b) 
+and (a), of the Nodules Regulations:
+“Exploration” means searching for deposits of polymetallic nodules in the 
+Area with exclusive rights, the analysis of such deposits, the testing of 
+collecting systems and equipment, processing facilities and transportation 
+systems, and the carrying out of studies of the environmental, technical, 
+economic, commercial and other appropriate factors that must be taken 
+into account in exploitation.
+“Exploitation” means the recovery for commercial purposes of polymetallic nodules in the Area and the extraction of minerals therefrom, including 
+the construction and operation of mining, processing and transportation 
+systems for the production and marketing of metals.
+90. The same definitions are set out in regulation 1, paragraph 3(b) and 
+(a), of the Sulphides Regulations.
+91. These provisions of the Nodules Regulations and the Sulphides 
+Regulations include in the notion of exploration the testing of processing 
+facilities and transportation systems and in that of exploitation the construction 
+and operation of processing and transportation systems.
+92. The scope of “exploration” and “exploitation” as defined in the 
+Regulations seems broader than the “activities in the Area” envisaged in 
+Annex IV, article 1, paragraph 1, and in article 145 and Annex III, article 17, 
+paragraph 2 (f), of the Convention. Processing and transportation are included 
+in the notion of exploration and exploitation of the Regulations, but not in that 
+of “activities in the Area” in the provision of Annex IV of the Convention, 
+which has just been cited.
+93. The difference in scope of “activities in the Area” in the provisions of 
+the Convention and in the Nodules Regulations and the Sulphides Regulations 
+makes it necessary to examine the relevant provisions within the broader 
+framework of the Convention. It would seem preferable to consider that the 
+meaning of “activities in the Area” in articles 139 and Annex III, article 4, 
+paragraph 4, of the Convention is consistent with that of article 145 and Annex 
+III, article 17, paragraph 2(f), and Annex IV, article 1, paragraph 1, rather than 
+with that of “exploration” and “exploitation” in the two Regulations. The 
+aforementioned articles of the Convention and of Annexes III and IV, all 
+responsibilities and obligations of states with respect to 37
+activities in the area (advisory opinion of 1 february 2011)
+belong to the same legal instrument. They were negotiated by the same parties 
+and adopted at the same time. It therefore seems reasonable to assume that the 
+meaning of an expression (or the exclusion of certain activities from the scope 
+of that expression) in one provision also applies to the others. The Regulations 
+are instruments subordinate to the Convention, which, if not in conformity 
+with it, should be interpreted so as to ensure consistency with its provisions. 
+They may, nevertheless be used to clarify and supplement certain aspects of 
+the relevant provisions of the Convention.
+94. In light of the above, the expression “activities in the Area”, in the 
+context of both exploration and exploitation, includes, first of all, the recovery 
+of minerals from the seabed and their lifting to the water surface.
+95. Activities directly connected with those mentioned in the previous 
+paragraph such as the evacuation of water from the minerals and the preliminary separation of materials of no commercial interest, including their disposal 
+at sea, are deemed to be covered by the expression “activities in the Area”. 
+“Processing”, namely, the process through which metals are extracted from the 
+minerals and which is normally conducted at a plant situated on land, is 
+excluded from the expression “activities in the Area”. This is confirmed by the 
+wording of Annex IV, article 1, paragraph 1, of the Convention as well as by 
+information provided by the Authority at the request of the Chamber.
+96. Transportation to points on land from the part of the high seas superjacent to the part of the Area in which the contractor operates cannot be 
+included in the notion of “activities in the Area”, as it would be incompatible 
+with the exclusion of transportation from “activities in the Area” in Annex IV, 
+article 1, paragraph 1, of the Convention. However, transportation within that 
+part of the high seas, when directly connected with extraction and lifting, 
+should be included in activities in the Area. In the case of polymetallic nodules, 
+this applies, for instance, to transportation between the ship or installation 
+where the lifting process ends and another ship or installation where the 
+evacuation of water and the preliminary separation and disposal of material to 
+be discarded take place. The inclusion of transportation to points on land could 
+create an unnecessary conflict with provisions of the Convention such as those 
+that concern navigation on the high seas.
+responsibilities and obligations of states with respect to 38
+activities in the area (advisory opinion of 1 february 2011)
+97. One consequence of the exclusion of water evacuation and disposal of 
+material from “activities in the Area” would be that the activities conducted by 
+the contractor which are among the most hazardous to the environment would 
+be excluded from those to which the responsibilities of the sponsoring 
+State apply. This would be contrary to the general obligation of States Parties, 
+under article 192 of the Convention, “to protect and preserve the marine environment”.
+III. Prospecting
+98. “Prospecting”, although mentioned in Annex III, article 2, of the 
+Convention and in the Nodules Regulations and the Sulphides Regulations, is 
+not included in the Convention’s definition of “activities in the Area” because 
+the Convention and the two Regulations distinguish it from “exploration” and 
+from “exploitation”. Moreover, under the Convention and related instruments, 
+prospecting does not require sponsorship. In conformity with the questions 
+submitted to it, which relate to “activities in the Area” and to sponsoring 
+States, the Chamber will not address prospecting activities. However, considering that prospecting is often treated as the preliminary phase of exploration 
+in mining practice and legislation, the Chamber considers it appropriate to 
+observe that some aspects of the present Advisory Opinion may also apply to 
+prospecting.
+IV. Responsibilities and obligations
+Key provisions
+99. The key provisions concerning the obligations of the sponsoring 
+States are: article 139, paragraph 1; article 153, paragraph 4 (especially the last 
+sentence); and Annex III, article 4, paragraph 4, of the Convention (especially 
+the first sentence).
+100. These provisions read:
+Article 139, paragraph 1
+States Parties shall have the responsibility to ensure that activities in the 
+Area, whether carried out by States Parties, or state enterprises or natural 
+or juridical persons which possess the nationality of States Parties or are 
+effectively controlled by them or their nationals, shall be carried out in 
+conformity with this Part. The same responsibility applies to international 
+organizations for activities in the Area carried out by such organizations.
+responsibilities and obligations of states with respect to 39
+activities in the area (advisory opinion of 1 february 2011)
+Article 153, paragraph 4
+The Authority shall exercise such control over activities in the Area as is 
+necessary for the purpose of securing compliance with the relevant provisions of this Part and the Annexes relating thereto, and the rules, regulations and procedures of the Authority, and the plans of work approved in 
+accordance with paragraph 3. States Parties shall assist the Authority by 
+taking all measures necessary to ensure such compliance in accordance 
+with article 139.
+Annex III, article 4, paragraph 4
+The sponsoring State or States shall, pursuant to article 139, have the 
+responsibility to ensure, within their legal systems, that a contractor so 
+sponsored shall carry out activities in the Area in conformity with the 
+terms of its contract and its obligations under this Convention. A sponsoring State shall not, however, be liable for damage caused by any failure of 
+a contractor sponsored by it to comply with its obligations if that State 
+Party has adopted laws and regulations and taken administrative measures 
+which are, within the framework of its legal system, reasonably appropriate for securing compliance by persons under its jurisdiction.
+101. A perusal of these three provisions reveals that article 139 plays a 
+central role, as it is referred to both in article 153, paragraph 4, and in Annex 
+III, article 4, paragraph 4, of the Convention. While Annex III, article 4, paragraph 4, of the Convention refers to sponsoring States, articles 139, paragraph 
+1, and 153, paragraph 4, of the Convention do not do so explicitly. However, 
+since the entities which conduct activities in the Area mentioned in article 139, 
+paragraph 1, of the Convention can do so only when there is a State Party 
+sponsoring them, all three provisions must be read as referring to sponsoring 
+States.
+102. It is important to note that the last sentence of article 153, paragraph 
+4, of the Convention places the obligation of the sponsoring State in relationship with the obligations of the Authority by stating that the former has the 
+obligation to “assist” the latter. As will be seen in the reply to Question 2, the 
+subordinate role of the sponsoring State is reflected in Annex III, article 22, of 
+the Convention, in which the liability of the contractor and of the Authority is 
+mentioned while that of the sponsoring State is not (see paragraph 199).
+responsibilities and obligations of states with respect to 40
+activities in the area (advisory opinion of 1 february 2011)
+Obligations of the contractor whose compliance the sponsoring State must 
+ensure
+103. The three provisions mentioned in paragraph 100 specify that the 
+obligation (responsibility) of the sponsoring State is “to ensure” that the 
+“activities in the Area” conducted by the sponsored contractor are “in conformity” or in “compliance” with the rules to which they refer.
+104. These rules are referred to as “this Part” (Part XI) in article 139 of 
+the Convention, as “the relevant provisions of this Part and the Annexes relating thereto, and the rules, regulations and procedures of the Authority, and the 
+plans of work approved in accordance with paragraph 3” in article 153, paragraph 4, of the Convention, and as “the terms of its contract and its obligations 
+under this Convention” in Annex III, article 4, paragraph 4, of the 
+Convention.
+105. The difference between the references contained in articles 139 and 
+153 of the Convention, cited in the previous paragraphs, is only one of drafting. 
+The reference to Part XI in article 139 of the Convention includes Annexes III 
+and IV. In the view of the Chamber, this reference also includes the rules, 
+regulations and procedures of the Authority and the contracts (or plans of 
+work) for exploration and exploitation, which are based on Part XI and the 
+relevant Annexes thereto.
+106. The reference to the contractor’s “obligations under this Convention” 
+in Annex III, article 4, paragraph 4, would seem to be broader than the references in articles 139 and 153 of the Convention. This difference would be 
+relevant if there were obligations of sponsored contractors set out in parts of 
+the Convention other than Part XI and the annexes thereto, the rules, regulations and procedures of the Authority, or the relevant contracts. As this is not 
+the case, it would appear that the scope of the obligations of sponsored contractors, although indicated differently in the three key provisions of the 
+Convention referred to in paragraph 100, is in fact substantially the same.
+“Responsibility to ensure”
+107. The central issue in relation to Question 1 concerns the meaning of 
+the expression “responsibility to ensure” in article 139, paragraph 1, and 
+Annex III, article 4, paragraph 4, of the Convention.
+108. “Responsibility to ensure” points to an obligation of the sponsoring 
+State under international law. It establishes a mechanism through which the 
+rules of the Convention concerning activities in the Area, although being treaty 
+responsibilities and obligations of states with respect to 41
+activities in the area (advisory opinion of 1 february 2011)
+law and thus binding only on the subjects of international law that have 
+accepted them, become effective for sponsored contractors which find their 
+legal basis in domestic law. This mechanism consists in the creation of obligations which States Parties must fulfil by exercising their power over entities of 
+their nationality and under their control.
+109. As will be seen in greater detail in the reply to Question 2, a violation 
+of this obligation entails “liability”. However, not every violation of an obligation by a sponsored contractor automatically gives rise to the liability of the 
+sponsoring State. Such liability is limited to the State’s failure to meet its obligation to “ensure” compliance by the sponsored contractor.
+110. The sponsoring State’s obligation “to ensure” is not an obligation to 
+achieve, in each and every case, the result that the sponsored contractor complies with the aforementioned obligations. Rather, it is an obligation to deploy 
+adequate means, to exercise best possible efforts, to do the utmost, to obtain 
+this result. To utilize the terminology current in international law, this obligation may be characterized as an obligation “of conduct” and not “of result”, and 
+as an obligation of “due diligence”.
+111. The notions of obligations “of due diligence” and obligations “of 
+conduct” are connected. This emerges clearly from the Judgment of the ICJ in 
+the Pulp Mills on the River Uruguay: “An obligation to adopt regulatory or 
+administrative measures . . . and to enforce them is an obligation of conduct. 
+Both parties are therefore called upon, under article 36 [of the Statute of the 
+River Uruguay], to exercise due diligence in acting through the [Uruguay 
+River] Commission for the necessary measures to preserve the ecological balance of the river” (paragraph 187 of the Judgment).
+112. The expression “to ensure” is often used in international legal instruments to refer to obligations in respect of which, while it is not considered 
+reasonable to make a State liable for each and every violation committed by 
+persons under its jurisdiction, it is equally not considered satisfactory to rely 
+on mere application of the principle that the conduct of private persons or entities is not attributable to the State under international law (see ILC Articles on 
+State Responsibility, Commentary to article 8, paragraph 1).
+responsibilities and obligations of states with respect to 42
+activities in the area (advisory opinion of 1 february 2011)
+113. An example may be found in article 194, paragraph 2, of the 
+Convention which reads: “States shall take all measures necessary to ensure 
+that activities under their jurisdiction or control are so conducted as not to 
+cause damage by pollution to other States and their environment . . .”.
+114. The nature of the obligation to “ensure” in article 139 of the 
+Convention and in the other provisions mentioned in paragraph 100 appears 
+even more clearly in light of the French and Spanish texts of article 139 
+of the Convention. They use respectively the expression “il incombe aux 
+Etats Parties de veiller à . . .” and “los Estados Partes estarán obligados a 
+velar”. “Veiller à” and “velar” point out, even more clearly than “ensure”, 
+the idea of exercising diligence. The Arabic text uses the expression 
+“ ملزمة األطراف الدول تكون بضمان“ , the Chinese text uses the expression “缔约
+国应有责任确保” and the Russian text uses the expression “Государстваучастники обязуются обеспечивать”, which point in the same direction.
+115. In its Judgment in the Pulp Mills on the River Uruguay case, the ICJ 
+illustrates the meaning of a specific treaty obligation that it had qualified as “an 
+obligation to act with due diligence” as follows:
+It is an obligation which entails not only the adoption of appropriate rules 
+and measures, but also a certain level of vigilance in their enforcement and 
+the exercise of administrative control applicable to public and private 
+operators, such as the monitoring of activities undertaken by such operators . . . (Paragraph 197)
+116. Similar indications are given by the International Law Commission 
+in its Commentary to article 3 of its Articles on Prevention of Transboundary 
+Harm from Hazardous Activities, adopted in 2001. According to article 3, the 
+State of origin of the activities involving a risk of causing transboundary harm 
+“shall take all appropriate measures to prevent significant transboundary harm 
+or at any event to minimize the risk thereof”. The Commentary states:
+The obligation of the State of origin to take preventive or minimization 
+measures is one of due diligence. It is the conduct of the State of origin that 
+will determine whether the State has complied with its obligation under the 
+present articles. The duty of due diligence involved, however, is not 
+intended to guarantee that significant harm be totally prevented, if it is not 
+responsibilities and obligations of states with respect to 43
+activities in the area (advisory opinion of 1 february 2011)
+possible to do so. In that eventuality, the State of origin is required . . . to 
+exert its best possible efforts to minimize the risk. In this sense, it does not 
+guarantee that the harm would not occur. (Paragraph 7)
+The content of the “due diligence” obligation to ensure
+117. The content of “due diligence” obligations may not easily be 
+described in precise terms. Among the factors that make such a description 
+difficult is the fact that “due diligence” is a variable concept. It may change 
+over time as measures considered sufficiently diligent at a certain moment may 
+become not diligent enough in light, for instance, of new scientific or technological knowledge. It may also change in relation to the risks involved in the 
+activity. As regards activities in the Area, it seems reasonable to state that 
+prospecting is, generally speaking, less risky than exploration activities which, 
+in turn, entail less risk than exploitation. Moreover, activities in the Area concerning different kinds of minerals, for example, polymetallic nodules on the 
+one hand and polymetallic sulphides or cobalt rich ferromanganese crusts on 
+the other, may require different standards of diligence. The standard of due 
+diligence has to be more severe for the riskier activities.
+118. Article 153, paragraph 4, last sentence, of the Convention states that 
+the obligation of the sponsoring State in accordance with article 139 of the 
+Convention entails “taking all measures necessary to ensure” compliance by 
+the sponsored contractor. Annex III, article 4, paragraph 4, of the Convention 
+makes it clear that sponsoring States’ “responsibility to ensure” applies “within 
+their legal systems”. With these indications the Convention provides some 
+elements concerning the content of the “due diligence” obligation to ensure. 
+Necessary measures are required and these must be adopted within the legal 
+system of the sponsoring State.
+119. Further light on the expression “measures necessary to ensure” is 
+shed by the Convention if one considers article 139, paragraph 2, last sentence, 
+and Annex III, article 4, paragraph 4, last sentence, of the Convention. The 
+main purpose of these provisions is to exempt sponsoring States that have 
+taken certain measures from liability for damage. The description of the measures to be taken by that State may also be used to clarify its “due diligence” 
+obligation. This description remains in general terms in article 139, paragraph 
+2, of the Convention which mentions “all necessary and appropriate measures 
+to secure effective compliance under article 153, paragraph 4, and Annex III, 
+article 4, paragraph 4”. The latter provision is more specific as it requires the 
+sponsoring State to adopt “laws and regulations” and to take “administrative 
+responsibilities and obligations of states with respect to 44
+activities in the area (advisory opinion of 1 february 2011)
+measures which are, within the framework of its legal system, reasonably 
+appropriate for securing compliance by persons under its jurisdiction”.
+120. More specific indications concerning the content of these measures, 
+including aspects relating to their enforcement, with respect to the contents of 
+these measures will be provided in the reply to Question 3. As regards Question 
+1, it has been established that the “due diligence” obligation “to ensure” 
+requires the sponsoring State to take measures within its legal system and that 
+the measures must be “reasonably appropriate”.
+V. Direct obligations of sponsoring States
+121. The obligations of sponsoring States are not limited to the due diligence “obligation to ensure”. Under the Convention and related instruments, 
+sponsoring States also have obligations with which they have to comply independently of their obligation to ensure a certain behaviour by the sponsored 
+contractor. These obligations may be characterized as “direct obligations”.
+122. Among the most important of these direct obligations incumbent on 
+sponsoring States are: the obligation to assist the Authority in the exercise of 
+control over activities in the Area; the obligation to apply a precautionary 
+approach; the obligation to apply best environmental practices; the obligation 
+to take measures to ensure the provision of guarantees in the event of an emergency order by the Authority for protection of the marine environment; the 
+obligation to ensure the availability of recourse for compensation in respect of 
+damage caused by pollution; and the obligation to conduct environmental 
+impact assessments. These obligations will be examined in paragraphs 
+124-150.
+123. It must nevertheless be stated, at the outset, that compliance with 
+these obligations can also be seen as a relevant factor in meeting the due diligence “obligation to ensure” and that the said obligations are in most cases 
+couched as obligations to ensure compliance with a specific rule.
+responsibilities and obligations of states with respect to 45
+activities in the area (advisory opinion of 1 february 2011)
+The obligation to assist the Authority
+124. Pursuant to the last sentence of article 153, paragraph 4, of the 
+Convention, sponsoring States have the obligation to assist the Authority in its 
+task of controlling activities in the Area for the purpose of ensuring compliance 
+with the relevant provisions of Part XI of the Convention and related instruments. This obligation is to be met “by taking all measures necessary to ensure 
+such compliance in accordance with article 139”. The obligation of the sponsoring States is a direct one, but it is to be met through compliance with the 
+“due diligence obligation” set out in article 139 of the Convention.
+Precautionary approach
+125. The Nodules Regulations and the Sulphides Regulations contain 
+provisions that establish a direct obligation for sponsoring States. This obligation is relevant for implementing the “responsibility to ensure” that sponsored 
+contractors meet the obligations set out in Part XI of the Convention and 
+related instruments. These are regulation 31, paragraph 2, of the Nodules 
+Regulations and regulation 33, paragraph 2, of the Sulphides Regulations, both 
+of which state that sponsoring States (as well as the Authority) “shall apply a 
+precautionary approach, as reflected in Principle 15 of the Rio Declaration” in 
+order “to ensure effective protection for the marine environment from harmful 
+effects which may arise from activities in the Area”.
+126. Principle 15 of the 1992 Rio Declaration on Environment and 
+Development (hereinafter “the Rio Declaration”) reads:
+In order to protect the environment, the precautionary approach shall be 
+widely applied by States according to their capabilities. Where there are 
+threats of serious or irreversible damage, lack of full scientific certainty 
+shall not be used as a reason for postponing cost-effective measures to 
+prevent environmental degradation.
+127. The provisions of the aforementioned Regulations transform this 
+non-binding statement of the precautionary approach in the Rio Declaration 
+into a binding obligation. The implementation of the precautionary approach 
+as defined in these Regulations is one of the obligations of sponsoring States.
+responsibilities and obligations of states with respect to 46
+activities in the area (advisory opinion of 1 february 2011)
+128. It should be noted that while the first sentence of Principle 15 seems 
+to refer in general terms to the “precautionary approach”, the second 
+sentence limits its scope to threats of “serious or irreversible damage” and to 
+“cost-effective” measures adopted in order to prevent “environmental 
+degradation”.
+129. Moreover, by stating that the precautionary approach shall be applied 
+by States “according to their capabilities”, the first sentence of Principle 15 
+introduces the possibility of differences in application of the precautionary 
+approach in light of the different capabilities of each State (see paragraphs 
+151-163).
+130. The reference to the precautionary approach as set out in the two 
+Regulations applies specifically to the activities envisaged therein, namely, 
+prospecting and exploration for polymetallic nodules and polymetallic sulphides. It is to be expected that the Authority will either repeat or further develop 
+this approach when it regulates exploitation activities and activities concerning 
+other types of minerals.
+131. Having established that under the Nodules Regulations and the 
+Sulphides Regulations, both sponsoring States and the Authority are under an 
+obligation to apply the precautionary approach in respect of activities in the 
+Area, it is appropriate to point out that the precautionary approach is also an 
+integral part of the general obligation of due diligence of sponsoring States, 
+which is applicable even outside the scope of the Regulations. The due diligence obligation of the sponsoring States requires them to take all appropriate 
+measures to prevent damage that might result from the activities of contractors 
+that they sponsor. This obligation applies in situations where scientific evidence concerning the scope and potential negative impact of the activity in 
+question is insufficient but where there are plausible indications of potential 
+risks. A sponsoring State would not meet its obligation of due diligence if it 
+disregarded those risks. Such disregard would amount to a failure to comply 
+with the precautionary approach.
+132. The link between an obligation of due diligence and the precautionary approach is implicit in the Tribunal’s Order of 27 August 1999 in the 
+Southern Bluefin Tuna Cases (New Zealand v. Japan; Australia v. Japan). 
+This emerges from the declaration of the Tribunal that the parties “should in 
+the circumstances act with prudence and caution to ensure that conservation 
+measures are taken . . .” (ITLOS Reports 1999, p. 274, at paragraph 77), and is 
+confirmed by the further statements that “there is scientific uncertainty regarding measures to be taken to conserve the stock of southern bluefin tuna” 
+responsibilities and obligations of states with respect to 47
+activities in the area (advisory opinion of 1 february 2011)
+(paragraph 79) and that “although the Tribunal cannot conclusively assess the 
+scientific evidence presented by the parties, it finds that measures should be 
+taken as a matter of urgency” (paragraph 80).
+133. It should be further noted that the Sulphides Regulations, Annex 4, 
+section 5.1, in setting out a “standard clause” for exploration contracts, provides that:
+The Contractor shall take necessary measures to prevent, reduce and control pollution and other hazards to the marine environment arising from its 
+activities in the Area as far as reasonably possible applying a precautionary approach and best environmental practices.
+Thus, the precautionary approach (called “principle” in the French text of the 
+standard clause just mentioned) is a contractual obligation of the sponsored 
+contractors whose compliance the sponsoring State has the responsibility to 
+ensure.
+134. In the parallel provision of the corresponding standard clauses for 
+exploration contracts in the Nodules Regulations, Annex 4, section 5.1, no 
+reference is made to the precautionary approach. However, under the general 
+obligation illustrated in paragraph 131, the sponsoring State has to take measures within the framework of its own legal system in order to oblige sponsored entities to adopt such an approach.
+135. The Chamber observes that the precautionary approach has been 
+incorporated into a growing number of international treaties and other instruments, many of which reflect the formulation of Principle 15 of the Rio 
+Declaration. In the view of the Chamber, this has initiated a trend towards 
+making this approach part of customary international law. This trend is clearly 
+reinforced by the inclusion of the precautionary approach in the Regulations 
+and in the “standard clause” contained in Annex 4, section 5.1, of the Sulphides 
+Regulations. So does the following statement in paragraph 164 of the ICJ 
+Judgment in Pulp Mills on the River Uruguay that “a precautionary approach 
+may be relevant in the interpretation and application of the provisions of the 
+Statute” (i.e., the environmental bilateral treaty whose interpretation was the 
+main bone of contention between the parties). This statement may be read in 
+light of article 31, paragraph 3(c), of the Vienna Convention, according to 
+which the interpretation of a treaty should take into account not only the context but “any relevant rules of international law applicable in the relations 
+between the parties”.
+responsibilities and obligations of states with respect to 48
+activities in the area (advisory opinion of 1 february 2011)
+Best environmental practices
+136. Moreover, regulation 33, paragraph 2, of the Sulphides Regulations 
+supplements the sponsoring State’s obligation to apply the precautionary 
+approach with an obligation to apply “best environmental practices”. The same 
+obligation is established as a contractual obligation in section 5.1 of Annex 4 
+(Standard Clauses for exploration contracts) of the Sulphides Regulations. 
+There is no reference to “best environmental practices” in the Nodules 
+Regulations; their standard contract clause (Annex 4, section 5.1), merely 
+refers to the “best technology” available to the contractor. The adoption of 
+higher standards in the more recent Sulphides Regulations would seem to 
+indicate that, in light of the advancement in scientific knowledge, member 
+States of the Authority have become convinced of the need for sponsoring 
+States to apply “best environmental practices” in general terms so that they 
+may be seen to have become enshrined in the sponsoring States’ obligation of 
+due diligence.
+137. In the absence of a specific reason to the contrary, it may be held that 
+the Nodules Regulations should be interpreted in light of the development of 
+the law, as evidenced by the subsequent adoption of the Sulphides 
+Regulations.
+Guarantees in the event of an emergency order by the Authority for protection of the marine environment
+138. Another obligation which is directly incumbent on the sponsoring 
+State is set out in regulation 32, paragraph 7, of the Nodules Regulations and 
+in regulation 35, paragraph 8, of the Sulphides Regulations. This obligation 
+arises where the contractor has not provided the Council “with a guarantee of 
+its financial and technical capability to comply promptly with emergency 
+orders or to assure that the Council can take such emergency measures”. In 
+such a case, under regulation 32, paragraph 7, of the Nodules Regulations:
+the sponsoring State or States shall, in response to a request by the 
+Secretary-General and pursuant to articles 139 and 235 of the Convention, 
+take necessary measures to ensure that the contractor provides such a 
+guarantee or shall take measures to ensure that assistance is provided to the 
+Authority in the discharge of its responsibilities under paragraph 6.
+responsibilities and obligations of states with respect to 49
+activities in the area (advisory opinion of 1 february 2011)
+Regulation 35, paragraph 8, of the Sulphides Regulations contains an 
+identical provision.
+Availability of recourse for compensation
+139. Another direct obligation that gives substance to the sponsoring 
+State’s obligation to adopt laws and regulations within the framework of its 
+legal system is set out in article 235, paragraph 2, of the Convention. This 
+provision reads as follows:
+States shall ensure that recourse is available in accordance with their legal 
+systems for prompt and adequate compensation or other relief in respect 
+of damage caused by pollution of the marine environment by natural or 
+juridical persons under their jurisdiction.
+140. This provision applies to the sponsoring State as the State with jurisdiction over the persons that caused the damage. By requiring the sponsoring 
+State to establish procedures, and, if necessary, substantive rules governing 
+claims for damages before its domestic courts, this provision serves the purpose of ensuring that the sponsored contractor meets its obligation under 
+Annex III, article 22, of the Convention to provide reparation for damages 
+caused by wrongful acts committed in the course of its activities in the Area.
+VI. Environmental impact assessment
+141. The obligation of the contractor to conduct an environmental impact 
+assessment is explicitly set out in section 1, paragraph 7, of the Annex to the 
+1994 Agreement as follows: “An application for approval of a plan of work 
+shall be accompanied by an assessment of the potential environmental impacts 
+of the proposed activities . . . ”. The sponsoring State is under a due diligence 
+obligation to ensure compliance by the sponsored contractor with this 
+obligation.
+142. Regulation 31, paragraph 6, of the Nodules Regulations and regulation 33, paragraph 6, of the Sulphides Regulations establish a direct obligation 
+of the sponsoring State concerning environmental impact assessment, which 
+can also be read as a relevant factor for meeting the sponsoring State’s due 
+diligence obligation. This obligation is linked to the direct obligation of assisting the Authority considered at paragraph 124. The abovementioned provisions of the two Regulations read as follows: “[c]ontractors, sponsoring States 
+and other interested States or entities shall cooperate with the Authority in the 
+responsibilities and obligations of states with respect to 50
+activities in the area (advisory opinion of 1 february 2011)
+establishment and implementation of programmes for monitoring and evaluating the impacts of deep seabed mining on the marine environment”. This 
+provision is designed to clarify and ensure compliance with the sponsoring 
+State’s obligation to cooperate with the Authority in the exercise of the latter’s 
+control over activities in the Area under article 153, paragraph 4, of the 
+Convention, and of its general obligation of due diligence under article 139 
+thereof. The sponsoring State is obliged not only to cooperate with the 
+Authority in the establishment and implementation of impact assessments, but 
+also to use appropriate means to ensure that the contractor complies with its 
+obligation to conduct an environmental impact assessment.
+143. Contractors and sponsoring States must cooperate with the Authority 
+in the establishment of monitoring programmes to evaluate the impact 
+of deep seabed mining on the marine environment, particularly through the 
+creation of “impact reference zones” and “preservation reference zones” 
+(regulation 31, paragraphs 6 and 7, of the Nodules Regulations and regulation 
+33, paragraph 6, of the Sulphides Regulations). A comparison between environmental conditions in the “impact reference zone” and in the “preservation 
+reference zone” makes it possible to assess the impact of activities in 
+the Area.
+144. As clarified in paragraph 10 of the Recommendations for the 
+Guidance of the Contractors for the Assessment of the Possible Environmental 
+Impacts Arising from Exploration for Polymetallic Nodules in the Area, issued 
+by the Authority’s Legal and Technical Commission in 2002 pursuant to regulation 38 of the Nodules Regulations (ISBA/7/LTC/1/Rev.1 of 13 February 
+2002), certain activities require “prior environmental impact assessment, as 
+well as an environmental monitoring programme”. These activities are listed 
+in paragraph 10 (a) to (c) of the Recommendations.
+145. It should be stressed that the obligation to conduct an environmental 
+impact assessment is a direct obligation under the Convention and a general 
+obligation under customary international law.
+146. As regards the Convention, article 206 states the following:
+When States have reasonable grounds for believing that planned activities 
+under their jurisdiction or control may cause substantial pollution of or 
+significant and harmful changes to the marine environment, they shall, as 
+far as practicable, assess the potential effects of such activities on the 
+responsibilities and obligations of states with respect to 51
+activities in the area (advisory opinion of 1 february 2011)
+marine environment and shall communicate reports of the results of such 
+assessments in the manner provided in article 205.
+[Article 205 refers to an obligation to publish reports.]
+147. With respect to customary international law, the ICJ, in its Judgment 
+in Pulp Mills on the River Uruguay, speaks of:
+a practice, which in recent years has gained so much acceptance among 
+States that it may now be considered a requirement under general international law to undertake an environmental impact assessment where there 
+is a risk that the proposed industrial activity may have a significant adverse 
+impact in a transboundary context, in particular, on a shared resource. 
+Moreover, due diligence, and the duty of vigilance and prevention which 
+it implies, would not be considered to have been exercised, if a party planning works liable to affect the régime of the river or the quality of its 
+waters did not undertake an environmental impact assessment on the 
+potential effects of such works. (Paragraph 204)
+148. Although aimed at the specific situation under discussion by the 
+Court, the language used seems broad enough to cover activities in the Area 
+even beyond the scope of the Regulations. The Court’s reasoning in a transboundary context may also apply to activities with an impact on the environment in an area beyond the limits of national jurisdiction; and the Court’s 
+references to “shared resources” may also apply to resources that are the common heritage of mankind. Thus, in light of the customary rule mentioned by 
+the ICJ, it may be considered that environmental impact assessments should be 
+included in the system of consultations and prior notifications set out in article 
+142 of the Convention with respect to “resource deposits in the Area which lie 
+across limits of national jurisdiction”.
+149. It must, however, be observed that, in the view of the ICJ, general 
+international law does not “specify the scope and content of an environmental impact assessment” (paragraph 205 of the Judgment in Pulp Mills on the 
+River Uruguay). While article 206 of the Convention gives only few indications of this scope and content, the indications in the Regulations, and 
+especially in the Recommendations referred to in paragraph 144, add precision and specificity to the obligation as it applies in the context of activities 
+in the Area.
+responsibilities and obligations of states with respect to 52
+activities in the area (advisory opinion of 1 february 2011)
+150. In light of the above, the Chamber is of the view that the obligations 
+of the contractors and of the sponsoring States concerning environmental 
+impact assessments extend beyond the scope of application of specific provisions of the Regulations.
+VII. Interests and needs of developing States
+151. With respect to activities in the Area, the fifth preambular paragraph 
+of the Convention states that the achievement of the goals set out in previous 
+preambular paragraphs:
+will contribute to the realization of a just and equitable international economic order which takes into account the interests and needs of mankind 
+as a whole and, in particular, the special interests and needs of developing 
+countries, whether coastal or land-locked.
+152. Accordingly, it is necessary to examine whether developing sponsoring States enjoy preferential treatment as compared with that granted to developed sponsoring States under the Convention and related instruments.
+153. Under article 140, paragraph 1, of the Convention:
+Activities in the Area shall, as specifically provided for in this Part, be carried out for the benefit of mankind as a whole, irrespective of the geographical location of States, whether coastal or land-locked, and taking 
+into particular consideration the interests and needs of developing 
+States . . .
+154. According to article 148 of the Convention:
+The effective participation of developing States in activities in the Area 
+shall be promoted as specifically provided for in this Part, having due 
+regard to their special interests and needs, and in particular to the special 
+needs of the land-locked and geographically disadvantaged among them 
+to overcome obstacles arising from their disadvantaged location, including 
+remoteness from the Area and difficulty of access to and from it.
+155. These provisions develop, with respect to activities in the Area, the 
+statement in the fifth preambular paragraph of the Convention.
+responsibilities and obligations of states with respect to 53
+activities in the area (advisory opinion of 1 february 2011)
+156. For the purposes of the present Advisory Opinion, and in particular 
+of Question 1, it is important to determine the meaning of article 148 of the 
+Convention. According to this provision, the general purpose of promoting the 
+participation of developing States in activities in the Area taking into account 
+their special interests and needs is to be achieved “as specifically provided for” 
+in Part XI (an expression also found in article 140 of the Convention). This 
+means that there is no general clause for the consideration of such interests and 
+needs beyond what is provided for in specific provisions of Part XI of the 
+Convention. A perusal of Part XI shows immediately that there are several 
+provisions designed to ensure the participation of developing States in 
+activities in the Area and to take into particular consideration their interests 
+and needs.
+157. The approach of the Convention to this is particularly evident in the 
+provisions granting a preference to developing States that wish to engage in 
+mining in areas of the deep seabed reserved for the Authority (Annex III, 
+articles 8 and 9, of the Convention); in the obligation of States to promote 
+international cooperation in marine scientific research in the Area in order to 
+ensure that programmes are developed “for the benefit of developing States” 
+(article 143, paragraph 3, of the Convention); and in the obligation of the 
+Authority and of States Parties to promote the transfer of technology to developing States (article 144, paragraph 1, of the Convention and section 5 of the 
+Annex to the 1994 Agreement), and to provide training opportunities for personnel from developing States (article 144, paragraph 2, of the Convention and 
+section 5 of the Annex to the 1994 Agreement); in the permission granted to 
+the Authority in the exercise of its powers and functions to give special consideration to developing States, notwithstanding the rule against discrimination (article 152 of the Convention); and in the obligation of the Council to take 
+“into particular consideration the interests and needs of developing States” in 
+recommending, and approving, respectively, rules regulations and procedures 
+on the equitable sharing of financial and other benefits derived from activities 
+in the Area (articles 160, paragraph 2(f)(i), and 162, paragraph 2(o)(i), of the 
+Convention).
+158. However, none of the general provisions of the Convention concerning the responsibilities (or the liability) of the sponsoring State “specifically 
+provides” for according preferential treatment to sponsoring States that are 
+developing States. As observed above, there is no provision requiring the consideration of such interests and needs beyond what is specifically stated in Part 
+responsibilities and obligations of states with respect to 54
+activities in the area (advisory opinion of 1 february 2011)
+XI. It may therefore be concluded that the general provisions concerning the 
+responsibilities and liability of the sponsoring State apply equally to all sponsoring States, whether developing or developed.
+159. Equality of treatment between developing and developed sponsoring 
+States is consistent with the need to prevent commercial enterprises based in 
+developed States from setting up companies in developing States, acquiring 
+their nationality and obtaining their sponsorship in the hope of being subjected 
+to less burdensome regulations and controls. The spread of sponsoring States 
+“of convenience” would jeopardize uniform application of the highest standards of protection of the marine environment, the safe development of 
+activities in the Area and protection of the common heritage of mankind.
+160. These observations do not exclude that rules setting out direct obligations of the sponsoring State could provide for different treatment for developed and developing sponsoring States.
+161. As pointed out in paragraph 125, the provisions of the Nodules 
+Regulations and the Sulphides Regulations that set out the obligation for the 
+sponsoring State to apply a precautionary approach in ensuring effective protection of the marine environment refer to Principle 15 of the Rio Declaration. 
+As mentioned earlier, Principle 15 provides that the precautionary approach 
+shall be applied by States “according to their capabilities”. It follows that the 
+requirements for complying with the obligation to apply the precautionary 
+approach may be stricter for the developed than for the developing sponsoring 
+States. The reference to different capabilities in the Rio Declaration does not, 
+however, apply to the obligation to follow “best environmental practices” set 
+out, as mentioned above, in regulation 33, paragraph 2, of the Sulphides 
+Regulations.
+162. Furthermore, the reference to “capabilities” is only a broad and 
+imprecise reference to the differences in developed and developing States. 
+What counts in a specific situation is the level of scientific knowledge and 
+technical capability available to a given State in the relevant scientific and 
+technical fields.
+163. It should be pointed out that the fifth preambular paragraph of the 
+Convention emphasizes that the achievement of the goals of the Convention 
+will “contribute to the realization of a just and equitable international economic order which takes into account the interests and needs of mankind as a 
+whole and, in particular, the special interests and needs of developing countries, whether coastal or landlocked”. As noted above, article 148 of the 
+Convention speaks about the promotion of the effective participation of developing States in activities in the Area. What is more important is that Annex III, 
+responsibilities and obligations of states with respect to 55
+activities in the area (advisory opinion of 1 february 2011)
+article 9, paragraph 4, of the Convention specifically refers to the right of a 
+developing State or any natural or juridical person sponsored by it and effectively controlled by it, to inform the Authority that it wishes to submit a plan 
+of work with respect to a reserved area. These provisions have the effect of 
+reserving half of the proposed contract areas in favour of the Authority and 
+developing States. Together with those provisions mentioned in paragraph 
+157, they require effective implementation with a view to enabling the developing States to participate in deep seabed mining on an equal footing with 
+developed States. Developing States should receive necessary assistance 
+including training.
+Question 2
+164. The second question submitted to the Chamber is as follows:
+What is the extent of liability of a State Party for any failure to comply with 
+the provisions of the Convention in particular Part XI, and the 1994 
+Agreement, by an entity whom it has sponsored under Article 153, paragraph 2(b), of the Convention?
+I. Applicable provisions
+165. In replying to this question, the Chamber will proceed from article 
+139, paragraph 2, of the Convention, read in conjunction with the second sentence of Annex III, article 4, paragraph 4, of the Convention.
+166. Article 139, paragraph 2, of the Convention reads:
+Without prejudice to the rules of international law and Annex III, article 
+22, damage caused by the failure of a State Party or international organization to carry out its responsibilities under this Part shall entail liability; 
+States Parties or international organizations acting together shall bear joint 
+and several liability. A State Party shall not however be liable for damage 
+caused by any failure to comply with this Part by a person whom it has 
+sponsored under article 153, paragraph 2(b), if the State Party has taken all 
+responsibilities and obligations of states with respect to 56
+activities in the area (advisory opinion of 1 february 2011)
+necessary and appropriate measures to secure effective compliance under 
+article 153, paragraph 4, and Annex III, article 4, paragraph 4.
+167. Annex III, article 4, paragraph 4, second sentence, of the Convention 
+states:
+A sponsoring State shall not, however, be liable for damage caused 
+by any failure of a contractor sponsored by it to comply with its obligations 
+if that State Party has adopted laws and regulations and taken 
+administrative measures which are, within the framework of its legal 
+system, reasonably appropriate for securing compliance by persons under 
+its jurisdiction.
+168. The Chamber will further take into account articles 235 and 304 as 
+well as Annex III, article 22, of the Convention. Lastly, it will consider, as 
+appropriate, the relevant rules on liability set out in the Nodules Regulations 
+and the Sulphides Regulations. In this context, the Chamber notes that the 
+Regulations issued to date by the Authority deal only with prospecting and 
+exploration. Considering that the potential for damage, particularly to the 
+marine environment, may increase during the exploitation phase, it is to be 
+expected that member States of the Authority will further deal with the issue 
+of liability in future regulations on exploitation. The Chamber would like to 
+emphasize that it does not consider itself to be called upon to lay down such 
+future rules on liability. The member States of the Authority may, however, 
+take some guidance from the interpretation in this Advisory Opinion of the 
+pertinent rules on the liability of sponsoring States in the Convention.
+169. Since article 139, paragraph 2, and article 304 of the Convention 
+refer, respectively, to the “rules of international law” and to “the application of 
+existing rules and the development of further rules regarding responsibility and 
+liability under international law”, account will have to be taken of such rules 
+under customary law, especially in light of the ILC Articles on State 
+Responsibility. Several of these articles are considered to reflect customary 
+international law. Some of them, even in earlier versions, have been invoked 
+as such by the Tribunal (The M/V “SAIGA” (No. 2) Case (Saint Vincent and 
+the Grenadines v. Guinea), Judgment, ITLOS Reports 1999, p. 10, at paragraph 171) as well as by the ICJ (for example, Armed Activities on the Territory 
+of the Congo (Democratic Republic of Congo v. Uganda), Judgment, I.C.J. 
+Reports 2005, p. 168, at paragraph 160).
+responsibilities and obligations of states with respect to 57
+activities in the area (advisory opinion of 1 february 2011)
+II. Liability in general
+170. At the outset, the Chamber would like to state its understanding of 
+the system of liability in regard to sponsoring States as set out in the Convention 
+and related instruments.
+171. Article 139, paragraph 2, of the Convention and the related provisions referred to above, prescribe or refer to different sources of liability, 
+namely, rules concerning the liability of States Parties (article 139, paragraph 
+2, first sentence, of the Convention), rules concerning sponsoring State liability 
+(article 139, paragraph 2, second sentence, of the Convention), and rules concerning the liability of the contractor and the Authority (referred to in Annex 
+III, article 22, of the Convention). The “without prejudice” clause in the first 
+sentence of article 139, paragraph 2, of the Convention refers to the rules of 
+international law concerning the liability of States Parties and international 
+organizations. A reference to the international law rules on liability is also 
+contained in article 304 of the Convention. The Chamber considers that these 
+rules supplement the rules concerning the liability of the sponsoring State set 
+out in the Convention.
+172. From the wording of article 139, paragraph 2, of the Convention, it 
+is evident that liability arises from the failure of the sponsoring State to carry 
+out its own responsibilities. The sponsoring State is not, however, liable for the 
+failure of the sponsored contractor to meet its obligations (see paragraph 
+182).
+173. There is, however, a link between the liability of the sponsoring State 
+and the failure of the sponsored contractor to comply with its obligations, 
+thereby causing damage. An examination of article 139 of the Convention and 
+Annex III, article 4, paragraph 4, second sentence, of the Convention will 
+establish more precisely the link between the damage caused by the contractor 
+and the sponsoring State’s liability (see paragraph 181).
+174. Whereas the first sentence of article 139, paragraph 2, of the 
+Convention covers the failure of States Parties, including sponsoring States, to 
+carry out their responsibilities in general, the second sentence deals only with 
+the liability of sponsoring States.
+III. Failure to carry out responsibilities
+175. The Chamber will now turn to the interpretation of the elements 
+constituting liability as set out in article 139, paragraph 2, of the Convention, 
+read in conjunction with Annex III, article 4, paragraph 4, of the Convention.
+responsibilities and obligations of states with respect to 58
+activities in the area (advisory opinion of 1 february 2011)
+176. The wording of article 139, paragraph 2, of the Convention clearly 
+establishes two conditions for liability to arise: the failure of the sponsoring 
+State to carry out its responsibilities (see paragraphs 64 to 71 on the meaning 
+of key terms); and the occurrence of damage.
+177. The failure of a sponsoring State to carry out its responsibilities, 
+referred to in article 139, paragraph 2, of the Convention, may consist in an act 
+or an omission that is contrary to that State’s responsibilities under the deep 
+seabed mining regime. Whether a sponsoring State has carried out its responsibilities depends primarily on the requirements of the obligation which the 
+sponsoring State is said to have breached. As stated above in the reply to 
+Question 1 (see paragraph 121), sponsoring States have both direct obligations 
+of their own and obligations in relation to the activities carried out by sponsored contractors. The nature of these obligations also determines the scope of 
+liability. Whereas the liability of the sponsoring State for failure to meet its 
+direct obligations is governed exclusively by the first sentence of article 139, 
+paragraph 2, of the Convention, its liability for failure to meet its obligations 
+in relation to damage caused by a sponsored contractor is covered by both the 
+first and second sentences of the same paragraph.
+IV. Damage
+178. As stated above, according to the first sentence of article 139, paragraph 2, of the Convention, the failure of a sponsoring State to carry out its 
+responsibilities entails liability only if there is damage. This provision covers 
+neither the situation in which the sponsoring State has failed to carry out its 
+responsibilities but there has been no damage, nor the situation in which there 
+has been damage but the sponsoring State has met its obligations. This constitutes an exception to the customary international law rule on liability since, as 
+stated in the Rainbow Warrior Arbitration (Case concerning the difference 
+between New Zealand and France concerning the interpretation or application of two agreements, concluded on 9 July 1986 between the two States and 
+which related to the problems arising from the Rainbow Warrior Affair, 
+UNRIAA, 1990, vol. XX, p. 215, at paragraph 110), and in paragraph 9 of the 
+Commentary to article 2 of the ILC Articles on State Responsibility, a State 
+may be held liable under customary international law even if no material damage results from its failure to meet its international obligations.
+responsibilities and obligations of states with respect to 59
+activities in the area (advisory opinion of 1 february 2011)
+179. Neither the Convention nor the relevant Regulations (regulation 30 
+of the Nodules Regulations and regulation 32 of the Sulphides Regulations) 
+specifies what constitutes compensable damage, or which subjects may be 
+entitled to claim compensation. It may be envisaged that the damage in question would include damage to the Area and its resources constituting the common heritage of mankind, and damage to the marine environment. Subjects 
+entitled to claim compensation may include the Authority, entities engaged in 
+deep seabed mining, other users of the sea, and coastal States.
+180. No provision of the Convention can be read as explicitly entitling the 
+Authority to make such a claim. It may, however, be argued that such entitlement is implicit in article 137, paragraph 2, of the Convention, which states 
+that the Authority shall act “on behalf” of mankind. Each State Party may also 
+be entitled to claim compensation in light of the erga omnes character of the 
+obligations relating to preservation of the environment of the high seas and in 
+the Area. In support of this view, reference may be made to article 48 of the 
+ILC Articles on State Responsibility, which provides:
+Any State other than an injured State is entitled to invoke the responsibility 
+of another State . . . if: (a) the obligation breached is owed to a group of 
+States including that State, and is established for the protection of a collective interest of the group; or (b) the obligation breached is owed to the 
+international community as a whole.
+Causal link between failure and damage
+181. Article 139, paragraph 2, first sentence, of the Convention refers to 
+“damage caused”, which clearly indicates the necessity of a causal link 
+between the damage and the failure of the sponsoring State to meet its responsibilities. The second sentence of article 139, paragraph 2, of the Convention 
+does not mention this causal link. It refers only to a causal link between the 
+activity of the sponsored contractor and the consequent damage. Nevertheless, 
+the Chamber is of the view that, in order for the sponsoring State’s liability to 
+arise, there must be a causal link between the failure of that State and the damage caused by the sponsored contractor.
+182. Article 139, paragraph 2, of the Convention establishes that sponsoring States are responsible for ensuring that activities in the Area are carried out 
+in conformity with Part XI of the Convention (see paragraph 108). This means 
+responsibilities and obligations of states with respect to 60
+activities in the area (advisory opinion of 1 february 2011)
+that the sponsoring State’s liability arises not from a failure of a private entity 
+but rather from its own failure to carry out its own responsibilities. In order for 
+the sponsoring State’s liability to arise, it is necessary to establish that there is 
+damage and that the damage was a result of the sponsoring State’s failure to 
+carry out its responsibilities. Such a causal link cannot be presumed and must 
+be proven. The rules on the liability of sponsoring States set out in article 139, 
+paragraph 2, of the Convention and in the related instruments are in line with 
+the rules of customary international law on this issue. Under international law, 
+the acts of private entities are not directly attributable to States except where 
+the entity in question is empowered to act as a State organ (article 5 of the ILC 
+Articles on State Responsibility) or where its conduct is acknowledged and 
+adopted by a State as its own (article 11 of the ILC Articles on State 
+Responsibility). As explained in the present paragraph, the liability regime 
+established in Annex III to the Convention and related instruments does not 
+provide for the attribution of activities of sponsored contractors to sponsoring 
+States.
+183. In the event that no causal link pertaining to the failure of the sponsoring States to carry out their responsibilities and the damage caused can be 
+established, the question arises whether they may nevertheless be held liable 
+under the customary international law rules on State responsibility. This issue 
+is dealt with in paragraphs 208 to 211.
+184. For these reasons, the Chamber concludes that the liability of sponsoring States arises from their failure to carry out their own responsibilities and 
+is triggered by the damage caused by sponsored contractors. There must be a 
+causal link between the sponsoring State’s failure and the damage, and such a 
+link cannot be presumed.
+V. Exemption from liability
+185. The Chamber will now direct its attention to the meaning of the 
+clause “shall not however be liable for damage” in article 139, paragraph 2, 
+second sentence, and in Annex III, article 4, paragraph 4, second sentence, of 
+the Convention.
+186. This clause provides for the exemption of the sponsoring State from 
+liability. Its effect is that, in the event that the sponsored contractor fails to 
+comply with the Convention, the Regulations or its contract, and such failure 
+results in damage, the sponsoring State cannot be held liable. The condition for 
+exemption of the sponsoring State from liability is that, as specified in article 
+139, paragraph 2, of the Convention, it has taken “all necessary and appropriate 
+responsibilities and obligations of states with respect to 61
+activities in the area (advisory opinion of 1 february 2011)
+measures to secure effective compliance” under article 153, paragraph 4, and 
+Annex III, article 4, paragraph 4, of the Convention.
+187. It may be pointed out that Annex III, article 4, paragraph 4, of the 
+Convention does not give sponsoring States unlimited discretionary powers 
+concerning the measures to be taken in order to avoid liability. This matter is 
+dealt with in detail in the reply to Question 3.
+VI. Scope of liability under the Convention
+188. The Chamber will now deal with the scope of liability under article 
+139, paragraph 2, second sentence, of the Convention. This requires addressing 
+several issues, namely, the standard of liability, multiple sponsorship, the 
+amount and form of compensation and the relationship between the liability of 
+the contractor and of the sponsoring State.
+Standard of liability
+189. With regard to the standard of liability, it was argued in the proceedings that the sponsoring State has strict liability, i.e., liability without fault. The 
+Chamber, however, would like to point out that liability for damage of the 
+sponsoring State arises only from its failure to meet its obligation of due diligence. This rules out the application of strict liability.
+Multiple sponsorship
+190. According to Annex III, article 4, paragraph 3, of the Convention, in 
+certain situations, applicants for contracts of exploration or exploitation may 
+require the sponsorship of more than one State Party. This occurs when the 
+applicant holds more than one nationality or where it holds the nationality of 
+one State and is controlled by another State or by nationals of another State.
+191. Neither article 139, paragraph 2, nor Annex III, article 4, paragraph 
+4, of the Convention, indicates how sponsoring States are to share their liability. The Nodules Regulations and the Sulphides Regulations also do not provide guidance in this respect, with an exception as far as the certification of 
+financial viability of the contractor is concerned. Such certification as required 
+under regulation 12, paragraph 5(c), of the Nodules Regulations and under 
+responsibilities and obligations of states with respect to 62
+activities in the area (advisory opinion of 1 february 2011)
+regulation 13, paragraph 4(c), of the Sulphides Regulations must be provided 
+by the State that controls the applicant. Consequently, in this case, a failure of 
+that State to comply with its obligations entails liability.
+192. Apart from the exception mentioned in paragraph 191, the provisions 
+of article 139, paragraph 2, of the Convention and related instruments dealing 
+with sponsorship do not differentiate between single and multiple sponsorship. 
+Accordingly, the Chamber takes the position that, in the event of multiple 
+sponsorship, liability is joint and several unless otherwise provided in the 
+Regulations issued by the Authority.
+Amount and form of compensation
+193. As regards the amount of compensation payable, it is pertinent to 
+refer again to Annex III, article 22, of the Convention, which states, with 
+respect to the Authority and the sponsored contractor, that “[l]iability in every 
+case shall be for the actual amount of damage.” In this context, note should be 
+taken of regulation 30 of the Nodules Regulations, the identical regulation 32 
+of the Sulphides Regulations, and the identical section 16.1 of the Standard 
+Clauses for exploration contracts (Annex 4 to the said Regulations).
+194. The obligation for a State to provide for a full compensation or restituto in integrum is currently part of customary international law. This conclusion was first reached by the Permanent Court of International Justice in the 
+Factory of Chorzów case (P.C.I.J. Series A, No. 17, p. 47). This obligation was 
+further reiterated by the International Law Commission. According to article 
+31, paragraph 1, of the ILC Articles on State Responsibility: “The responsible 
+State is under an obligation to make full reparation for the injury caused by the 
+internationally wrongful act”. The Chamber notes in this context that treaties 
+on specific topics, such as nuclear energy or oil pollution, provide for limitations on liability together with strict liability.
+195. In the light of the foregoing, it is the view of the Chamber that the 
+provisions concerning liability of the contractor for the actual amount of damage, referred to in paragraph 193, are equally valid with regard to the liability 
+of the sponsoring State.
+196. As far as the form of the reparation is concerned, the Chamber 
+wishes to refer to article 34 of the ILC Articles on State Responsibility. It 
+reads:
+Full reparation for the injury caused by the internationally wrongful act 
+shall take the form of restitution, compensation and satisfaction, either 
+responsibilities and obligations of states with respect to 63
+activities in the area (advisory opinion of 1 february 2011)
+singly or in combination, in accordance with the provisions of this 
+chapter.
+197. It is the view of the Chamber that the form of reparation will depend 
+on both the actual damage and the technical feasibility of restoring the situation 
+to the status quo ante.
+198. It should be noted that, according to regulation 30 of the Nodules 
+Regulations and regulation 32 of the Sulphides Regulations, the contractor 
+remains liable for damage even after the completion of the exploration phase. 
+In the view of the Chamber, this is equally valid for the liability of the sponsoring State.
+Relationship between the liability of the contractor and of the sponsoring 
+State
+199. Concerning the relationship between the contractor’s liability and 
+that of the sponsoring State, attention may be drawn to Annex III, article 22, 
+of the Convention. This provision reads as follows:
+The contractor shall have responsibility or liability for any damage arising 
+out of wrongful acts in the conduct of its operations, account being taken 
+of contributory acts or omissions by the Authority. Similarly, the Authority 
+shall have responsibility or liability for any damage arising out of wrongful acts in the exercise of its powers and functions, including violations 
+under article 168, paragraph 2, account being taken of contributory acts or 
+omissions by the contractor. Liability in every case shall be for the actual 
+amount of damage. (Emphasis added)
+200. No reference is made in this provision to the liability of sponsoring 
+States. It may therefore be deduced that the main liability for a wrongful act 
+committed in the conduct of the contractor’s operations or in the exercise of 
+the Authority’s powers and functions rests with the contractor and the 
+Authority, respectively, rather than with the sponsoring State. In the view of 
+the Chamber, this reflects the distribution of responsibilities for deep seabed 
+mining activities between the contractor, the Authority and the sponsoring 
+State.
+201. In this context, the question of whether the contractor and the sponsoring State bear joint and several liability was raised in the proceedings. 
+Nothing in the Convention and related instruments indicates that this is the 
+case. Joint and several liability arises where different entities have contributed 
+responsibilities and obligations of states with respect to 64
+activities in the area (advisory opinion of 1 february 2011)
+to the same damage so that full reparation can be claimed from all or any of 
+them. This is not the case under the liability regime established in article 139, 
+paragraph 2, of the Convention. As noted above, the liability of the sponsoring 
+State arises from its own failure to carry out its responsibilities, whereas the 
+contractor’s liability arises from its own non-compliance. Both forms of liability exist in parallel. There is only one point of connection, namely, that the 
+liability of the sponsoring State depends upon the damage resulting from 
+activities or omissions of the sponsored contractor (see paragraph 181). But, 
+in the view of the Chamber, this is merely a trigger mechanism. Such damage 
+is not, however, automatically attributable to the sponsoring State.
+202. If the contractor has paid the actual amount of damage, as required 
+under Annex III, article 22, of the Convention, in the view of the Chamber, 
+there is no room for reparation by the sponsoring State.
+203. The situation becomes more complex if the contractor has not covered the damage fully. It was pointed out in the proceedings that a gap in liability may occur if, notwithstanding the fact that the sponsoring State has taken 
+all necessary and appropriate measures, the sponsored contractor has caused 
+damage and is unable to meet its liability in full. It was further pointed out that 
+a gap in liability may also occur if the sponsoring State failed to meet its obligations but that failure is not causally linked to the damage. In their written and 
+oral statements, States Parties have expressed different views on this issue. 
+Some have argued that the sponsoring State has a residual liability, that is, the 
+liability to cover the damage not covered by the sponsored contractor although 
+the conditions for a liability of the sponsoring State under article 139, paragraph 2, of the Convention are not met. Other States Parties have taken the 
+opposite position.
+204. In the view of the Chamber, the liability regime established by article 
+139 of the Convention and in related instruments leaves no room for residual 
+liability. As outlined in paragraph 201, the liability of the sponsoring State and 
+the liability of the sponsored contractor exist in parallel. The liability of the 
+sponsoring State arises from its own failure to comply with its responsibilities 
+under the Convention and related instruments. The liability of the sponsored 
+contractor arises from its failure to comply with its obligations under its contract and its undertakings thereunder. As has been established, the liability of 
+the spons

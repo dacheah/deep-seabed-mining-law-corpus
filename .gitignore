@@ -1,5 +1,4 @@
 __pycache__/
 *.pyc
 site/
-capture/
 .DS_Store

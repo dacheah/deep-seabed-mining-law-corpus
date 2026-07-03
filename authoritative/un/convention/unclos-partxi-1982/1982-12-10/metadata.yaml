@@ -1,0 +1,54 @@
+corpus_id: un/convention/unclos-partxi-1982
+version_id: '1982-12-10'
+title: 'United Nations Convention on the Law of the Sea — Part XI: The Area (Articles 133–191)'
+short_title: UNCLOS Part XI (The Area)
+jurisdiction: international
+document_type: convention
+official_citation: United Nations Convention on the Law of the Sea, 10 December 1982, 1833 UNTS 3, Part
+  XI (arts. 133–191)
+authentic_languages:
+- ar
+- zh
+- en
+- fr
+- ru
+- es
+adoption_date: '1982-12-10'
+entry_into_force_date: '1994-11-16'
+source_url: https://www.un.org/depts/los/convention_agreements/texts/unclos/part11-1.htm
+source_publisher: United Nations Division for Ocean Affairs and the Law of the Sea (DOALOS), Office of
+  Legal Affairs
+source_is_official: true
+retrieval_date: '2026-07-03'
+retrieved_by: Cowork provenance-corpus-builder (approved web-fetch tool)
+original_format: txt
+original_filename: original.txt
+content_hash: sha256:3c02f3d1efcd32e41b4e07e1e0c824f9a140873234bfff62b57bb4d615000a06
+original_sha256: sha256:3c02f3d1efcd32e41b4e07e1e0c824f9a140873234bfff62b57bb4d615000a06
+text_sha256: sha256:3c02f3d1efcd32e41b4e07e1e0c824f9a140873234bfff62b57bb4d615000a06
+text_fidelity: extracted_unverified
+language: en
+authoritative_status: authentic_text
+license: un-materials-terms
+rights_note: 'DOALOS web text carries the notice: "The text may be used and reproduced freely by giving
+  acknowledgment to the Division. This is not an official document." UN materials used with attribution
+  to the United Nations; not relicensed.'
+capture_history:
+- date: '2026-07-03'
+  source_url: https://www.un.org/depts/los/convention_agreements/texts/unclos/part11-1.htm
+  original_sha256: sha256:3c02f3d1efcd32e41b4e07e1e0c824f9a140873234bfff62b57bb4d615000a06
+  note: Initial capture from DOALOS HTML (part11-1.htm..part11-5.htm), 2026-07-03.
+supersedes: null
+superseded_by: null
+related_documents:
+- un/agreement/unclos-partxi-impl-1994
+- itlos/advisory-opinion/sdc-area-2011
+provenance_note: English authentic text of UNCLOS Part XI (arts. 133–191), captured 2026-07-03 from the
+  five DOALOS per-Part HTML pages (part11-1.htm … part11-5.htm) via the approved web-fetch tool and assembled
+  into one file; markdown-extraction artifacts (joined article headings) were normalised, and the DOALOS
+  source's legacy glyph substitutions of the digit '1' as lowercase 'l' (e.g. art. 134(3), 161(3), 163(8),
+  168(2), 169(3)) were normalised to the authentic digit against the Convention text. This capture is
+  a text extraction, NOT a byte-exact PDF; a human-downloaded byte-exact official 'unclos_e.pdf' is a
+  recommended provenance upgrade. Part XI is modified by, and yields on conflict to, the 1994 Implementation
+  Agreement (see related_documents); the text stored here is the Convention text as adopted. Other five
+  authentic languages (ar, zh, fr, ru, es) not yet stored — recorded coverage gap (JC-003).
