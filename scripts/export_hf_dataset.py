@@ -47,7 +47,7 @@ def build_documents(metas):
 def _key(label):
     """Normalise a provision label so curated tags ('Art. 2') match structure units ('Article 2')."""
     if not label: return ""
-    s = re.sub(r"^\s*(art\.?|article|principle|guideline|section|para\.?|paragraph|\u00a7)\s*", "", str(label).strip().lower())
+    s = re.sub(r"^\s*(article|art\.?|paragraph|para\.?|principle|guideline|section|\u00a7)\s*", "", str(label).strip().lower())
     tok = s.split()[0] if s.split() else s
     return re.sub(r"[^a-z0-9]", "", tok)
 

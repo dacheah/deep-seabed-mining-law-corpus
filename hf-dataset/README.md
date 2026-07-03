@@ -31,7 +31,7 @@ A neutral, **provenance-first**, machine-readable record of the law governing mi
 
 - **Source of truth / build history:** https://github.com/OWNER/deep-seabed-mining-law-corpus
 - **Human-browsable site:** https://OWNER.github.io/deep-seabed-mining-law-corpus/
-- **2** instruments (2 verified against official sources) · **71** provisions · **251** neutral concept tags
+- **2** instruments (2 verified against official sources) · **71** provisions · **187** neutral concept tags
 
 ## Why this dataset is different
 
