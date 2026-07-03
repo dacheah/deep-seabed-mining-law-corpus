@@ -55,8 +55,9 @@ flagged, for the equally-authoritative other languages.
 **Decision:** read the authoritative-language statement **off the opinion itself** at ingestion (ITLOS
 states which of the English/French texts is authoritative, per Rules art. 125) and record it in
 `provenance_note` + `authentic_languages`. Do not assume.
-**Resolution:** recorded during ingestion of `itlos/advisory-opinion/sdc-area-2011` — see that record's
-`provenance_note`.
+**Resolution (2026-07-03):** the opinion's closing states "Done in English and French, **both texts
+being authoritative**" — so English and French are equally authentic. Recorded in the record's
+`authentic_languages` (`en`, `fr`) and `provenance_note`; the French authentic text is a coverage gap (JC-003).
 
 ---
 
