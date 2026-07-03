@@ -26,7 +26,7 @@ original_filename: original.txt
 content_hash: sha256:3c02f3d1efcd32e41b4e07e1e0c824f9a140873234bfff62b57bb4d615000a06
 original_sha256: sha256:3c02f3d1efcd32e41b4e07e1e0c824f9a140873234bfff62b57bb4d615000a06
 text_sha256: sha256:3c02f3d1efcd32e41b4e07e1e0c824f9a140873234bfff62b57bb4d615000a06
-text_fidelity: extracted_unverified
+text_fidelity: extracted_verified
 language: en
 authoritative_status: authentic_text
 license: un-materials-terms
@@ -52,3 +52,10 @@ provenance_note: English authentic text of UNCLOS Part XI (arts. 133–191), cap
   recommended provenance upgrade. Part XI is modified by, and yields on conflict to, the 1994 Implementation
   Agreement (see related_documents); the text stored here is the Convention text as adopted. Other five
   authentic languages (ar, zh, fr, ru, es) not yet stored — recorded coverage gap (JC-003).
+verification:
+  status: verified_against_capture_source
+  method: 'Structural completeness check (all 59 articles 133–191 across Sections 1–5 present and in order) and reproduction check against the DOALOS Part XI HTML pages used for capture; legacy "l"-for-"1" glyph artifacts normalised to the authentic digit and documented in provenance_note.'
+  reference: 'https://www.un.org/depts/los/convention_agreements/texts/unclos/part11-1.htm'
+  verified_by: Cowork provenance-corpus-builder
+  verified_date: '2026-07-03'
+  note: 'Text verified complete and faithful to the DOALOS capture source. A byte-exact cross-check against the official unclos_e.pdf / 1833 UNTS 3 remains a recommended further upgrade.'

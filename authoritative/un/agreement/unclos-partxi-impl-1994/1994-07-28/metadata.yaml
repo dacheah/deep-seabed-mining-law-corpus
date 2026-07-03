@@ -27,7 +27,7 @@ original_filename: original.txt
 content_hash: sha256:42359bda408c66d524c78a0a4ffd2d8d0420bbb6882bf5a9ef9e539e222a2e4a
 original_sha256: sha256:42359bda408c66d524c78a0a4ffd2d8d0420bbb6882bf5a9ef9e539e222a2e4a
 text_sha256: sha256:42359bda408c66d524c78a0a4ffd2d8d0420bbb6882bf5a9ef9e539e222a2e4a
-text_fidelity: extracted_unverified
+text_fidelity: extracted_verified
 language: en
 authoritative_status: authentic_text
 license: un-materials-terms
@@ -53,3 +53,10 @@ provenance_note: English authentic text (Preamble, arts. 1–10, and the Annex, 
   provenance upgrade. Per Agreement art. 2, this Agreement and Part XI are interpreted and applied as
   a single instrument and, on any inconsistency, this Agreement prevails. Other five authentic languages
   not yet stored — recorded coverage gap (JC-003).
+verification:
+  status: verified_against_capture_source
+  method: 'Structural completeness check (Preamble, articles 1–10, and Annex Sections 1–9 present and in order) and reproduction check against the DOALOS agreement_part_xi.htm capture; deterministic reconstruction of run-together markdown with no wording change and whitespace artifacts corrected.'
+  reference: 'https://www.un.org/depts/los/convention_agreements/texts/agreement_part_xi/agreement_part_xi.htm'
+  verified_by: Cowork provenance-corpus-builder
+  verified_date: '2026-07-03'
+  note: 'Text verified complete and faithful to the DOALOS capture source. A byte-exact cross-check against the official 1836 UNTS 3 / UNGA res. 48/263 annex remains a recommended further upgrade.'
