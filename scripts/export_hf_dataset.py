@@ -86,10 +86,10 @@ def card(docs, provs, repo_id):
     today = datetime.date.today().isoformat()
     fm = []
     fm.append("---")
-    fm.append("pretty_name: MY CORPUS")
+    fm.append("pretty_name: Deep Seabed Mining Law Corpus")
     fm.append("license: other")
     fm.append("license_name: mixed-provenance")
-    fm.append("license_link: https://github.com/OWNER/REPO/blob/main/docs/design/04-licensing-policy.md")
+    fm.append("license_link: https://github.com/OWNER/deep-seabed-mining-law-corpus/blob/main/docs/design/04-licensing-policy.md")
     fm.append("language:")
     for l in langs: fm.append("- " + l)
     fm.append("tags:")
@@ -116,14 +116,16 @@ def card(docs, provs, repo_id):
                    + " | " + str(d.get("adoption_date") or "") + " | `" + str(d.get("text_fidelity")) + "` |")
 
     b = []
-    b.append("# MY CORPUS")
+    b.append("# Deep Seabed Mining Law Corpus")
     b.append("")
-    b.append("A neutral, **provenance-first**, machine-readable record of international and national space law. "
+    b.append("A neutral, **provenance-first**, machine-readable record of the law governing mineral resources of "
+             "\"the Area\" (the seabed beyond national jurisdiction): the international ISA/UNCLOS regime and the "
+             "US non-UNCLOS parallel track. "
              "Every record carries its official source, retrieval date, citation, language, an authoritative-status "
              "flag, and a SHA-256 content hash; texts are verified against official sources.")
     b.append("")
-    b.append("- **Source of truth / build history:** https://github.com/OWNER/REPO")
-    b.append("- **Human-browsable site:** https://OWNER.github.io/REPO/")
+    b.append("- **Source of truth / build history:** https://github.com/OWNER/deep-seabed-mining-law-corpus")
+    b.append("- **Human-browsable site:** https://OWNER.github.io/deep-seabed-mining-law-corpus/")
     b.append("- **" + str(len(docs)) + "** instruments (" + str(verified) + " verified against official sources) · **"
              + str(len(provs)) + "** provisions · **" + str(n_tags) + "** neutral concept tags")
     b.append("")
@@ -159,7 +161,7 @@ def card(docs, provs, repo_id):
     b.append("**Mixed, and recorded per record.** The compilation, structure, and concept tags (the derived layer) "
              "are **CC BY 4.0**. **Source texts are not relicensed** — each keeps its own terms (e.g. UN-materials "
              "terms; public-domain government works), recorded in every row's `license` / `rights_note`. See the "
-             "[licensing policy](https://github.com/OWNER/REPO/blob/main/docs/design/04-licensing-policy.md).")
+             "[licensing policy](https://github.com/OWNER/deep-seabed-mining-law-corpus/blob/main/docs/design/04-licensing-policy.md).")
     b.append("")
     b.append("## Disclaimer")
     b.append("")
@@ -171,7 +173,7 @@ def card(docs, provs, repo_id):
     b.append("## Citation")
     b.append("")
     b.append("```")
-    b.append("MY CORPUS (AUTHOR NAME). https://github.com/OWNER/REPO")
+    b.append("Deep Seabed Mining Law Corpus (maintainers). https://github.com/OWNER/deep-seabed-mining-law-corpus")
     b.append("```")
     b.append("")
     b.append("_Dataset generated from the repository by `scripts/export_hf_dataset.py` on " + today + " — do not edit by hand._")
