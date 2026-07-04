@@ -29,9 +29,11 @@ jobs:
         with:
           script: |
             const fs = require('fs');
-            const body = fs.readFileSync('monitoring/last_report.md', 'utf8');
+            const report = fs.readFileSync('monitoring/last_report.md', 'utf8');
+            const body = `@${context.repo.owner} — one or more monitored deep-seabed-mining sources changed. `
+              + `Please triage the report below; nothing is ingested automatically.\n\n` + report;
             await github.rest.issues.create({
               owner: context.repo.owner, repo: context.repo.repo,
               title: `Source watch: monitored page(s) changed (${new Date().toISOString().slice(0,10)})`,
-              body, labels: ['source-watch']
+              body, labels: ['source-watch'], assignees: [context.repo.owner]
             });
