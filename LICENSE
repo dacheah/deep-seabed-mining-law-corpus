@@ -1,20 +1,37 @@
-PROPRIETARY — ALL RIGHTS RESERVED
+Deep Seabed Mining Law Corpus — Licensing
+=========================================
 
-Copyright © 2026 Daniel Cheah. All rights reserved.
+TWO DIFFERENT THINGS. Read both.
 
-This skill and its bundled scripts, schemas, and documentation (the "Skill") are
-proprietary and confidential, made available for the internal use of the copyright
-holder only.
+1) OUR CONTRIBUTIONS  ->  Creative Commons Attribution 4.0 International (CC BY 4.0)
+------------------------------------------------------------------------------
+The compilation, the derived layer (structure extraction, neutral concept tags,
+concept index), the schemas, the scripts, the design documents, this repository's
+own text, and the generated site are licensed under CC BY 4.0.
 
-No part of the Skill may be copied, reproduced, modified, published, distributed,
-sublicensed, sold, or used to provide a product or service to any third party, in
-whole or in part, without the prior written permission of the copyright holder. No
-license, express or implied, is granted to anyone by the mere availability or receipt
-of these files.
+   Human-readable deed: https://creativecommons.org/licenses/by/4.0/
+   Full legal code:     https://creativecommons.org/licenses/by/4.0/legalcode
 
-THE SKILL IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. IN NO EVENT SHALL THE
-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM
-OR IN CONNECTION WITH THE SKILL OR ITS USE.
+You are free to share and adapt these contributions for any purpose, even
+commercially, provided you give appropriate credit. Suggested attribution:
 
-Not legal advice. Before sharing this Skill with anyone, even under NDA, have an IP
-lawyer review or replace this notice with a binding agreement.
+   "Deep Seabed Mining Law Corpus" (github.com/dacheah/deep-seabed-mining-law-corpus),
+   used under CC BY 4.0.
+
+2) THE SOURCE TEXTS  ->  NOT relicensed; each keeps its own terms
+------------------------------------------------------------------------------
+The authoritative layer (authoritative/**/original.* and text.txt) reproduces
+official legal texts that are NOT covered by the licence above. Each document
+carries its own rights position in its metadata.yaml (license / rights_note):
+
+  - UN treaty texts (UNCLOS Part XI, 1994 Agreement): UN materials, used with
+    attribution to the United Nations.
+  - ISA instruments and the draft Mining Code: official ISA documents, attributed
+    to the International Seabed Authority.
+  - ITLOS 2011 Advisory Opinion: official ITLOS materials, attributed to ITLOS.
+  - US materials (DSHMRA; 15 CFR 970/971): U.S. Government works, public domain in
+    the United States.
+
+Nothing here is legal advice. The authoritative text of each instrument is the
+official original in its authentic language; translations, structure and concept
+tags are unofficial and derived. Always confirm against the cited official source.
