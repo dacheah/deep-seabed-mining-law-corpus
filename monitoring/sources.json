@@ -1,13 +1,95 @@
 {
-  "_comment": "Pages watched monthly by scripts/watch_sources.py. A change opens/updates a report for a maintainer to TRIAGE (it may be a new/amended instrument OR a cosmetic page update). Nothing is ingested automatically. Add ISA Council/LTC pages as the Mining Code advances (Phase 1, front-loaded watch).",
+  "_comment": "Pages watched monthly by scripts/watch_sources.py. A change opens/updates a report for a maintainer to TRIAGE (it may be a new/amended instrument OR a cosmetic page update). Nothing is ingested automatically. Add ISA Council/LTC pages as the Mining Code advances (Phase 1, front-loaded watch). [Expanded 2026-07-04: Mining Code drafts/standards/guidance, LTC, 31st session, ITLOS case list, US Federal Register DSM feed + NOAA.]",
   "sources": [
-    {"name": "ISA — The Mining Code (exploitation regulations)", "url": "https://www.isa.org.jm/the-mining-code/", "last_sha256": null},
-    {"name": "ISA — Exploration regulations", "url": "https://www.isa.org.jm/the-mining-code/exploration-regulations/", "last_sha256": null},
-    {"name": "ISA — Council documents", "url": "https://www.isa.org.jm/sessions/", "last_sha256": null},
-    {"name": "UN DOALOS — 1994 Part XI Implementation Agreement", "url": "https://www.un.org/depts/los/convention_agreements/texts/agreement_part_xi/agreement_part_xi.htm", "last_sha256": null},
-    {"name": "UN DOALOS — UNCLOS Part XI (The Area), Section 1", "url": "https://www.un.org/depts/los/convention_agreements/texts/unclos/part11-1.htm", "last_sha256": null},
-    {"name": "ITLOS — Case No. 17 (2011 Advisory Opinion)", "url": "https://www.itlos.org/en/main/cases/list-of-cases/case-no-17/", "last_sha256": null},
-    {"name": "US eCFR — 15 CFR Part 970 (NOAA deep seabed mining, exploration licences)", "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-D/part-970", "last_sha256": null},
-    {"name": "US eCFR — 15 CFR Part 971 (NOAA commercial recovery permits)", "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-D/part-971", "last_sha256": null}
+    {
+      "name": "ISA — The Mining Code (exploitation regulations)",
+      "url": "https://www.isa.org.jm/the-mining-code/",
+      "last_sha256": null
+    },
+    {
+      "name": "ISA — Exploration regulations",
+      "url": "https://www.isa.org.jm/the-mining-code/exploration-regulations/",
+      "last_sha256": null
+    },
+    {
+      "name": "ISA — Council documents",
+      "url": "https://www.isa.org.jm/sessions/",
+      "last_sha256": null
+    },
+    {
+      "name": "UN DOALOS — 1994 Part XI Implementation Agreement",
+      "url": "https://www.un.org/depts/los/convention_agreements/texts/agreement_part_xi/agreement_part_xi.htm",
+      "last_sha256": null
+    },
+    {
+      "name": "UN DOALOS — UNCLOS Part XI (The Area), Section 1",
+      "url": "https://www.un.org/depts/los/convention_agreements/texts/unclos/part11-1.htm",
+      "last_sha256": null
+    },
+    {
+      "name": "ITLOS — Case No. 17 (2011 Advisory Opinion)",
+      "url": "https://www.itlos.org/en/main/cases/list-of-cases/case-no-17/",
+      "last_sha256": null
+    },
+    {
+      "name": "US eCFR — 15 CFR Part 970 (NOAA deep seabed mining, exploration licences)",
+      "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-D/part-970",
+      "last_sha256": null
+    },
+    {
+      "name": "US eCFR — 15 CFR Part 971 (NOAA commercial recovery permits)",
+      "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-D/part-971",
+      "last_sha256": null
+    },
+    {
+      "name": "ISA — Draft Exploitation Regulations (Mining Code drafts)",
+      "url": "https://isa.org.jm/the-mining-code/draft-exploitation-regulations-2/",
+      "last_sha256": null
+    },
+    {
+      "name": "ISA — Draft Standards and Guidelines (Mining Code)",
+      "url": "https://isa.org.jm/the-mining-code/standards-and-guidelines/",
+      "last_sha256": null
+    },
+    {
+      "name": "ISA — Mining Code Recommendations and guidance (LTC)",
+      "url": "https://isa.org.jm/mining-code-recommendations/",
+      "last_sha256": null
+    },
+    {
+      "name": "ISA — Exploitation: Official documents",
+      "url": "https://isa.org.jm/the-mining-code/official-documents/",
+      "last_sha256": null
+    },
+    {
+      "name": "ISA — Legal and Technical Commission",
+      "url": "https://isa.org.jm/organs/the-legal-and-technical-commission/",
+      "last_sha256": null
+    },
+    {
+      "name": "ISA — 31st session (2026)",
+      "url": "https://www.isa.org.jm/sessions/31st-session-2026/",
+      "last_sha256": null
+    },
+    {
+      "name": "ISA — The Council",
+      "url": "https://isa.org.jm/organs/the-council/",
+      "last_sha256": null
+    },
+    {
+      "name": "ITLOS — List of cases (new cases / advisory opinions)",
+      "url": "https://www.itlos.org/en/main/cases/",
+      "last_sha256": null
+    },
+    {
+      "name": "US Federal Register — deep seabed mining (newest docs, JSON)",
+      "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=deep+seabed+mining&order=newest&per_page=10",
+      "last_sha256": null
+    },
+    {
+      "name": "US NOAA — Deep Seabed Hard Minerals Mining",
+      "url": "https://oceanservice.noaa.gov/deep-seabed-mineral-resources/deep-seabed-mining/",
+      "last_sha256": null
+    }
   ]
 }
