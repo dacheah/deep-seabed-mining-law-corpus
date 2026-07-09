@@ -1,5 +1,7 @@
 # Deep Seabed Mining Law Corpus
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21279844.svg)](https://doi.org/10.5281/zenodo.21279844)
+
 A neutral, authoritative, machine-readable record of the law governing mineral resources of **"the
 Area"** — the seabed and subsoil beyond national jurisdiction — built **provenance-first**. It covers
 the international ISA/UNCLOS regime and, as a clearly-distinct parallel track, the US non-UNCLOS regime.
