@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this corpus, please cite it as below."
+title: "Deep Seabed Mining Law Corpus"
+abstract: "A neutral, provenance-first, machine-readable corpus of deep seabed mining law - UNCLOS Part XI, the ISA regime and draft Mining Code, the 2011 ITLOS Advisory Opinion, and the US regime - with per-text official source, retrieval date, citation, and SHA-256 content hash."
+type: dataset
+authors:
+  - family-names: Cheah
+    given-names: Daniel
+license: CC-BY-4.0
+repository-code: "https://github.com/dacheah/deep-seabed-mining-law-corpus"
+keywords:
+  - law of the sea
+  - UNCLOS
+  - deep seabed mining
+  - International Seabed Authority
+  - Mining Code
+  - provenance
+  - machine-readable law
+  - open data
