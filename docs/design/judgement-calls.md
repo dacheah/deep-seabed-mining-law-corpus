@@ -98,6 +98,4 @@ first-class, independently-hash-verified authentic text — none is treated as a
 sibling records in **five** authentic languages — EN (base), FR, ES, RU, ZH — all byte-exact
 reproducible by `scripts/extract.py`, all cross-linked, all concept-tagged (RU/ZH structure is parsed
 via `concepts.HEADER_PATTERNS_EXTRA`: `第N条` and the Cyrillic `Правило/Раздел/Часть/Приложение`
-headers; RU/ZH concept phrases were added to `concepts.KW`). Arabic is **held** — its official PDFs
-extract as visual-order presentation-form glyphs, which would corrupt an authoritative text (see
-docs/source-map.md, "Multilingual coverage & holds").
+headers; RU/ZH concept phrases were added to `concepts.KW`). Arabic is **held** — tested 2026-07-11: the PDFs are in logical order but carry font-encoded reversed ligature clusters (e.g. المجلس→اجمللس) that every extractor reproduces identically; a shaping-based reorder pass was measured and rejected (it corrupted more words than it fixed). Needs a properly-encoded source or Arabic-literate review (see docs/source-map.md, "Multilingual coverage & holds").

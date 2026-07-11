@@ -118,11 +118,7 @@ Official per-language PDFs (ISA Mining Code → Exploration Regulations page):
 - Chinese: `isba-19c-17_1-1.pdf` (nodules), `isba-16a-12rev1_1.pdf` (sulphides), `isba-18a-11_1.pdf` (crusts)
 
 ### Held (not ingested) — honest fidelity reasons
-- **Arabic ISA regulations.** The official Arabic PDFs extract as **Unicode presentation-form glyphs
-  (U+FB50–FEFF) in visual (RTL-rendered) order** — measured ~65k presentation-form vs ~11k base-Arabic
-  code points on the nodules text, i.e. ~85% non-canonical. Storing that would put reversed, non-canonical
-  text into an authoritative record. It is **held** pending either a logical-order Arabic source or a
-  verified NFKC-normalise + bidi-reorder pass (deferred: too error-prone to apply silently to legal text).
+- **Arabic ISA regulations — tested 2026-07-11, held.** The official Arabic PDFs store text in *logical* (correct reading) order but as Unicode presentation-form glyphs, and a subset of multi-letter **ligature clusters are stored with their component letters reversed** — e.g. «المجلس» (*the Council*) comes out as «اجمللس» in all 30 occurrences. `NFKC` normalisation fixes the glyph forms and recovers most words correctly (Authority, Area, Article, exploration, nodules all intact), but the reversed-ligature defect remains and is reproduced **identically by every extractor tried** (poppler pdftotext default/-raw/-layout; PyMuPDF) — it is baked into the PDF's font ToUnicode map, not an extractor choice. A shaping-position-based reorder pass was attempted and **rejected**: measured objectively over 14,449 tokens by Arabic shaping-validity it made things *worse* (42%→52% invalid), scrambling common words (التاسعة, جامايكا, يوليه). Held pending a **properly-encoded Arabic source** (e.g. a UN ODS text layer) or Arabic-literate review; algorithmic repair cannot reach authoritative fidelity without ground truth.
 - **1994 Implementation Agreement in Arabic / Chinese / Russian.** The freely-available UN document-system
   PDFs for A/RES/48/263 in these three languages are legacy-font-garbled (AR, RU) or image-only (ZH). Held
   pending clean digital sources. (The Agreement is already stored in English, French, and Spanish.)
