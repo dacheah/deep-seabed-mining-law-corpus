@@ -5,6 +5,7 @@ license_name: mixed-provenance
 license_link: https://github.com/dacheah/deep-seabed-mining-law-corpus/blob/main/docs/design/04-licensing-policy.md
 language:
 - en
+- fr
 tags:
 - legal
 - law
@@ -31,7 +32,7 @@ A neutral, **provenance-first**, machine-readable record of the law governing mi
 
 - **Source of truth / build history:** https://github.com/dacheah/deep-seabed-mining-law-corpus
 - **Human-browsable site:** https://dacheah.github.io/deep-seabed-mining-law-corpus/
-- **10** instruments (10 verified against official sources) · **959** provisions · **2336** neutral concept tags
+- **11** instruments (11 verified against official sources) · **1165** provisions · **2422** neutral concept tags
 
 ## Why this dataset is different
 
@@ -58,6 +59,7 @@ prov = load_dataset("dacheah/deep-seabed-mining-law-corpus", "provisions")
 | ISA Polymetallic Nodules Exploration Regulations (2013) | international | 2013-07-22 | `extracted_verified` |
 | ISA Polymetallic Sulphides Exploration Regulations (2010) | international | 2010-05-07 | `extracted_verified` |
 | 2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17) | international | 2011-02-01 | `extracted_verified` |
+| Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR] | international | 2011-02-01 | `extracted_verified` |
 | 1994 Part XI Implementation Agreement | international | 1994-07-28 | `extracted_verified` |
 | UNCLOS Part XI (The Area) | international | 1982-12-10 | `extracted_verified` |
 | 15 CFR 970 — DSM Exploration Licences (NOAA) | USA | 1981-09-15 | `extracted_verified` |
@@ -78,4 +80,4 @@ This is a **reference record, not legal advice**. The authoritative text of each
 Deep Seabed Mining Law Corpus (maintainers). https://github.com/dacheah/deep-seabed-mining-law-corpus
 ```
 
-_Dataset generated from the repository by `scripts/export_hf_dataset.py` on 2026-07-03 — do not edit by hand._
+_Dataset generated from the repository by `scripts/export_hf_dataset.py` on 2026-07-11 — do not edit by hand._

@@ -140,9 +140,33 @@ def clean_draft(raw: str, title_line: str) -> str:
     paras = [re.sub(r"\s+", " ", p).strip() for p in paras if p.strip()]
     return title_line + "\n\n" + "\n\n".join(paras) + "\n"
 
+
+def clean_ao_fr(raw: str) -> str:
+    m = re.search(r"AVIS CONSULTATIF\s*\nPrésents", raw); body = raw[m.start():]
+    H1 = "responsabilités et obligations des etats dans le cadre"
+    H2 = "d’activités menées dans la zone (avis consultatif du 1 février 2011)"
+    kept = []
+    for ln in body.split("\n"):
+        s = ln.strip()
+        if s == "\x0c" or s == "": kept.append(""); continue
+        low = s.lower()
+        if low == H1 or low == H2: continue
+        if re.fullmatch(r"\d{1,3}", s): continue
+        kept.append(s.replace("\x0c", ""))
+    t = "\n".join(kept)
+    for a, b in _LIG: t = t.replace(a, b)
+    t = re.sub(r"[ \t]*\n[ \t]*", " ", t); t = re.sub(r"\s+", " ", t).strip()
+    t = re.sub(r'(?<=[.\)\]»"”’:])\s+(\d{1,3}\.)\s+(?=[A-ZÀÂÉÈÊÎÏÔÙÛÜÇ«“"])', r"\n\n\1 ", t)
+    paras = [p.strip() for p in t.split("\n\n") if p.strip()]
+    title = ("Responsabilités et obligations des Etats qui patronnent des Personnes et des entités dans le "
+             "cadre d’activités menées dans la Zone — Avis consultatif du 1er février 2011 (TIDM, Chambre "
+             "pour le règlement des différends relatifs aux fonds marins, affaire n° 17)")
+    return title + "\n\n" + "\n\n".join(paras) + "\n"
+
 # ---- registry: corpus_id -> how to re-derive text from original.* ----------------------------
 PDF_EXTRACTORS = {
   "itlos/advisory-opinion/sdc-area-2011": lambda raw: clean_ao(raw),
+  "itlos/advisory-opinion/sdc-area-2011-fr": lambda raw: clean_ao_fr(raw),
   "usa/regulation/cfr15-970-2026": lambda raw: clean_cfr(raw, "970",
       "15 CFR Part 970 — Deep Seabed Mining Regulations for Exploration Licenses (up to date as of 1 July 2026)"),
   "usa/regulation/cfr15-971-2026": lambda raw: clean_cfr(raw, "971",

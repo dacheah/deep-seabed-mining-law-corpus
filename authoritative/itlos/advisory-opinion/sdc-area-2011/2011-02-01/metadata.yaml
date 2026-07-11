@@ -37,6 +37,7 @@ capture_history:
 supersedes: null
 superseded_by: null
 related_documents:
+- itlos/advisory-opinion/sdc-area-2011-fr
 - un/convention/unclos-partxi-1982
 - un/agreement/unclos-partxi-impl-1994
 - isa/regulation/nodules-2013
@@ -53,8 +54,12 @@ provenance_note: 'GAP CLOSED. This record supersedes the earlier authoritative_m
   the signatures of President Treves and Registrar Gautier.'
 verification:
   status: verified_against_official_source
-  method: 'Complete official ITLOS English PDF (72 pp.) parsed with pdftotext; verified to run from the bench composition through the operative reply (Replies to Questions 1-3) and the signatures; running headers/page numbers removed and font ligatures normalised with no wording change. original.pdf is the byte-exact official file (integrity anchor).'
-  reference: 'https://www.itlos.org/fileadmin/itlos/documents/cases/case_no_17/17_adv_op_010211_en.pdf'
+  method: Complete official ITLOS English PDF (72 pp.) parsed with pdftotext; verified to run from the
+    bench composition through the operative reply (Replies to Questions 1-3) and the signatures; running
+    headers/page numbers removed and font ligatures normalised with no wording change. original.pdf is
+    the byte-exact official file (integrity anchor).
+  reference: https://www.itlos.org/fileadmin/itlos/documents/cases/case_no_17/17_adv_op_010211_en.pdf
   verified_by: Cowork provenance-corpus-builder
   verified_date: '2026-07-03'
-  note: 'Supersedes the authoritative_missing placeholder (retained in Git history). JC-004 resolved: English and French both authoritative.'
+  note: 'Supersedes the authoritative_missing placeholder (retained in Git history). JC-004 resolved:
+    English and French both authoritative.'
