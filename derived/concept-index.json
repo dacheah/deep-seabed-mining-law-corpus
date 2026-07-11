@@ -98,6 +98,66 @@
         "unit": "Paragraph 5"
       },
       {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 71"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 75"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 76"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 82"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 148"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 153"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 159"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 179"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 222"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 226"
+      },
+      {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
         "version_id": "1994-07-28",
@@ -206,6 +266,30 @@
         "short_title": "US Deep Seabed Hard Mineral Resources Act (DSHMRA)",
         "version_id": "2023-01-01",
         "unit": "Section 1419. Protection of the environment."
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 34"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 82"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 89"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 156"
       },
       {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
@@ -412,6 +496,18 @@
         "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
         "version_id": "2011-02-01",
         "unit": "Paragraph 63"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 66"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+        "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 67"
       },
       {
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
@@ -975,7 +1071,433 @@
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
         "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
         "version_id": "2011-02-01",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 29"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 38"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
         "unit": "Paragraph 63"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 66"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 67"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 71"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 82"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 97"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 102"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 109"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 110"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 111"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 112"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 114"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 115"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 116"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 118"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 119"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 120"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 123"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 131"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 132"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 135"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 140"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 142"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 147"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 152"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 158"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 163"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 166"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 168"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 169"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 171"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 172"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 173"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 174"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 176"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 177"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 180"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 182"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 183"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 184"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 186"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 187"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 191"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 192"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 194"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 195"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 196"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 198"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 200"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 201"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 203"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 204"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 205"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 207"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 208"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 209"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 210"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 211"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 217"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 219"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 225"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 226"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 229"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 239"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 5"
       },
       {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
@@ -2044,6 +2566,510 @@
       {
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
         "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 5"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 6"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 7"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 10"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 11"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 12"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 13"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 15"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 16"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 17"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 19"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 21"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 23"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 26"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 27"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 29"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 30"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 32"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 33"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 34"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 35"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 37"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 40"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 41"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 43"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 45"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 49"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 53"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 59"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 60"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 71"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 75"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 76"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 80"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 83"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 84"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 85"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 86"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 95"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 100"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 102"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 104"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 105"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 106"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 122"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 123"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 130"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 131"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 135"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 137"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 142"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 143"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 144"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 157"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 163"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 168"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 171"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 179"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 180"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 192"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 198"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 200"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 205"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 209"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 217"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 219"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 225"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 226"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 230"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 231"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 232"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 233"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 235"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 236"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 238"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 240"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 241"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
         "version_id": "2011-02-01",
         "unit": "Paragraph 5"
       },
@@ -4435,6 +5461,24 @@
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
         "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
         "version_id": "2011-02-01",
+        "unit": "Paragraph 23"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 59"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 71"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
         "unit": "Paragraph 75"
       },
       {
@@ -4454,6 +5498,18 @@
         "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
         "version_id": "2011-02-01",
         "unit": "Paragraph 81"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 82"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 92"
       },
       {
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
@@ -4507,6 +5563,12 @@
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
         "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
         "version_id": "2011-02-01",
+        "unit": "Paragraph 116"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
         "unit": "Paragraph 118"
       },
       {
@@ -4520,6 +5582,12 @@
         "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
         "version_id": "2011-02-01",
         "unit": "Paragraph 123"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 130"
       },
       {
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
@@ -4585,7 +5653,19 @@
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
         "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
         "version_id": "2011-02-01",
+        "unit": "Paragraph 163"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
         "unit": "Paragraph 167"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 168"
       },
       {
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
@@ -7248,6 +8328,12 @@
         "unit": "Paragraph 4"
       },
       {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 163"
+      },
+      {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
         "version_id": "1994-07-28",
@@ -7876,6 +8962,12 @@
       {
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
         "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 157"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
         "version_id": "2011-02-01",
         "unit": "Paragraph 157"
       },
@@ -8529,6 +9621,42 @@
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
         "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
         "version_id": "2011-02-01",
+        "unit": "Paragraph 15"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 85"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 86"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 87"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 88"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 97"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
         "unit": "Paragraph 113"
       },
       {
@@ -8541,7 +9669,61 @@
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
         "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
         "version_id": "2011-02-01",
+        "unit": "Paragraph 123"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 127"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 128"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 129"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 130"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 131"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 132"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
         "unit": "Paragraph 133"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 134"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 135"
       },
       {
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
@@ -8559,7 +9741,43 @@
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
         "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
         "version_id": "2011-02-01",
+        "unit": "Paragraph 159"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 161"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 168"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 179"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
         "unit": "Paragraph 194"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 231"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 232"
       },
       {
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
@@ -8571,7 +9789,25 @@
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
         "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
         "version_id": "2011-02-01",
+        "unit": "Paragraph 240"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
         "unit": "Paragraph 241"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 5"
       },
       {
         "corpus_id": "un/convention/unclos-partxi-1982",
@@ -9274,6 +10510,36 @@
       {
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
         "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 140"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 142"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 145"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 147"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
         "version_id": "2011-02-01",
         "unit": "Paragraph 3"
       },
@@ -10098,6 +11364,12 @@
         "unit": "Paragraph 5"
       },
       {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 157"
+      },
+      {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994",
         "short_title": "1994 Part XI Implementation Agreement",
         "version_id": "1994-07-28",
@@ -10444,6 +11716,48 @@
       {
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
         "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 150"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 153"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 154"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 157"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 163"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
         "version_id": "2011-02-01",
         "unit": "Paragraph 3"
       },
@@ -11309,7 +12623,121 @@
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
         "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
         "version_id": "2011-02-01",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 100"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 102"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 109"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 118"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 119"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 123"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 140"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 142"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 166"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 167"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 186"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 214"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 215"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 217"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 222"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 228"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
         "unit": "Paragraph 234"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 4"
       },
       {
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
@@ -12396,6 +13824,150 @@
       {
         "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
         "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 6"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 7"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 8"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 24"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 27"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 30"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 33"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 35"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 37"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 39"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 41"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 45"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 47"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 49"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 56"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 60"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 97"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 156"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 168"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
+        "version_id": "2011-02-01",
+        "unit": "Paragraph 242"
+      },
+      {
+        "corpus_id": "itlos/advisory-opinion/sdc-area-2011-fr",
+        "short_title": "Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR]",
         "version_id": "2011-02-01",
         "unit": "Paragraph 2"
       },

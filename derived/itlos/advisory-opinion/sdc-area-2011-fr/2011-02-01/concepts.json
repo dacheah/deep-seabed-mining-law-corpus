@@ -27,23 +27,291 @@
   ],
   "tagging_method": "rule_based",
   "document_concepts": [
+    "benefit_sharing_and_financial_regime",
     "compliance_inspection_and_enforcement",
+    "definitions_and_scope",
+    "developing_states_special_interests",
+    "dispute_settlement_and_advisory_opinions",
+    "environmental_assessment_and_monitoring",
     "exploration_and_exploitation_system",
+    "isa_institutional_structure",
     "marine_environmental_protection",
     "protection_of_human_life_and_safety",
-    "sponsoring_state_responsibility_and_liability"
+    "reserved_areas_and_the_enterprise",
+    "sponsoring_state_responsibility_and_liability",
+    "technology_transfer_and_capacity",
+    "the_area_and_common_heritage"
   ],
   "tags": [
     {
-      "unit": "Paragraph 3",
+      "unit": "preamble/chapeau",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
+        "dispute_settlement_and_advisory_opinions"
       ]
     },
     {
       "unit": "Paragraph 1",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 3",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system",
+        "developing_states_special_interests",
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 6",
+      "concepts": [
+        "isa_institutional_structure",
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 7",
+      "concepts": [
+        "isa_institutional_structure",
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 8",
+      "concepts": [
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 10",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 11",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 12",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 13",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 15",
+      "concepts": [
+        "isa_institutional_structure",
+        "marine_environmental_protection"
+      ]
+    },
+    {
+      "unit": "Paragraph 16",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 17",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 19",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 21",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 1",
+      "concepts": [
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system",
+        "compliance_inspection_and_enforcement"
+      ]
+    },
+    {
+      "unit": "Paragraph 23",
+      "concepts": [
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
+      ]
+    },
+    {
+      "unit": "Paragraph 24",
+      "concepts": [
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 26",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 27",
+      "concepts": [
+        "isa_institutional_structure",
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 29",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 30",
+      "concepts": [
+        "isa_institutional_structure",
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 32",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 33",
+      "concepts": [
+        "isa_institutional_structure",
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 34",
+      "concepts": [
+        "definitions_and_scope",
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 35",
+      "concepts": [
+        "isa_institutional_structure",
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 37",
+      "concepts": [
+        "isa_institutional_structure",
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 38",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
+      ]
+    },
+    {
+      "unit": "Paragraph 39",
+      "concepts": [
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 40",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 41",
+      "concepts": [
+        "isa_institutional_structure",
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 1",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 2",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 43",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 45",
+      "concepts": [
+        "isa_institutional_structure",
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 47",
+      "concepts": [
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 49",
+      "concepts": [
+        "isa_institutional_structure",
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 53",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 56",
+      "concepts": [
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 59",
+      "concepts": [
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system"
+      ]
+    },
+    {
+      "unit": "Paragraph 60",
+      "concepts": [
+        "isa_institutional_structure",
+        "dispute_settlement_and_advisory_opinions"
       ]
     },
     {
@@ -53,9 +321,39 @@
       ]
     },
     {
+      "unit": "Paragraph 66",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
+      ]
+    },
+    {
+      "unit": "Paragraph 67",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
+      ]
+    },
+    {
+      "unit": "Paragraph 71",
+      "concepts": [
+        "the_area_and_common_heritage",
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system"
+      ]
+    },
+    {
       "unit": "Paragraph 75",
       "concepts": [
+        "the_area_and_common_heritage",
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
+      ]
+    },
+    {
+      "unit": "Paragraph 76",
+      "concepts": [
+        "the_area_and_common_heritage",
+        "isa_institutional_structure"
       ]
     },
     {
@@ -71,26 +369,70 @@
       ]
     },
     {
+      "unit": "Paragraph 80",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
       "unit": "Paragraph 81",
       "concepts": [
         "exploration_and_exploitation_system"
       ]
     },
     {
+      "unit": "Paragraph 82",
+      "concepts": [
+        "the_area_and_common_heritage",
+        "definitions_and_scope",
+        "sponsoring_state_responsibility_and_liability",
+        "exploration_and_exploitation_system"
+      ]
+    },
+    {
+      "unit": "Paragraph 83",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 84",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
       "unit": "Paragraph 85",
       "concepts": [
+        "isa_institutional_structure",
+        "marine_environmental_protection",
         "protection_of_human_life_and_safety"
+      ]
+    },
+    {
+      "unit": "Paragraph 86",
+      "concepts": [
+        "isa_institutional_structure",
+        "marine_environmental_protection"
       ]
     },
     {
       "unit": "Paragraph 87",
       "concepts": [
+        "marine_environmental_protection",
         "protection_of_human_life_and_safety"
+      ]
+    },
+    {
+      "unit": "Paragraph 88",
+      "concepts": [
+        "marine_environmental_protection"
       ]
     },
     {
       "unit": "Paragraph 89",
       "concepts": [
+        "definitions_and_scope",
         "protection_of_human_life_and_safety"
       ]
     },
@@ -98,6 +440,18 @@
       "unit": "Paragraph 91",
       "concepts": [
         "protection_of_human_life_and_safety"
+      ]
+    },
+    {
+      "unit": "Paragraph 92",
+      "concepts": [
+        "exploration_and_exploitation_system"
+      ]
+    },
+    {
+      "unit": "Paragraph 95",
+      "concepts": [
+        "isa_institutional_structure"
       ]
     },
     {
@@ -109,24 +463,45 @@
     {
       "unit": "Paragraph 97",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "sponsoring_state_responsibility_and_liability",
+        "exploration_and_exploitation_system",
+        "marine_environmental_protection",
+        "dispute_settlement_and_advisory_opinions"
       ]
     },
     {
       "unit": "Paragraph 100",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system",
+        "compliance_inspection_and_enforcement"
       ]
     },
     {
       "unit": "Paragraph 102",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system",
+        "compliance_inspection_and_enforcement"
+      ]
+    },
+    {
+      "unit": "Paragraph 104",
+      "concepts": [
+        "isa_institutional_structure"
+      ]
+    },
+    {
+      "unit": "Paragraph 105",
+      "concepts": [
+        "isa_institutional_structure"
       ]
     },
     {
       "unit": "Paragraph 106",
       "concepts": [
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
       ]
     },
@@ -139,13 +514,28 @@
     {
       "unit": "Paragraph 109",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "sponsoring_state_responsibility_and_liability",
+        "exploration_and_exploitation_system",
+        "compliance_inspection_and_enforcement"
       ]
     },
     {
       "unit": "Paragraph 110",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
         "exploration_and_exploitation_system"
+      ]
+    },
+    {
+      "unit": "Paragraph 111",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
+      ]
+    },
+    {
+      "unit": "Paragraph 112",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
       ]
     },
     {
@@ -155,33 +545,103 @@
       ]
     },
     {
+      "unit": "Paragraph 114",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
+      ]
+    },
+    {
+      "unit": "Paragraph 115",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
+      ]
+    },
+    {
+      "unit": "Paragraph 116",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "exploration_and_exploitation_system"
+      ]
+    },
+    {
       "unit": "Paragraph 118",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "sponsoring_state_responsibility_and_liability",
+        "exploration_and_exploitation_system",
+        "compliance_inspection_and_enforcement"
+      ]
+    },
+    {
+      "unit": "Paragraph 119",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "compliance_inspection_and_enforcement"
       ]
     },
     {
       "unit": "Paragraph 120",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
         "exploration_and_exploitation_system"
       ]
     },
     {
       "unit": "Paragraph 122",
       "concepts": [
+        "isa_institutional_structure",
         "marine_environmental_protection"
       ]
     },
     {
       "unit": "Paragraph 123",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system",
+        "marine_environmental_protection",
+        "compliance_inspection_and_enforcement"
+      ]
+    },
+    {
+      "unit": "Paragraph 127",
+      "concepts": [
+        "marine_environmental_protection"
+      ]
+    },
+    {
+      "unit": "Paragraph 128",
+      "concepts": [
+        "marine_environmental_protection"
+      ]
+    },
+    {
+      "unit": "Paragraph 129",
+      "concepts": [
+        "marine_environmental_protection"
+      ]
+    },
+    {
+      "unit": "Paragraph 130",
+      "concepts": [
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system",
+        "marine_environmental_protection"
       ]
     },
     {
       "unit": "Paragraph 131",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system",
+        "marine_environmental_protection"
+      ]
+    },
+    {
+      "unit": "Paragraph 132",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "marine_environmental_protection"
       ]
     },
     {
@@ -194,18 +654,23 @@
     {
       "unit": "Paragraph 134",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "exploration_and_exploitation_system",
+        "marine_environmental_protection"
       ]
     },
     {
       "unit": "Paragraph 135",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system",
+        "marine_environmental_protection"
       ]
     },
     {
       "unit": "Paragraph 137",
       "concepts": [
+        "isa_institutional_structure",
         "exploration_and_exploitation_system",
         "marine_environmental_protection"
       ]
@@ -213,25 +678,40 @@
     {
       "unit": "Paragraph 140",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "sponsoring_state_responsibility_and_liability",
+        "exploration_and_exploitation_system",
+        "environmental_assessment_and_monitoring",
+        "compliance_inspection_and_enforcement"
       ]
     },
     {
       "unit": "Paragraph 142",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system",
+        "environmental_assessment_and_monitoring",
+        "compliance_inspection_and_enforcement"
       ]
     },
     {
       "unit": "Paragraph 143",
       "concepts": [
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
       ]
     },
     {
       "unit": "Paragraph 144",
       "concepts": [
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
+      ]
+    },
+    {
+      "unit": "Paragraph 145",
+      "concepts": [
+        "environmental_assessment_and_monitoring"
       ]
     },
     {
@@ -241,110 +721,266 @@
       ]
     },
     {
+      "unit": "Paragraph 147",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "environmental_assessment_and_monitoring"
+      ]
+    },
+    {
+      "unit": "Paragraph 148",
+      "concepts": [
+        "the_area_and_common_heritage"
+      ]
+    },
+    {
       "unit": "Paragraph 150",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "exploration_and_exploitation_system",
+        "developing_states_special_interests"
+      ]
+    },
+    {
+      "unit": "Paragraph 152",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
+      ]
+    },
+    {
+      "unit": "Paragraph 153",
+      "concepts": [
+        "the_area_and_common_heritage",
+        "developing_states_special_interests"
+      ]
+    },
+    {
+      "unit": "Paragraph 154",
+      "concepts": [
+        "developing_states_special_interests"
+      ]
+    },
+    {
+      "unit": "Paragraph 156",
+      "concepts": [
+        "definitions_and_scope",
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 157",
+      "concepts": [
+        "isa_institutional_structure",
+        "benefit_sharing_and_financial_regime",
+        "technology_transfer_and_capacity",
+        "developing_states_special_interests"
+      ]
+    },
+    {
+      "unit": "Paragraph 158",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
+      ]
+    },
+    {
+      "unit": "Paragraph 159",
+      "concepts": [
+        "the_area_and_common_heritage",
+        "marine_environmental_protection"
+      ]
+    },
+    {
+      "unit": "Paragraph 161",
+      "concepts": [
+        "marine_environmental_protection"
+      ]
+    },
+    {
+      "unit": "Paragraph 163",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system",
+        "reserved_areas_and_the_enterprise",
+        "developing_states_special_interests"
+      ]
+    },
+    {
+      "unit": "Paragraph 166",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "compliance_inspection_and_enforcement"
       ]
     },
     {
       "unit": "Paragraph 167",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "exploration_and_exploitation_system",
+        "compliance_inspection_and_enforcement"
+      ]
+    },
+    {
+      "unit": "Paragraph 168",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system",
+        "marine_environmental_protection",
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 169",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
       ]
     },
     {
       "unit": "Paragraph 171",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
       ]
     },
     {
       "unit": "Paragraph 172",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
         "exploration_and_exploitation_system"
       ]
     },
     {
       "unit": "Paragraph 173",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
         "exploration_and_exploitation_system"
+      ]
+    },
+    {
+      "unit": "Paragraph 174",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
+      ]
+    },
+    {
+      "unit": "Paragraph 176",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
       ]
     },
     {
       "unit": "Paragraph 177",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
         "exploration_and_exploitation_system"
+      ]
+    },
+    {
+      "unit": "Paragraph 179",
+      "concepts": [
+        "the_area_and_common_heritage",
+        "isa_institutional_structure",
+        "marine_environmental_protection"
       ]
     },
     {
       "unit": "Paragraph 180",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
       ]
     },
     {
       "unit": "Paragraph 182",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
         "exploration_and_exploitation_system"
+      ]
+    },
+    {
+      "unit": "Paragraph 183",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
       ]
     },
     {
       "unit": "Paragraph 184",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
         "exploration_and_exploitation_system"
       ]
     },
     {
       "unit": "Paragraph 186",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "sponsoring_state_responsibility_and_liability",
+        "exploration_and_exploitation_system",
+        "compliance_inspection_and_enforcement"
       ]
     },
     {
       "unit": "Paragraph 187",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
         "exploration_and_exploitation_system"
       ]
     },
     {
       "unit": "Paragraph 191",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
         "exploration_and_exploitation_system"
       ]
     },
     {
       "unit": "Paragraph 192",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
       ]
     },
     {
       "unit": "Paragraph 194",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
         "marine_environmental_protection"
       ]
     },
     {
       "unit": "Paragraph 195",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
         "exploration_and_exploitation_system"
+      ]
+    },
+    {
+      "unit": "Paragraph 196",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
       ]
     },
     {
       "unit": "Paragraph 198",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
       ]
     },
     {
       "unit": "Paragraph 200",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
       ]
     },
     {
       "unit": "Paragraph 201",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
         "exploration_and_exploitation_system"
       ]
     },
@@ -357,42 +993,84 @@
     {
       "unit": "Paragraph 203",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
         "exploration_and_exploitation_system"
       ]
     },
     {
       "unit": "Paragraph 204",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
         "exploration_and_exploitation_system"
       ]
     },
     {
       "unit": "Paragraph 205",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
+      ]
+    },
+    {
+      "unit": "Paragraph 207",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
+      ]
+    },
+    {
+      "unit": "Paragraph 208",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
       ]
     },
     {
       "unit": "Paragraph 209",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
+      ]
+    },
+    {
+      "unit": "Paragraph 210",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
+      ]
+    },
+    {
+      "unit": "Paragraph 211",
+      "concepts": [
+        "sponsoring_state_responsibility_and_liability"
+      ]
+    },
+    {
+      "unit": "Paragraph 214",
+      "concepts": [
+        "compliance_inspection_and_enforcement"
       ]
     },
     {
       "unit": "Paragraph 215",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "exploration_and_exploitation_system",
+        "compliance_inspection_and_enforcement"
       ]
     },
     {
       "unit": "Paragraph 217",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system",
+        "compliance_inspection_and_enforcement"
       ]
     },
     {
       "unit": "Paragraph 219",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
       ]
     },
@@ -405,7 +1083,9 @@
     {
       "unit": "Paragraph 222",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "the_area_and_common_heritage",
+        "exploration_and_exploitation_system",
+        "compliance_inspection_and_enforcement"
       ]
     },
     {
@@ -417,36 +1097,59 @@
     {
       "unit": "Paragraph 225",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
       ]
     },
     {
       "unit": "Paragraph 226",
       "concepts": [
+        "the_area_and_common_heritage",
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
+      ]
+    },
+    {
+      "unit": "Paragraph 228",
+      "concepts": [
+        "compliance_inspection_and_enforcement"
       ]
     },
     {
       "unit": "Paragraph 229",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
         "exploration_and_exploitation_system"
+      ]
+    },
+    {
+      "unit": "Paragraph 230",
+      "concepts": [
+        "isa_institutional_structure"
       ]
     },
     {
       "unit": "Paragraph 231",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system",
+        "marine_environmental_protection"
       ]
     },
     {
       "unit": "Paragraph 232",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system",
+        "marine_environmental_protection"
       ]
     },
     {
       "unit": "Paragraph 233",
       "concepts": [
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
       ]
     },
@@ -460,56 +1163,87 @@
     {
       "unit": "Paragraph 235",
       "concepts": [
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
       ]
     },
     {
       "unit": "Paragraph 236",
       "concepts": [
+        "isa_institutional_structure",
         "marine_environmental_protection"
       ]
     },
     {
       "unit": "Paragraph 238",
       "concepts": [
+        "isa_institutional_structure",
         "exploration_and_exploitation_system"
       ]
     },
     {
       "unit": "Paragraph 239",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
         "exploration_and_exploitation_system"
       ]
     },
     {
       "unit": "Paragraph 240",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system",
+        "marine_environmental_protection"
       ]
     },
     {
       "unit": "Paragraph 241",
       "concepts": [
+        "isa_institutional_structure",
         "marine_environmental_protection",
         "protection_of_human_life_and_safety"
       ]
     },
     {
+      "unit": "Paragraph 242",
+      "concepts": [
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
+      "unit": "Paragraph 2",
+      "concepts": [
+        "dispute_settlement_and_advisory_opinions"
+      ]
+    },
+    {
       "unit": "Paragraph 3",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system",
+        "marine_environmental_protection",
+        "environmental_assessment_and_monitoring",
+        "developing_states_special_interests",
+        "compliance_inspection_and_enforcement"
       ]
     },
     {
       "unit": "Paragraph 4",
       "concepts": [
-        "exploration_and_exploitation_system"
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
+        "exploration_and_exploitation_system",
+        "compliance_inspection_and_enforcement"
       ]
     },
     {
       "unit": "Paragraph 5",
       "concepts": [
+        "sponsoring_state_responsibility_and_liability",
+        "isa_institutional_structure",
         "exploration_and_exploitation_system",
+        "marine_environmental_protection",
         "compliance_inspection_and_enforcement"
       ]
     }
