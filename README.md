@@ -62,6 +62,7 @@ The wall is enforced by folder, schema, and `scripts/validate_corpus.py`.
 ```bash
 pip install -r scripts/requirements.txt
 python3 scripts/validate_corpus.py     # integrity gate — must be green
+python3 scripts/extract.py             # re-derive every text.txt from its original; byte-exact check (Poppler 22.02.0)
 python3 scripts/build_derived.py       # regenerate the derived layer
 python3 scripts/build_site.py          # regenerate the browsable site into site/
 python3 scripts/watch_sources.py --selftest   # offline monitor self-test

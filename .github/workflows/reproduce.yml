@@ -1,0 +1,18 @@
+name: Reproducible extraction
+on:
+  push:
+  pull_request:
+  workflow_dispatch: {}
+jobs:
+  reproduce:
+    runs-on: ubuntu-22.04   # Poppler 22.02.0 — the pinned toolchain for byte-exact PDF extraction
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install pinned Poppler
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install -r scripts/requirements.txt
+      - name: Re-derive every text.txt from its stored original and check byte-exact
+        run: python3 scripts/extract.py

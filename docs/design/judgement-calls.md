@@ -73,3 +73,23 @@ the authentic-language original when obtainable; otherwise `authoritative_missin
 translation, gap flagged.
 **Reason:** the authentic-language rule (doc 03) is absolute.
 **Status this session:** not yet triggered (no national law ingested this session).
+
+---
+
+## JC-006 — How to store multiple authentic languages of one instrument
+**Date:** 2026-07-11
+**Context:** UNCLOS, the 1994 Agreement and the ISA regulations are authentic in the six UN languages;
+the 2011 Advisory Opinion is authentic in English and French. The schema stores one `language` per
+record in `authoritative/<corpus_id>/<version_id>/`, so two languages of the same instrument need
+distinct records.
+**Options:** (a) language sub-folder under one version; (b) encode language in `version_id`;
+(c) a language-suffixed `corpus_id`, one sibling record per language.
+**Decision:** (c). The first-stored language (English here) keeps the **base** `corpus_id`
+(e.g. `itlos/advisory-opinion/sdc-area-2011`). Each additional authentic language is a **sibling
+record** whose `corpus_id` is the base plus an ISO-639 suffix (`…-fr`, `…-es`, `…-ar`, `…-zh`,
+`…-ru`). Every language record carries `language: <iso>`, the full `authentic_languages` list, the
+same `version_id` (the instrument's date), and cross-links to its siblings via `related_documents`.
+**Reason:** existing English `corpus_id`s stay stable (external references don't break — the doc 01
+rule); it needs no schema or script change (the tools glob by folder); and each language remains a
+first-class, independently-hash-verified authentic text — none is treated as a translation of another
+(translations stay in the derived layer, doc 06).

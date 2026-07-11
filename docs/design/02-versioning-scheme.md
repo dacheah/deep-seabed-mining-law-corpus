@@ -49,3 +49,17 @@ authoritative/<corpus_id>/<version_id>/
 - Ingestion/extraction error → correct in place with a dated `corrections[]` entry and re-hash; the
   prior state stays in Git history. (Derived artifacts, by contrast, are simply regenerated.)
 - Never force-push or rewrite history. Git is the immutable, dated substrate.
+
+## Multiple authentic languages (JC-006)
+
+An instrument authentic in several languages is stored as one record per language. The first-stored
+language keeps the base `corpus_id`; each further authentic language is a sibling with an ISO-639
+suffix, same `version_id`:
+
+```
+itlos/advisory-opinion/sdc-area-2011       (en, base)
+itlos/advisory-opinion/sdc-area-2011-fr    (fr, sibling)
+```
+
+Each is independently hash-verified and cross-linked via `related_documents`; none is a translation
+of another (translations live in the derived layer).
