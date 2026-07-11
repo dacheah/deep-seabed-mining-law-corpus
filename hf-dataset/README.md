@@ -32,7 +32,7 @@ A neutral, **provenance-first**, machine-readable record of the law governing mi
 
 - **Source of truth / build history:** https://github.com/dacheah/deep-seabed-mining-law-corpus
 - **Human-browsable site:** https://dacheah.github.io/deep-seabed-mining-law-corpus/
-- **11** instruments (11 verified against official sources) · **1165** provisions · **2681** neutral concept tags
+- **15** instruments (15 verified against official sources) · **1428** provisions · **3452** neutral concept tags
 
 ## Why this dataset is different
 
@@ -56,11 +56,15 @@ prov = load_dataset("dacheah/deep-seabed-mining-law-corpus", "provisions")
 |---|---|---|---|
 | Draft Exploitation Regulations / Mining Code — Dec 2025 consolidated draft [DRAFT] | international |  | `extracted_verified` |
 | ISA Cobalt-rich Crusts Exploration Regulations (2012) | international | 2012-07-27 | `extracted_verified` |
+| Règlement ISA — exploration des encroûtements cobaltifères (2012) [FR] | international | 2012-10-22 | `extracted_verified` |
 | ISA Polymetallic Nodules Exploration Regulations (2013) | international | 2013-07-22 | `extracted_verified` |
+| Règlement ISA — exploration des nodules polymétalliques (2013) [FR] | international | 2013-07-22 | `extracted_verified` |
 | ISA Polymetallic Sulphides Exploration Regulations (2010) | international | 2010-05-07 | `extracted_verified` |
+| Règlement ISA — exploration des sulfures polymétalliques (2010) [FR] | international | 2010-05-07 | `extracted_verified` |
 | 2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17) | international | 2011-02-01 | `extracted_verified` |
 | Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR] | international | 2011-02-01 | `extracted_verified` |
 | 1994 Part XI Implementation Agreement | international | 1994-07-28 | `extracted_verified` |
+| Accord de 1994 relatif à l’application de la partie XI [FR] | international | 1994-07-28 | `extracted_verified` |
 | UNCLOS Part XI (The Area) | international | 1982-12-10 | `extracted_verified` |
 | 15 CFR 970 — DSM Exploration Licences (NOAA) | USA | 1981-09-15 | `extracted_verified` |
 | 15 CFR 971 — DSM Commercial Recovery Permits (NOAA) | USA |  | `extracted_verified` |
