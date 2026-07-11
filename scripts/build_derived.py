@@ -36,21 +36,35 @@ CITE_PATS = getattr(concepts, "CITATION_PATTERNS", [])
 
 hdr_re = re.compile(r"^(" + "|".join(map(re.escape, HEADERS)) + r")\s+([IVXLCDM]+|[A-Z]\.\d+|\d+[A-Za-z\-]*)\b")
 num_re = re.compile(r"^(\d+)\.\s")
+_EXTRA = getattr(concepts, "HEADER_PATTERNS_EXTRA", [])
+hdr_extra = re.compile("^(?:" + "|".join(_EXTRA) + ")") if _EXTRA else None
+
+def _hdr_match(p):
+    """Match a top-level provision start: Latin 'Article N' OR a non-Latin (RU/ZH) header."""
+    m = hdr_re.match(p)
+    if m: return m, m.group(1), m.group(m.lastindex)
+    if hdr_extra:
+        m2 = hdr_extra.match(p)
+        if m2: return m2, None, None
+    return None, None, None
 
 def split_units(body):
     paras = [p.strip() for p in body.split("\n\n") if p.strip()]
-    n_hdr = sum(1 for p in paras if hdr_re.match(p)); n_num = sum(1 for p in paras if num_re.match(p))
-    if n_hdr >= 2: mode, starter = "header", hdr_re
-    elif n_num >= 2: mode, starter = "numbered", num_re
+    n_hdr = sum(1 for p in paras if _hdr_match(p)[0]); n_num = sum(1 for p in paras if num_re.match(p))
+    if n_hdr >= 2: mode = "header"
+    elif n_num >= 2: mode = "numbered"
     else: return "document", [{"number": None, "label": "(whole text)", "text": "\n\n".join(paras)}]
     units, cur, pre, first_kw = [], None, [], None
     for p in paras:
-        m = starter.match(p)
+        if mode == "header":
+            m, kw, num = _hdr_match(p)
+        else:
+            m = num_re.match(p); kw = None; num = m.group(1) if m else None
         if m:
             if cur: units.append(cur)
-            if mode == "header" and first_kw is None: first_kw = m.group(1)
-            label = p.split("\n")[0].strip() if mode == "header" else "Paragraph " + m.group(1)
-            cur = {"number": m.group(m.lastindex), "label": label, "text": p}
+            if mode == "header" and first_kw is None and kw: first_kw = kw
+            label = p.split("\n")[0].strip() if mode == "header" else "Paragraph " + num
+            cur = {"number": num, "label": label, "text": p}
         elif cur: cur["text"] += "\n\n" + p
         else: pre.append(p)
     if cur: units.append(cur)

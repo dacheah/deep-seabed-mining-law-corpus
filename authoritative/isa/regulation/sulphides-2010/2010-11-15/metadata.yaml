@@ -41,6 +41,8 @@ superseded_by: null
 related_documents:
 - isa/regulation/sulphides-2010-es
 - isa/regulation/sulphides-2010-fr
+- isa/regulation/sulphides-2010-ru
+- isa/regulation/sulphides-2010-zh
 - un/convention/unclos-partxi-1982
 - un/agreement/unclos-partxi-impl-1994
 - isa/regulation/nodules-2013
@@ -55,8 +57,11 @@ provenance_note: 'English authentic text of the ISA Assembly decision ISBA/16/A/
   PDF; byte-exact download recommended as an upgrade. Other five authentic languages not yet stored (JC-003).'
 verification:
   status: verified_against_official_source
-  method: 'Structural completeness check (Regulations 1–45 across Parts I–VIII, annexed forms, and the standard clauses for exploration contract ending at Section 29) against the official ISA PDF ISBA/16/A/12/Rev.1; deterministic removal of PDF page artifacts with no wording change.'
-  reference: 'https://isa.org.jm/wp-content/uploads/2022/06/isba-16a-12rev1_2_0.pdf'
+  method: Structural completeness check (Regulations 1–45 across Parts I–VIII, annexed forms, and the
+    standard clauses for exploration contract ending at Section 29) against the official ISA PDF ISBA/16/A/12/Rev.1;
+    deterministic removal of PDF page artifacts with no wording change.
+  reference: https://isa.org.jm/wp-content/uploads/2022/06/isba-16a-12rev1_2_0.pdf
   verified_by: Cowork provenance-corpus-builder
   verified_date: '2026-07-03'
-  note: 'Text verified complete and faithful to the official ISA source PDF. Byte-exact PDF download recommended as a further upgrade.'
+  note: Text verified complete and faithful to the official ISA source PDF. Byte-exact PDF download recommended
+    as a further upgrade.

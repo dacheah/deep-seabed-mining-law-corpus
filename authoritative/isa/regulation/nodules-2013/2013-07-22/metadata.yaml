@@ -41,6 +41,8 @@ superseded_by: null
 related_documents:
 - isa/regulation/nodules-2013-es
 - isa/regulation/nodules-2013-fr
+- isa/regulation/nodules-2013-ru
+- isa/regulation/nodules-2013-zh
 - un/convention/unclos-partxi-1982
 - un/agreement/unclos-partxi-impl-1994
 - isa/regulation/sulphides-2010
@@ -56,8 +58,12 @@ provenance_note: English authentic text of the ISA Council decision ISBA/19/C/17
   PDF is a recommended provenance upgrade. Other five authentic languages not yet stored (JC-003).
 verification:
   status: verified_against_official_source
-  method: 'Structural completeness check (Regulations 1–40 across Parts I–VIII, annexed notification forms, and the standard clauses for exploration contract ending at Section 29) against the official ISA PDF ISBA/19/C/17; deterministic removal of PDF page artifacts (UN job numbers, running headers, footnote markers) with no wording change.'
-  reference: 'https://isa.org.jm/wp-content/uploads/2022/04/isba-19c-17_0-2.pdf'
+  method: Structural completeness check (Regulations 1–40 across Parts I–VIII, annexed notification forms,
+    and the standard clauses for exploration contract ending at Section 29) against the official ISA PDF
+    ISBA/19/C/17; deterministic removal of PDF page artifacts (UN job numbers, running headers, footnote
+    markers) with no wording change.
+  reference: https://isa.org.jm/wp-content/uploads/2022/04/isba-19c-17_0-2.pdf
   verified_by: Cowork provenance-corpus-builder
   verified_date: '2026-07-03'
-  note: 'Text verified complete and faithful to the official ISA source PDF. A byte-exact PDF download remains a recommended further provenance upgrade.'
+  note: Text verified complete and faithful to the official ISA source PDF. A byte-exact PDF download
+    remains a recommended further provenance upgrade.

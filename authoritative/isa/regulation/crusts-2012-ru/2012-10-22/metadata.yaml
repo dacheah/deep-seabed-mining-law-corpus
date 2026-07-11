@@ -1,0 +1,57 @@
+corpus_id: isa/regulation/crusts-2012-ru
+version_id: '2012-10-22'
+title: Правила поиска и разведки кобальтоносных железомарганцевых корок в Районе
+short_title: Правила МОМД — разведка кобальтоносных корок (2012 г.) [RU]
+jurisdiction: international
+document_type: isa_regulation
+official_citation: ISBA/18/A/11, приложение — Правила поиска и разведки кобальтоносных железомарганцевых
+  корок в Районе
+authentic_languages:
+- ar
+- zh
+- en
+- fr
+- ru
+- es
+adoption_date: '2012-07-27'
+source_url: https://isa.org.jm/wp-content/uploads/2022/04/isba-18a-11_3-1.pdf
+source_publisher: Международный орган по морскому дну (ISA)
+source_is_official: true
+retrieval_date: '2026-07-11'
+retrieved_by: Dan (human download of the official RU PDF); ingested via Cowork
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:66bb2544ebbc5609623ae9ab470855326fd7515976e54120320036d8fe3259ef
+original_sha256: sha256:f574d5555fe0b9b40c6817d58329976e691314e5b799a7c4004a80331d22a275
+text_sha256: sha256:66bb2544ebbc5609623ae9ab470855326fd7515976e54120320036d8fe3259ef
+text_fidelity: extracted_verified
+language: ru
+authoritative_status: authentic_text
+license: isa-materials-terms
+rights_note: Аутентичный русский текст; официальный документ, атрибутирован источнику; не перелицензирован.
+capture_history:
+- date: '2026-07-11'
+  source_url: https://isa.org.jm/wp-content/uploads/2022/04/isba-18a-11_3-1.pdf
+  original_sha256: sha256:f574d5555fe0b9b40c6817d58329976e691314e5b799a7c4004a80331d22a275
+  note: Byte-exact official RU PDF (human download) ingested 2026-07-11 under JC-006.
+supersedes: null
+superseded_by: null
+related_documents:
+- isa/regulation/crusts-2012
+- un/convention/unclos-partxi-1982
+- un/agreement/unclos-partxi-impl-1994
+provenance_note: AUTHENTIC RUSSIAN TEXT — sibling under JC-006 (language-suffixed corpus_id; English base
+  record is isa/regulation/crusts-2012). Authentic in the six UN languages, all equally authoritative;
+  the RU text is stored here. Byte-exact official PDF (human download) stored as original.pdf (original_sha256
+  = the PDF hash); text extracted with pdftotext and cleaned by the committed scripts/extract.py, byte-exact
+  reproducible; page furniture removed, no wording changed. This is an equally-authentic language version,
+  NOT a translation of the English (translations, if any, live in the derived layer).
+verification:
+  status: verified_against_official_source
+  method: Completeness check against the official RU PDF (Правил (статьи + приложения + стандартные условия
+    контракта на разведку)); byte-exact PDF stored as original.pdf; page furniture removed; regenerated
+    byte-exact by scripts/extract.py; no wording changed.
+  reference: https://isa.org.jm/wp-content/uploads/2022/04/isba-18a-11_3-1.pdf
+  verified_by: Cowork provenance-corpus-builder
+  verified_date: '2026-07-11'
+  note: Russian authentic text (JC-006 sibling); equally authoritative with the other UN-language versions.

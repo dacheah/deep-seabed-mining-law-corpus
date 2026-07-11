@@ -109,3 +109,46 @@ CITATION_PATTERNS = [
     r"[Rr]egulation\s+(\d+)",
     r"paragraph\s+(\d+)",
 ]
+
+# --- Non-Latin authentic-language structure headers (JC-006: RU + ZH ISA regs) ---------
+# Regex fragments (no capture groups) that mark a top-level provision in Russian / Chinese
+# texts, where the Latin "Article N" pattern does not apply. Read by build_derived.split_units.
+HEADER_PATTERNS_EXTRA = [
+    r"第\s?\d{1,3}\s?条",                                                   # ZH article:  第N条
+    r"(?:Правило|Раздел|Часть|Приложение|Добавление)\s+(?:\d+|[IVXLCDM]+)",  # RU headers
+]
+
+# --- RU + ZH concept phrases (lower-cased; matcher lower-cases the text) ----------------
+_KW_RU_ZH = {
+    "the_area_and_common_heritage": ["район", "общее наследие человечества", "ресурсы района",
+        "区域", "人类共同继承财产", "区域内资源", "全人类"],
+    "definitions_and_scope": ["употребление терминов", "для целей настоящих правил", "означает",
+        "сфера применения", "用语", "为本规章的目的", "是指", "范围"],
+    "sponsoring_state_responsibility_and_liability": ["поручившееся государство", "поручительство",
+        "поручившиеся государства", "担保国", "担保", "赔偿责任"],
+    "isa_institutional_structure": ["орган", "совет", "ассамблея", "юридическая и техническая комиссия",
+        "генеральный секретарь", "предприятие", "管理局", "理事会", "大会", "法律和技术委员会", "秘书长", "企业部"],
+    "exploration_and_exploitation_system": ["план работы", "контракт на разведку", "разведк", "поиск",
+        "изыскани", "контрактор", "заявител", "工作计划", "勘探合同", "勘探", "探矿", "承包者", "申请者"],
+    "reserved_areas_and_the_enterprise": ["зарезервированный район", "保留区域"],
+    "benefit_sharing_and_financial_regime": ["сбор", "финансовые условия", "费用", "财务条件", "缴费"],
+    "marine_environmental_protection": ["защита морской среды", "морская среда", "осторожн", "предосторожн",
+        "вредное воздействие", "загрязнени", "保护海洋环境", "海洋环境", "预防", "有害影响", "污染"],
+    "environmental_assessment_and_monitoring": ["оценка воздействия на окружающую среду", "мониторинг",
+        "экологическ", "环境影响", "评估", "监测"],
+    "marine_scientific_research": ["морские научные исследования", "海洋科学研究"],
+    "technology_transfer_and_capacity": ["передача технологии", "подготовка кадров", "обучени",
+        "技术转让", "培训"],
+    "developing_states_special_interests": ["развивающиеся государства", "развивающиеся страны",
+        "发展中国家", "发展中国"],
+    "protection_of_human_life_and_safety": ["охрана человеческой жизни", "безопасность судоходства",
+        "保护人命", "航行安全", "人命安全"],
+    "compliance_inspection_and_enforcement": ["инспекц", "чрезвычайный приказ", "соблюдени", "санкци",
+        "检查", "紧急命令", "遵守", "制裁"],
+    "dispute_settlement_and_advisory_opinions": ["урегулирование споров", "камера по спорам, касающимся морского дна",
+        "консультативное заключение", "арбитраж", "争端解决", "争端", "海底争端分庭", "咨询意见", "仲裁"],
+    "privileges_immunities_and_legal_status": ["привилегии и иммунитеты", "特权和豁免"],
+    "review_and_amendment": ["пересмотр", "поправк", "审查", "修正"],
+}
+for _c, _ph in _KW_RU_ZH.items():
+    KW.setdefault(_c, []).extend(_ph)

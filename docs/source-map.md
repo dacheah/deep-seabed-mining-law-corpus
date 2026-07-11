@@ -105,3 +105,25 @@ maintainer's decision we **hold** UNCLOS Part XI in other languages until a clea
 (e.g. EUR-Lex, which is clean but exceeds the fetch cap before Part XI). The modern instruments (1994
 Agreement, ISA regulations, the Advisory Opinion) are clean digital in every language and ARE ingested.
 Recorded coverage gap under JC-003 / JC-006; not a fidelity failure.
+
+## Multilingual coverage & holds (updated 2026-07-11)
+
+The three ISA exploration regulations are now stored in **five of the six** UN authentic languages —
+English (base), French, Spanish, **Russian**, and **Chinese** — each as an equally-authentic text under
+JC-006 (language-suffixed `corpus_id`, same `version_id`, cross-linked via `related_documents`). All are
+byte-exact reproducible from the official ISA per-language PDF by `scripts/extract.py`.
+
+Official per-language PDFs (ISA Mining Code → Exploration Regulations page):
+- Russian: `isba-19c-17_1_1-3.pdf` (nodules), `isba-16a-12rev1_1_1.pdf` (sulphides), `isba-18a-11_3-1.pdf` (crusts)
+- Chinese: `isba-19c-17_1-1.pdf` (nodules), `isba-16a-12rev1_1.pdf` (sulphides), `isba-18a-11_1.pdf` (crusts)
+
+### Held (not ingested) — honest fidelity reasons
+- **Arabic ISA regulations.** The official Arabic PDFs extract as **Unicode presentation-form glyphs
+  (U+FB50–FEFF) in visual (RTL-rendered) order** — measured ~65k presentation-form vs ~11k base-Arabic
+  code points on the nodules text, i.e. ~85% non-canonical. Storing that would put reversed, non-canonical
+  text into an authoritative record. It is **held** pending either a logical-order Arabic source or a
+  verified NFKC-normalise + bidi-reorder pass (deferred: too error-prone to apply silently to legal text).
+- **1994 Implementation Agreement in Arabic / Chinese / Russian.** The freely-available UN document-system
+  PDFs for A/RES/48/263 in these three languages are legacy-font-garbled (AR, RU) or image-only (ZH). Held
+  pending clean digital sources. (The Agreement is already stored in English, French, and Spanish.)
+- **UNCLOS Part XI in non-English languages** — held (degraded OCR), see the section above.

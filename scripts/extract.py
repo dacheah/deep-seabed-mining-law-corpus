@@ -337,6 +337,103 @@ def clean_agr_es(raw, title_line):
     paras=[re.sub(r'\s+',' ',p).strip() for p in paras if p.strip()]
     return title_line+"\n\n"+"\n\n".join(paras)+"\n"
 
+CJK='一-鿿'
+
+def clean_isa_ru(raw, title_line):
+    lines=raw.splitlines()
+    start=None
+    for i,l in enumerate(lines):
+        if l.strip()=="Приложение" and i+1<len(lines) and lines[i+1].strip().startswith("Правила поиска"):
+            start=i; break
+    body=lines[start+1:] if start is not None else lines
+    def art(s):
+        if re.match(r'^\d{2}-\d{5}(\s|$)', s): return True
+        if re.match(r'^\*\d+\*$', s): return True
+        if re.match(r'^\d{6}$', s): return True
+        if re.match(r'^ISBA/\S+$', s): return True
+        if re.match(r'^\d{1,3}-?е?\s*заседание', s): return True
+        if re.match(r'^\d{1,2}\s+\w+\s+20\d\d\s+года', s): return True
+        if re.match(r'^_{3,}$', s): return True
+        if re.match(r'^\d{1,2}\s+ISBA/', s): return True
+        if re.fullmatch(r'\d{1,3}', s): return True
+        return False
+    kept=[s.strip() for s in body if s.strip() and not art(s.strip())]
+    HDR=re.compile(r'^(Часть|Правило|Раздел|Приложение|Добавление)\s+([0-9]+|[IVXLC]+)\s*$')
+    HDRT=re.compile(r'^(Часть|Правило|Раздел|Приложение|Добавление)\s+([0-9]+|[IVXLC]+)\s+(.+)$')
+    STANDALONE=re.compile(r'^(Преамбула|Введение|Стандартные условия.*)$')
+    NUM=re.compile(r'^\(?\d{1,2}(\.\d{1,2})?\.?(\s|$)|^\([a-zа-я]{1,3}\)\s|^[a-zа-я]\)\s')
+    paras=[]; cur=None; i=0; n=len(kept)
+    while i<n:
+        s=kept[i]
+        if HDR.match(s):
+            title=""
+            if i+1<n and not HDR.match(kept[i+1]) and not HDRT.match(kept[i+1]) and not NUM.match(kept[i+1]) and not STANDALONE.match(kept[i+1]) and len(kept[i+1])<95:
+                title=kept[i+1]; i+=1
+            if cur: paras.append(cur)
+            cur=(s+(". "+title if title else "")).strip()
+        elif HDRT.match(s) or STANDALONE.match(s):
+            if cur: paras.append(cur)
+            cur=s
+        elif NUM.match(s):
+            if cur: paras.append(cur)
+            cur=s
+        else:
+            cur=(cur+" "+s) if cur else s
+        i+=1
+    if cur: paras.append(cur)
+    paras=[re.sub(r'\s+',' ',p).strip() for p in paras if p.strip()]
+    return title_line+"\n\n"+"\n\n".join(paras)+"\n"
+
+def clean_isa_zh(raw, title_line):
+    lines=raw.splitlines()
+    start=None
+    for i,l in enumerate(lines):
+        if l.strip()=="序言" and i>0:  # preamble marks the start of the annexed Regulations body
+            start=i; break
+    body=lines[start:] if start is not None else lines
+    def art(s):
+        if re.match(r'^\d{2}-\d{5}(\s|$)', s): return True
+        if re.match(r'^\*\d+\*$', s): return True
+        if re.match(r'^ISBA/\S+$', s): return True
+        if re.match(r'^第\s?\d{1,4}\s?次会议$', s): return True
+        if re.match(r'^20\d\d\s*年', s): return True
+        if re.match(r'^\d{1,2}\s+ISBA/', s): return True
+        if re.fullmatch(r'\d{1,3}', s): return True
+        if re.match(r'^_{3,}$', s): return True
+        return False
+    kept=[re.sub(r'\s+',' ',s.strip()) for s in body if s.strip() and not art(s.strip())]
+    def norm_hdr(s): return re.sub(r'^第\s?(\d+)\s?条', r'第\1条', s)
+    HDR=re.compile(r'^第\s?\d{1,3}\s?条$'); HDRT=re.compile(r'^第\s?\d{1,3}\s?条\s+(.+)$')
+    PART=re.compile(r'^第[一二三四五六七八九十]+部分$')
+    ANX=re.compile(r'^(附件[一二三四五六七八九十]?|附录[一二三四五六七八九十]?)$')
+    STAND=re.compile(r'^(序言|导言|标准条款.*)$')
+    NUM=re.compile(r'^\(?\d{1,2}(\.\d{1,2})?\.?(\s|$)|^（[一二三四五六七八九十]+）|^\([a-z]\)|^[a-z]\)')
+    paras=[]; cur=None; i=0; n=len(kept)
+    while i<n:
+        s=kept[i]
+        if HDR.match(s):
+            title=""
+            if i+1<n and not HDR.match(kept[i+1]) and not PART.match(kept[i+1]) and not NUM.match(kept[i+1]) and len(kept[i+1])<40:
+                title=kept[i+1]; i+=1
+            if cur: paras.append(cur)
+            cur=norm_hdr(s)+(" "+title if title else "")
+        elif HDRT.match(s) or PART.match(s) or ANX.match(s) or STAND.match(s):
+            if cur: paras.append(cur)
+            cur=norm_hdr(s)
+        elif NUM.match(s):
+            if cur: paras.append(cur)
+            cur=s
+        else:
+            cur=(cur+s) if cur else s     # CJK: join WITHOUT spaces
+        i+=1
+    if cur: paras.append(cur)
+    out=[]
+    for p in paras:
+        p=re.sub(r'(?<=['+CJK+r'])\s+(?=['+CJK+r'])','',p)   # drop spaces between CJK chars
+        p=re.sub(r'\s+',' ',p).strip()
+        if p: out.append(p)
+    return title_line+"\n\n"+"\n\n".join(out)+"\n"
+
 # ---- registry: corpus_id -> how to re-derive text from original.* ----------------------------
 PDF_EXTRACTORS = {
   "itlos/advisory-opinion/sdc-area-2011": lambda raw: clean_ao(raw),
@@ -357,6 +454,12 @@ PDF_EXTRACTORS = {
       "Reglamento sobre Prospección y Exploración de Sulfuros Polimetálicos en la Zona — ISBA/16/A/12/Rev.1, anexo [ES]"),
   "isa/regulation/crusts-2012-es": lambda raw: clean_isa_es(raw,
       "Reglamento sobre Prospección y Exploración de Costras de Ferromanganeso con Alto Contenido de Cobalto en la Zona — ISBA/18/A/11, anexo [ES]"),
+  "isa/regulation/nodules-2013-ru": lambda raw: clean_isa_ru(raw, "Правила поиска и разведки полиметаллических конкреций в Районе (с поправками 2013 года) — ISBA/19/C/17, приложение [RU]"),
+  "isa/regulation/sulphides-2010-ru": lambda raw: clean_isa_ru(raw, "Правила поиска и разведки полиметаллических сульфидов в Районе — ISBA/16/A/12/Rev.1, приложение [RU]"),
+  "isa/regulation/crusts-2012-ru": lambda raw: clean_isa_ru(raw, "Правила поиска и разведки кобальтоносных железомарганцевых корок в Районе — ISBA/18/A/11, приложение [RU]"),
+  "isa/regulation/nodules-2013-zh": lambda raw: clean_isa_zh(raw, "“区域”内多金属结核探矿和勘探规章（2013年修正） — ISBA/19/C/17，附件 [ZH]"),
+  "isa/regulation/sulphides-2010-zh": lambda raw: clean_isa_zh(raw, "“区域”内多金属硫化物探矿和勘探规章 — ISBA/16/A/12/Rev.1，附件 [ZH]"),
+  "isa/regulation/crusts-2012-zh": lambda raw: clean_isa_zh(raw, "“区域”内富钴铁锰结壳探矿和勘探规章 — ISBA/18/A/11，附件 [ZH]"),
   "usa/regulation/cfr15-970-2026": lambda raw: clean_cfr(raw, "970",
       "15 CFR Part 970 — Deep Seabed Mining Regulations for Exploration Licenses (up to date as of 1 July 2026)"),
   "usa/regulation/cfr15-971-2026": lambda raw: clean_cfr(raw, "971",

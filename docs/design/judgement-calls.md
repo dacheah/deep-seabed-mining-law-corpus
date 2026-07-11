@@ -93,3 +93,11 @@ same `version_id` (the instrument's date), and cross-links to its siblings via `
 rule); it needs no schema or script change (the tools glob by folder); and each language remains a
 first-class, independently-hash-verified authentic text — none is treated as a translation of another
 (translations stay in the derived layer, doc 06).
+
+**Status (2026-07-11):** Proven at scale. The three ISA exploration regulations are now stored as
+sibling records in **five** authentic languages — EN (base), FR, ES, RU, ZH — all byte-exact
+reproducible by `scripts/extract.py`, all cross-linked, all concept-tagged (RU/ZH structure is parsed
+via `concepts.HEADER_PATTERNS_EXTRA`: `第N条` and the Cyrillic `Правило/Раздел/Часть/Приложение`
+headers; RU/ZH concept phrases were added to `concepts.KW`). Arabic is **held** — its official PDFs
+extract as visual-order presentation-form glyphs, which would corrupt an authoritative text (see
+docs/source-map.md, "Multilingual coverage & holds").

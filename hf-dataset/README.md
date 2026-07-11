@@ -7,6 +7,8 @@ language:
 - en
 - es
 - fr
+- ru
+- zh
 tags:
 - legal
 - law
@@ -33,7 +35,7 @@ A neutral, **provenance-first**, machine-readable record of the law governing mi
 
 - **Source of truth / build history:** https://github.com/dacheah/deep-seabed-mining-law-corpus
 - **Human-browsable site:** https://dacheah.github.io/deep-seabed-mining-law-corpus/
-- **19** instruments (19 verified against official sources) · **2071** provisions · **4728** neutral concept tags
+- **25** instruments (25 verified against official sources) · **2508** provisions · **6391** neutral concept tags
 
 ## Why this dataset is different
 
@@ -59,12 +61,18 @@ prov = load_dataset("dacheah/deep-seabed-mining-law-corpus", "provisions")
 | ISA Cobalt-rich Crusts Exploration Regulations (2012) | international | 2012-07-27 | `extracted_verified` |
 | Reglamento ISA — exploración de costras de ferromanganeso cobálticas (2012) [ES] | international | 2012-10-22 | `extracted_verified` |
 | Règlement ISA — exploration des encroûtements cobaltifères (2012) [FR] | international | 2012-10-22 | `extracted_verified` |
+| Правила МОМД — разведка кобальтоносных корок (2012 г.) [RU] | international | 2012-07-27 | `extracted_verified` |
+| 国际海底管理局规章 — 富钴铁锰结壳探矿和勘探（2012年）[ZH] | international | 2012-07-27 | `extracted_verified` |
 | ISA Polymetallic Nodules Exploration Regulations (2013) | international | 2013-07-22 | `extracted_verified` |
 | Reglamento ISA — exploración de nódulos polimetálicos (2013) [ES] | international | 2013-07-22 | `extracted_verified` |
 | Règlement ISA — exploration des nodules polymétalliques (2013) [FR] | international | 2013-07-22 | `extracted_verified` |
+| Правила МОМД — разведка полиметаллических конкреций (2013 г.) [RU] | international | 2013-07-22 | `extracted_verified` |
+| 国际海底管理局规章 — 多金属结核探矿和勘探（2013年）[ZH] | international | 2013-07-22 | `extracted_verified` |
 | ISA Polymetallic Sulphides Exploration Regulations (2010) | international | 2010-05-07 | `extracted_verified` |
 | Reglamento ISA — exploración de sulfuros polimetálicos (2010) [ES] | international | 2010-05-07 | `extracted_verified` |
 | Règlement ISA — exploration des sulfures polymétalliques (2010) [FR] | international | 2010-05-07 | `extracted_verified` |
+| Правила МОМД — разведка полиметаллических сульфидов (2010 г.) [RU] | international | 2010-05-07 | `extracted_verified` |
+| 国际海底管理局规章 — 多金属硫化物探矿和勘探（2010年）[ZH] | international | 2010-05-07 | `extracted_verified` |
 | 2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17) | international | 2011-02-01 | `extracted_verified` |
 | Avis consultatif de la Chambre pour le règlement des différends relatifs aux fonds marins (2011, affaire n° 17) [FR] | international | 2011-02-01 | `extracted_verified` |
 | 1994 Part XI Implementation Agreement | international | 1994-07-28 | `extracted_verified` |

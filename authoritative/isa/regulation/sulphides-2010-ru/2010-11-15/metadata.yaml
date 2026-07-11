@@ -1,0 +1,57 @@
+corpus_id: isa/regulation/sulphides-2010-ru
+version_id: '2010-11-15'
+title: Правила поиска и разведки полиметаллических сульфидов в Районе
+short_title: Правила МОМД — разведка полиметаллических сульфидов (2010 г.) [RU]
+jurisdiction: international
+document_type: isa_regulation
+official_citation: ISBA/16/A/12/Rev.1, приложение — Правила поиска и разведки полиметаллических сульфидов
+  в Районе
+authentic_languages:
+- ar
+- zh
+- en
+- fr
+- ru
+- es
+adoption_date: '2010-05-07'
+source_url: https://isa.org.jm/wp-content/uploads/2022/04/isba-16a-12rev1_1_1.pdf
+source_publisher: Международный орган по морскому дну (ISA)
+source_is_official: true
+retrieval_date: '2026-07-11'
+retrieved_by: Dan (human download of the official RU PDF); ingested via Cowork
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:b4f9e6adf5044907bd8a7b061a01b86802bb97ec8f1a0bf3cba340416f53cb91
+original_sha256: sha256:3cc9d9f5dc23a8c03361ffb26bbba89383c3d42d0b7057bfe2a21626ebc9f2a9
+text_sha256: sha256:b4f9e6adf5044907bd8a7b061a01b86802bb97ec8f1a0bf3cba340416f53cb91
+text_fidelity: extracted_verified
+language: ru
+authoritative_status: authentic_text
+license: isa-materials-terms
+rights_note: Аутентичный русский текст; официальный документ, атрибутирован источнику; не перелицензирован.
+capture_history:
+- date: '2026-07-11'
+  source_url: https://isa.org.jm/wp-content/uploads/2022/04/isba-16a-12rev1_1_1.pdf
+  original_sha256: sha256:3cc9d9f5dc23a8c03361ffb26bbba89383c3d42d0b7057bfe2a21626ebc9f2a9
+  note: Byte-exact official RU PDF (human download) ingested 2026-07-11 under JC-006.
+supersedes: null
+superseded_by: null
+related_documents:
+- isa/regulation/sulphides-2010
+- un/convention/unclos-partxi-1982
+- un/agreement/unclos-partxi-impl-1994
+provenance_note: AUTHENTIC RUSSIAN TEXT — sibling under JC-006 (language-suffixed corpus_id; English base
+  record is isa/regulation/sulphides-2010). Authentic in the six UN languages, all equally authoritative;
+  the RU text is stored here. Byte-exact official PDF (human download) stored as original.pdf (original_sha256
+  = the PDF hash); text extracted with pdftotext and cleaned by the committed scripts/extract.py, byte-exact
+  reproducible; page furniture removed, no wording changed. This is an equally-authentic language version,
+  NOT a translation of the English (translations, if any, live in the derived layer).
+verification:
+  status: verified_against_official_source
+  method: Completeness check against the official RU PDF (Правил (статьи + приложения + стандартные условия
+    контракта на разведку)); byte-exact PDF stored as original.pdf; page furniture removed; regenerated
+    byte-exact by scripts/extract.py; no wording changed.
+  reference: https://isa.org.jm/wp-content/uploads/2022/04/isba-16a-12rev1_1_1.pdf
+  verified_by: Cowork provenance-corpus-builder
+  verified_date: '2026-07-11'
+  note: Russian authentic text (JC-006 sibling); equally authoritative with the other UN-language versions.
