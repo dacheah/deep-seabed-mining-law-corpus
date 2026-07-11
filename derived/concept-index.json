@@ -194,6 +194,54 @@
         "unit": "preamble/chapeau"
       },
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -234,6 +282,54 @@
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
         "unit": "Article 155. The Review Conference"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 136. Patrimoine commun de l’humanité"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 137. Régime juridique de la zone et de ses ressources"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 140. Intérêt de l’humanité"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 142. Droits et intérêts légitimes des États côtiers"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 143. Recherche scientifique marine"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 149. Objets archéologiques et historiques"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 150. Politique générale relative aux activités menées dans la"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 155. Conférence de révision"
       },
       {
         "corpus_id": "isa/regulation/sulphides-2010-es",
@@ -1534,6 +1630,12 @@
         "unit": "Article 8. States Parties"
       },
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "preamble/chapeau"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -1544,6 +1646,18 @@
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
         "unit": "Article 134. Scope of this Part"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 133. Emploi des termes"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 161. Composition, procédure et vote"
       },
       {
         "corpus_id": "isa/regulation/sulphides-2010-es",
@@ -3312,6 +3426,30 @@
         "unit": "Article 10. Authentic texts"
       },
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 8"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -3358,6 +3496,24 @@
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
         "unit": "Article 190. Participation and appearance of sponsoring States Parties in proceedings"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 139. Obligation de veiller au respect de la convention et"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 187. Compétence de la chambre pour le règlement des"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 190. Participation à la procédure et comparution des États"
       },
       {
         "corpus_id": "isa/regulation/sulphides-2010-es",
@@ -5936,6 +6092,630 @@
         "unit": "Article 10. Authentic texts"
       },
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 5"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 6"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 7"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 9"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 10"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 5"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 6"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 5"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 5"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 5"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 6"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 7"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 8"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 9"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 10"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 5"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 6"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 7"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 8"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 9"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 7"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 8"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 9"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 10"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 11"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 12"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -6132,6 +6912,288 @@
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
         "unit": "Article 191. Advisory opinions"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 137. Régime juridique de la zone et de ses ressources"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 140. Intérêt de l’humanité"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 143. Recherche scientifique marine"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 144. Transfert des techniques"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 145. Protection du milieu marin"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 146. Protection de la vie humaine"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 147. Compatibilité des activités menées dans la zone et des"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 150. Politique générale relative aux activités menées dans la"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 151. Politique en matière de production"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 152. Exercice des pouvoirs et fonctions"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 153. Système d’exploration et d’exploitation"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 154. Examen périodique"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 155. Conférence de révision"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 156. Création de l’Autorité"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 157. Nature de l’Autorité et principes fondamentaux"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 158. Organes de l’Autorité"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 159. Composition, procédure et vote"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 160. Pouvoirs et fonctions"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 161. Composition, procédure et vote"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 162. Pouvoirs et fonctions"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 163. Organes du Conseil"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 164. La commission de planification économique"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 165. La commission juridique et technique"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 166. Le secrétariat"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 167. Personnel de l’Autorité"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 168. Caractère international du secrétariat"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 169. Consultations et coopération avec les organisations"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 170. L’entreprise"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 171. Ressources financières de l’Autorité"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 172. Budget annuel de l’Autorité"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 173. Dépenses de l’Autorité"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 174. Capacité de l’Autorité de contracter des emprunts"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 175. Vérification annuelle des comptes"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 176. Statut juridique"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 177. Privilèges et immunités"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 178. Immunité de juridiction et d’exécution"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 179. Exemption de perquisition et de toute autre forme de"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 180. Exemption de tout contrôle, restriction, réglementation"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 181. Archives et communications officielles de l’Autorité"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 182. Privilèges et immunités des personnes agissant dans le"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 183. Exemption d’impôts ou taxes et de droits de douane"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 184. Suspension du droit de vote"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 185. Suspension de l’exercice des droits et privilèges inhérents"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 187. Compétence de la chambre pour le règlement des"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 188. Soumission des différends à une chambre spéciale du"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 189. Limitation de compétence en ce qui concerne les"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 191. Avis consultatifs"
       },
       {
         "corpus_id": "isa/regulation/sulphides-2010-es",
@@ -14332,6 +15394,108 @@
         "unit": "Article 10. Authentic texts"
       },
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 6"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 8"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 6"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 8"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 8"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -14396,6 +15560,72 @@
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
         "unit": "Article 189. Limitation on jurisdiction with regard to decisions of the Authority"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 151. Politique en matière de production"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 153. Système d’exploration et d’exploitation"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 155. Conférence de révision"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 160. Pouvoirs et fonctions"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 161. Composition, procédure et vote"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 162. Pouvoirs et fonctions"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 165. La commission juridique et technique"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 171. Ressources financières de l’Autorité"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 174. Capacité de l’Autorité de contracter des emprunts"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 187. Compétence de la chambre pour le règlement des"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 189. Limitation de compétence en ce qui concerne les"
       },
       {
         "corpus_id": "isa/regulation/sulphides-2010-es",
@@ -22182,6 +23412,12 @@
         "unit": "Article 187. Jurisdiction of the Seabed Disputes Chamber"
       },
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 153. Système d’exploration et d’exploitation"
+      },
+      {
         "corpus_id": "isa/regulation/sulphides-2010-es",
         "short_title": "Reglamento ISA — exploración de sulfuros polimetálicos (2010) [ES]",
         "version_id": "2010-11-15",
@@ -23384,6 +24620,24 @@
         "unit": "Article 10. Authentic texts"
       },
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -23418,6 +24672,24 @@
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
         "unit": "Article 173. Expenses of the Authority"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 140. Intérêt de l’humanité"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 160. Pouvoirs et fonctions"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 162. Pouvoirs et fonctions"
       },
       {
         "corpus_id": "isa/regulation/sulphides-2010-es",
@@ -23932,6 +25204,30 @@
         "unit": "Article 10. Authentic texts"
       },
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 6"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 7"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -23966,6 +25262,18 @@
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
         "unit": "Article 165. The Legal and Technical Commission"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 151. Politique en matière de production"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 162. Pouvoirs et fonctions"
       },
       {
         "corpus_id": "isa/regulation/crusts-2012",
@@ -24438,6 +25746,48 @@
         "unit": "Article 10. Textes faisant foi L’original du présent Accord, dont les textes anglais, arabe, chinois, espagnol, français et russe font également foi, est déposé auprès du Secrétaire général de l’Organisation des Nations Unies. EN FOI DE QUOI, les Plénipotentiaires soussignés, à ce dûment autorisés, ont signé le présent Accord. FAIT À NEW YORK, le ... juillet mil neuf cent quatre-vingt-quatorze. Annexe"
       },
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -24460,6 +25810,42 @@
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
         "unit": "Article 165. The Legal and Technical Commission"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 142. Droits et intérêts légitimes des États côtiers"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 145. Protection du milieu marin"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 147. Compatibilité des activités menées dans la zone et des"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 155. Conférence de révision"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 162. Pouvoirs et fonctions"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 165. La commission juridique et technique"
       },
       {
         "corpus_id": "isa/regulation/sulphides-2010-es",
@@ -27856,6 +29242,30 @@
         "unit": "Article 10. Authentic texts"
       },
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -27866,6 +29276,18 @@
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
         "unit": "Article 155. The Review Conference"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 143. Recherche scientifique marine"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 155. Conférence de révision"
       },
       {
         "corpus_id": "isa/regulation/sulphides-2010-es",
@@ -28242,6 +29664,30 @@
         "unit": "Article 10. Authentic texts"
       },
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -28288,6 +29734,24 @@
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
         "unit": "Article 176. Legal status"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 144. Transfert des techniques"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 150. Politique générale relative aux activités menées dans la"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 155. Conférence de révision"
       },
       {
         "corpus_id": "isa/regulation/sulphides-2010-es",
@@ -28850,6 +30314,108 @@
         "unit": "Article 10. Authentic texts"
       },
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 10"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -28938,6 +30504,90 @@
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
         "unit": "Article 173. Expenses of the Authority"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 140. Intérêt de l’humanité"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 141. Utilisation de la zone à des fins exclusivement"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 143. Recherche scientifique marine"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 144. Transfert des techniques"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 148. Participation des États en développement aux activités"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 150. Politique générale relative aux activités menées dans la"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 151. Politique en matière de production"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 152. Exercice des pouvoirs et fonctions"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 155. Conférence de révision"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 160. Pouvoirs et fonctions"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 161. Composition, procédure et vote"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 162. Pouvoirs et fonctions"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 164. La commission de planification économique"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 173. Dépenses de l’Autorité"
       },
       {
         "corpus_id": "isa/regulation/sulphides-2010-es",
@@ -29140,6 +30790,30 @@
     ],
     "peaceful_use_and_general_conduct": [
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -29168,6 +30842,30 @@
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
         "unit": "Article 155. The Review Conference"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 141. Utilisation de la zone à des fins exclusivement"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 143. Recherche scientifique marine"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 147. Compatibilité des activités menées dans la zone et des"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 155. Conférence de révision"
       },
       {
         "corpus_id": "isa/draft/exploitation-code-2025",
@@ -29226,6 +30924,18 @@
         "unit": "Paragraph 241"
       },
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -29254,6 +30964,36 @@
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
         "unit": "Article 155. The Review Conference"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 145. Protection du milieu marin"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 146. Protection de la vie humaine"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 147. Compatibilité des activités menées dans la zone et des"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 153. Système d’exploration et d’exploitation"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 155. Conférence de révision"
       },
       {
         "corpus_id": "isa/regulation/crusts-2012-zh",
@@ -30074,6 +31814,30 @@
         "unit": "Article 10. Authentic texts"
       },
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 5"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -30108,6 +31872,30 @@
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
         "unit": "Article 181. Archives and official communications of the Authority"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 139. Obligation de veiller au respect de la convention et"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 153. Système d’exploration et d’exploitation"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 162. Pouvoirs et fonctions"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 165. La commission juridique et technique"
       },
       {
         "corpus_id": "isa/regulation/sulphides-2010-es",
@@ -31762,6 +33550,60 @@
         "unit": "Article 10. Authentic texts"
       },
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 8"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 10"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -31838,6 +33680,72 @@
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
         "unit": "Article 191. Advisory opinions"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 151. Politique en matière de production"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 159. Composition, procédure et vote"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 162. Pouvoirs et fonctions"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 165. La commission juridique et technique"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 185. Suspension de l’exercice des droits et privilèges inhérents"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 186. Chambre pour le règlement des différends relatifs aux"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 187. Compétence de la chambre pour le règlement des"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 188. Soumission des différends à une chambre spéciale du"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 189. Limitation de compétence en ce qui concerne les"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 190. Participation à la procédure et comparution des États"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 191. Avis consultatifs"
       },
       {
         "corpus_id": "isa/regulation/sulphides-2010-es",
@@ -32376,6 +34284,30 @@
     ],
     "privileges_immunities_and_legal_status": [
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -32452,6 +34384,36 @@
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
         "unit": "Article 183. Exemption from taxes and customs duties"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 175. Vérification annuelle des comptes"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 176. Statut juridique"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 177. Privilèges et immunités"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 181. Archives et communications officielles de l’Autorité"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 182. Privilèges et immunités des personnes agissant dans le"
       }
     ],
     "review_and_amendment": [
@@ -32540,6 +34502,72 @@
         "unit": "Article 10. Authentic texts"
       },
       {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 6"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 5"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 8"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-es",
+        "short_title": "CNUDM Parte XI (La Zona) [ES]",
+        "version_id": "1982-12-10",
+        "unit": "Paragraph 2"
+      },
+      {
         "corpus_id": "un/convention/unclos-partxi-1982",
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
@@ -32580,6 +34608,42 @@
         "short_title": "UNCLOS Part XI (The Area)",
         "version_id": "1982-12-10",
         "unit": "Article 165. The Legal and Technical Commission"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 151. Politique en matière de production"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 155. Conférence de révision"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 160. Pouvoirs et fonctions"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 161. Composition, procédure et vote"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 162. Pouvoirs et fonctions"
+      },
+      {
+        "corpus_id": "un/convention/unclos-partxi-1982-fr",
+        "short_title": "CNUDM Partie XI (La Zone) [FR]",
+        "version_id": "1982-12-10",
+        "unit": "Article 165. La commission juridique et technique"
       },
       {
         "corpus_id": "isa/regulation/sulphides-2010-es",

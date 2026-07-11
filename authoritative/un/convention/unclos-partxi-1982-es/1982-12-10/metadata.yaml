@@ -1,0 +1,69 @@
+corpus_id: un/convention/unclos-partxi-1982-es
+version_id: '1982-12-10'
+title: 'Convención de las Naciones Unidas sobre el Derecho del Mar — Parte XI: La Zona (artículos 133
+  a 191)'
+short_title: CNUDM Parte XI (La Zona) [ES]
+jurisdiction: international
+document_type: convention
+official_citation: Convención de las Naciones Unidas sobre el Derecho del Mar, 10 de diciembre de 1982,
+  1833 UNTS 3, Parte XI (arts. 133 a 191)
+authentic_languages:
+- ar
+- zh
+- en
+- fr
+- ru
+- es
+adoption_date: '1982-12-10'
+entry_into_force_date: '1994-11-16'
+source_url: https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:21998A0623(01)
+source_publisher: Oficina de Publicaciones de la Unión Europea — Diario Oficial L 179 de 23.6.1998 (EUR-Lex)
+source_is_official: true
+retrieval_date: '2026-07-12'
+retrieved_by: Dan (human download of the EUR-Lex Official Journal PDF, CELEX 21998A0623(01)); ingested
+  via Cowork
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:843031d739f2478c4297d2de0e46e063e73fed2fd34df673b95206b3682d55c9
+original_sha256: sha256:8c918b14720534d7a25b4e778370f891105ceec8694c0151f4c11993202ec583
+text_sha256: sha256:843031d739f2478c4297d2de0e46e063e73fed2fd34df673b95206b3682d55c9
+text_fidelity: extracted_verified
+language: es
+authoritative_status: authentic_text
+license: un-materials-terms
+rights_note: Texto auténtico español de la CNUDM, publicado en el Diario Oficial de las Comunidades Europeas
+  L 179 de 23 de junio de 1998 (EUR-Lex). El contenido del Diario Oficial de la UE es reutilizable (Decisión
+  2011/833/UE); el texto del tratado subyacente es un instrumento de las Naciones Unidas, atribuido a
+  la ONU. No re-licenciado.
+capture_history:
+- date: '2026-07-12'
+  source_url: https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:21998A0623(01)
+  original_sha256: sha256:8c918b14720534d7a25b4e778370f891105ceec8694c0151f4c11993202ec583
+  note: Byte-exact EUR-Lex OJ PDF (human download, CELEX 21998A0623(01)); Part XI extracted by scripts/extract.py
+    under JC-006, ingested 2026-07-12.
+supersedes: null
+superseded_by: null
+related_documents:
+- un/convention/unclos-partxi-1982
+- un/agreement/unclos-partxi-impl-1994
+- itlos/advisory-opinion/sdc-area-2011
+provenance_note: AUTHENTIC SPANISH TEXT of UNCLOS Part XI (arts. 133–191) — sibling under JC-006 (English
+  base record is un/convention/unclos-partxi-1982). Authentic in the six UN languages, all equally authoritative;
+  the ES text is stored here. Source is the clean digital EUR-Lex publication of the Convention in the
+  Official Journal L 179 (23 June 1998), CELEX 21998A0623(01) — used because the UN/DOALOS non-English
+  PDFs are OCR-degraded. The byte-exact official PDF is stored as original.pdf; Part XI is extracted with
+  pdftotext -raw and cleaned by the committed scripts/extract.py (OJ running heads removed, soft-hyphen
+  line wraps recomposed, NFC-normalised), byte-exact reproducible; no wording changed. Part XI is modified
+  by, and yields on conflict to, the 1994 Implementation Agreement (see related_documents). An equally-authentic
+  language version, NOT a translation.
+verification:
+  status: verified_against_official_source
+  method: Comprobación de exhaustividad (59 artículos 133 a 191, secciones 1 a 5, subsecciones A a H);
+    PDF oficial de EUR-Lex almacenado como original.pdf; encabezados del Diario Oficial eliminados, cortes
+    de palabra recompuestos; regenerado byte a byte por scripts/extract.py (pdftotext -raw + clean_unclos);
+    sin cambios de redacción.
+  reference: https://eur-lex.europa.eu/legal-content/ES/TXT/PDF/?uri=CELEX:21998A0623(01)
+  verified_by: Cowork provenance-corpus-builder
+  verified_date: '2026-07-12'
+  note: Spanish authentic text (JC-006 sibling); sourced from EUR-Lex OJ L 179/1998; equally authoritative
+    with the other UN-language versions.

@@ -41,6 +41,8 @@ capture_history:
 supersedes: null
 superseded_by: null
 related_documents:
+- un/convention/unclos-partxi-1982-fr
+- un/convention/unclos-partxi-1982-es
 - un/agreement/unclos-partxi-impl-1994
 - itlos/advisory-opinion/sdc-area-2011
 provenance_note: English authentic text of UNCLOS Part XI (arts. 133–191), captured 2026-07-03 from the
@@ -50,12 +52,17 @@ provenance_note: English authentic text of UNCLOS Part XI (arts. 133–191), cap
   168(2), 169(3)) were normalised to the authentic digit against the Convention text. This capture is
   a text extraction, NOT a byte-exact PDF; a human-downloaded byte-exact official 'unclos_e.pdf' is a
   recommended provenance upgrade. Part XI is modified by, and yields on conflict to, the 1994 Implementation
-  Agreement (see related_documents); the text stored here is the Convention text as adopted. Other five
-  authentic languages (ar, zh, fr, ru, es) not yet stored — recorded coverage gap (JC-003).
+  Agreement (see related_documents); the text stored here is the Convention text as adopted. French and
+  Spanish authentic texts are now stored as JC-006 siblings (un/convention/unclos-partxi-1982-fr, -es),
+  sourced clean from the EUR-Lex OJ publication; Arabic, Chinese and Russian remain held pending clean
+  digital sources (UN/DOALOS non-English PDFs are OCR-degraded).
 verification:
   status: verified_against_capture_source
-  method: 'Structural completeness check (all 59 articles 133–191 across Sections 1–5 present and in order) and reproduction check against the DOALOS Part XI HTML pages used for capture; legacy "l"-for-"1" glyph artifacts normalised to the authentic digit and documented in provenance_note.'
-  reference: 'https://www.un.org/depts/los/convention_agreements/texts/unclos/part11-1.htm'
+  method: Structural completeness check (all 59 articles 133–191 across Sections 1–5 present and in order)
+    and reproduction check against the DOALOS Part XI HTML pages used for capture; legacy "l"-for-"1"
+    glyph artifacts normalised to the authentic digit and documented in provenance_note.
+  reference: https://www.un.org/depts/los/convention_agreements/texts/unclos/part11-1.htm
   verified_by: Cowork provenance-corpus-builder
   verified_date: '2026-07-03'
-  note: 'Text verified complete and faithful to the DOALOS capture source. A byte-exact cross-check against the official unclos_e.pdf / 1833 UNTS 3 remains a recommended further upgrade.'
+  note: Text verified complete and faithful to the DOALOS capture source. A byte-exact cross-check against
+    the official unclos_e.pdf / 1833 UNTS 3 remains a recommended further upgrade.

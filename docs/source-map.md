@@ -123,3 +123,5 @@ Official per-language PDFs (ISA Mining Code → Exploration Regulations page):
   PDFs for A/RES/48/263 in these three languages are legacy-font-garbled (AR, RU) or image-only (ZH). Held
   pending clean digital sources. (The Agreement is already stored in English, French, and Spanish.)
 - **UNCLOS Part XI in non-English languages** — held (degraded OCR), see the section above.
+
+- **UNCLOS Part XI in French & Spanish — DONE (2026-07-12).** Sourced clean from the EUR-Lex OJ publication of the Convention (CELEX 21998A0623(01), OJ L 179/1998), extracted with `pdftotext -raw` + `clean_unclos` (byte-exact reproducible). **Arabic, Chinese, Russian remain held** — the UN/DOALOS non-English UNCLOS PDFs are OCR-degraded; EUR-Lex covers EU languages only, so AR/ZH/RU need a clean UN source.

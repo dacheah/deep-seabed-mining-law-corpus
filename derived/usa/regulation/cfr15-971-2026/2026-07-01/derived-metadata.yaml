@@ -6,7 +6,7 @@
   source_text_sha256: sha256:05e196e4d37d0d905d07dffba5c43e49a2b6f9e260d0a4f010f8b5351bf9aee4
   generation_method: rule_based
   generator: build_derived.py (structure)
-  generation_date: '2026-07-11'
+  generation_date: '2026-07-12'
   review_status: unreviewed
   reviewed_by: null
   license: CC-BY-4.0
@@ -22,7 +22,7 @@
   source_text_sha256: sha256:05e196e4d37d0d905d07dffba5c43e49a2b6f9e260d0a4f010f8b5351bf9aee4
   generation_method: rule_based
   generator: build_derived.py (keyword fallback)
-  generation_date: '2026-07-11'
+  generation_date: '2026-07-12'
   review_status: unreviewed
   reviewed_by: null
   license: CC-BY-4.0

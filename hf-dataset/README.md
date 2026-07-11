@@ -35,7 +35,7 @@ A neutral, **provenance-first**, machine-readable record of the law governing mi
 
 - **Source of truth / build history:** https://github.com/dacheah/deep-seabed-mining-law-corpus
 - **Human-browsable site:** https://dacheah.github.io/deep-seabed-mining-law-corpus/
-- **25** instruments (25 verified against official sources) · **2508** provisions · **6391** neutral concept tags
+- **27** instruments (27 verified against official sources) · **2705** provisions · **6720** neutral concept tags
 
 ## Why this dataset is different
 
@@ -79,6 +79,8 @@ prov = load_dataset("dacheah/deep-seabed-mining-law-corpus", "provisions")
 | Acuerdo de 1994 sobre la aplicación de la Parte XI [ES] | international | 1994-07-28 | `extracted_verified` |
 | Accord de 1994 relatif à l’application de la partie XI [FR] | international | 1994-07-28 | `extracted_verified` |
 | UNCLOS Part XI (The Area) | international | 1982-12-10 | `extracted_verified` |
+| CNUDM Parte XI (La Zona) [ES] | international | 1982-12-10 | `extracted_verified` |
+| CNUDM Partie XI (La Zone) [FR] | international | 1982-12-10 | `extracted_verified` |
 | 15 CFR 970 — DSM Exploration Licences (NOAA) | USA | 1981-09-15 | `extracted_verified` |
 | 15 CFR 971 — DSM Commercial Recovery Permits (NOAA) | USA |  | `extracted_verified` |
 | US Deep Seabed Hard Mineral Resources Act (DSHMRA) | USA | 1980-06-28 | `extracted_verified` |
@@ -97,4 +99,4 @@ This is a **reference record, not legal advice**. The authoritative text of each
 Deep Seabed Mining Law Corpus (maintainers). https://github.com/dacheah/deep-seabed-mining-law-corpus
 ```
 
-_Dataset generated from the repository by `scripts/export_hf_dataset.py` on 2026-07-11 — do not edit by hand._
+_Dataset generated from the repository by `scripts/export_hf_dataset.py` on 2026-07-12 — do not edit by hand._

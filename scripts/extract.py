@@ -18,16 +18,16 @@ Usage:
     python3 scripts/extract.py --write    # (re)write text.txt from the committed extractor
 """
 from __future__ import annotations
-import argparse, glob, hashlib, os, re, subprocess, sys
+import argparse, glob, hashlib, os, re, subprocess, sys, unicodedata
 import yaml
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AUTH = os.path.join(REPO, "authoritative")
 PINNED_POPPLER = "22.02.0"
 
-def pdftotext(pdf: str) -> str:
-    return subprocess.run(["pdftotext", "-enc", "UTF-8", pdf, "-"],
-                          capture_output=True, text=True, check=True).stdout
+def pdftotext(pdf: str, raw: bool = False) -> str:
+    cmd = ["pdftotext", "-enc", "UTF-8"] + (["-raw"] if raw else []) + [pdf, "-"]
+    return subprocess.run(cmd, capture_output=True, text=True, check=True).stdout
 
 def poppler_version() -> str:
     out = subprocess.run(["pdftotext", "-v"], capture_output=True, text=True).stderr
@@ -434,6 +434,57 @@ def clean_isa_zh(raw, title_line):
         if p: out.append(p)
     return title_line+"\n\n"+"\n\n".join(out)+"\n"
 
+def clean_unclos(raw, title_line, lang):
+    """UNCLOS Part XI (arts 133-191) from the EUR-Lex OJ PDF (pdftotext -raw). Slices Part XI,
+    strips OJ running heads, de-hyphenates soft wraps, rebuilds Part/Section/Sub-section/Article
+    structure. NFC-normalised so combining-diacritic running heads match and output is canonical."""
+    raw = unicodedata.normalize('NFC', raw)
+    partw = "PARTIE" if lang == "fr" else "PARTE"
+    secw  = "SECTION" if lang == "fr" else "SECCIÓN"
+    subw  = "Sous-section" if lang == "fr" else "Subsección"
+    artw  = "Article" if lang == "fr" else "Artículo"
+    L = raw.splitlines()
+    a133 = next(i for i, l in enumerate(L) if l.strip() == f"{artw} 133")
+    pxi  = max(i for i, l in enumerate(L[:a133]) if l.strip() == f"{partw} XI")
+    a191 = next(i for i, l in enumerate(L) if l.strip() == f"{artw} 191")
+    pxii = next(i for i, l in enumerate(L[a191:], a191) if l.strip() == f"{partw} XII")
+    seg = L[pxi:pxii]
+    def furn(x):
+        x = x.strip()
+        return (bool(re.match(r'^L \d+/\d+', x)) or 'Journal officiel' in x or 'Diario Oficial' in x
+                or bool(re.fullmatch(r'\d{1,2}\.\d{1,2}\.\d{2}', x)) or bool(re.fullmatch(r'(FR|ES)', x)) or x == '')
+    lines = [l.rstrip() for l in seg if not furn(l)]
+    ART = re.compile(rf'^{artw} (\d+)$'); SEC = re.compile(rf'^{secw} (\d+)$')
+    SUB = re.compile(rf'^{subw} ([A-Z])$'); PART = re.compile(rf'^{partw} XI$')
+    NEW = re.compile(r'^(\d+\.|[a-z]\)|[ivx]+\))(\s|$)')
+    paras = []; cur = None
+    def flush():
+        nonlocal cur
+        if cur is not None: paras.append(cur); cur = None
+    i = 0; n = len(lines)
+    while i < n:
+        s0 = lines[i]
+        mA = ART.match(s0); mS = SEC.match(s0); mU = SUB.match(s0); mP = PART.match(s0)
+        if mP:
+            flush(); t = lines[i+1] if i+1 < n else ""; i += 1; paras.append(f"{partw} XI. {t}")
+        elif mS:
+            flush(); t = lines[i+1] if i+1 < n else ""; i += 1; paras.append(f"{secw} {mS.group(1)}. {t}")
+        elif mU:
+            flush(); t = lines[i+1] if i+1 < n else ""; i += 1; paras.append(f"{subw} {mU.group(1)}. {t}")
+        elif mA:
+            flush(); t = lines[i+1] if i+1 < n else ""; i += 1; paras.append(f"{artw} {mA.group(1)}. {t}")
+        elif NEW.match(s0):
+            flush(); cur = s0
+        else:
+            if cur is None: cur = s0
+            elif cur.endswith('-') and cur[-2:-1].islower(): cur = cur[:-1] + s0
+            else: cur = cur + " " + s0
+        i += 1
+    flush()
+    return title_line + "\n\n" + "\n\n".join(paras) + "\n"
+
+PDF_RAW = {"un/convention/unclos-partxi-1982-fr", "un/convention/unclos-partxi-1982-es"}
+
 # ---- registry: corpus_id -> how to re-derive text from original.* ----------------------------
 PDF_EXTRACTORS = {
   "itlos/advisory-opinion/sdc-area-2011": lambda raw: clean_ao(raw),
@@ -460,6 +511,8 @@ PDF_EXTRACTORS = {
   "isa/regulation/nodules-2013-zh": lambda raw: clean_isa_zh(raw, "“区域”内多金属结核探矿和勘探规章（2013年修正） — ISBA/19/C/17，附件 [ZH]"),
   "isa/regulation/sulphides-2010-zh": lambda raw: clean_isa_zh(raw, "“区域”内多金属硫化物探矿和勘探规章 — ISBA/16/A/12/Rev.1，附件 [ZH]"),
   "isa/regulation/crusts-2012-zh": lambda raw: clean_isa_zh(raw, "“区域”内富钴铁锰结壳探矿和勘探规章 — ISBA/18/A/11，附件 [ZH]"),
+  "un/convention/unclos-partxi-1982-fr": lambda raw: clean_unclos(raw, "Convention des Nations Unies sur le droit de la mer — Partie XI : La Zone (articles 133 à 191)", "fr"),
+  "un/convention/unclos-partxi-1982-es": lambda raw: clean_unclos(raw, "Convención de las Naciones Unidas sobre el Derecho del Mar — Parte XI: La Zona (artículos 133 a 191)", "es"),
   "usa/regulation/cfr15-970-2026": lambda raw: clean_cfr(raw, "970",
       "15 CFR Part 970 — Deep Seabed Mining Regulations for Exploration Licenses (up to date as of 1 July 2026)"),
   "usa/regulation/cfr15-971-2026": lambda raw: clean_cfr(raw, "971",
@@ -477,7 +530,7 @@ def rederive(meta: dict, d: str) -> bytes | None:
     if fmt == "pdf":
         fn = PDF_EXTRACTORS.get(cid)
         if not fn: raise SystemExit(f"no committed PDF extractor for {cid}")
-        return norm(fn(pdftotext(os.path.join(d, meta["original_filename"]))))
+        return norm(fn(pdftotext(os.path.join(d, meta["original_filename"]), raw=(cid in PDF_RAW))))
     # txt-sourced: canonical normalisation of the stored original (raw HTML capture was cleaned pre-ingest)
     return norm(open(os.path.join(d, meta["original_filename"]), encoding="utf-8").read())
 
