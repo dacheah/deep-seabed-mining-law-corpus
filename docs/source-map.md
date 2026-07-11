@@ -96,3 +96,12 @@ into `capture/` (as was done for the 2011 Advisory Opinion):
 
 Note: 15 CFR 970/971 were revised by a final rule published 7 July 2025 (Fed. Reg. 2025-12513); capture
 the current (post-revision) eCFR text and record that revision in `capture_history`.
+
+## Parked: UNCLOS Part XI in non-English languages (decision 2026-07-11)
+The 1982 Convention itself is only available in non-English languages as **degraded OCR scans** of the
+UNTS volumes (both the DOALOS `unclos_f.pdf` and the ISA-hosted `French.pdf` are bad OCR — "min6rales",
+"lea", "dana", stray glyphs). Ingesting that would put OCR errors into an authoritative text, so per the
+maintainer's decision we **hold** UNCLOS Part XI in other languages until a clean digital source is found
+(e.g. EUR-Lex, which is clean but exceeds the fetch cap before Part XI). The modern instruments (1994
+Agreement, ISA regulations, the Advisory Opinion) are clean digital in every language and ARE ingested.
+Recorded coverage gap under JC-003 / JC-006; not a fidelity failure.

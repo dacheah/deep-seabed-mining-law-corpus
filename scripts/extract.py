@@ -250,6 +250,93 @@ def clean_agr_fr(raw, title_line):
     paras=[re.sub(r'\s+',' ',p).strip() for p in paras if p.strip()]
     return title_line+"\n\n"+"\n\n".join(paras)+"\n"
 
+def clean_isa_es(raw, title_line):
+    lines=raw.splitlines()
+    start=None
+    for i,l in enumerate(lines):
+        if l.strip()=="Anexo" and i+1<len(lines) and lines[i+1].strip().startswith("Reglamento sobre"):
+            start=i; break
+    body=lines[start+1:] if start is not None else lines
+    def art(s):
+        if re.match(r'^\d{2}-\d{5}(\s|$)', s): return True
+        if re.match(r'^\*\d+\*$', s): return True
+        if re.match(r'^\d{6}$', s): return True
+        if re.match(r'^ISBA/\S+$', s): return True
+        if re.match(r'^\d{1,3}[ªaºo]?\.?\s*sesión', s): return True
+        if re.match(r'^\d{1,2}\s+de\s+\w+\s+de\s+20\d\d$', s): return True
+        if re.match(r'^_{3,}$', s): return True
+        if re.match(r'^\d{1,2}\s+ISBA/', s): return True
+        if re.fullmatch(r'\d{1,3}', s): return True
+        return False
+    kept=[s.strip() for s in body if s.strip() and not art(s.strip())]
+    HDR=re.compile(r'^(Parte|Artículo|Sección|Cláusula|Anexo|Apéndice)\s+([0-9]+|[IVXLC]+)\s*$')
+    HDRT=re.compile(r'^(Parte|Artículo|Sección|Cláusula|Anexo|Apéndice)\s+([0-9]+|[IVXLC]+)\s+(.+)$')
+    STANDALONE=re.compile(r'^(Preámbulo|Introducción|Cláusulas uniformes.*)$')
+    NUM=re.compile(r'^\(?\d{1,2}(\.\d{1,2})?\.?(\s|$)|^\([a-z]{1,3}\)\s|^[a-z]\)\s')
+    paras=[]; cur=None; i=0; n=len(kept)
+    while i<n:
+        s=kept[i]
+        if HDR.match(s):
+            title=""
+            if i+1<n and not HDR.match(kept[i+1]) and not HDRT.match(kept[i+1]) and not NUM.match(kept[i+1]) and not STANDALONE.match(kept[i+1]) and len(kept[i+1])<95:
+                title=kept[i+1]; i+=1
+            if cur: paras.append(cur)
+            cur=(s+(". "+title if title else "")).strip()
+        elif HDRT.match(s) or STANDALONE.match(s):
+            if cur: paras.append(cur)
+            cur=s
+        elif NUM.match(s):
+            if cur: paras.append(cur)
+            cur=s
+        else:
+            cur=(cur+" "+s) if cur else s
+        i+=1
+    if cur: paras.append(cur)
+    paras=[re.sub(r'\s+',' ',p).strip() for p in paras if p.strip()]
+    return title_line+"\n\n"+"\n\n".join(paras)+"\n"
+
+def clean_agr_es(raw, title_line):
+    lines=raw.splitlines()
+    start=next(i for i,l in enumerate(lines) if l.strip().startswith("ACUERDO RELATIVO A LA APLICACIÓN"))
+    body=lines[start:]
+    def art(s):
+        if re.match(r'^A/RES/\S+$', s): return True
+        if re.match(r'^Página \d+$', s): return True
+        if s=='/...': return True
+        if re.match(r'^Vol\. ', s): return True
+        if s in ("United Nations -","Nations Unies -","Treaty Series","Recueil des Traités","United Nations","Nations Unies"): return True
+        if re.match(r'^\d{1,3}[ªaºo]?\.?\s*sesión', s): return True
+        if re.match(r'^\d{1,2}\s+de\s+\w+\s+de\s+19\d\d$', s): return True
+        if re.match(r'^\d{4}$', s): return True
+        if re.fullmatch(r'\d{1,3}', s): return True
+        if re.match(r'^_{3,}$', s): return True
+        return False
+    kept=[s.strip() for s in body if s.strip() and not art(s.strip())]
+    HDR=re.compile(r'^(Artículo)\s+\d+\s*$'); HDRT=re.compile(r'^(Artículo)\s+\d+\s+(.+)$')
+    SEC=re.compile(r'^SECCIÓN\s+\d+\.?\s*$'); SECT=re.compile(r'^SECCIÓN\s+\d+\.\s+(.+)$')
+    NUM=re.compile(r'^\(?\d{1,2}\.(\s|$)|^\([a-z]\)\s|^[a-z]\)\s')
+    paras=[]; cur=None; i=0; n=len(kept)
+    while i<n:
+        s=kept[i]
+        if HDR.match(s) or SEC.match(s):
+            title=""
+            if i+1<n and not HDR.match(kept[i+1]) and not SEC.match(kept[i+1]) and not NUM.match(kept[i+1]) and len(kept[i+1])<95 and not kept[i+1].endswith(':'):
+                title=kept[i+1]; i+=1
+            if cur: paras.append(cur)
+            cur=(s+(". "+title if title else "")).strip()
+        elif HDRT.match(s) or SECT.match(s):
+            if cur: paras.append(cur)
+            cur=s
+        elif NUM.match(s):
+            if cur: paras.append(cur)
+            cur=s
+        else:
+            cur=(cur+" "+s) if cur else s
+        i+=1
+    if cur: paras.append(cur)
+    paras=[re.sub(r'\s+',' ',p).strip() for p in paras if p.strip()]
+    return title_line+"\n\n"+"\n\n".join(paras)+"\n"
+
 # ---- registry: corpus_id -> how to re-derive text from original.* ----------------------------
 PDF_EXTRACTORS = {
   "itlos/advisory-opinion/sdc-area-2011": lambda raw: clean_ao(raw),
@@ -262,6 +349,14 @@ PDF_EXTRACTORS = {
       "Règlement relatif à la prospection et à l’exploration des sulfures polymétalliques dans la Zone — ISBA/16/A/12/Rev.1, annexe [FR]"),
   "isa/regulation/crusts-2012-fr": lambda raw: clean_isa_fr(raw,
       "Règlement relatif à la prospection et à l’exploration des encroûtements cobaltifères de ferromanganèse dans la Zone — ISBA/18/A/11, annexe [FR]"),
+  "un/agreement/unclos-partxi-impl-1994-es": lambda raw: clean_agr_es(raw,
+      "Acuerdo relativo a la aplicación de la Parte XI de la Convención de las Naciones Unidas sobre el Derecho del Mar de 10 de diciembre de 1982 [ES]"),
+  "isa/regulation/nodules-2013-es": lambda raw: clean_isa_es(raw,
+      "Reglamento sobre Prospección y Exploración de Nódulos Polimetálicos en la Zona (en su forma enmendada en 2013) — ISBA/19/C/17, anexo [ES]"),
+  "isa/regulation/sulphides-2010-es": lambda raw: clean_isa_es(raw,
+      "Reglamento sobre Prospección y Exploración de Sulfuros Polimetálicos en la Zona — ISBA/16/A/12/Rev.1, anexo [ES]"),
+  "isa/regulation/crusts-2012-es": lambda raw: clean_isa_es(raw,
+      "Reglamento sobre Prospección y Exploración de Costras de Ferromanganeso con Alto Contenido de Cobalto en la Zona — ISBA/18/A/11, anexo [ES]"),
   "usa/regulation/cfr15-970-2026": lambda raw: clean_cfr(raw, "970",
       "15 CFR Part 970 — Deep Seabed Mining Regulations for Exploration Licenses (up to date as of 1 July 2026)"),
   "usa/regulation/cfr15-971-2026": lambda raw: clean_cfr(raw, "971",
