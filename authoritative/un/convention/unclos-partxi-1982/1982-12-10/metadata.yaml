@@ -66,3 +66,6 @@ verification:
   verified_date: '2026-07-03'
   note: Text verified complete and faithful to the DOALOS capture source. A byte-exact cross-check against
     the official unclos_e.pdf / 1833 UNTS 3 remains a recommended further upgrade.
+binding_force: binding
+issuing_authority: "Third United Nations Conference on the Law of the Sea"
+administering_authority: null

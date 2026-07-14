@@ -54,3 +54,6 @@ verification:
   verified_by: Cowork provenance-corpus-builder
   verified_date: '2026-07-03'
   note: 'Non-positive-law title: Code text is prima facie evidence; Statutes at Large (Pub. L. 96-283) is the authentic text and a recommended byte-exact upgrade.'
+binding_force: binding
+issuing_authority: "United States Congress"
+administering_authority: "National Oceanic and Atmospheric Administration (NOAA)"

@@ -51,3 +51,6 @@ verification:
   verified_by: Cowork provenance-corpus-builder
   verified_date: '2026-07-03'
   note: 'Complete and faithful to the official eCFR text current as of 1 July 2026, incorporating the 7 July 2025 final rule. Official codification of record is the annual GPO CFR / Federal Register.'
+binding_force: binding
+issuing_authority: "National Oceanic and Atmospheric Administration (NOAA)"
+administering_authority: null

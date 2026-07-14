@@ -64,3 +64,6 @@ verification:
   verified_date: '2026-07-03'
   note: Text verified complete and faithful to the official ISA source PDF. Byte-exact PDF download recommended
     as a further upgrade.
+binding_force: binding
+issuing_authority: "International Seabed Authority"
+administering_authority: null
