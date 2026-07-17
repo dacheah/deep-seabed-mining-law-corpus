@@ -1,0 +1,11 @@
+{
+  "name": "SOURCE NAME — instrument listing (rename me)",
+  "baseSelector": "REPLACE — CSS selector for EACH repeated listing item, e.g. 'ul.documents li' or 'table.docs tbody tr'",
+  "fields": [
+    {"name": "title", "selector": "REPLACE — e.g. 'a.title' or 'td.title'", "type": "text"},
+    {"name": "citation", "selector": "REPLACE — e.g. '.symbol' (official symbol/citation)", "type": "text"},
+    {"name": "date", "selector": "REPLACE — e.g. '.date'", "type": "text"},
+    {"name": "doc_url", "selector": "REPLACE — e.g. 'a.download' (link to the document)", "type": "attribute", "attribute": "href"},
+    {"name": "language", "selector": "REPLACE — e.g. '.lang' (or drop and set in review)", "type": "text"}
+  ]
+}

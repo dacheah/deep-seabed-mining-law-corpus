@@ -1,111 +1,147 @@
 {
-  "_comment": "Pages watched monthly by scripts/watch_sources.py. A change opens/updates a report for a maintainer to TRIAGE (it may be a new/amended instrument OR a cosmetic page update). Nothing is ingested automatically. Add ISA Council/LTC pages as the Mining Code advances (Phase 1, front-loaded watch). [Expanded 2026-07-04: Mining Code drafts/standards/guidance, LTC, 31st session, ITLOS case list, US Federal Register DSM feed + NOAA.]",
+  "_comment": "Pages watched monthly by scripts/watch_sources.py. A change opens/updates a report for a maintainer to TRIAGE (it may be a new/amended instrument OR a cosmetic page update). Nothing is ingested automatically. Per-source fields: capture_type (pdf|html|json) hints how the crawl layer captures the listed documents; scope tags the design-lock scope area; add an OPTIONAL \"schema\" (a file under scripts/crawl/schemas/) to switch a source from whole-page-hash to structured schema-mode monitoring (see scripts/crawl/README.md). [Expanded 2026-07-04: Mining Code drafts/standards/guidance, LTC, 31st session, ITLOS case list, US Federal Register DSM feed + NOAA. 2026-07: capture_type/scope added for the Crawl4AI source-mapping layer.]",
   "sources": [
     {
       "name": "ISA — The Mining Code (exploitation regulations)",
       "url": "https://www.isa.org.jm/the-mining-code/",
+      "capture_type": "pdf",
+      "scope": "isa_mining_code",
       "last_sha256": "sha256:ed90ff37fb12a3e0a6c2e15cb88b72bb00262ed42faf5bb4847286e12544fa1c",
       "last_checked": "2026-07-04T01:11:53Z"
     },
     {
       "name": "ISA — Exploration regulations",
       "url": "https://www.isa.org.jm/the-mining-code/exploration-regulations/",
+      "capture_type": "pdf",
+      "scope": "isa_exploration",
       "last_sha256": "sha256:43eac0b453ba7c236e5849ba752d817c0fef93c392eca148d5bb697211ceb880",
       "last_checked": "2026-07-04T01:11:53Z"
     },
     {
       "name": "ISA — Council documents",
       "url": "https://www.isa.org.jm/sessions/",
+      "capture_type": "pdf",
+      "scope": "isa_sessions",
       "last_sha256": "sha256:5121b558f3aaaa919cb498893ce9ac4d4959991bf88647da5121c50f782b72cc",
       "last_checked": "2026-07-04T01:11:53Z"
     },
     {
       "name": "UN DOALOS — 1994 Part XI Implementation Agreement",
       "url": "https://www.un.org/depts/los/convention_agreements/texts/agreement_part_xi/agreement_part_xi.htm",
+      "capture_type": "html",
+      "scope": "unclos_partxi",
       "last_sha256": "sha256:5fcfcc46b7dd1c16d1e719e21e0504a71c8e22b5ab82bb7b4f868212f2321cbe",
       "last_checked": "2026-07-04T01:11:53Z"
     },
     {
       "name": "UN DOALOS — UNCLOS Part XI (The Area), Section 1",
       "url": "https://www.un.org/depts/los/convention_agreements/texts/unclos/part11-1.htm",
+      "capture_type": "html",
+      "scope": "unclos_partxi",
       "last_sha256": "sha256:20536b0c8eaf65bd856c2264ee97068d6278922c25b4ae97ee73cc58e85d4c66",
       "last_checked": "2026-07-04T01:11:53Z"
     },
     {
       "name": "ITLOS — Case No. 17 (2011 Advisory Opinion)",
       "url": "https://www.itlos.org/en/main/cases/list-of-cases/case-no-17/",
+      "capture_type": "pdf",
+      "scope": "itlos",
       "last_sha256": "sha256:a0246511117343dbe3e2a98c7ee8ebb21829c2a69221c1dc5b00deb803540370",
       "last_checked": "2026-07-04T01:11:53Z"
     },
     {
       "name": "US eCFR — 15 CFR Part 970 (NOAA deep seabed mining, exploration licences)",
       "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-D/part-970",
+      "capture_type": "pdf",
+      "scope": "us_dsm",
       "last_sha256": "sha256:fc128f65ca713c60b0362b2c1b2deb9e6e84343ad4b67088eb779e92b53381fc",
       "last_checked": "2026-07-04T01:11:53Z"
     },
     {
       "name": "US eCFR — 15 CFR Part 971 (NOAA commercial recovery permits)",
       "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-D/part-971",
+      "capture_type": "pdf",
+      "scope": "us_dsm",
       "last_sha256": "sha256:fc128f65ca713c60b0362b2c1b2deb9e6e84343ad4b67088eb779e92b53381fc",
       "last_checked": "2026-07-04T01:11:53Z"
     },
     {
       "name": "ISA — Draft Exploitation Regulations (Mining Code drafts)",
       "url": "https://isa.org.jm/the-mining-code/draft-exploitation-regulations-2/",
+      "capture_type": "pdf",
+      "scope": "isa_mining_code",
       "last_sha256": "sha256:9ae944940b5b5c109db3392102a0a0393ba56c54e5233714c80867efe0cd1219",
       "last_checked": "2026-07-04T01:11:53Z"
     },
     {
       "name": "ISA — Draft Standards and Guidelines (Mining Code)",
       "url": "https://isa.org.jm/the-mining-code/standards-and-guidelines/",
+      "capture_type": "pdf",
+      "scope": "isa_mining_code",
       "last_sha256": "sha256:b21386fe43bc128f16b63b8a57f1b37d17da31c86c3db8c11de83f78b8b3f2bd",
       "last_checked": "2026-07-04T01:11:53Z"
     },
     {
       "name": "ISA — Mining Code Recommendations and guidance (LTC)",
       "url": "https://isa.org.jm/mining-code-recommendations/",
+      "capture_type": "pdf",
+      "scope": "isa_mining_code",
       "last_sha256": "sha256:0f51cb2addb464c65239d98cffe3f68806fff13108cdd4c1649be8118da4c434",
       "last_checked": "2026-07-04T01:11:53Z"
     },
     {
       "name": "ISA — Exploitation: Official documents",
       "url": "https://isa.org.jm/the-mining-code/official-documents/",
+      "capture_type": "pdf",
+      "scope": "isa_mining_code",
       "last_sha256": "sha256:9454622923133c7ea04e72aa939c39e2c9d67b43f87216f4d3cb524c933c7eb7",
       "last_checked": "2026-07-04T01:11:53Z"
     },
     {
       "name": "ISA — Legal and Technical Commission",
       "url": "https://isa.org.jm/organs/the-legal-and-technical-commission/",
+      "capture_type": "pdf",
+      "scope": "isa_organs",
       "last_sha256": "sha256:7db7af8ed092362ffb5ae63312df1b83b766967c6b0d5c537cd9f6efaa93f53d",
       "last_checked": "2026-07-04T01:11:53Z"
     },
     {
       "name": "ISA — 31st session (2026)",
       "url": "https://www.isa.org.jm/sessions/31st-session-2026/",
+      "capture_type": "pdf",
+      "scope": "isa_sessions",
       "last_sha256": "sha256:79f44704ec18eb92aea06a952a3c58fac0a43ae788833605717fb6b7f14293a7",
       "last_checked": "2026-07-04T01:11:53Z"
     },
     {
       "name": "ISA — The Council",
       "url": "https://isa.org.jm/organs/the-council/",
+      "capture_type": "pdf",
+      "scope": "isa_organs",
       "last_sha256": "sha256:3e338886fdcb9ff8684aa5609712a97738eae30273743eb4f7c20be66a173431",
       "last_checked": "2026-07-04T01:11:53Z"
     },
     {
       "name": "ITLOS — List of cases (new cases / advisory opinions)",
       "url": "https://www.itlos.org/en/main/cases/",
+      "capture_type": "pdf",
+      "scope": "itlos",
       "last_sha256": "sha256:306a76c1d5b67f66648660372ebbb877249a04259cfa75201913f0833bdc8367",
       "last_checked": "2026-07-04T01:11:53Z"
     },
     {
       "name": "US Federal Register — deep seabed mining (newest docs, JSON)",
       "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=deep+seabed+mining&order=newest&per_page=10",
+      "capture_type": "json",
+      "scope": "us_dsm",
       "last_sha256": "sha256:841da01d088e05b0ff15e38f23aa76ef15b1e3aba2982c2a794046b27b5c7321",
       "last_checked": "2026-07-04T01:11:53Z"
     },
     {
       "name": "US NOAA — Deep Seabed Hard Minerals Mining",
       "url": "https://oceanservice.noaa.gov/deep-seabed-mineral-resources/deep-seabed-mining/",
+      "capture_type": "html",
+      "scope": "us_dsm",
       "last_sha256": "sha256:4ccbaa1b2997547c51d35edbfcfa0e6a36bc781a689d942e0af0cfc927c30d9c",
       "last_checked": "2026-07-04T01:11:53Z"
     }

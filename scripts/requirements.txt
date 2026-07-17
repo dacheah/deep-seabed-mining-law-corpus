@@ -2,3 +2,12 @@
 # Deliberately minimal and mainstream, for long-term portability.
 PyYAML>=6.0
 jsonschema>=4.0
+
+# --- Crawl4AI source-mapping / capture / monitoring layer (scripts/crawl/) ---
+# Pinned to an EXACT version for deterministic runtime extraction. The docs site is labelled
+# "v0.9.x" but the package __version__ is 0.8.9 (latest stable). Bump here AND in
+# scripts/crawl/common.py:PINNED_CRAWL4AI together, then re-verify schemas. After install:
+#   python -m playwright install chromium
+# The monthly monitor (watch_sources.py) degrades to whole-page-hash if crawl4ai is absent, so
+# this stays an OPTIONAL extra for the base corpus tooling.
+crawl4ai==0.8.9

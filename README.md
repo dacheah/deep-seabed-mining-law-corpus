@@ -11,6 +11,11 @@ source texts and anything generated from them, cryptographic provenance on every
 dated versioning. **One principle governs everything: provenance and version integrity override
 convenience, always.**
 
+> **Tooling attribution.** This project uses Crawl4AI (https://github.com/unclecode/crawl4ai) for web
+> data extraction — a build-time source-mapping, capture, and monitoring aid only (`scripts/crawl/`).
+> Crawl4AI output is never stored as authoritative text; `scripts/extract.py` remains the sole,
+> version-pinned extractor.
+
 ## What's here
 
 | Instrument | Status |
