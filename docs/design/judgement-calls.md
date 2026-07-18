@@ -141,3 +141,42 @@ schema excludes them structurally by URL path rather than by manual filtering.
 
 **Status (2026-07-18):** decided. Order 2026/6 not yet captured. Cases 34 and 35 are now monitored
 sources in their own right, at document level — these are live proceedings, not closed records.
+
+---
+
+## JC-008 — Identifying multiple decisions within one case
+**Date:** 2026-07-18
+**Context:** JC-007 admitted ITLOS decisions in Area proceedings. Doc 02's shape
+`<authority>/<type>/<slug>-<year>` assumes **one decision per matter**, which held while the only
+case law was the 2011 Advisory Opinion. It does not hold for contentious proceedings: Case 34 has
+already produced Order 2026/6, held a provisional-measures hearing, and will produce further orders
+and a judgment. These are **distinct instruments, not versions of one text**, so `version_id` cannot
+separate them — that field records textual states of the *same* instrument.
+
+**Options:** (a) party shorthand — `itlos/order/nori-isa-order6-2026`; (b) the Tribunal's own case
+number — `itlos/order/case34-order6-2026`; (c) subject-descriptive slugs, as `sdc-area-2011`.
+
+**Decision:** (b). ITLOS decisions in contentious proceedings take
+`itlos/<type>/case<N>[-<discriminator>]-<year>`, where `<N>` is the ITLOS case number and the
+discriminator is the official decision number where a case may yield several of that type:
+
+```
+itlos/order/case34-order6-2026     Case 34, Order 2026/6 of 24 June 2026
+itlos/judgment/case34-2026         Case 34, judgment (one per case — no discriminator)
+```
+
+**Reason:** `corpus_id` is stable forever (doc 01), so it must be built from the most stable official
+identifier available. ITLOS case numbers are assigned by the Tribunal, unique and permanent. Party
+shorthand is none of those: "NORI" is unofficial, party names change through succession or
+intervention, and Cases 34 and 35 are both "*X* v. ISA" — near-identical party slugs invite exactly
+the confusion that a stable identifier exists to prevent. Subject-descriptive slugs (option c) do not
+scale to a case producing many decisions. The readability objection is answered by the schema itself:
+`title` and `short_title` carry human meaning, and `sdc-area-2011` already relies on this by putting
+"(Case No. 17)" in `short_title`. Optimising the identifier for readability duplicates `short_title`
+and pays for it in stability.
+
+**Grandfathering:** `itlos/advisory-opinion/sdc-area-2011` and its `-fr` sibling are **not renamed**.
+Identifier stability outranks retrospective consistency, and a rename would break `related_documents`
+links in five other records. The rule applies to decisions identified from 2026-07-18 onward.
+
+**Status (2026-07-18):** decided; first applied to `itlos/order/case34-order6-2026`, not yet ingested.

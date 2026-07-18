@@ -9,6 +9,10 @@ international level (the ISA / UNCLOS regime)
   un/convention/unclos-partxi-1982        UNCLOS Part XI (the Area)
   un/agreement/unclos-partxi-impl-1994    1994 Implementation Agreement
   itlos/advisory-opinion/sdc-area-2011    2011 Seabed Disputes Chamber Advisory Opinion (Case 17)
+  itlos/<type>/case<N>[-<discriminator>]-<year>
+                                          ITLOS decisions in contentious proceedings (JC-008)
+                                          e.g. itlos/order/case34-order6-2026   (Case 34, Order 2026/6)
+                                               itlos/judgment/case34-2026
   isa/regulation/nodules-<year>           ISA exploration regs — polymetallic nodules
   isa/regulation/sulphides-<year>         ISA exploration regs — polymetallic sulphides
   isa/regulation/crusts-<year>            ISA exploration regs — cobalt-rich crusts
