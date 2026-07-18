@@ -18,11 +18,12 @@
       "last_checked": "2026-07-18T08:37:18Z"
     },
     {
-      "name": "ISA — Council documents",
-      "url": "https://www.isa.org.jm/sessions/",
+      "name": "ISA — 30th session (2025)",
+      "url": "https://isa.org.jm/sessions/30th-session-2025/",
       "capture_type": "pdf",
       "scope": "isa_sessions",
-      "last_sha256": "sha256:83fe8aafc550b5176e34507db139f51c47e74e8af0f3473ed197b977d2fe86c8",
+      "_note": "2026-07-18: was named 'Council documents' and pointed at /sessions/, which SILENTLY REDIRECTS to an agenda-item page from a past session (sessions-30th-session-2025-item16). There is no /sessions/ index — sessions are listed only in the site nav. It had already flagged one meaningless 'change' as the redirect target drifted. Repointed to the most recent completed session; the current session has its own source. NEEDS ANNUAL REVIEW when a new session opens. Hash cleared to force a fresh baseline.",
+      "last_sha256": null,
       "last_checked": "2026-07-18T08:37:18Z"
     },
     {
@@ -51,18 +52,20 @@
     },
     {
       "name": "US eCFR — 15 CFR Part 970 (NOAA deep seabed mining, exploration licences)",
-      "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-D/part-970",
-      "capture_type": "pdf",
+      "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-15.json?part=970",
+      "capture_type": "json",
       "scope": "us_dsm",
-      "last_sha256": "sha256:fc128f65ca713c60b0362b2c1b2deb9e6e84343ad4b67088eb779e92b53381fc",
+      "_note": "2026-07-18: the human-facing eCFR page BLOCKS automated fetches — it redirected to unblock.federalregister.gov ('Request Access'), so this source was hashing an access-denied page. Symptom visible in hindsight: parts 970 and 971 carried IDENTICAL hashes, which two different regulations cannot. Switched to the OFFICIAL eCFR versioner API, which is published for programmatic use (NOT an evasion — no stealth, no proxy, per crawl boundary rule 2). Bonus: it reports amendment dates per section, so a change names the sections amended. Document capture for ingest remains a separate, human-verified step. Hash cleared to force a fresh baseline.",
+      "last_sha256": null,
       "last_checked": "2026-07-18T08:37:18Z"
     },
     {
       "name": "US eCFR — 15 CFR Part 971 (NOAA commercial recovery permits)",
-      "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-D/part-971",
-      "capture_type": "pdf",
+      "url": "https://www.ecfr.gov/api/versioner/v1/versions/title-15.json?part=971",
+      "capture_type": "json",
       "scope": "us_dsm",
-      "last_sha256": "sha256:fc128f65ca713c60b0362b2c1b2deb9e6e84343ad4b67088eb779e92b53381fc",
+      "_note": "2026-07-18: see the Part 970 note — the human-facing eCFR page blocks automated fetches. Switched to the official eCFR versioner API. Hash cleared to force a fresh baseline.",
+      "last_sha256": null,
       "last_checked": "2026-07-18T08:37:18Z"
     },
     {

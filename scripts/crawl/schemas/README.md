@@ -47,7 +47,46 @@ human, then hand-reviewed**:
 
 `_TEMPLATE.json` is a starting point with placeholder selectors — copy it, don't wire it as-is.
 
-> Not yet authored: the 18 current sources still run in whole-page-hash mode. Author each with the
-> helper above (the ISA WordPress listings and ITLOS case list are the highest-value first targets;
-> the US Federal Register source is a JSON API — better watched whole-page or via a small JSON handler
-> than a CSS schema).
+## Known limitation: inline markup loses separators
+
+Crawl4AI concatenates text across inline child elements **without inserting whitespace**. Where a
+site splits a line with inline tags, the extracted text loses the space. Observed live on ITLOS,
+whose case titles mark up party names separately from the "v.":
+
+```
+markup:    <i>… (Tonga Offshore Mining Ltd.</i>v.<i>International Seabed Authority)</i>
+extracted: … (Tonga Offshore Mining Ltd.v.International Seabed Authority)
+```
+
+Consequences and the rule that follows:
+
+- **Change detection is unaffected** — `_rec_key` uses `doc_url`, which is exact.
+- **Extracted `title` and `citation` are INDICATIVE ONLY.** They are monitoring metadata, never
+  authoritative content. A human must correct them against the source document at manifest review —
+  which is already required, since every generated manifest is `draft_requires_human_review`.
+- Do not "fix" this with text substitutions in the pipeline. Guessing where spaces belong is exactly
+  the kind of silent transformation this layer exists to avoid.
+
+## Selector choice: anchor on whatever is most specific to the content
+
+Not a blanket "avoid classes" rule — the two authored schemas deliberately differ:
+
+- **ISA** uses `li:has(a[href*='/wp-content/uploads/'][href$='.pdf'])`. The theme's `views-row`
+  classes are generic and were applied inconsistently across years, so the PDF link is the stable
+  anchor. `li:has(…)` is safe because list items do not nest here.
+- **ITLOS** uses `div.fs-list-cases-item`, a purpose-built class for exactly this register. Here the
+  content-anchored form would be **wrong**: `div:has(…)` also matches every *ancestor* div, so the
+  page wrapper would come back as duplicate rows.
+
+## Status
+
+Authored: `isa-official-documents.json`, `itlos-list-of-cases.json`. The remaining 16 sources run in
+whole-page-hash mode.
+
+Remaining listing candidates (worth a schema): the ISA sessions index, Council documents, draft
+exploitation regulations, draft standards and guidelines, LTC recommendations, the 31st session page,
+the Mining Code landing page, and exploration regulations.
+
+Correctly left on whole-page hashing (single documents — the page *is* the instrument): both UN
+DOALOS texts, both eCFR parts, ITLOS Case No. 17, and the NOAA page. The US Federal Register source
+is a JSON API and needs a small JSON handler rather than a CSS schema.
