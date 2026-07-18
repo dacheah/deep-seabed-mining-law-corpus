@@ -16,7 +16,9 @@ without a dated note in `docs/design/judgement-calls.md`.
 Kept so the trail to the full case record exists without the pleadings entering the authoritative
 layer (JC-007). If scope is ever extended to case files, start here.
 
-- ITLOS Case 34, Application by Nauru Ocean Resources Inc., 30 May 2026 —
+- ITLOS Case 34, Application by Nauru Ocean Resources Inc., dated 30 May 2026, **filed with the
+  Registry 5 June 2026** (filing date per Order 2026/6; the 30 May in the filename is the document
+  date — do not treat a filename date as a legal date) —
   `https://www.itlos.org/fileadmin/itlos/documents/cases/34/2026.05.30_Nauru_Ocean_Resources_Inc._-_Application_92502112.1_.pdf`
 - ITLOS Case 35, Application by Tonga Offshore Mining Ltd., 30 May 2026 —
   `https://www.itlos.org/fileadmin/itlos/documents/cases/35/2026.05.30_Tonga_Offshore_Mining_Ltd._-_Application_92502116.1_.pdf`
