@@ -52,3 +52,31 @@ verifies citation/metadata and runs `ingest.py`.
 Schemas live in `schemas/<source>.json` (Crawl4AI `JsonCssExtractionStrategy` format). Each source in
 `monitoring/sources.json` may carry `schema`, `capture_type` (`pdf`/`html`), and `scope` fields; a
 source with no `schema` falls back to whole-page-hash monitoring.
+
+## Schema-mode safeguards
+
+Schema mode is more precise than whole-page hashing — cosmetic churn (news blocks, "last updated"
+stamps, reworded intros) cannot trigger it, because only the document list is read. But it introduces
+one failure mode whole-page hashing does not have, so both are guarded:
+
+**1. Broken-selector guard (against silent under-reporting).** If a site's markup shifts, selectors can
+stop matching and real documents go unseen — a *false negative*, which is worse than a false alarm. A
+real listing loses documents one or two at a time; broken selectors lose all or most at once. So a
+collapse in record count (to zero, or below half of a previous set of ≥5) is reported as
+**`schema_suspect`**, explicitly *not* as documents being removed, and the run **refuses to advance the
+baseline or overwrite the snapshot**. Silently accepting a collapsed set is how a broken schema starts
+reporting "unchanged" forever. Thresholds: `SCHEMA_MIN_PREV`, `SCHEMA_DROP_RATIO` in
+`../watch_sources.py`.
+
+**2. False-alarm instrumentation (to measure the precision claim, not assert it).** For every schema
+source each run records **both** hashes — the whole-page hash and the record-set hash — as one JSON
+line in `monitoring/false_alarm_log.jsonl`. A run where the page hash moved but the record set is
+identical is, by definition, a false alarm under the old method. The reverse case (records changed
+while the page hash sat still) is also counted: those are changes whole-page mode would have *missed*.
+Accumulated over months this yields a real number:
+
+```
+python3 scripts/watch_sources.py --tally
+```
+
+The log is committed — it is the evidence, and it only grows by one line per schema source per run.
