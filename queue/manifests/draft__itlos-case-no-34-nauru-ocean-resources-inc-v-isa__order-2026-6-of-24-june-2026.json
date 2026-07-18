@@ -1,0 +1,26 @@
+{
+  "status": "draft_requires_human_review",
+  "_generated_by": "scripts/crawl/gen_manifests.py",
+  "_source": "ITLOS — Case No. 34 (Nauru Ocean Resources Inc. v. ISA)",
+  "_source_url": "https://www.itlos.org/en/main/cases/list-of-cases/case-concerning-an-inquiry-by-the-international-seabed-authority-nauru-ocean-resources-inc-v-international-seabed-authority/",
+  "_listing": {
+    "title": "Order 2026/6 of 24 June 2026",
+    "doc_url": "https://www.itlos.org/fileadmin/itlos/documents/cases/34/C34_Order_24.06.2026-6.pdf"
+  },
+  "corpus_id": "",
+  "title": "Order 2026/6 of 24 June 2026",
+  "official_citation": "",
+  "jurisdiction": "",
+  "document_type": "",
+  "language": "",
+  "authentic_languages": [],
+  "adoption_date": null,
+  "source_url": "https://www.itlos.org/fileadmin/itlos/documents/cases/34/C34_Order_24.06.2026-6.pdf",
+  "source_publisher": "",
+  "source_is_official": true,
+  "authoritative_status": "",
+  "capture_type": "pdf",
+  "original_source_path": "",
+  "text_source_path": "",
+  "capture_note": "Listed by official source 'ITLOS — Case No. 34 (Nauru Ocean Resources Inc. v. ISA)'; drafted by the crawl layer, unverified."
+}

@@ -99,3 +99,45 @@ sibling records in **five** authentic languages — EN (base), FR, ES, RU, ZH �
 reproducible by `scripts/extract.py`, all cross-linked, all concept-tagged (RU/ZH structure is parsed
 via `concepts.HEADER_PATTERNS_EXTRA`: `第N条` and the Cyrillic `Правило/Раздел/Часть/Приложение`
 headers; RU/ZH concept phrases were added to `concepts.KW`). Arabic is **held** — tested 2026-07-11: the PDFs are in logical order but carry font-encoded reversed ligature clusters (e.g. المجلس→اجمللس) that every extractor reproduces identically; a shaping-based reorder pass was measured and rejected (it corrupted more words than it fixed). Needs a properly-encoded source or Arabic-literate review (see docs/source-map.md, "Multilingual coverage & holds").
+
+---
+
+## JC-007 — Are ITLOS contentious proceedings in scope, and are party pleadings law?
+**Date:** 2026-07-18
+**Context:** The source monitor was corrected on 2026-07-18 to watch the ITLOS **case register**
+(`/cases/list-of-cases/`) rather than the overview page it had been pointed at, which carried only
+prose and a case count. That immediately surfaced two contentious cases against the Authority —
+**Case No. 34** (*Nauru Ocean Resources Inc. v. ISA*) and **Case No. 35** (*Tonga Offshore Mining
+Ltd. v. ISA*), both instituted 30 May 2026 and arising from an ISA inquiry into sponsored
+contractors. Case 34 has produced **Order 2026/6 of 24 June 2026**, and a provisional-measures
+hearing opened on 2 July 2026. Doc 05 as written admitted exactly one item of case law — the 2011
+Advisory Opinion (Case 17) — so neither case was in scope, and neither could have been found while
+the source URL was wrong.
+
+**Two questions:** (a) are ITLOS proceedings concerning the Area in scope at all; (b) if so, does
+that extend to the parties' pleadings as well as the Tribunal's own decisions.
+
+**Options:** (a) hold scope at Case 17 alone; (b) admit ITLOS **decisions** — advisory opinions,
+judgments, orders — in proceedings concerning the Area; (c) admit the whole **case file**, pleadings
+and annexes included.
+
+**Decision:** (b). Scope extends to decisions of the Tribunal and its Seabed Disputes Chamber in
+proceedings concerning the Area. **Party pleadings are not ingested** into the authoritative layer;
+they are recorded in `queue/candidates.md` with their official URLs.
+
+**Reason:** this corpus holds *the law governing the Area*. An order or judgment is the Tribunal
+exercising jurisdiction under Part XI and stating law. An application states *a party's case*, and is
+not law however official the filing. The schema reaches the same conclusion independently:
+`binding_force` has no honest value for a pleading, because a pleading is not an instrument capable
+of binding or not binding — when a required field cannot be answered truthfully, that is evidence the
+record does not belong. Admitting pleadings would also convert a law corpus into a case-file corpus,
+which carries a different and much heavier completeness obligation: a case file is only meaningful
+when substantially complete — both parties, annexes, transcripts — whereas a decision stands alone.
+
+**Consequence:** Order 2026/6 (Case 34) is in scope and queued for capture and ingest. The NORI and
+TOML Applications of 30 May 2026 are recorded, not ingested. Case 35 currently lists no Tribunal
+decision. ITLOS press releases are excluded as communications *about* proceedings; the extraction
+schema excludes them structurally by URL path rather than by manual filtering.
+
+**Status (2026-07-18):** decided. Order 2026/6 not yet captured. Cases 34 and 35 are now monitored
+sources in their own right, at document level — these are live proceedings, not closed records.

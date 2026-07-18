@@ -12,8 +12,12 @@ jurisdiction) and the parallel US regime:
   sulphides; cobalt-rich ferromanganese crusts); the draft **Exploitation Regulations** ("the Mining
   Code"); associated **Legal and Technical Commission recommendations**; and ISA **decisions,
   standards and guidelines** (`ISBA/...`).
-- The **2011 Seabed Disputes Chamber Advisory Opinion** (Case 17) — the key case law on
-  sponsoring-state responsibility and liability.
+- **ITLOS decisions concerning the Area** — advisory opinions, judgments and orders of the Tribunal
+  and of its Seabed Disputes Chamber. Includes the **2011 Seabed Disputes Chamber Advisory Opinion**
+  (Case 17), the key case law on sponsoring-state responsibility and liability.
+  *(Extended 2026-07-18 from "Case 17 only" — see JC-007. **Party pleadings** — applications,
+  memorials, written submissions — are **not** in scope: they are authentic official filings but they
+  are not law. They are recorded in `queue/candidates.md` so the trail exists.)*
 - **Sponsoring-state national laws** enabling contractors under the ISA regime.
 - The **US non-UNCLOS parallel track**: DSHMRA and its NOAA regulations (15 CFR 970/971), plus
   Outer Continental Shelf activity under OCSLA/BOEM — captured but clearly marked as the
