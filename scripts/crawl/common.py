@@ -103,7 +103,17 @@ def http_get_text(url: str, timeout: int = 45) -> tuple[str, int]:
 def crawl4ai_status() -> tuple[bool, str]:
     try:
         import crawl4ai
-        return True, getattr(crawl4ai, "__version__", "unknown")
+        v = getattr(crawl4ai, "__version__", None)
+        if not isinstance(v, str):
+            # crawl4ai.__version__ can be the submodule object, not the string — dig out the string.
+            v = getattr(v, "__version__", None)
+            if not isinstance(v, str):
+                try:
+                    from importlib.metadata import version
+                    v = version("crawl4ai")
+                except Exception:
+                    v = "unknown"
+        return True, v
     except Exception as e:  # not installed / import error -> caller falls back
         return False, f"{type(e).__name__}: {e}"
 
