@@ -41,7 +41,11 @@ def _norm(s):
 def _matches_existing(rec, ingested_norm):
     """Light heuristic match of an extracted listing to an already-ingested record (human triages)."""
     hay = " ".join(_norm(rec.get(k, "")) for k in ("title", "citation"))
-    toks = [t for t in hay.split() if len(t) > 3]
+    # DEDUPLICATE. Counting token OCCURRENCES rather than distinct tokens let a single shared word
+    # clear a threshold of two: "Order 2026/6 of 24 June 2026" yields "2026" twice, so every corpus
+    # record mentioning 2026 scored 2 hits. That silently hid ITLOS Order 2026/6 from the gap list —
+    # a false negative, which is far worse here than an extra candidate to dismiss.
+    toks = sorted({t for t in hay.split() if len(t) > 3})
     if not toks:
         return False
     for ex in ingested_norm:
