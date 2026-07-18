@@ -92,6 +92,7 @@
     {
       "name": "ISA — Exploitation: Official documents",
       "url": "https://isa.org.jm/the-mining-code/official-documents/",
+      "schema": "isa-official-documents.json",
       "capture_type": "pdf",
       "scope": "isa_mining_code",
       "last_sha256": "sha256:9454622923133c7ea04e72aa939c39e2c9d67b43f87216f4d3cb524c933c7eb7",

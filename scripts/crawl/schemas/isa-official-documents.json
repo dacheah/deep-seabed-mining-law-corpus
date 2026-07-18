@@ -1,0 +1,8 @@
+{
+  "name": "ISA — Mining Code: relevant official documents",
+  "baseSelector": "li:has(a[href*='/wp-content/uploads/'][href$='.pdf'])",
+  "fields": [
+    {"name": "citation", "selector": "a[href*='/wp-content/uploads/']", "type": "text"},
+    {"name": "doc_url", "selector": "a[href*='/wp-content/uploads/']", "type": "attribute", "attribute": "href"}
+  ]
+}
