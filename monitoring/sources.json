@@ -45,6 +45,7 @@
     {
       "name": "ITLOS — Case No. 34 (Nauru Ocean Resources Inc. v. ISA)",
       "url": "https://www.itlos.org/en/main/cases/list-of-cases/case-concerning-an-inquiry-by-the-international-seabed-authority-nauru-ocean-resources-inc-v-international-seabed-authority/",
+      "schema": "itlos-case-documents.json",
       "capture_type": "pdf",
       "scope": "itlos",
       "_note": "2026-07-18: ACTIVE PROCEEDINGS. Instituted 30 May 2026; Order 2026/6 of 24 June 2026; provisional-measures hearing opened 2 July 2026. Found only because the ITLOS source had been pointed at an overview page instead of the case register. Watch monthly — filings are ongoing. Press releases on this page are NOT authoritative instruments and must not enter authoritative/.",
@@ -54,6 +55,7 @@
     {
       "name": "ITLOS — Case No. 35 (Tonga Offshore Mining Ltd. v. ISA)",
       "url": "https://www.itlos.org/en/main/cases/list-of-cases/case-concerning-an-inquiry-by-the-international-seabed-authority-tonga-offshore-mining-ltd-v-international-seabed-authority/",
+      "schema": "itlos-case-documents.json",
       "capture_type": "pdf",
       "scope": "itlos",
       "_note": "2026-07-18: ACTIVE PROCEEDINGS, companion to Case No. 34. Document list not yet reviewed at time of adding. Press releases are NOT authoritative instruments.",
@@ -63,6 +65,7 @@
     {
       "name": "ITLOS — Case No. 17 (2011 Advisory Opinion)",
       "url": "https://www.itlos.org/en/main/cases/list-of-cases/case-no-17/",
+      "schema": "itlos-case-documents.json",
       "capture_type": "pdf",
       "scope": "itlos",
       "last_sha256": "sha256:a0246511117343dbe3e2a98c7ee8ebb21829c2a69221c1dc5b00deb803540370",

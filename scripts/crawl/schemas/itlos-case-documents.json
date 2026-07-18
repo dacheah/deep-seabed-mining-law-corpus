@@ -1,0 +1,8 @@
+{
+  "name": "ITLOS — documents filed in a case (applications, orders, judgments)",
+  "baseSelector": "li:has(a[href*='/fileadmin/itlos/documents/cases/'])",
+  "fields": [
+    {"name": "title", "selector": "a[href*='/fileadmin/itlos/documents/cases/']", "type": "text"},
+    {"name": "doc_url", "selector": "a[href*='/fileadmin/itlos/documents/cases/']", "type": "attribute", "attribute": "href"}
+  ]
+}
