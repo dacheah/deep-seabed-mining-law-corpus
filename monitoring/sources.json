@@ -126,6 +126,7 @@
     {
       "name": "ITLOS — List of cases (new cases / advisory opinions)",
       "url": "https://www.itlos.org/en/main/cases/list-of-cases/",
+      "schema": "itlos-list-of-cases.json",
       "capture_type": "pdf",
       "scope": "itlos",
       "_note": "2026-07-18: corrected from /en/main/cases/ (an overview page carrying only prose and a case count) to /list-of-cases/, the actual case register. The old URL could not surface new cases; hash cleared to force a fresh baseline.",

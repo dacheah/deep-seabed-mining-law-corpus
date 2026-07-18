@@ -1,0 +1,9 @@
+{
+  "name": "ITLOS — List of cases (contentious cases and advisory proceedings)",
+  "baseSelector": "div.fs-list-cases-item",
+  "fields": [
+    {"name": "citation", "selector": "h3.header a", "type": "text"},
+    {"name": "title", "selector": "i", "type": "text"},
+    {"name": "doc_url", "selector": "h3.header a", "type": "attribute", "attribute": "href"}
+  ]
+}

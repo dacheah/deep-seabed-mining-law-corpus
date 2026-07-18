@@ -12,7 +12,7 @@ import datetime
 import hashlib
 import json
 import os
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 from urllib.request import Request, urlopen
 from urllib.robotparser import RobotFileParser
 
@@ -71,6 +71,27 @@ def records_hash(records: list) -> str:
     """Hash of a source's extracted record set, invariant to key/record order."""
     canon = sorted(canonical_json(r).decode("utf-8") for r in records)
     return sha256_hex(canonical_json(canon))
+
+
+URL_FIELDS = ("doc_url", "url", "href", "link")
+
+
+def absolutise_urls(records: list, base_url: str) -> list:
+    """Resolve relative hrefs against the page URL, so doc_url is always fetchable.
+
+    Sites differ: ISA emits absolute URLs, ITLOS emits site-relative ones. Deterministic, and a
+    no-op on URLs that are already absolute — so it cannot disturb existing record hashes.
+    """
+    out = []
+    for r in records:
+        if isinstance(r, dict):
+            r = dict(r)
+            for k in URL_FIELDS:
+                v = r.get(k)
+                if isinstance(v, str) and v.strip():
+                    r[k] = urljoin(base_url, v.strip())
+        out.append(r)
+    return out
 
 
 # ---- robots + verbatim byte fetch (stdlib; used for official PDFs) --------------------------------
@@ -152,6 +173,7 @@ async def crawl_extract(url: str, schema: dict, render: bool = True):
         if not getattr(res, "success", False):
             raise RuntimeError(f"crawl failed (status={status}): {getattr(res, 'error_message', '') or 'unknown'}")
         records = json.loads(res.extracted_content) if getattr(res, "extracted_content", None) else []
+        records = absolutise_urls(records, url)
         return records, (getattr(res, "html", "") or ""), status
 
 
