@@ -125,10 +125,11 @@
     },
     {
       "name": "ITLOS — List of cases (new cases / advisory opinions)",
-      "url": "https://www.itlos.org/en/main/cases/",
+      "url": "https://www.itlos.org/en/main/cases/list-of-cases/",
       "capture_type": "pdf",
       "scope": "itlos",
-      "last_sha256": "sha256:306a76c1d5b67f66648660372ebbb877249a04259cfa75201913f0833bdc8367",
+      "_note": "2026-07-18: corrected from /en/main/cases/ (an overview page carrying only prose and a case count) to /list-of-cases/, the actual case register. The old URL could not surface new cases; hash cleared to force a fresh baseline.",
+      "last_sha256": null,
       "last_checked": "2026-07-18T08:37:18Z"
     },
     {
