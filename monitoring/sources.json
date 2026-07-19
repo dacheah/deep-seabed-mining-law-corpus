@@ -75,6 +75,11 @@
       "name": "US eCFR — 15 CFR Part 970 (NOAA deep seabed mining, exploration licences)",
       "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-D/part-970",
       "monitor_url": "https://www.ecfr.gov/api/versioner/v1/versions/title-15.json?part=970",
+      "json_extract": {
+        "records": "content_versions",
+        "fields": {"citation": "identifier", "title": "name", "date": "amendment_date"},
+        "_note": "Record-level monitoring: a change now names the SECTION amended and its date, instead of reporting that the payload differs. NOTE: eCFR lists one entry per section PER VERSION, so a section appears more than once; the diff report keys on section and shows the latest, while the record HASH covers the full set — so an added version is always detected even though the report collapses to one line per section."
+      },
       "capture_type": "json",
       "scope": "us_dsm",
       "_note": "2026-07-18: the human-facing eCFR page BLOCKS automated fetches — it redirected to unblock.federalregister.gov ('Request Access'), so this source was hashing an access-denied page. Symptom visible in hindsight: parts 970 and 971 carried IDENTICAL hashes, which two different regulations cannot. Switched to the OFFICIAL eCFR versioner API, which is published for programmatic use (NOT an evasion — no stealth, no proxy, per crawl boundary rule 2). Bonus: it reports amendment dates per section, so a change names the sections amended. Document capture for ingest remains a separate, human-verified step. Hash cleared to force a fresh baseline.",
@@ -85,6 +90,10 @@
       "name": "US eCFR — 15 CFR Part 971 (NOAA commercial recovery permits)",
       "url": "https://www.ecfr.gov/current/title-15/subtitle-B/chapter-IX/subchapter-D/part-971",
       "monitor_url": "https://www.ecfr.gov/api/versioner/v1/versions/title-15.json?part=971",
+      "json_extract": {
+        "records": "content_versions",
+        "fields": {"citation": "identifier", "title": "name", "date": "amendment_date"}
+      },
       "capture_type": "json",
       "scope": "us_dsm",
       "_note": "2026-07-18: see the Part 970 note — the human-facing eCFR page blocks automated fetches. Switched to the official eCFR versioner API. Hash cleared to force a fresh baseline.",
