@@ -1,0 +1,70 @@
+corpus_id: itlos/order/case34-order6-2026
+version_id: '2026-06-24'
+title: Order of 24 June 2026 (Order 2026/6) in the Case concerning an inquiry by the International Seabed
+  Authority (Nauru Ocean Resources Inc. v. International Seabed Authority)
+short_title: ITLOS Order 2026/6 (Case No. 34, NORI v. ISA)
+jurisdiction: international
+document_type: order
+official_citation: Order 2026/6, Case concerning an inquiry by the International Seabed Authority (Nauru
+  Ocean Resources Inc. v. International Seabed Authority), Order of 24 June 2026, ITLOS List of Cases
+  No. 34
+authentic_languages:
+- en
+- fr
+adoption_date: '2026-06-24'
+source_url: https://www.itlos.org/fileadmin/itlos/documents/cases/34/C34_Order_24.06.2026-6.pdf
+source_publisher: International Tribunal for the Law of the Sea (ITLOS)
+source_is_official: true
+retrieval_date: '2026-07-18'
+retrieved_by: scripts/crawl/capture.py (verbatim byte download of the official ITLOS PDF); text recovered
+  by dual-engine OCR and reconciled by Cowork provenance-corpus-builder
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:bdab12465c1d911362686a663d841506e9722da689f12a200f0b511055ee757d
+original_sha256: sha256:84201c8f73b96d8784a1e7f66f32bf0febd830ad32decc3baa655115314678c0
+text_sha256: sha256:bdab12465c1d911362686a663d841506e9722da689f12a200f0b511055ee757d
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: itlos-materials-terms
+rights_note: Official ITLOS materials, attributed to the International Tribunal for the Law of the Sea;
+  not relicensed.
+capture_history:
+- date: '2026-07-18'
+  source_url: https://www.itlos.org/fileadmin/itlos/documents/cases/34/C34_Order_24.06.2026-6.pdf
+  original_sha256: sha256:84201c8f73b96d8784a1e7f66f32bf0febd830ad32decc3baa655115314678c0
+  note: 'Byte-exact official ITLOS PDF (106,929 bytes) downloaded 2026-07-18 from the Case No. 34 page.
+    ACTIVE PROCEEDINGS: instituted 5 June 2026, provisional-measures hearing opened 2 July 2026 — check
+    for later orders before treating this case as captured.'
+supersedes: null
+superseded_by: null
+related_documents:
+- itlos/advisory-opinion/sdc-area-2011
+- un/convention/unclos-partxi-1982
+- un/agreement/unclos-partxi-impl-1994
+provenance_note: 'SCOPE (JC-007): ITLOS decisions in proceedings concerning the Area are in scope; party
+  pleadings are not. NORI''s and TOML''s Applications are recorded in queue/candidates.md and deliberately
+  NOT ingested. IDENTIFIER (JC-008): case-number based, ''case34-order6-2026'' decoding as Case 34, Order
+  No. 6 of 2026. TEXT RECOVERY: the PDF''s text layer is NOT usable — pages 2 and 3 are CCITT 1-bit scans
+  with no text layer at all, and page 1''s embedded font renders ''ORDER'' as ''OROER'' (a broken cmap,
+  the same failure class as the BBNJ Arabic PDF). Text was therefore recovered by OCR of 300-dpi renders
+  of the byte-exact original, using TWO independent engines: Tesseract 5.5.0 (--oem 3 --psm 6, eng) and
+  Google Cloud Vision DOCUMENT_TEXT_DETECTION. Character agreement 98.9% overall (p1 99.3%, p2 99.5%,
+  p3 96.4%), comparable to the 98.7% achieved for the BBNJ Arabic text. All 10 disagreement sites were
+  adjudicated against the page images: Vision was adopted at 9 (Tesseract read closing double-quotes as
+  apostrophes in five places, misread ''[a]t'' as ''[aJt'', rendered a handwritten signature as character
+  noise, and garbled the Registrar''s name ''Ximena ... OYARCE'' as ''Xifhena ... OVARCE''); Tesseract
+  was adopted at 1 (Vision inserted a spurious full stop in ''the submission. of the written statement'').
+  STRUCTURAL NORMALISATION, wording untouched: running headers (''List of Cases No. 34'' / page number
+  / ''Order 2026/6'') removed from pages 2-3 only, the same lines on page 1 being the document''s header
+  block; hard line wraps rejoined into paragraphs; curly quotes normalised to straight, Vision having
+  rendered them inconsistently within a single sentence; canonical UTF-8, LF, no BOM, one trailing newline.
+  original.pdf remains the integrity anchor and original_sha256 is the hash of the official file itself.
+  COVERAGE GAP: the order closes ''Done in English and in French, both texts being equally authoritative'',
+  so French is an equally authentic text (cf. JC-004 for the 2011 Advisory Opinion); the French version
+  is a recorded gap and would be ingested as the sibling record itlos/order/case34-order6-2026-fr under
+  JC-006.'
+binding_force: binding
+issuing_authority: Seabed Disputes Chamber of the International Tribunal for the Law of the Sea (order
+  made by the President of the Chamber)
+administering_authority: null

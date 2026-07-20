@@ -1,0 +1,18 @@
+{
+  "source_pdf": "capture\\staging\\itlos-order-case34-order6-2026\\original.pdf",
+  "source_sha256": "sha256:84201c8f73b96d8784a1e7f66f32bf0febd830ad32decc3baa655115314678c0",
+  "dpi": 300,
+  "tesseract": {
+    "version": "5.5.0.20241111",
+    "psm": 6,
+    "oem": 3,
+    "lang": "eng",
+    "pages": 3
+  },
+  "gvision": {
+    "engine": "google-cloud-vision DOCUMENT_TEXT_DETECTION",
+    "lang_hint": "en",
+    "pages": 3
+  },
+  "note": "Neither engine is authoritative alone. Reconcile the two, adjudicate every disagreement against the page images, and record the result honestly in text_fidelity. original.pdf remains the integrity anchor."
+}

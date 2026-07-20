@@ -5,3 +5,10 @@ site/
 site-audit.html
 capture/unclos-fr.pdf
 capture/unclos-partxi-1982-fr.pdf
+# OCR page renders: large and regenerable from the stored original.pdf via scripts/ocr_capture.py.
+# The OCR TEXT output (ocr/tess/, ocr/gv/) and ocr-manifest.json ARE kept — they are the evidence
+# for the dual-engine reconciliation recorded in each record's provenance_note. Same split as the
+# BBNJ corpus, which ignores capture/pages_*/ renders but keeps the engine outputs.
+capture/staging/**/ocr/pages/
+# Generated monitoring artefacts (regenerated each run).
+monitoring/inventory.json
