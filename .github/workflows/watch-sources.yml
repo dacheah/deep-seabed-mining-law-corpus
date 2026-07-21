@@ -14,26 +14,61 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
+
+      # watch_sources.py is stdlib-only, so this job long ran with no install at all — which
+      # silently meant schema_ok was False and CSS schema mode NEVER ran in CI. The five ITLOS
+      # and ISA schema sources were quietly whole-page hashed instead, including the live
+      # Case 34 (NORI v ISA) and Case 35 (TOML v ISA) proceedings the schemas were written for.
+      # The report said "schema mode off (whole-page fallback)", so it was honest, just unread.
+      - name: Install crawl4ai (turns schema mode ON in CI)
+        run: pip install -r scripts/requirements.txt
+      - name: Install the Playwright browser crawl4ai drives
+        # Without this, crawl4ai imports fine — so schema_ok flips True — and then every schema
+        # source raises at extract time. Since v3.5 that at least opens an issue instead of
+        # going green, but the browser is the actual fix.
+        run: python -m playwright install --with-deps chromium
+
       - id: watch
         run: python3 scripts/watch_sources.py
+
       - name: Commit advanced baselines
+        # monitoring/snapshots/ MUST be staged. Record mode decides baseline-vs-changed on
+        # `not os.path.isfile(snapshot)`, so an uncommitted snapshot means every run starts with
+        # no prior records and reports "baseline" forever. The two eCFR json_extract sources have
+        # been in exactly that state — stdlib-only, so they DID run each month, wrote a snapshot
+        # into a runner that was then thrown away, and could never once have reported a change.
+        # Paths are named explicitly; never `git add .`.
         run: |
           git config user.name "corpus-bot"
           git config user.email "corpus-bot@users.noreply.github.com"
-          git add monitoring/sources.json monitoring/last_report.md || true
+          git add monitoring/sources.json monitoring/last_report.md monitoring/snapshots monitoring/false_alarm_log.jsonl || true
           git commit -m "chore(watch): update source baselines" || echo "no changes"
           git push || true
-      - name: Open issue on change
+
+      - name: Open issue on change or breakage
         if: steps.watch.outputs.changes == 'true'
         uses: actions/github-script@v9
+        env:
+          # Read through env, not ${{ }} interpolation into the script body.
+          BROKEN: ${{ steps.watch.outputs.broken }}
         with:
           script: |
             const fs = require('fs');
             const report = fs.readFileSync('monitoring/last_report.md', 'utf8');
-            const body = `@${context.repo.owner} — one or more monitored deep-seabed-mining sources changed. `
-              + `Please triage the report below; nothing is ingested automatically.\n\n` + report;
+            const broken = process.env.BROKEN === 'true';
+            const today = new Date().toISOString().slice(0, 10);
+            const title = broken
+              ? `Source watch: MONITOR BROKEN — source(s) not checked (${today})`
+              : `Source watch: monitored page(s) changed (${today})`;
+            const lede = broken
+              ? `@${context.repo.owner} — one or more sources could NOT be checked this run. `
+                + `An error means the monitor did not look; it does not mean nothing changed. `
+                + `Fix the monitor before reading the rest of this report as reassurance.`
+              : `@${context.repo.owner} — one or more monitored deep-seabed-mining sources changed. `
+                + `Please triage the report below; nothing is ingested automatically.`;
             await github.rest.issues.create({
               owner: context.repo.owner, repo: context.repo.repo,
-              title: `Source watch: monitored page(s) changed (${new Date().toISOString().slice(0,10)})`,
-              body, labels: ['source-watch'], assignees: [context.repo.owner]
+              title, body: lede + `\n\n` + report,
+              labels: broken ? ['source-watch', 'monitor-broken'] : ['source-watch'],
+              assignees: [context.repo.owner]
             });
