@@ -82,10 +82,38 @@ def keyword_tags(units):
         if hits: tags.append({"unit": u["label"], "concepts": hits}); doc.update(hits)
     return tags, sorted(doc)
 
+# generation_date must move ONLY when a derived artifact actually changes. Stamping TODAY on every
+# record meant a rebuild after a single ingest produced a full-corpus diff (27 date-only churn vs 2
+# real, in one Deep rebuild), so the derived layer was perpetually "modified" and git could not show
+# what really changed. These helpers preserve the prior date when the artifact is byte-identical.
+def _prior_dates(dmeta_path):
+    if not os.path.exists(dmeta_path):
+        return {}
+    try:
+        old = yaml.safe_load(open(dmeta_path, encoding="utf-8")) or []
+        return {d.get("derived_id"): d.get("generation_date") for d in old if isinstance(d, dict)}
+    except Exception:
+        return {}
+
+
+def _gen_date(artifact_path, new_obj, prior, derived_id):
+    """Prior date if the on-disk artifact's CONTENT equals new_obj (compared parsed, so formatting is
+    irrelevant); otherwise TODAY. Reads the OLD artifact before it is overwritten."""
+    old = prior.get(derived_id)
+    if old:
+        try:
+            if os.path.exists(artifact_path) and json.load(open(artifact_path, encoding="utf-8")) == new_obj:
+                return old
+        except Exception:
+            pass
+    return TODAY
+
+
 index = {c: [] for c in VOCAB}
 records = []
-for root, _, files in os.walk(AUTH):
-    if "metadata.yaml" not in files: continue
+# Deterministic order: sort record roots so the concept-index accumulated in this loop is
+# reproducible rather than following os.walk filesystem order (which varies by machine).
+for root in sorted(r for r, _, fs in os.walk(AUTH) if "metadata.yaml" in fs):
     meta = yaml.safe_load(open(os.path.join(root, "metadata.yaml"), encoding="utf-8"))
     tpath = os.path.join(root, "text.txt")
     if not os.path.exists(tpath): continue
@@ -108,23 +136,26 @@ for root, _, files in os.walk(AUTH):
             index.setdefault(c, []).append({"corpus_id": cid, "short_title": sh, "version_id": ver, "unit": t["unit"]})
 
     outdir = os.path.join(DER, cid, ver); os.makedirs(outdir, exist_ok=True)
-    json.dump({"_derived": True, "_disclaimer": DISCLAIMER, "corpus_id": cid, "version_id": ver,
+    prior = _prior_dates(os.path.join(outdir, "derived-metadata.yaml"))
+    structure_obj = {"_derived": True, "_disclaimer": DISCLAIMER, "corpus_id": cid, "version_id": ver,
                "title": meta["title"], "document_type": meta.get("document_type"), "adoption_date": meta.get("adoption_date"),
-               "unit_type": utype, "unit_count": len(units), "units": units, "citations_detected": detect_citations(body)},
-              open(os.path.join(outdir, "structure.json"), "w", encoding="utf-8"), indent=2, ensure_ascii=False)
-    json.dump({"_derived": True, "_disclaimer": DISCLAIMER, "corpus_id": cid, "version_id": ver,
+               "unit_type": utype, "unit_count": len(units), "units": units, "citations_detected": detect_citations(body)}
+    concepts_obj = {"_derived": True, "_disclaimer": DISCLAIMER, "corpus_id": cid, "version_id": ver,
                "concept_vocabulary": list(VOCAB), "tagging_method": method,
-               "document_concepts": doc_concepts, "tags": tags},
-              open(os.path.join(outdir, "concepts.json"), "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+               "document_concepts": doc_concepts, "tags": tags}
+    struct_date = _gen_date(os.path.join(outdir, "structure.json"), structure_obj, prior, f"{cid}/{ver}/structure")
+    concept_date = _gen_date(os.path.join(outdir, "concepts.json"), concepts_obj, prior, f"{cid}/{ver}/concepts")
+    json.dump(structure_obj, open(os.path.join(outdir, "structure.json"), "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+    json.dump(concepts_obj, open(os.path.join(outdir, "concepts.json"), "w", encoding="utf-8"), indent=2, ensure_ascii=False)
     dmeta = [
       {"derived_id": f"{cid}/{ver}/structure", "derived_type": "structure_extraction", "artifact_file": "structure.json",
        "source_corpus_id": cid, "source_version_id": ver, "source_text_sha256": src_hash,
-       "generation_method": "rule_based", "generator": "build_derived.py (structure)", "generation_date": TODAY,
+       "generation_method": "rule_based", "generator": "build_derived.py (structure)", "generation_date": struct_date,
        "review_status": "unreviewed", "reviewed_by": None, "license": "CC-BY-4.0",
        "confidence_note": f"Deterministic parse into {len(units)} {utype} unit(s).", "disclaimer": DISCLAIMER},
       {"derived_id": f"{cid}/{ver}/concepts", "derived_type": "concept_tags", "artifact_file": "concepts.json",
        "source_corpus_id": cid, "source_version_id": ver, "source_text_sha256": src_hash,
-       "generation_method": method, "generator": gen, "generation_date": TODAY,
+       "generation_method": method, "generator": gen, "generation_date": concept_date,
        "review_status": "unreviewed", "reviewed_by": None, "license": "CC-BY-4.0",
        "confidence_note": cnote, "disclaimer": DISCLAIMER},
     ]
@@ -136,7 +167,7 @@ for root, _, files in os.walk(AUTH):
                 dmeta.append({"derived_id": f"{cid}/{ver}/translation-{lang}", "derived_type": "translation",
                     "artifact_file": f"translations/{tf}", "source_corpus_id": cid, "source_version_id": ver,
                     "source_text_sha256": src_hash, "generation_method": "model", "generator": GENERATOR,
-                    "generation_date": TODAY, "review_status": "unreviewed", "reviewed_by": None,
+                    "generation_date": prior.get(f"{cid}/{ver}/translation-{lang}", TODAY), "review_status": "unreviewed", "reviewed_by": None,
                     "license": "CC-BY-4.0",
                     "confidence_note": f"Unofficial machine-draft {lang} translation; not legally operative.",
                     "disclaimer": DISCLAIMER})
