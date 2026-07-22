@@ -7,7 +7,8 @@
       "capture_type": "pdf",
       "scope": "isa_mining_code",
       "last_sha256": "sha256:c6f0d6fd5cbe53bc7d4d09215950e0de3403286b503fa51574c69aca43567ae8",
-      "last_checked": "2026-07-18T08:37:18Z"
+      "last_checked": "2026-07-18T08:37:18Z",
+      "expect_contains": "Mining Code"
     },
     {
       "name": "ISA — Exploration regulations",
@@ -15,7 +16,8 @@
       "capture_type": "pdf",
       "scope": "isa_exploration",
       "last_sha256": "sha256:c5047170452fb502994161a63a3c072b9a1d1b96f5a23d5799ea12e2583e5580",
-      "last_checked": "2026-07-18T08:37:18Z"
+      "last_checked": "2026-07-18T08:37:18Z",
+      "expect_contains": "Exploration"
     },
     {
       "name": "ISA — 30th session (2025)",
@@ -24,7 +26,8 @@
       "scope": "isa_sessions",
       "_note": "2026-07-18: was named 'Council documents' and pointed at /sessions/, which SILENTLY REDIRECTS to an agenda-item page from a past session (sessions-30th-session-2025-item16). There is no /sessions/ index — sessions are listed only in the site nav. It had already flagged one meaningless 'change' as the redirect target drifted. Repointed to the most recent completed session; the current session has its own source. NEEDS ANNUAL REVIEW when a new session opens. Hash cleared to force a fresh baseline.",
       "last_sha256": null,
-      "last_checked": "2026-07-18T08:37:18Z"
+      "last_checked": "2026-07-18T08:37:18Z",
+      "expect_contains": "30th"
     },
     {
       "name": "UN DOALOS — 1994 Part XI Implementation Agreement",
@@ -32,7 +35,8 @@
       "capture_type": "html",
       "scope": "unclos_partxi",
       "last_sha256": "sha256:5fcfcc46b7dd1c16d1e719e21e0504a71c8e22b5ab82bb7b4f868212f2321cbe",
-      "last_checked": "2026-07-18T08:37:18Z"
+      "last_checked": "2026-07-18T08:37:18Z",
+      "expect_contains": "Part XI"
     },
     {
       "name": "UN DOALOS — UNCLOS Part XI (The Area), Section 1",
@@ -40,7 +44,8 @@
       "capture_type": "html",
       "scope": "unclos_partxi",
       "last_sha256": "sha256:20536b0c8eaf65bd856c2264ee97068d6278922c25b4ae97ee73cc58e85d4c66",
-      "last_checked": "2026-07-18T08:37:18Z"
+      "last_checked": "2026-07-18T08:37:18Z",
+      "expect_contains": "polymetallic nodules"
     },
     {
       "name": "ITLOS — Case No. 34 (Nauru Ocean Resources Inc. v. ISA)",
@@ -50,7 +55,8 @@
       "scope": "itlos",
       "_note": "2026-07-18: ACTIVE PROCEEDINGS. Instituted 30 May 2026; Order 2026/6 of 24 June 2026; provisional-measures hearing opened 2 July 2026. Found only because the ITLOS source had been pointed at an overview page instead of the case register. Watch monthly — filings are ongoing. Press releases on this page are NOT authoritative instruments and must not enter authoritative/.",
       "last_sha256": null,
-      "last_checked": null
+      "last_checked": null,
+      "expect_contains": "Nauru Ocean Resources"
     },
     {
       "name": "ITLOS — Case No. 35 (Tonga Offshore Mining Ltd. v. ISA)",
@@ -60,7 +66,8 @@
       "scope": "itlos",
       "_note": "2026-07-18: ACTIVE PROCEEDINGS, companion to Case No. 34. Document list not yet reviewed at time of adding. Press releases are NOT authoritative instruments.",
       "last_sha256": null,
-      "last_checked": null
+      "last_checked": null,
+      "expect_contains": "Tonga Offshore Mining"
     },
     {
       "name": "ITLOS — Case No. 17 (2011 Advisory Opinion)",
@@ -69,7 +76,8 @@
       "capture_type": "pdf",
       "scope": "itlos",
       "last_sha256": "sha256:a0246511117343dbe3e2a98c7ee8ebb21829c2a69221c1dc5b00deb803540370",
-      "last_checked": "2026-07-18T08:37:18Z"
+      "last_checked": "2026-07-18T08:37:18Z",
+      "expect_contains": "Responsibilities and obligations"
     },
     {
       "name": "US eCFR — 15 CFR Part 970 (NOAA deep seabed mining, exploration licences)",
@@ -77,14 +85,19 @@
       "monitor_url": "https://www.ecfr.gov/api/versioner/v1/versions/title-15.json?part=970",
       "json_extract": {
         "records": "content_versions",
-        "fields": {"citation": "identifier", "title": "name", "date": "amendment_date"},
+        "fields": {
+          "citation": "identifier",
+          "title": "name",
+          "date": "amendment_date"
+        },
         "_note": "Record-level monitoring: a change now names the SECTION amended and its date, instead of reporting that the payload differs. NOTE: eCFR lists one entry per section PER VERSION, so a section appears more than once; the diff report keys on section and shows the latest, while the record HASH covers the full set — so an added version is always detected even though the report collapses to one line per section."
       },
       "capture_type": "json",
       "scope": "us_dsm",
       "_note": "2026-07-18: the human-facing eCFR page BLOCKS automated fetches — it redirected to unblock.federalregister.gov ('Request Access'), so this source was hashing an access-denied page. Symptom visible in hindsight: parts 970 and 971 carried IDENTICAL hashes, which two different regulations cannot. Switched to the OFFICIAL eCFR versioner API, which is published for programmatic use (NOT an evasion — no stealth, no proxy, per crawl boundary rule 2). Bonus: it reports amendment dates per section, so a change names the sections amended. Document capture for ingest remains a separate, human-verified step. Hash cleared to force a fresh baseline.",
       "last_sha256": null,
-      "last_checked": "2026-07-18T08:37:18Z"
+      "last_checked": "2026-07-18T08:37:18Z",
+      "expect_contains": "970"
     },
     {
       "name": "US eCFR — 15 CFR Part 971 (NOAA commercial recovery permits)",
@@ -92,13 +105,18 @@
       "monitor_url": "https://www.ecfr.gov/api/versioner/v1/versions/title-15.json?part=971",
       "json_extract": {
         "records": "content_versions",
-        "fields": {"citation": "identifier", "title": "name", "date": "amendment_date"}
+        "fields": {
+          "citation": "identifier",
+          "title": "name",
+          "date": "amendment_date"
+        }
       },
       "capture_type": "json",
       "scope": "us_dsm",
       "_note": "2026-07-18: see the Part 970 note — the human-facing eCFR page blocks automated fetches. Switched to the official eCFR versioner API. Hash cleared to force a fresh baseline.",
       "last_sha256": null,
-      "last_checked": "2026-07-18T08:37:18Z"
+      "last_checked": "2026-07-18T08:37:18Z",
+      "expect_contains": "971"
     },
     {
       "name": "ISA — Draft Exploitation Regulations (Mining Code drafts)",
@@ -106,7 +124,8 @@
       "capture_type": "pdf",
       "scope": "isa_mining_code",
       "last_sha256": "sha256:5b65ab9098d824a4de3cc6ae051a5fce789c0c3647253a099e56217fb9e0a289",
-      "last_checked": "2026-07-18T08:37:18Z"
+      "last_checked": "2026-07-18T08:37:18Z",
+      "expect_contains": "Exploitation"
     },
     {
       "name": "ISA — Draft Standards and Guidelines (Mining Code)",
@@ -114,7 +133,8 @@
       "capture_type": "pdf",
       "scope": "isa_mining_code",
       "last_sha256": "sha256:5acff6d61ceaba010a964390712a022ae6dd37fe7e8bffe956c3df9359da8303",
-      "last_checked": "2026-07-18T08:37:18Z"
+      "last_checked": "2026-07-18T08:37:18Z",
+      "expect_contains": "Standards and Guidelines"
     },
     {
       "name": "ISA — Mining Code Recommendations and guidance (LTC)",
@@ -122,7 +142,8 @@
       "capture_type": "pdf",
       "scope": "isa_mining_code",
       "last_sha256": "sha256:8f32949b09c517d3e03bf494a5d8bcb3ed5c465f62d51e35515e2176f300a04f",
-      "last_checked": "2026-07-18T08:37:18Z"
+      "last_checked": "2026-07-18T08:37:18Z",
+      "expect_contains": "Recommendations"
     },
     {
       "name": "ISA — Exploitation: Official documents",
@@ -132,7 +153,8 @@
       "scope": "isa_mining_code",
       "last_sha256": "sha256:172277668713e2a68c724a4decc6ac694d6e6a9dfa24f121b7a23d4ba0473b29",
       "last_checked": "2026-07-18T08:37:18Z",
-      "last_page_sha256": "sha256:9481c4bf6c8010040f42ec2bf96d07a3602687e3dd9404a37f529cd5d1ca00d9"
+      "last_page_sha256": "sha256:9481c4bf6c8010040f42ec2bf96d07a3602687e3dd9404a37f529cd5d1ca00d9",
+      "expect_contains": "Mining Code"
     },
     {
       "name": "ISA — Legal and Technical Commission",
@@ -140,7 +162,8 @@
       "capture_type": "pdf",
       "scope": "isa_organs",
       "last_sha256": "sha256:c4eb2f3234e1748543f2df458169572b1fa4cbc4320200c04f4137b64fda6514",
-      "last_checked": "2026-07-18T08:37:18Z"
+      "last_checked": "2026-07-18T08:37:18Z",
+      "expect_contains": "Legal and Technical Commission"
     },
     {
       "name": "ISA — 31st session (2026)",
@@ -148,7 +171,8 @@
       "capture_type": "pdf",
       "scope": "isa_sessions",
       "last_sha256": "sha256:ae7d39b14ae70c9a024c0258b068ddd1631ea89fc2f21b9f958d1d40642b4f62",
-      "last_checked": "2026-07-18T08:37:18Z"
+      "last_checked": "2026-07-18T08:37:18Z",
+      "expect_contains": "31st"
     },
     {
       "name": "ISA — The Council",
@@ -156,7 +180,8 @@
       "capture_type": "pdf",
       "scope": "isa_organs",
       "last_sha256": "sha256:7694e237f1931791573a5830207597e6b5647f100bbd042c52a389006621b2e6",
-      "last_checked": "2026-07-18T08:37:18Z"
+      "last_checked": "2026-07-18T08:37:18Z",
+      "expect_contains": "Council"
     },
     {
       "name": "ITLOS — List of cases (new cases / advisory opinions)",
@@ -166,7 +191,8 @@
       "scope": "itlos",
       "_note": "2026-07-18: corrected from /en/main/cases/ (an overview page carrying only prose and a case count) to /list-of-cases/, the actual case register. The old URL could not surface new cases; hash cleared to force a fresh baseline.",
       "last_sha256": null,
-      "last_checked": "2026-07-18T08:37:18Z"
+      "last_checked": "2026-07-18T08:37:18Z",
+      "expect_contains": "Case No. 17"
     },
     {
       "name": "US Federal Register — deep seabed mining (newest docs, JSON)",
@@ -174,7 +200,8 @@
       "capture_type": "json",
       "scope": "us_dsm",
       "last_sha256": "sha256:841da01d088e05b0ff15e38f23aa76ef15b1e3aba2982c2a794046b27b5c7321",
-      "last_checked": "2026-07-18T08:37:18Z"
+      "last_checked": "2026-07-18T08:37:18Z",
+      "expect_contains": "deep seabed mining"
     },
     {
       "name": "US NOAA — Deep Seabed Hard Minerals Mining",
@@ -182,7 +209,9 @@
       "capture_type": "html",
       "scope": "us_dsm",
       "last_sha256": "sha256:24413490840308d5d1767f17b682b1f80cb77f418a4d6b259313f3462f8023c5",
-      "last_checked": "2026-07-18T08:37:18Z"
+      "last_checked": "2026-07-18T08:37:18Z",
+      "expect_contains": "seabed"
     }
-  ]
+  ],
+  "_expect_contains_note": "expect_contains added 2026-07-22 (task: verify each source watches the right page). VERIFIED present by direct fetch: the 3 ITLOS case pages + List of Cases (Case No. 17 / Nauru Ocean Resources / Tonga Offshore Mining), UNCLOS Part XI Section 1 ('polymetallic nodules' — note the page renders 'Article133' with no space, so an 'Article 133' anchor would FALSELY flag), the Federal Register API ('deep seabed mining'), and the two eCFR parts (970/971). PROPOSED but not yet live-verified: the 9 ISA pages, the 1994 Agreement, and NOAA — their anchors are the instrument's own name and should be confirmed by running `python scripts/audit_sources.py` on a networked machine; any 'EXPECTED CONTENT ABSENT' is either a wrong anchor to fix or a wrong page to investigate."
 }
