@@ -14,5 +14,10 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install -r scripts/requirements.txt
-      - name: Re-derive every text.txt from its stored original and check byte-exact
-        run: python3 scripts/extract.py
+      - name: Reproducibility gate — every record reproduced or declared, nothing unaccounted for
+        # Was `python3 scripts/extract.py`, which aborted on the first record without a committed
+        # extractor (the OCR-derived ITLOS order) and took 27 passing records' results down with
+        # it. The gate walks authoritative/ as its denominator, applies scripts/repro-policy.json,
+        # and fails only on a real mismatch, an extractor error, or an uncovered record beyond the
+        # ratchet — so a genuinely non-reproducible record is declared, not fatal-on-sight.
+        run: python3 scripts/repro_gate.py

@@ -1,0 +1,8 @@
+{
+  "_comment": "Reproducibility gate policy for scripts/repro_gate.py. Declares this corpus's adapter and its reproducibility ratchet. See repro_gate.py for the verdict vocabulary.",
+  "adapter": "deep",
+  "uncovered_ceiling": 0,
+  "declared_exclusions": {
+    "itlos/order/case34-order6-2026||2026-06-24": "Text recovered by dual-engine OCR (Tesseract + Google Cloud Vision) from the scanned ITLOS order and reconciled by hand; see the record's provenance_note. Google Vision is a network service, so the text is NOT re-derivable by committed, deterministic code. The byte-exact original.pdf and its recorded hash remain the authoritative anchor. This is an honest 'excluded', not a coverage gap — and it is why extract.py previously aborted here, taking the other 27 records' results down with it."
+  }
+}
