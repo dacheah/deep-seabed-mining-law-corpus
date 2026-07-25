@@ -145,8 +145,8 @@ for root in sorted(r for r, _, fs in os.walk(AUTH) if "metadata.yaml" in fs):
                "document_concepts": doc_concepts, "tags": tags}
     struct_date = _gen_date(os.path.join(outdir, "structure.json"), structure_obj, prior, f"{cid}/{ver}/structure")
     concept_date = _gen_date(os.path.join(outdir, "concepts.json"), concepts_obj, prior, f"{cid}/{ver}/concepts")
-    json.dump(structure_obj, open(os.path.join(outdir, "structure.json"), "w", encoding="utf-8"), indent=2, ensure_ascii=False)
-    json.dump(concepts_obj, open(os.path.join(outdir, "concepts.json"), "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+    json.dump(structure_obj, open(os.path.join(outdir, "structure.json"), "w", encoding="utf-8", newline="\n"), indent=2, ensure_ascii=False)
+    json.dump(concepts_obj, open(os.path.join(outdir, "concepts.json"), "w", encoding="utf-8", newline="\n"), indent=2, ensure_ascii=False)
     dmeta = [
       {"derived_id": f"{cid}/{ver}/structure", "derived_type": "structure_extraction", "artifact_file": "structure.json",
        "source_corpus_id": cid, "source_version_id": ver, "source_text_sha256": src_hash,
@@ -171,13 +171,13 @@ for root in sorted(r for r, _, fs in os.walk(AUTH) if "metadata.yaml" in fs):
                     "license": "CC-BY-4.0",
                     "confidence_note": f"Unofficial machine-draft {lang} translation; not legally operative.",
                     "disclaimer": DISCLAIMER})
-    yaml.safe_dump(dmeta, open(os.path.join(outdir, "derived-metadata.yaml"), "w", encoding="utf-8"),
+    yaml.safe_dump(dmeta, open(os.path.join(outdir, "derived-metadata.yaml"), "w", encoding="utf-8", newline="\n"),
                    sort_keys=False, allow_unicode=True)
     records.append((cid, ver, utype, len(units), len(doc_concepts)))
 
 os.makedirs(DER, exist_ok=True)
 json.dump({"_derived": True, "_disclaimer": DISCLAIMER, "vocabulary": VOCAB, "index": index},
-          open(os.path.join(DER, "concept-index.json"), "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+          open(os.path.join(DER, "concept-index.json"), "w", encoding="utf-8", newline="\n"), indent=2, ensure_ascii=False)
 md = ["# Concept Index (derived, unofficial)", "", f"_{DISCLAIMER}_", "",
       "For each neutral concept, the provisions across the corpus that address it. Concepts describe what a "
       "provision is *about*; they take no position on any doctrine.", ""]
@@ -189,7 +189,7 @@ for c in VOCAB:
     for e in entries: by_inst.setdefault((e["short_title"], e["corpus_id"]), []).append(e["unit"])
     for (sh, cid), us in by_inst.items(): md.append(f"- **{sh}** (`{cid}`): " + "; ".join(us))
     md.append("")
-open(os.path.join(DER, "concept-index.md"), "w", encoding="utf-8").write("\n".join(md) + "\n")
+open(os.path.join(DER, "concept-index.md"), "w", encoding="utf-8", newline="\n").write("\n".join(md) + "\n")
 
 os.makedirs(DOCS, exist_ok=True)
 vmd = ["# Concept Vocabulary", "",
@@ -197,7 +197,7 @@ vmd = ["# Concept Vocabulary", "",
        "is *about*; the vocabulary is doctrine-agnostic. Tagging is derived, unofficial, and traceable to "
        "each authoritative text.", ""]
 for c, d in VOCAB.items(): vmd.append(f"- **`{c}`** — {d}")
-open(os.path.join(DOCS, "concept-vocabulary.md"), "w", encoding="utf-8").write("\n".join(vmd) + "\n")
+open(os.path.join(DOCS, "concept-vocabulary.md"), "w", encoding="utf-8", newline="\n").write("\n".join(vmd) + "\n")
 
 print(f"Rebuilt derived for {len(records)} instrument(s).")
 for c in VOCAB: print(f"  {c:42s} {len(index.get(c, [])):2d}")

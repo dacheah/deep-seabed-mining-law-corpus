@@ -49,3 +49,16 @@ python scripts\watch_sources.py --tally       # measured whole-page false-alarm 
 Schema-mode sources carry a `schema` in `monitoring/sources.json`; the rest fall back to whole-page
 hashing. A `SCHEMA SUSPECT` flag means selectors have probably broken — the baseline is deliberately
 not advanced. Verify the schema against the live page before the next run.
+
+LINE ENDINGS — deliberate scope (2026-07-22, task: pin LF on CRLF-risk write sites)
+-----------------------------------------------------------------------------------
+Every script that writes a TRACKED file pins newline="\n". Python text mode translates "\n" to
+"\r\n" on Windows, and .gitattributes governs CHECKOUT, not what a script writes — verified: a
+CRLF working file under `* text=auto eol=lf` is still reported modified, with an empty diff. That
+churn is what made the derived layer permanently "modified" after a rebuild.
+
+DELIBERATELY NOT PINNED (writes nothing tracked, or never re-run):
+  * build_site.py            -> writes site/, which is gitignored (built fresh in CI for Pages).
+                                CRLF there reaches no repository and no consumer.
+  * migrate_metadata_layer.py -> one-shot 2026-07 migration, already run, kept only as a record of
+                                what was executed. If it is ever re-run, pin it first.

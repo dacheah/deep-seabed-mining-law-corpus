@@ -76,7 +76,7 @@ def build_provisions(metas):
     return rows
 
 def write_jsonl(path, rows):
-    with open(path, "w", encoding="utf-8") as f:
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
         for r in rows:
             f.write(json.dumps(r, ensure_ascii=False) + "\n")
 
@@ -230,7 +230,7 @@ def main():
     os.makedirs(os.path.join(args.out, "data"), exist_ok=True)
     write_jsonl(os.path.join(args.out, "data", "documents.jsonl"), docs)
     write_jsonl(os.path.join(args.out, "data", "provisions.jsonl"), provs)
-    open(os.path.join(args.out, "README.md"), "w", encoding="utf-8").write(card(docs, provs, args.push or args.repo_id))
+    open(os.path.join(args.out, "README.md"), "w", encoding="utf-8", newline="\n").write(card(docs, provs, args.push or args.repo_id))
     print("Exported %d documents, %d provisions -> %s" % (len(docs), len(provs), args.out))
     # HF renamed the CLI: the command is `hf` (huggingface-cli is deprecated).
     print("Publish:  hf upload %s %s . --repo-type dataset" % (args.repo_id, args.out))
