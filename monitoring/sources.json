@@ -6,8 +6,8 @@
       "url": "https://www.isa.org.jm/the-mining-code/",
       "capture_type": "pdf",
       "scope": "isa_mining_code",
-      "last_sha256": "sha256:c6f0d6fd5cbe53bc7d4d09215950e0de3403286b503fa51574c69aca43567ae8",
-      "last_checked": "2026-07-18T08:37:18Z",
+      "last_sha256": "sha256:d68bd61ed58b253c5dec738c772bb041688587d3d60f1f13b3706a9946290b7b",
+      "last_checked": "2026-08-01T08:22:24Z",
       "expect_contains": "Mining Code"
     },
     {
@@ -15,8 +15,8 @@
       "url": "https://www.isa.org.jm/the-mining-code/exploration-regulations/",
       "capture_type": "pdf",
       "scope": "isa_exploration",
-      "last_sha256": "sha256:c5047170452fb502994161a63a3c072b9a1d1b96f5a23d5799ea12e2583e5580",
-      "last_checked": "2026-07-18T08:37:18Z",
+      "last_sha256": "sha256:df16122a8cbd4f55bf1625dcca5c96aced67883daf2ad1ed302b5d04d7121a40",
+      "last_checked": "2026-08-01T08:22:24Z",
       "expect_contains": "Exploration"
     },
     {
@@ -25,8 +25,8 @@
       "capture_type": "pdf",
       "scope": "isa_sessions",
       "_note": "2026-07-18: was named 'Council documents' and pointed at /sessions/, which SILENTLY REDIRECTS to an agenda-item page from a past session (sessions-30th-session-2025-item16). There is no /sessions/ index — sessions are listed only in the site nav. It had already flagged one meaningless 'change' as the redirect target drifted. Repointed to the most recent completed session; the current session has its own source. NEEDS ANNUAL REVIEW when a new session opens. Hash cleared to force a fresh baseline.",
-      "last_sha256": null,
-      "last_checked": "2026-07-18T08:37:18Z",
+      "last_sha256": "sha256:7d4e3922f8e74634ec9219807f14539ff112b6b9186590731677a21b0a3849cf",
+      "last_checked": "2026-08-01T08:22:24Z",
       "expect_contains": "30th"
     },
     {
@@ -35,7 +35,7 @@
       "capture_type": "html",
       "scope": "unclos_partxi",
       "last_sha256": "sha256:5fcfcc46b7dd1c16d1e719e21e0504a71c8e22b5ab82bb7b4f868212f2321cbe",
-      "last_checked": "2026-07-18T08:37:18Z",
+      "last_checked": "2026-08-01T08:22:24Z",
       "expect_contains": "Part XI"
     },
     {
@@ -44,7 +44,7 @@
       "capture_type": "html",
       "scope": "unclos_partxi",
       "last_sha256": "sha256:20536b0c8eaf65bd856c2264ee97068d6278922c25b4ae97ee73cc58e85d4c66",
-      "last_checked": "2026-07-18T08:37:18Z",
+      "last_checked": "2026-08-01T08:22:24Z",
       "expect_contains": "polymetallic nodules"
     },
     {
@@ -54,9 +54,10 @@
       "capture_type": "pdf",
       "scope": "itlos",
       "_note": "2026-07-18: ACTIVE PROCEEDINGS. Instituted 30 May 2026; Order 2026/6 of 24 June 2026; provisional-measures hearing opened 2 July 2026. Found only because the ITLOS source had been pointed at an overview page instead of the case register. Watch monthly — filings are ongoing. Press releases on this page are NOT authoritative instruments and must not enter authoritative/.",
-      "last_sha256": null,
-      "last_checked": null,
-      "expect_contains": "Nauru Ocean Resources"
+      "last_sha256": "sha256:862eda90ff19ea67f728acca559a2d9c6115363115c728debee9dc67b7910bf8",
+      "last_checked": "2026-08-01T08:22:24Z",
+      "expect_contains": "Nauru Ocean Resources",
+      "last_page_sha256": "sha256:7edff2cd0cf9915ae24048fb8970a444d21655f740d1496a1116478ba9d3e630"
     },
     {
       "name": "ITLOS — Case No. 35 (Tonga Offshore Mining Ltd. v. ISA)",
@@ -65,9 +66,10 @@
       "capture_type": "pdf",
       "scope": "itlos",
       "_note": "2026-07-18: ACTIVE PROCEEDINGS, companion to Case No. 34. Document list not yet reviewed at time of adding. Press releases are NOT authoritative instruments.",
-      "last_sha256": null,
-      "last_checked": null,
-      "expect_contains": "Tonga Offshore Mining"
+      "last_sha256": "sha256:aa480f74a7cdf298ebd208e2ee00237da0cef9f1fd067ae2caeb5c948eaf9c55",
+      "last_checked": "2026-08-01T08:22:24Z",
+      "expect_contains": "Tonga Offshore Mining",
+      "last_page_sha256": "sha256:98ad28861a8159fb9615d637e6acbfdb1110a125a2995ed7f7b4ceb4dc909065"
     },
     {
       "name": "ITLOS — Case No. 17 (2011 Advisory Opinion)",
@@ -75,9 +77,10 @@
       "schema": "itlos-case-documents.json",
       "capture_type": "pdf",
       "scope": "itlos",
-      "last_sha256": "sha256:a0246511117343dbe3e2a98c7ee8ebb21829c2a69221c1dc5b00deb803540370",
-      "last_checked": "2026-07-18T08:37:18Z",
-      "expect_contains": "Responsibilities and obligations"
+      "last_sha256": "sha256:79d6dbc6c9ca3838e6e776e65da9253bfc326141f796bd25d3ccabe1e0142391",
+      "last_checked": "2026-08-01T08:22:24Z",
+      "expect_contains": "Responsibilities and obligations",
+      "last_page_sha256": "sha256:28da909b8856dcf3e5e4b93c835091c63f3811f6e51537f9932a5878d8bd653c"
     },
     {
       "name": "US eCFR — 15 CFR Part 970 (NOAA deep seabed mining, exploration licences)",
@@ -95,9 +98,10 @@
       "capture_type": "json",
       "scope": "us_dsm",
       "_note": "2026-07-18: the human-facing eCFR page BLOCKS automated fetches — it redirected to unblock.federalregister.gov ('Request Access'), so this source was hashing an access-denied page. Symptom visible in hindsight: parts 970 and 971 carried IDENTICAL hashes, which two different regulations cannot. Switched to the OFFICIAL eCFR versioner API, which is published for programmatic use (NOT an evasion — no stealth, no proxy, per crawl boundary rule 2). Bonus: it reports amendment dates per section, so a change names the sections amended. Document capture for ingest remains a separate, human-verified step. Hash cleared to force a fresh baseline.",
-      "last_sha256": null,
-      "last_checked": "2026-07-18T08:37:18Z",
-      "expect_contains": "970"
+      "last_sha256": "sha256:8d3ff0d3907e2b44ae72ff2327ce188cd81b7c7c66f0b63c4381fec34a81c95e",
+      "last_checked": "2026-08-01T08:22:24Z",
+      "expect_contains": "970",
+      "last_page_sha256": "sha256:9dc871ef5e060dee1105d6cac97dd851d250dd2412017144b97c02ff671e1436"
     },
     {
       "name": "US eCFR — 15 CFR Part 971 (NOAA commercial recovery permits)",
@@ -114,17 +118,18 @@
       "capture_type": "json",
       "scope": "us_dsm",
       "_note": "2026-07-18: see the Part 970 note — the human-facing eCFR page blocks automated fetches. Switched to the official eCFR versioner API. Hash cleared to force a fresh baseline.",
-      "last_sha256": null,
-      "last_checked": "2026-07-18T08:37:18Z",
-      "expect_contains": "971"
+      "last_sha256": "sha256:f27ea8b062875dc73bb993b41819b6e7c5cf047be57e6d64352ea0e2dbdd0f72",
+      "last_checked": "2026-08-01T08:22:24Z",
+      "expect_contains": "971",
+      "last_page_sha256": "sha256:1859f8bd126a154af79f76c4fe16556820578782115026272c9ec840d3984283"
     },
     {
       "name": "ISA — Draft Exploitation Regulations (Mining Code drafts)",
       "url": "https://isa.org.jm/the-mining-code/draft-exploitation-regulations-2/",
       "capture_type": "pdf",
       "scope": "isa_mining_code",
-      "last_sha256": "sha256:5b65ab9098d824a4de3cc6ae051a5fce789c0c3647253a099e56217fb9e0a289",
-      "last_checked": "2026-07-18T08:37:18Z",
+      "last_sha256": "sha256:a672f62edb125f764cce007cfb30fe96cdf3f41185e08e4bc59c34deb63009d6",
+      "last_checked": "2026-08-01T08:22:24Z",
       "expect_contains": "Exploitation"
     },
     {
@@ -132,8 +137,8 @@
       "url": "https://isa.org.jm/the-mining-code/standards-and-guidelines/",
       "capture_type": "pdf",
       "scope": "isa_mining_code",
-      "last_sha256": "sha256:5acff6d61ceaba010a964390712a022ae6dd37fe7e8bffe956c3df9359da8303",
-      "last_checked": "2026-07-18T08:37:18Z",
+      "last_sha256": "sha256:cdd9866a144c08bfbfb1bae04d9544923c92f229e5a6c9e3832cd84007a2a53c",
+      "last_checked": "2026-08-01T08:22:24Z",
       "expect_contains": "Standards and Guidelines"
     },
     {
@@ -141,8 +146,8 @@
       "url": "https://isa.org.jm/mining-code-recommendations/",
       "capture_type": "pdf",
       "scope": "isa_mining_code",
-      "last_sha256": "sha256:8f32949b09c517d3e03bf494a5d8bcb3ed5c465f62d51e35515e2176f300a04f",
-      "last_checked": "2026-07-18T08:37:18Z",
+      "last_sha256": "sha256:08852467b4073e3aabfa3ecc37d81efcdf9c6aaaf3b7ea1c73993fcb904c0293",
+      "last_checked": "2026-08-01T08:22:24Z",
       "expect_contains": "Recommendations"
     },
     {
@@ -152,8 +157,8 @@
       "capture_type": "pdf",
       "scope": "isa_mining_code",
       "last_sha256": "sha256:172277668713e2a68c724a4decc6ac694d6e6a9dfa24f121b7a23d4ba0473b29",
-      "last_checked": "2026-07-18T08:37:18Z",
-      "last_page_sha256": "sha256:9481c4bf6c8010040f42ec2bf96d07a3602687e3dd9404a37f529cd5d1ca00d9",
+      "last_checked": "2026-08-01T08:22:24Z",
+      "last_page_sha256": "sha256:8ab64ece02ed13709e913b998a5cc6a2066199a1c086352d41aa6b464dd810d6",
       "expect_contains": "Mining Code"
     },
     {
@@ -161,8 +166,8 @@
       "url": "https://isa.org.jm/organs/the-legal-and-technical-commission/",
       "capture_type": "pdf",
       "scope": "isa_organs",
-      "last_sha256": "sha256:c4eb2f3234e1748543f2df458169572b1fa4cbc4320200c04f4137b64fda6514",
-      "last_checked": "2026-07-18T08:37:18Z",
+      "last_sha256": "sha256:fdd75699c2085815b50fbaadd90374c03a2d1d142b81ca884c3a8e7f612bcd21",
+      "last_checked": "2026-08-01T08:22:24Z",
       "expect_contains": "Legal and Technical Commission"
     },
     {
@@ -170,8 +175,8 @@
       "url": "https://www.isa.org.jm/sessions/31st-session-2026/",
       "capture_type": "pdf",
       "scope": "isa_sessions",
-      "last_sha256": "sha256:ae7d39b14ae70c9a024c0258b068ddd1631ea89fc2f21b9f958d1d40642b4f62",
-      "last_checked": "2026-07-18T08:37:18Z",
+      "last_sha256": "sha256:7f93660c9c78b0ba0c84909decd58d0b66cff1a2bfadbb23c54a4b4425f75cc1",
+      "last_checked": "2026-08-01T08:22:24Z",
       "expect_contains": "31st"
     },
     {
@@ -179,8 +184,8 @@
       "url": "https://isa.org.jm/organs/the-council/",
       "capture_type": "pdf",
       "scope": "isa_organs",
-      "last_sha256": "sha256:7694e237f1931791573a5830207597e6b5647f100bbd042c52a389006621b2e6",
-      "last_checked": "2026-07-18T08:37:18Z",
+      "last_sha256": "sha256:615477977274e7bdedc74d86dbd63ff908a51de3a469879578a24d64606ecb5b",
+      "last_checked": "2026-08-01T08:22:24Z",
       "expect_contains": "Council"
     },
     {
@@ -190,9 +195,10 @@
       "capture_type": "pdf",
       "scope": "itlos",
       "_note": "2026-07-18: corrected from /en/main/cases/ (an overview page carrying only prose and a case count) to /list-of-cases/, the actual case register. The old URL could not surface new cases; hash cleared to force a fresh baseline.",
-      "last_sha256": null,
-      "last_checked": "2026-07-18T08:37:18Z",
-      "expect_contains": "Case No. 17"
+      "last_sha256": "sha256:9e5333da732e7d57c47b9508f167711f46470e8b343d54e397bb0715cb3d3bf8",
+      "last_checked": "2026-08-01T08:22:24Z",
+      "expect_contains": "Case No. 17",
+      "last_page_sha256": "sha256:55d9bb8b960d556e286e171eccb3af736918ee744837f3fa27d455fecf7c0abf"
     },
     {
       "name": "US Federal Register — deep seabed mining (newest docs, JSON)",
@@ -200,7 +206,7 @@
       "capture_type": "json",
       "scope": "us_dsm",
       "last_sha256": "sha256:841da01d088e05b0ff15e38f23aa76ef15b1e3aba2982c2a794046b27b5c7321",
-      "last_checked": "2026-07-18T08:37:18Z",
+      "last_checked": "2026-08-01T08:22:24Z",
       "expect_contains": "deep seabed mining"
     },
     {
@@ -209,7 +215,7 @@
       "capture_type": "html",
       "scope": "us_dsm",
       "last_sha256": "sha256:24413490840308d5d1767f17b682b1f80cb77f418a4d6b259313f3462f8023c5",
-      "last_checked": "2026-07-18T08:37:18Z",
+      "last_checked": "2026-08-01T08:22:24Z",
       "expect_contains": "seabed"
     }
   ],

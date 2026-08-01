@@ -1,0 +1,555 @@
+{
+  "generated": "2026-08-01T08:22:24Z",
+  "records": [
+    {
+      "citation": "971.100",
+      "title": "§ 971.100   Purpose.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.101",
+      "title": "§ 971.101   Definitions.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.101",
+      "title": "§ 971.101   Definitions.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.101",
+      "title": "§ 971.101   Definitions.",
+      "date": "2026-01-21"
+    },
+    {
+      "citation": "971.102",
+      "title": "§ 971.102   Nature of permits.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.103",
+      "title": "§ 971.103   Prohibited activities and restrictions.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.103",
+      "title": "§ 971.103   Prohibited activities and restrictions.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.104",
+      "title": "§ 971.104   OMB control number.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.200",
+      "title": "§ 971.200   General.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.200",
+      "title": "§ 971.200   General.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.200",
+      "title": "§ 971.200   General.",
+      "date": "2021-06-23"
+    },
+    {
+      "citation": "971.200",
+      "title": "§ 971.200   General.",
+      "date": "2026-01-21"
+    },
+    {
+      "citation": "971.201",
+      "title": "§ 971.201   Statement of financial resources.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.202",
+      "title": "§ 971.202   Statement of technological experience and capabilities.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.203",
+      "title": "§ 971.203   Commercial recovery plan.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.204",
+      "title": "§ 971.204   Environmental and use conflict analysis.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.204",
+      "title": "§ 971.204   Environmental and use conflict analysis.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.205",
+      "title": "§ 971.205   Vessel safety and documentation.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.206",
+      "title": "§ 971.206   Statement of ownership.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.207",
+      "title": "§ 971.207   Antitrust information.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.208",
+      "title": "§ 971.208   Fee.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.208",
+      "title": "§ 971.208   Fee.",
+      "date": "2026-01-21"
+    },
+    {
+      "citation": "971.209",
+      "title": "§ 971.209   Processing outside the United States.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.210",
+      "title": "§ 971.210   Determination whether application is complete for further processing.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.211",
+      "title": "§ 971.211   Consultation and cooperation with Federal agencies.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.212",
+      "title": "§ 971.212   Public notice, hearing and comment.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.213",
+      "title": "§ 971.213   Amendment to an application.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.214",
+      "title": "§ 971.214   Consolidated license and permit procedures. [Reserved]",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.214",
+      "title": "§ 971.214   Consolidated license and permit procedures.",
+      "date": "2026-01-21"
+    },
+    {
+      "citation": "971.300",
+      "title": "§ 971.300   General.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.301",
+      "title": "§ 971.301   Required findings.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.301",
+      "title": "§ 971.301   Required findings.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.302",
+      "title": "§ 971.302   Denial of certification.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.303",
+      "title": "§ 971.303   Notice of certification.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.400",
+      "title": "§ 971.400   General.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.400",
+      "title": "§ 971.400   General.",
+      "date": "2026-01-21"
+    },
+    {
+      "citation": "971.400",
+      "title": "§ 971.400   General.",
+      "date": "2026-05-14"
+    },
+    {
+      "citation": "971.401",
+      "title": "§ 971.401   Proposal to issue or transfer and proposed terms, conditions and restrictions.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.402",
+      "title": "§ 971.402   Consultation and cooperation with Federal and State agencies.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.403",
+      "title": "§ 971.403   Freedom of the high seas.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.404",
+      "title": "§ 971.404   International obligations of the United States.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.405",
+      "title": "§ 971.405   Breach of international peace and security involving armed conflict.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.406",
+      "title": "§ 971.406   Environmental effects.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.407",
+      "title": "§ 971.407   Safety at sea.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.407",
+      "title": "§ 971.407   Safety at sea.",
+      "date": "2026-01-21"
+    },
+    {
+      "citation": "971.408",
+      "title": "§ 971.408   Processing outside the United States.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.409",
+      "title": "§ 971.409   Denial of issuance or transfer.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.410",
+      "title": "§ 971.410   Notice of issuance or transfer.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.411",
+      "title": "§ 971.411   Objections to terms, conditions and restrictions.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.412",
+      "title": "§ 971.412   Changes in permits and permit terms, conditions, and restrictions.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.412",
+      "title": "§ 971.412   Changes in permits and permit terms, conditions, and restrictions.",
+      "date": "2026-01-21"
+    },
+    {
+      "citation": "971.412",
+      "title": "§ 971.412   Changes in permits and permit terms, conditions, and restrictions.",
+      "date": "2026-05-14"
+    },
+    {
+      "citation": "971.413",
+      "title": "§ 971.413   Revision of a permit.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.413",
+      "title": "§ 971.413   Revision of a permit.",
+      "date": "2026-01-21"
+    },
+    {
+      "citation": "971.414",
+      "title": "§ 971.414   Modification of permit terms, conditions, and restrictions.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.415",
+      "title": "§ 971.415   Duration of a permit.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.416",
+      "title": "§ 971.416   Approval of permit transfers.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.417",
+      "title": "§ 971.417   Suspension or modification of activities; suspension or revocation of permits.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.418",
+      "title": "§ 971.418   Diligence requirements.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.419",
+      "title": "§ 971.419   Environmental protection requirements.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.420",
+      "title": "§ 971.420   Resource conservation requirements.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.421",
+      "title": "§ 971.421   Freedom of the high seas requirements.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.422",
+      "title": "§ 971.422   Safety at sea requirements.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.423",
+      "title": "§ 971.423   Best available technology.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.424",
+      "title": "§ 971.424   Monitoring requirements.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.425",
+      "title": "§ 971.425   Changes of circumstances.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.426",
+      "title": "§ 971.426   Annual report and records maintenance.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.427",
+      "title": "§ 971.427   Processing outside the United States.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.428",
+      "title": "§ 971.428   Other necessary permits.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.429",
+      "title": "§ 971.429   Special terms, conditions and restrictions.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.430",
+      "title": "§ 971.430   Other Federal requirements.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.500",
+      "title": "§ 971.500   General.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.501",
+      "title": "§ 971.501   Resource assessment, recovery plan, and logical mining unit.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.502",
+      "title": "§ 971.502   Conservation of resources.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.503",
+      "title": "§ 971.503   Diligent commercial recovery.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.503",
+      "title": "§ 971.503   Diligent commercial recovery.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.503",
+      "title": "§ 971.503   Diligent commercial recovery.",
+      "date": "2021-06-23"
+    },
+    {
+      "citation": "971.503",
+      "title": "§ 971.503   Diligent commercial recovery.",
+      "date": "2026-01-21"
+    },
+    {
+      "citation": "971.600",
+      "title": "§ 971.600   General.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.601",
+      "title": "§ 971.601   Environmental requirements.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.601",
+      "title": "§ 971.601   Environmental requirements.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.601",
+      "title": "§ 971.601   Environmental requirements.",
+      "date": "2021-06-23"
+    },
+    {
+      "citation": "971.602",
+      "title": "§ 971.602   Significant adverse environmental effects.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.603",
+      "title": "§ 971.603   At-sea monitoring.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.603",
+      "title": "§ 971.603   At-sea monitoring.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.604",
+      "title": "§ 971.604   Best available technologies (BAT) and mitigation.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.605",
+      "title": "§ 971.605   Stable Reference Areas. [Reserved]",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.606",
+      "title": "§ 971.606   Onshore information.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.700",
+      "title": "§ 971.700   General.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.701",
+      "title": "§ 971.701   Criteria for safety of life and property at sea.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.701",
+      "title": "§ 971.701   Criteria for safety of life and property at sea.",
+      "date": "2026-01-21"
+    },
+    {
+      "citation": "971.800",
+      "title": "§ 971.800   General.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.801",
+      "title": "§ 971.801   Records to be maintained and information to be submitted by licensees and permittees.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.802",
+      "title": "§ 971.802   Public disclosure of documents received by NOAA.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.802",
+      "title": "§ 971.802   Public disclosure of documents received by NOAA.",
+      "date": "2026-01-21"
+    },
+    {
+      "citation": "971.803",
+      "title": "§ 971.803   Relinquishment and surrender of licenses and permits.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.804",
+      "title": "§ 971.804   Amendment to regulations for conservation, protection of the environment, and safety of life and property at sea.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.805",
+      "title": "§ 971.805   Computation of time.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.900",
+      "title": "§ 971.900   Applicability.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.900",
+      "title": "§ 971.900   Applicability.",
+      "date": "2026-01-21"
+    },
+    {
+      "citation": "971.901",
+      "title": "§ 971.901   Formal hearing procedures.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.901",
+      "title": "§ 971.901   Formal hearing procedures.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.1000",
+      "title": "§ 971.1000   General.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.1001",
+      "title": "§ 971.1001   Assessment procedure.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.1002",
+      "title": "§ 971.1002   Hearing and appeal procedures.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.1003",
+      "title": "§ 971.1003   License and permit sanctions.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.1004",
+      "title": "§ 971.1004   Remission or mitigation of forfeitures.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.1005",
+      "title": "§ 971.1005   Observers.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.1006",
+      "title": "§ 971.1006   Proprietary enforcement information.",
+      "date": "2017-01-01"
+    },
+    {
+      "citation": "971.1007",
+      "title": "§ 971.1007   Advance notice of civil actions.",
+      "date": "2017-01-01"
+    }
+  ]
+}

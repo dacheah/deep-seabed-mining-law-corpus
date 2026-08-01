@@ -1,1 +1,8 @@
 {"ts": "2026-07-18T08:37:18Z", "source": "ISA — Exploitation: Official documents", "page_changed": false, "records_changed": true, "state": "baseline", "verdict": "real_change"}
+{"ts": "2026-08-01T08:22:24Z", "source": "ITLOS — Case No. 34 (Nauru Ocean Resources Inc. v. ISA)", "page_changed": false, "records_changed": false, "state": "baseline", "verdict": "quiet"}
+{"ts": "2026-08-01T08:22:24Z", "source": "ITLOS — Case No. 35 (Tonga Offshore Mining Ltd. v. ISA)", "page_changed": false, "records_changed": false, "state": "baseline", "verdict": "quiet"}
+{"ts": "2026-08-01T08:22:24Z", "source": "ITLOS — Case No. 17 (2011 Advisory Opinion)", "page_changed": false, "records_changed": true, "state": "baseline", "verdict": "real_change"}
+{"ts": "2026-08-01T08:22:24Z", "source": "US eCFR — 15 CFR Part 970 (NOAA deep seabed mining, exploration licences)", "page_changed": false, "records_changed": false, "state": "baseline", "verdict": "quiet"}
+{"ts": "2026-08-01T08:22:24Z", "source": "US eCFR — 15 CFR Part 971 (NOAA commercial recovery permits)", "page_changed": false, "records_changed": false, "state": "baseline", "verdict": "quiet"}
+{"ts": "2026-08-01T08:22:24Z", "source": "ISA — Exploitation: Official documents", "page_changed": true, "records_changed": false, "state": "unchanged", "verdict": "false_alarm"}
+{"ts": "2026-08-01T08:22:24Z", "source": "ITLOS — List of cases (new cases / advisory opinions)", "page_changed": false, "records_changed": false, "state": "baseline", "verdict": "quiet"}
