@@ -68,3 +68,10 @@ verification:
 binding_force: binding
 issuing_authority: "International Seabed Authority"
 administering_authority: null
+akn_expression_uri: null
+akn_uri: null
+akn_uri_basis: none
+akn_uri_note: The International Seabed Authority is an autonomous international organisation established
+  by UNCLOS Part XI, not an organ of the United Nations. It has no ISO 3166 code and no published Akoma
+  Ntoso profile covers it, so no conformant country slot exists. Not minted rather than invented — see
+  the XA-XZ discussion in scripts/akn.py.

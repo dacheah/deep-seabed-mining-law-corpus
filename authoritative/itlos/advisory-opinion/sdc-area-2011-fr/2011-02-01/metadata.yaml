@@ -59,3 +59,8 @@ verification:
 binding_force: non_binding
 issuing_authority: "International Tribunal for the Law of the Sea (Seabed Disputes Chamber)"
 administering_authority: null
+akn_expression_uri: null
+akn_uri: null
+akn_uri_basis: none
+akn_uri_note: ITLOS and its Seabed Disputes Chamber are established by UNCLOS Annex VI as an independent
+  judicial body, not a UN organ. No ISO 3166 code and no published AKN profile applies.

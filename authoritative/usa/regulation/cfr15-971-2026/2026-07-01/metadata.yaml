@@ -49,3 +49,7 @@ verification:
 binding_force: binding
 issuing_authority: "National Oceanic and Atmospheric Administration (NOAA)"
 administering_authority: null
+akn_expression_uri: /akn/us/act/regulation/2026-07-01/cfr15-971-2026/eng
+akn_uri: /akn/us/act/regulation/2026-07-01/cfr15-971-2026
+akn_uri_basis: iso3166
+akn_uri_note: ''

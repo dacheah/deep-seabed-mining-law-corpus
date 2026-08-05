@@ -57,3 +57,7 @@ verification:
 binding_force: binding
 issuing_authority: "United States Congress"
 administering_authority: "National Oceanic and Atmospheric Administration (NOAA)"
+akn_expression_uri: /akn/us/act/2023-01-01/dshmra-1980/eng
+akn_uri: /akn/us/act/2023-01-01/dshmra-1980
+akn_uri_basis: iso3166
+akn_uri_note: ''
