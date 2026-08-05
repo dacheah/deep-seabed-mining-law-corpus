@@ -100,6 +100,43 @@ Our contributions (derived layer, schema, scripts, site, docs) are **CC BY 4.0**
 (UN/ISA/ITLOS materials under their terms; US Government works public domain). See
 `docs/design/04-licensing-policy.md`.
 
+## Standard identifiers, and why most records here have none
+
+Each record carries an `akn_uri` — an [Akoma Ntoso Naming Convention](https://docs.oasis-open.org/legaldocml/akn-nc/v1.0/akn-nc-v1.0.html)
+identifier — together with `akn_uri_basis` and `akn_uri_note` recording how it was derived. In this
+corpus **19 of 28 records have no identifier at all**, and that is a finding rather than unfinished
+work.
+
+| Issuing body | Records | Identifier |
+|---|---|---|
+| UN General Assembly, Third UN Conference on the Law of the Sea | 6 | `/akn/un/…` (AKN4UN) |
+| United States (Congress, NOAA) | 3 | `/akn/us/…` (ISO 3166-1) |
+| **International Seabed Authority** | **16** | **none exists** |
+| **ITLOS Seabed Disputes Chamber** | **3** | **none exists** |
+
+The naming convention requires an ISO 3166 code in the country slot, and every worked example in the
+specification is a nation-state. Two published profiles extend it — AKN4UN puts `un` there, AKN4EU
+puts `eu` — but neither reaches the ISA or ITLOS, which are autonomous bodies established *by* UNCLOS
+rather than organs of the United Nations. Neither has an ISO 3166 code of any kind.
+
+ISO 3166-1 does reserve `XA`–`XZ` for private use, so we could declare `XA = ISA` and fill the column.
+We don't. A privately assigned code resolves for nobody, which means it would buy nothing that this
+corpus's own `corpus_id` already provides, while spending the one property that makes a standard
+identifier worth having. And since AKN4UN, AKN4EU and AKN4Africa all exist, a profile covering
+non-UN treaty bodies is a plausible future — if one lands and it is not our letters, we would be
+holding published identifiers we know to be wrong. Changing a published identifier is worse than
+never having minted one.
+
+So the absence is recorded, with a reason, per record. It is worth stating plainly what that absence
+means: **the primary law governing the deep seabed — a commons regime binding on 170 states — has no
+standard machine identifier scheme.** That is not a shortcoming of this corpus. It is a small piece
+of evidence about which bodies of law the legal-informatics community has built infrastructure for,
+and which it has not.
+
+The identifiers are minted deterministically by `scripts/akn.py` from `schema/akn-registry.json`, and
+`scripts/validate_corpus.py` re-mints and compares on every run — a hand-edited identifier fails the
+build, because it would still resolve, to the wrong instrument.
+
 ## Honest limits of this build
 
 - Captures are text extractions via an approved fetch tool, **not** byte-exact official PDFs;
