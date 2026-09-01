@@ -1,52 +1,58 @@
-# Source monitor report — 2026-08-01T08:22:24Z
+# Source monitor report — 2026-09-01T11:14:25Z
 
 _monitor v3.8 · schema mode on_
 
-8 changed · 0 suspect · 0 schema-suspect · 0 manual-review · 0 error · 20 total
+13 changed · 0 suspect · 0 schema-suspect · 0 manual-review · 0 error · 20 total
 
 ## Schema-mode sources
 
-- **ITLOS — Case No. 34 (Nauru Ocean Resources Inc. v. ISA)** — 🟦 baseline set (2 records)
-- **ITLOS — Case No. 35 (Tonga Offshore Mining Ltd. v. ISA)** — 🟦 baseline set (1 records)
-- **ITLOS — Case No. 17 (2011 Advisory Opinion)** — 🟦 baseline set (30 records)
-- **US eCFR — 15 CFR Part 970 (NOAA deep seabed mining, exploration licences)** — 🟦 baseline set (83 records)
-- **US eCFR — 15 CFR Part 971 (NOAA commercial recovery permits)** — 🟦 baseline set (110 records)
+- **ITLOS — Case No. 34 (Nauru Ocean Resources Inc. v. ISA)** — 🔶 CHANGED: 1 new, 0 gone, 0 amended
+    - ➕ Order 2026/8 of 4 August 2026
+- **ITLOS — Case No. 35 (Tonga Offshore Mining Ltd. v. ISA)** — 🔶 CHANGED: 1 new, 0 gone, 0 amended
+    - ➕ Order 2026/9 of 4 August 2026
+- **ITLOS — Case No. 17 (2011 Advisory Opinion)** — ✅ unchanged (30 records)
+- **US eCFR — 15 CFR Part 970 (NOAA deep seabed mining, exploration licences)** — ✅ unchanged (83 records)
+- **US eCFR — 15 CFR Part 971 (NOAA commercial recovery permits)** — ✅ unchanged (110 records)
 - **ISA — Exploitation: Official documents** — ✅ unchanged (38 records)
-- **ITLOS — List of cases (new cases / advisory opinions)** — 🟦 baseline set (35 records)
+- **ITLOS — List of cases (new cases / advisory opinions)** — ✅ unchanged (35 records)
 
-## 🔶 CHANGED (8)
+## 🔶 CHANGED (11)
 - **ISA — The Mining Code (exploitation regulations)**
-    - was `sha256:c6f0d6fd5cbe53bc7d4d09215950e0de3403286b503fa51574c69aca43567ae8`
-    - now `sha256:d68bd61ed58b253c5dec738c772bb041688587d3d60f1f13b3706a9946290b7b`
+    - was `sha256:d68bd61ed58b253c5dec738c772bb041688587d3d60f1f13b3706a9946290b7b`
+    - now `sha256:d8c21eeb48275dee944bbdb463f36f40cd71a6c1998d65f2f6530acd103cdf93`
 - **ISA — Exploration regulations**
-    - was `sha256:c5047170452fb502994161a63a3c072b9a1d1b96f5a23d5799ea12e2583e5580`
-    - now `sha256:df16122a8cbd4f55bf1625dcca5c96aced67883daf2ad1ed302b5d04d7121a40`
-- **ISA — Draft Exploitation Regulations (Mining Code drafts)**
-    - was `sha256:5b65ab9098d824a4de3cc6ae051a5fce789c0c3647253a099e56217fb9e0a289`
-    - now `sha256:a672f62edb125f764cce007cfb30fe96cdf3f41185e08e4bc59c34deb63009d6`
-- **ISA — Draft Standards and Guidelines (Mining Code)**
-    - was `sha256:5acff6d61ceaba010a964390712a022ae6dd37fe7e8bffe956c3df9359da8303`
-    - now `sha256:cdd9866a144c08bfbfb1bae04d9544923c92f229e5a6c9e3832cd84007a2a53c`
-- **ISA — Mining Code Recommendations and guidance (LTC)**
-    - was `sha256:8f32949b09c517d3e03bf494a5d8bcb3ed5c465f62d51e35515e2176f300a04f`
-    - now `sha256:08852467b4073e3aabfa3ecc37d81efcdf9c6aaaf3b7ea1c73993fcb904c0293`
-- **ISA — Legal and Technical Commission**
-    - was `sha256:c4eb2f3234e1748543f2df458169572b1fa4cbc4320200c04f4137b64fda6514`
-    - now `sha256:fdd75699c2085815b50fbaadd90374c03a2d1d142b81ca884c3a8e7f612bcd21`
-- **ISA — 31st session (2026)**
-    - was `sha256:ae7d39b14ae70c9a024c0258b068ddd1631ea89fc2f21b9f958d1d40642b4f62`
-    - now `sha256:7f93660c9c78b0ba0c84909decd58d0b66cff1a2bfadbb23c54a4b4425f75cc1`
-- **ISA — The Council**
-    - was `sha256:7694e237f1931791573a5830207597e6b5647f100bbd042c52a389006621b2e6`
-    - now `sha256:615477977274e7bdedc74d86dbd63ff908a51de3a469879578a24d64606ecb5b`
-
-## 🟦 baseline set (1)
+    - was `sha256:df16122a8cbd4f55bf1625dcca5c96aced67883daf2ad1ed302b5d04d7121a40`
+    - now `sha256:3d5f4f839225e71b8665a16eb00170128748c7c1b49b91986e3fffbccd1ad818`
 - **ISA — 30th session (2025)**
+    - was `sha256:7d4e3922f8e74634ec9219807f14539ff112b6b9186590731677a21b0a3849cf`
+    - now `sha256:7c01b9d03e90107c762ca0f91c5d7ed3d1d27cd6185da07ec4a3cda005f9380a`
+- **ISA — Draft Exploitation Regulations (Mining Code drafts)**
+    - was `sha256:a672f62edb125f764cce007cfb30fe96cdf3f41185e08e4bc59c34deb63009d6`
+    - now `sha256:70eeb93cdb1b12bcfb972367978059b7691c49bdc06e3be79b10082952a4347d`
+- **ISA — Draft Standards and Guidelines (Mining Code)**
+    - was `sha256:cdd9866a144c08bfbfb1bae04d9544923c92f229e5a6c9e3832cd84007a2a53c`
+    - now `sha256:5501ccfcb233fa87fc9e4b8e5150c621dcaa6d4b9a210fcfaac17884ee9dad89`
+- **ISA — Mining Code Recommendations and guidance (LTC)**
+    - was `sha256:08852467b4073e3aabfa3ecc37d81efcdf9c6aaaf3b7ea1c73993fcb904c0293`
+    - now `sha256:0866caeddcf32ecb9001de86523a21b0618a1a1696c6193960e6216ea65df197`
+- **ISA — Legal and Technical Commission**
+    - was `sha256:fdd75699c2085815b50fbaadd90374c03a2d1d142b81ca884c3a8e7f612bcd21`
+    - now `sha256:64cabd715f2fbc011bc80dcf5725d4a17c2e6a30c41e2b2a92a3764a277b0404`
+- **ISA — 31st session (2026)**
+    - was `sha256:7f93660c9c78b0ba0c84909decd58d0b66cff1a2bfadbb23c54a4b4425f75cc1`
+    - now `sha256:5d472f0024f6dda52e67aa290d112407ee1883ecc3cda4d13f91238eed7ae4a0`
+- **ISA — The Council**
+    - was `sha256:615477977274e7bdedc74d86dbd63ff908a51de3a469879578a24d64606ecb5b`
+    - now `sha256:2d686f9545e959b1871fbf4c26c99b483084d3175fd032d440cfb655a2b1e36e`
+- **US Federal Register — deep seabed mining (newest docs, JSON)**
+    - was `sha256:841da01d088e05b0ff15e38f23aa76ef15b1e3aba2982c2a794046b27b5c7321`
+    - now `sha256:0eaf3bcbb62039c565e3dc5000647e484c897c030dfeddc6dddbcb4a580a7e04`
+- **US NOAA — Deep Seabed Hard Minerals Mining**
+    - was `sha256:24413490840308d5d1767f17b682b1f80cb77f418a4d6b259313f3462f8023c5`
+    - now `sha256:bebadfe47cba19c5f2a29028589441ada083944598722a7009ff822d28ac013e`
 
-## ✅ unchanged (4)
+## ✅ unchanged (2)
 - **UN DOALOS — 1994 Part XI Implementation Agreement**
 - **UN DOALOS — UNCLOS Part XI (The Area), Section 1**
-- **US Federal Register — deep seabed mining (newest docs, JSON)**
-- **US NOAA — Deep Seabed Hard Minerals Mining**
 
 _Automation only watches and queues. A flag may be a genuinely new or amended instrument OR a cosmetic page update — the maintainer triages. **MANUAL** sources are JavaScript apps a stdlib fetch cannot see. **SUSPECT** means too little text to trust. **SCHEMA SUSPECT** means selectors probably broke. Nothing is ingested automatically._
