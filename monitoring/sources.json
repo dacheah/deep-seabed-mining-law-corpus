@@ -72,6 +72,24 @@
       "last_page_sha256": "sha256:6f646f44ae662130df45bca4d196929c07db6e9699ff2823a04fc4ef295cbbc1"
     },
     {
+      "name": "ITLOS — Case No. 34 provisional measures (incidental-proceeding sub-page)",
+      "url": "https://www.itlos.org/en/main/cases/list-of-cases/case-concerning-an-inquiry-by-the-international-seabed-authority-nauru-ocean-resources-inc-v-international-seabed-authority/case-concerning-an-inquiry-by-the-international-seabed-authority-nauru-ocean-resources-inc-v-international-seabed-authority-provisional-measures/",
+      "schema": "itlos-case-documents.json",
+      "capture_type": "pdf",
+      "scope": "itlos",
+      "_note": "Added 2026-09-14. The main case page carries only the numbered orders (3 records); this per-proceeding sub-page carries the provisional-measures set — 15 documents, including C34_Order_18.07.2026_orig.pdf, the Order of 18 July 2026 that both ingested Orders 2026/8 and 2026/9 cite as 'the Order of the Chamber of 18 July 2026'. A source pointed at the main page sees NONE of them, and because that page is alive and does change, the omission looks healthy rather than broken. NOTE the URL REPEATS the case slug: /<slug>/<slug>-provisional-measures/. Two lessons: on ITLOS the documents live at the DEEPEST page, and this is the second time this class has bitten — the first was an ITLOS source pointed at an overview page instead of the case register. Interim measures postdate the ingested orders: compliance reports were filed 31 August 2026. Press releases and hearing transcripts (ITLOS_PV26_*) are NOT authoritative instruments and must not enter authoritative/.",
+      "expect_contains": "Nauru Ocean Resources"
+    },
+    {
+      "name": "ITLOS — Case No. 35 provisional measures (incidental-proceeding sub-page)",
+      "url": "https://www.itlos.org/en/main/cases/list-of-cases/case-concerning-an-inquiry-by-the-international-seabed-authority-tonga-offshore-mining-ltd-v-international-seabed-authority/case-concerning-an-inquiry-by-the-international-seabed-authority-tonga-offshore-mining-ltd-v-international-seabed-authority-provisional-measures/",
+      "schema": "itlos-case-documents.json",
+      "capture_type": "pdf",
+      "scope": "itlos",
+      "_note": "Added 2026-09-14. Companion to the Case No. 34 sub-page — 8 documents the main case page does not carry, including C35_Order_18.07.2026_orig.pdf (the Order of 18 July 2026, delivered the same day as Case 34's), C35_Order_10.06.2026-4.pdf, and the declarations of Judges Kittichaisaree and Brown. Same slug-repeating URL shape. Add a source for any FUTURE incidental-proceeding sub-page too: jurisdiction, merits and counter-claims each get one.",
+      "expect_contains": "Tonga Offshore Mining"
+    },
+    {
       "name": "ITLOS — Case No. 17 (2011 Advisory Opinion)",
       "url": "https://www.itlos.org/en/main/cases/list-of-cases/case-no-17/",
       "schema": "itlos-case-documents.json",
