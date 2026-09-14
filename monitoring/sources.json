@@ -34,7 +34,7 @@
       "url": "https://www.un.org/depts/los/convention_agreements/texts/agreement_part_xi/agreement_part_xi.htm",
       "capture_type": "html",
       "scope": "unclos_partxi",
-      "last_sha256": "sha256:5fcfcc46b7dd1c16d1e719e21e0504a71c8e22b5ab82bb7b4f868212f2321cbe",
+      "last_sha256": "sha256:0b5ae738b9d9cb64eb113b6f7ffa87932a0bf55b7540e541b0b8be0d2d3d687d",
       "last_checked": "2026-09-14T14:23:09Z",
       "expect_contains": "Part XI"
     },
@@ -43,7 +43,7 @@
       "url": "https://www.un.org/depts/los/convention_agreements/texts/unclos/part11-1.htm",
       "capture_type": "html",
       "scope": "unclos_partxi",
-      "last_sha256": "sha256:20536b0c8eaf65bd856c2264ee97068d6278922c25b4ae97ee73cc58e85d4c66",
+      "last_sha256": "sha256:ece1c1ec709219c31360698b3f2870434f5a29ea4580abfaf66f9df4fda8df13",
       "last_checked": "2026-09-14T14:23:09Z",
       "expect_contains": "polymetallic nodules"
     },
@@ -229,7 +229,7 @@
       "url": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bterm%5D=deep+seabed+mining&order=newest&per_page=10",
       "capture_type": "json",
       "scope": "us_dsm",
-      "last_sha256": "sha256:1b37e0de2aa5e3e0c4067bd9271d88fcbcd54a2ba59f8a4d9d37eff93d8b8e96",
+      "last_sha256": "sha256:c46143a83e5302807a84103b69f721a5aa6ca1080da8b034e86485d32f19500e",
       "last_checked": "2026-09-14T14:23:09Z",
       "expect_contains": "deep seabed mining"
     },
@@ -238,7 +238,7 @@
       "url": "https://oceanservice.noaa.gov/deep-seabed-mineral-resources/deep-seabed-mining/",
       "capture_type": "html",
       "scope": "us_dsm",
-      "last_sha256": "sha256:bebadfe47cba19c5f2a29028589441ada083944598722a7009ff822d28ac013e",
+      "last_sha256": "sha256:8e330785d291f80cee2a792dd57786c5ebc31d282dbfd52f74da7e2e29f09544",
       "last_checked": "2026-09-14T14:23:09Z",
       "expect_contains": "seabed"
     }
