@@ -1,0 +1,57 @@
+{
+  "status": "pending_text_recovery",
+  "_blocked_on": "Dual-engine OCR. Both engines are unavailable on the machine that staged this capture: no tesseract binary (needs root: `sudo apt-get install -y tesseract-ocr`, apt holds 5.5.0-1build1 — the exact version used for Order 2026/6), and Cloud Vision rejects the available GOOGLE_API_KEY outright ('API keys are not supported by this API. Expected OAuth2 access token or other authentication credentials that assert a principal'), so it needs a service-account/OAuth2 credential. Run `python3 scripts/ocr_capture.py --pdf capture/staging/itlos-order-case35-order9-2026/original.pdf` once both are in place.",
+  "_metadata_source": "Metadata below was read from the official PDF's own 300-dpi page renders at capture (headings, date, case name, signature block, and the closing authenticity formula). The record's TEXT is NOT transcribed from that reading — it awaits dual-engine OCR and reconciliation, per scripts/ocr_capture.py. No text was written into this manifest.",
+
+  "corpus_id": "itlos/order/case35-order9-2026",
+  "version_id": "2026-08-04",
+  "title": "Order of 4 August 2026 (Order 2026/9) in the Case concerning an inquiry by the International Seabed Authority (Tonga Offshore Mining Ltd. v. International Seabed Authority)",
+  "short_title": "ITLOS Order 2026/9 (Case No. 35, TOML v. ISA)",
+  "jurisdiction": "international",
+  "document_type": "order",
+  "official_citation": "Order 2026/9, Case concerning an inquiry by the International Seabed Authority (Tonga Offshore Mining Ltd. v. International Seabed Authority), Order of 4 August 2026, ITLOS List of Cases No. 35",
+  "authentic_languages": ["en", "fr"],
+  "adoption_date": "2026-08-04",
+
+  "source_url": "https://www.itlos.org/fileadmin/itlos/documents/cases/35/C35_Order_04.08.2026-9.pdf",
+  "source_publisher": "International Tribunal for the Law of the Sea (ITLOS)",
+  "source_is_official": true,
+  "retrieval_date": "2026-09-14",
+  "retrieved_by": "scripts/crawl/capture.py (verbatim byte download of the official ITLOS PDF); text recovery PENDING dual-engine OCR",
+
+  "original_format": "pdf",
+  "original_source_path": "capture/staging/itlos-order-case35-order9-2026/original.pdf",
+  "text_source_path": "capture/staging/itlos-order-case35-order9-2026/text.reconciled.txt",
+
+  "language": "en",
+  "authoritative_status": "authentic_text",
+  "text_fidelity": "PENDING — set only after reconciliation (extracted_verified for a full dual-engine pass, ocr_unverified for single-engine)",
+
+  "binding_force": "binding",
+  "issuing_authority": "Seabed Disputes Chamber of the International Tribunal for the Law of the Sea (order made by the President of the Chamber)",
+  "administering_authority": null,
+
+  "license": "itlos-materials-terms",
+  "rights_note": "Official ITLOS materials, attributed to the International Tribunal for the Law of the Sea; not relicensed.",
+
+  "related_documents": [
+    "itlos/order/case34-order8-2026",
+    "itlos/order/case34-order6-2026",
+    "itlos/advisory-opinion/sdc-area-2011",
+    "un/convention/unclos-partxi-1982",
+    "un/agreement/unclos-partxi-impl-1994"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+
+  "capture_note": "Byte-exact official ITLOS PDF (119,711 bytes, sha256:1283fdc0487c347f168a540c6efb39dfaa4d036c63add8d5d08510033f21027d) downloaded 2026-09-14 from the Case No. 35 page. Detected by the monthly source monitor at the 2026-09-01 sweep via record-level (schema-mode) monitoring and adjudicated real_change in monitoring/false_alarm_log.jsonl. This is the FIRST Tribunal decision in Case No. 35 — Order 2026/6's open question noted that Case 35 listed an Application only.",
+
+  "provenance_note": "SCOPE (JC-007): ITLOS decisions in proceedings concerning the Area are in scope; party pleadings are not — TOML's Application remains in queue/candidates.md and is deliberately NOT ingested. IDENTIFIER (JC-008): case-number based, 'case35-order9-2026' decoding as Case 35, Order No. 9 of 2026. WHAT THIS ORDER DOES (read from the official page renders, for scope only — the record's text awaits OCR): it extends the time-limit for the submission of the Defence of the Authority to 30 March 2027 and reserves the subsequent procedure for further decision; it is an order of the PRESIDENT OF THE CHAMBER, made after 'the Order of the Chamber of 18 July 2026' and taking into account the agreement of the Parties. Sibling to itlos/order/case34-order8-2026: same date, same disposition, parallel cases, and the two should be read together. It closes 'Done in English and in French, both texts being equally authoritative', so French is an equally authentic text. TEXT RECOVERY IS OUTSTANDING AND THE RECORD MUST NOT BE INGESTED WITHOUT IT: this PDF is an office-photocopier scan (PDF producer 'KONICA MINOLTA bizhub 4050i') with ZERO extractable text on all three pages (pdftotext and PyMuPDF both return 0 characters). The 300-dpi page renders are clean and OCR-ready; scripts/ocr_capture.py is the tool. original.pdf remains the integrity anchor and original_sha256 will be the hash of the official file itself.",
+
+  "_open_questions": [
+    "TEXT: dual-engine OCR not yet run — see _blocked_on. This record cannot be ingested until text.reconciled.txt exists and text_fidelity is set honestly.",
+    "ORDER 2026/7: this order refers to 'the Order of the Chamber of 18 July 2026', which is not in the monitor's record list for Case No. 35 either (which holds the Application and Order 2026/9). Same open question as its Case 34 sibling — resolve the sequence before treating either case as captured.",
+    "French authentic text not yet captured — sibling record itlos/order/case35-order9-2026-fr (JC-006).",
+    "Whether Case No. 35 also has its own Order 2026/6-equivalent procedural order that the selector has not surfaced."
+  ]
+}
