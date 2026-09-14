@@ -13,3 +13,12 @@
 {"ts": "2026-09-01T11:14:25Z", "source": "US eCFR — 15 CFR Part 971 (NOAA commercial recovery permits)", "page_changed": false, "records_changed": false, "state": "unchanged", "verdict": "quiet"}
 {"ts": "2026-09-01T11:14:25Z", "source": "ISA — Exploitation: Official documents", "page_changed": true, "records_changed": false, "state": "unchanged", "verdict": "false_alarm"}
 {"ts": "2026-09-01T11:14:25Z", "source": "ITLOS — List of cases (new cases / advisory opinions)", "page_changed": false, "records_changed": false, "state": "unchanged", "verdict": "quiet"}
+{"ts": "2026-09-14T14:23:09Z", "source": "ITLOS — Case No. 34 (Nauru Ocean Resources Inc. v. ISA)", "page_changed": false, "records_changed": false, "state": "unchanged", "verdict": "quiet"}
+{"ts": "2026-09-14T14:23:09Z", "source": "ITLOS — Case No. 35 (Tonga Offshore Mining Ltd. v. ISA)", "page_changed": false, "records_changed": false, "state": "unchanged", "verdict": "quiet"}
+{"ts": "2026-09-14T14:23:09Z", "source": "ITLOS — Case No. 34 provisional measures (incidental-proceeding sub-page)", "page_changed": false, "records_changed": false, "state": "baseline", "verdict": "quiet"}
+{"ts": "2026-09-14T14:23:09Z", "source": "ITLOS — Case No. 35 provisional measures (incidental-proceeding sub-page)", "page_changed": false, "records_changed": false, "state": "baseline", "verdict": "quiet"}
+{"ts": "2026-09-14T14:23:09Z", "source": "ITLOS — Case No. 17 (2011 Advisory Opinion)", "page_changed": false, "records_changed": false, "state": "unchanged", "verdict": "quiet"}
+{"ts": "2026-09-14T14:23:09Z", "source": "US eCFR — 15 CFR Part 970 (NOAA deep seabed mining, exploration licences)", "page_changed": false, "records_changed": false, "state": "unchanged", "verdict": "quiet"}
+{"ts": "2026-09-14T14:23:09Z", "source": "US eCFR — 15 CFR Part 971 (NOAA commercial recovery permits)", "page_changed": false, "records_changed": false, "state": "unchanged", "verdict": "quiet"}
+{"ts": "2026-09-14T14:23:09Z", "source": "ISA — Exploitation: Official documents", "page_changed": false, "records_changed": false, "state": "unchanged", "verdict": "quiet"}
+{"ts": "2026-09-14T14:23:09Z", "source": "ITLOS — List of cases (new cases / advisory opinions)", "page_changed": false, "records_changed": false, "state": "unchanged", "verdict": "quiet"}
