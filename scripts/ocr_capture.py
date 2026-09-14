@@ -17,8 +17,30 @@ recovers a READING of the official text, and the record must say so.
 
     python3 scripts/ocr_capture.py --pdf capture/staging/<slug>/original.pdf
 
-Requires: pymupdf, pytesseract, pillow, requests. Tesseract binary on PATH or via TESSERACT env
-var. Google Vision needs GVISION_API_KEY (3 pages = 3 units against a free 1,000/month).
+ENGINES — the requirement is TWO INDEPENDENT ENGINES, not two particular vendors. This script runs
+every engine available and records which ran; a run with fewer than two is reported as
+`ocr_unverified`, a deliberately lower bar.
+
+  * tesseract      — primary. Needs the binary on PATH or via the TESSERACT env var.
+  * rapidocr       — DEFAULT SECOND ENGINE (substituted for Cloud Vision 2026-09-14, maintainer
+                     decision). Two reasons. (1) `rapidocr-onnxruntime` ships its PP-OCRv4 ONNX
+                     models INSIDE the wheel, so a pinned version re-derives the same text offline,
+                     forever — whereas Cloud Vision's model changes server-side and can never
+                     satisfy the reproducibility gate, which re-derives text from a version-pinned
+                     extractor. (2) It needs no credential.
+                     Measured independence on ITLOS Order 2026/8 (both engines, same 300-dpi renders):
+                     RapidOCR recovers the 'X' in the Registrar's name 'Ximena' and reads closing
+                     curly quotes correctly, where Tesseract drops the X and renders closing quotes as
+                     apostrophes; Tesseract reads 'NORI' where RapidOCR gives 'NORl', and preserves
+                     spacing on bold headings where RapidOCR collapses it. Complementary failures,
+                     not correlated ones — which is the whole property being bought.
+  * google vision  — retained for when a service-account/OAuth2 credential is configured. NOTE: a
+                     plain API key is NOT sufficient; Vision rejects one with "API keys are not
+                     supported by this API. Expected OAuth2 access token or other authentication
+                     credentials that assert a principal." Needs GVISION_API_KEY set to a credential
+                     Vision accepts (3 pages = 3 units against a free 1,000/month).
+
+Requires: pymupdf, pytesseract, pillow, requests; plus rapidocr-onnxruntime for the second engine.
 """
 from __future__ import annotations
 import argparse
@@ -99,11 +121,41 @@ def ocr_gvision(png_paths, outdir, hint="en"):
     return out, "google-cloud-vision DOCUMENT_TEXT_DETECTION"
 
 
+def ocr_rapidocr(png_paths, outdir):
+    """Second engine: RapidOCR (PP-OCRv4 ONNX). See the ENGINES note in the module docstring.
+
+    Returns (written_paths, version_string). Line-level results are joined with newlines; the
+    reconciler, not the engine, is responsible for paragraph structure.
+    """
+    import importlib.metadata
+    _need("rapidocr_onnxruntime")
+    from rapidocr_onnxruntime import RapidOCR
+
+    engine = RapidOCR()
+    os.makedirs(outdir, exist_ok=True)
+    out = []
+    for p in png_paths:
+        res, _ = engine(p)
+        txt = "\n".join(r[1] for r in res) if res else ""
+        dst = os.path.join(outdir, os.path.basename(p).replace(".png", ".txt"))
+        with open(dst, "w", encoding="utf-8", newline="\n") as f:
+            f.write(txt)
+        out.append(dst)
+    ver = importlib.metadata.version("rapidocr-onnxruntime")
+    try:
+        onnx = importlib.metadata.version("onnxruntime")
+    except Exception:
+        onnx = "unknown"
+    return out, f"rapidocr-onnxruntime {ver} / onnxruntime {onnx} / PP-OCRv4"
+
+
 def main():
-    ap = argparse.ArgumentParser(description="Dual-engine OCR for a PDF with an untrustworthy text layer.")
+    ap = argparse.ArgumentParser(description="Multi-engine OCR for a PDF with an untrustworthy text layer.")
     ap.add_argument("--pdf", required=True)
     ap.add_argument("--lang-tess", default="eng")
     ap.add_argument("--lang-gv", default="en")
+    ap.add_argument("--no-rapidocr", action="store_true",
+                    help="skip the second local engine (not recommended: leaves one engine)")
     a = ap.parse_args()
 
     base = os.path.join(os.path.dirname(a.pdf), "ocr")
@@ -111,26 +163,47 @@ def main():
 
     pngs = render_pages(a.pdf, os.path.join(base, "pages"))
     print(f"rendered {len(pngs)} page(s) at {DPI} dpi")
-    t_files, t_ver = ocr_tesseract(pngs, os.path.join(base, "tess"), a.lang_tess)
-    print(f"tesseract {t_ver}: {len(t_files)} page(s)")
-    g_files, g_ver = ocr_gvision(pngs, os.path.join(base, "gv"), a.lang_gv)
-    print(f"google vision: {len(g_files)} page(s) — {g_ver if not g_files else 'ok'}")
 
     manifest = {"source_pdf": os.path.relpath(a.pdf), "source_sha256": pdf_sha, "dpi": DPI,
-                "tesseract": {"version": t_ver, "psm": PSM, "oem": OEM, "lang": a.lang_tess,
-                              "pages": len(t_files)},
-                "gvision": {"engine": g_ver, "lang_hint": a.lang_gv, "pages": len(g_files)},
-                "note": ("Neither engine is authoritative alone. Reconcile the two, adjudicate every "
+                "engines": {},
+                "note": ("Neither engine is authoritative alone. Reconcile them, adjudicate every "
                          "disagreement against the page images, and record the result honestly in "
                          "text_fidelity. original.pdf remains the integrity anchor.")}
+
+    # Engine 1: tesseract (required - if it is missing the run is not a dual-engine run at all).
+    t_files, t_ver = ocr_tesseract(pngs, os.path.join(base, "tess"), a.lang_tess)
+    print(f"tesseract {t_ver}: {len(t_files)} page(s)")
+    manifest["tesseract"] = {"version": t_ver, "psm": PSM, "oem": OEM, "lang": a.lang_tess,
+                             "pages": len(t_files)}
+    manifest["engines"]["tesseract"] = t_ver
+
+    # Engine 2: rapidocr, unless explicitly disabled.
+    if not a.no_rapidocr:
+        try:
+            r_files, r_ver = ocr_rapidocr(pngs, os.path.join(base, "rapidocr"))
+            print(f"rapidocr {r_ver}: {len(r_files)} page(s)")
+            manifest["rapidocr"] = {"engine": r_ver, "pages": len(r_files)}
+            manifest["engines"]["rapidocr"] = r_ver
+        except SystemExit as e:
+            print(f"rapidocr: SKIPPED — {e}")
+            manifest["rapidocr"] = {"engine": "SKIPPED", "pages": 0}
+
+    # Engine 3: google vision, only if a credential is configured.
+    g_files, g_ver = ocr_gvision(pngs, os.path.join(base, "gv"), a.lang_gv)
+    print(f"google vision: {len(g_files)} page(s) — {g_ver if not g_files else 'ok'}")
+    manifest["gvision"] = {"engine": g_ver, "lang_hint": a.lang_gv, "pages": len(g_files)}
+    if g_files:
+        manifest["engines"]["gvision"] = g_ver
+
     mpath = os.path.join(base, "ocr-manifest.json")
     with open(mpath, "w", encoding="utf-8", newline="\n") as f:
         json.dump(manifest, f, indent=2, ensure_ascii=False)
         f.write("\n")
     print(f"manifest -> {mpath}")
-    if not g_files:
-        print("\nWARNING: only ONE engine ran. A single-engine result is 'ocr_unverified',")
-        print("a lower standard than the BBNJ Arabic text. Set GVISION_API_KEY and re-run.")
+    if len(manifest["engines"]) < 2:
+        print(f"\nWARNING: only {len(manifest['engines'])} engine ran. A single-engine result is")
+        print("'ocr_unverified', a lower standard than the BBNJ Arabic text. Install")
+        print("rapidocr-onnxruntime, or set a GVISION_API_KEY that Vision accepts, and re-run.")
     return 0
 
 

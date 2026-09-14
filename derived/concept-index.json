@@ -12884,6 +12884,30 @@
         "unit": "Paragraph 5"
       },
       {
+        "corpus_id": "itlos/order/case34-order8-2026",
+        "short_title": "ITLOS Order 2026/8 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-08-04",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order8-2026",
+        "short_title": "ITLOS Order 2026/8 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-08-04",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order9-2026",
+        "short_title": "ITLOS Order 2026/9 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-08-04",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order9-2026",
+        "short_title": "ITLOS Order 2026/9 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-08-04",
+        "unit": "Paragraph 4"
+      },
+      {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994-es",
         "short_title": "Acuerdo de 1994 sobre la aplicación de la Parte XI [ES]",
         "version_id": "1994-07-28",
@@ -22822,6 +22846,18 @@
         "unit": "Paragraph 1"
       },
       {
+        "corpus_id": "itlos/order/case34-order8-2026",
+        "short_title": "ITLOS Order 2026/8 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-08-04",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order9-2026",
+        "short_title": "ITLOS Order 2026/9 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-08-04",
+        "unit": "Paragraph 4"
+      },
+      {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994-es",
         "short_title": "Acuerdo de 1994 sobre la aplicación de la Parte XI [ES]",
         "version_id": "1994-07-28",
@@ -32642,6 +32678,18 @@
         "unit": "Paragraph 5"
       },
       {
+        "corpus_id": "itlos/order/case34-order8-2026",
+        "short_title": "ITLOS Order 2026/8 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-08-04",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order9-2026",
+        "short_title": "ITLOS Order 2026/9 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-08-04",
+        "unit": "Paragraph 4"
+      },
+      {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994-fr",
         "short_title": "Accord de 1994 relatif à l’application de la partie XI [FR]",
         "version_id": "1994-07-28",
@@ -33938,6 +33986,30 @@
         "short_title": "ITLOS Order 2026/6 (Case No. 34, NORI v. ISA)",
         "version_id": "2026-06-24",
         "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order8-2026",
+        "short_title": "ITLOS Order 2026/8 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-08-04",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order8-2026",
+        "short_title": "ITLOS Order 2026/8 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-08-04",
+        "unit": "Paragraph 7"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order9-2026",
+        "short_title": "ITLOS Order 2026/9 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-08-04",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order9-2026",
+        "short_title": "ITLOS Order 2026/9 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-08-04",
+        "unit": "Paragraph 7"
       },
       {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994-es",

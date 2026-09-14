@@ -1,0 +1,94 @@
+corpus_id: itlos/order/case34-order8-2026
+version_id: '2026-08-04'
+title: Order of 4 August 2026 (Order 2026/8) in the Case concerning an inquiry by the International Seabed
+  Authority (Nauru Ocean Resources Inc. v. International Seabed Authority)
+short_title: ITLOS Order 2026/8 (Case No. 34, NORI v. ISA)
+jurisdiction: international
+document_type: order
+official_citation: Order 2026/8, Case concerning an inquiry by the International Seabed Authority (Nauru
+  Ocean Resources Inc. v. International Seabed Authority), Order of 4 August 2026, ITLOS List of Cases
+  No. 34
+authentic_languages:
+- en
+- fr
+adoption_date: '2026-08-04'
+source_url: https://www.itlos.org/fileadmin/itlos/documents/cases/34/C34_Order_04.08.2026-8.pdf
+source_publisher: International Tribunal for the Law of the Sea (ITLOS)
+source_is_official: true
+retrieval_date: '2026-09-14'
+retrieved_by: scripts/crawl/capture.py (verbatim byte download of the official ITLOS PDF); text recovered
+  by two-engine OCR and reconciled by Hermes Jarvis
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:bd38e1768fbe74aac481b93143e2ff7cb27d360083e0313425d08d3638f8fca1
+original_sha256: sha256:d98bec6cfe0b46be9a2def872a8677bfdc299916f59ce606ebf5d53170f3f39e
+text_sha256: sha256:bd38e1768fbe74aac481b93143e2ff7cb27d360083e0313425d08d3638f8fca1
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: itlos-materials-terms
+rights_note: Official ITLOS materials, attributed to the International Tribunal for the Law of the Sea;
+  not relicensed.
+capture_history:
+- date: '2026-09-14'
+  source_url: https://www.itlos.org/fileadmin/itlos/documents/cases/34/C34_Order_04.08.2026-8.pdf
+  original_sha256: sha256:d98bec6cfe0b46be9a2def872a8677bfdc299916f59ce606ebf5d53170f3f39e
+  note: 'Byte-exact official ITLOS PDF (118,847 bytes, sha256:d98bec6cfe0b46be9a2def872a8677bfdc299916f59ce606ebf5d53170f3f39e)
+    downloaded 2026-09-14 from the Case No. 34 page. Detected by the monthly source monitor at the 2026-09-01
+    sweep via record-level (schema-mode) monitoring and adjudicated real_change in monitoring/false_alarm_log.jsonl.
+    NOTE: unlike Order 2026/6 this PDF is an office-photocopier scan (PDF producer ''KONICA MINOLTA bizhub
+    4050i'') with ZERO extractable text on all three pages (pdftotext and PyMuPDF both return 0 characters).'
+supersedes: null
+superseded_by: null
+related_documents:
+- itlos/order/case34-order6-2026
+- itlos/advisory-opinion/sdc-area-2011
+- un/convention/unclos-partxi-1982
+- un/agreement/unclos-partxi-impl-1994
+provenance_note: 'SCOPE (JC-007): ITLOS decisions in proceedings concerning the Area are in scope; party
+  pleadings are not — NORI''s Application remains in queue/candidates.md and is deliberately NOT ingested.
+  IDENTIFIER (JC-008): case-number based, ''case34-order8-2026'' decoding as Case 34, Order No. 8 of 2026,
+  continuing the sequence established by itlos/order/case34-order6-2026. WHAT THIS ORDER DOES: extends
+  the time-limit for the submission of the Defence of the Authority to 30 March 2027 and reserves the
+  subsequent procedure for further decision; an order of the PRESIDENT OF THE CHAMBER (David Joseph Attard;
+  Registrar Ximena Hinrichs Oyarce), made after ''the Order of the Chamber of 18 July 2026'' and taking
+  into account the agreement of the Parties. TEXT RECOVERY — TWO ENGINES, engine substitution recorded:
+  text was recovered by OCR of 300-dpi renders of the byte-exact original using TWO independent engines:
+  Tesseract 5.5.0 (--oem 3 --psm 6, eng) and RapidOCR (rapidocr-onnxruntime 1.4.4 / onnxruntime 1.30.0
+  / PP-OCRv4). THE SECOND ENGINE WAS SUBSTITUTED at the maintainer''s decision on 2026-09-14 in place
+  of Google Cloud Vision, which Order 2026/6 and the BBNJ Arabic pass used. Reason: the requirement is
+  TWO INDEPENDENT ENGINES, not two particular vendors, and rapidocr-onnxruntime ships its ONNX models
+  inside the wheel, so a pinned version re-derives the same text offline forever — whereas a cloud model
+  changes server-side and can never satisfy the reproducibility gate, which re-derives text from a version-pinned
+  extractor. Measured independence, and the reason reconciliation did real work here: the two engines
+  fail on DIFFERENT features. Tesseract read the closing mark of every double-quoted phrase as a right
+  single quote and, on page 3, mangled the Registrar''s given name ''Ximena'' to ''imena'' and the handwritten
+  signature into character noise; RapidOCR recovered ''Ximena'' correctly and omitted the handwriting,
+  but inserted two spurious full stops, dropped the paragraph marker of paragraph 2, read ''NORI'' as
+  ''NORl'', read the lowercase ''v.'' of the case name as uppercase, read ''Secretary-General'' as ''Generai'',
+  and on page 1 of the sibling Order 2026/9 produced garbage over an entire recital. ADJUDICATION: every
+  disagreement site was resolved against the 300-dpi page images. Tesseract was adopted at all structural
+  sites (layout, spacing, paragraph numbering, running headers with page numbers) and on ''NORI'', ''v.'',
+  ''Secretary-General'', and the two spurious full stops; RapidOCR was adopted on the Registrar''s name
+  ''Ximena'' (verified on the page). One site was resolved by neither engine: the numeral in the quoted
+  passage ''before the end of part I of [the Commission''s] next session'' is a Roman capital I, which
+  Tesseract read as a pipe. ON THE AGREEMENT FIGURE: character agreement between the engines is 89.54%
+  overall (p1 98.48%, p2 90.32%, p3 98.96%), LOWER than the 98.9% recorded for Order 2026/6 — and the
+  reason is RapidOCR''s weakness, not uncertainty about the text. RapidOCR systematically collapses spacing
+  on display lines and emitted ~15% fewer characters than Tesseract; the metric measures engine disagreement,
+  not doubt about the reading, and Tesseract''s output was verified against the page at every site. STRUCTURAL
+  NORMALISATION, wording untouched, matched to the sibling record itlos/order/case34-order6-2026: running
+  header (''List of Cases No. 34'' / page number / ''Order 2026/8'') removed from pages 2-3 only, the
+  same lines on page 1 being the document''s header block; hard line wraps rejoined into paragraphs; display
+  lines, the disposition and each signature name kept as their own block; curly quotation marks and apostrophes
+  normalised to straight (the sibling''s text carries 20 straight double quotes and none curly); canonical
+  UTF-8, LF, no BOM, one trailing newline. The handwritten signature strokes are NOT part of the text
+  and are excluded; the typed names beneath them are retained. original.pdf remains the integrity anchor
+  and original_sha256 is the hash of the official file itself. COVERAGE GAP: the order closes ''Done in
+  English and in French, both texts being equally authoritative'', so French is an equally authentic text
+  (cf. JC-004); the French version is a recorded gap and would be ingested as the sibling record itlos/order/case34-order8-2026-fr
+  under JC-006.'
+binding_force: binding
+issuing_authority: Seabed Disputes Chamber of the International Tribunal for the Law of the Sea (order
+  made by the President of the Chamber)
+administering_authority: null

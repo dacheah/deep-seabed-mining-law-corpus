@@ -1,0 +1,26 @@
+{
+  "source_pdf": "capture/staging/itlos-order-case35-order9-2026/original.pdf",
+  "source_sha256": "sha256:1283fdc0487c347f168a540c6efb39dfaa4d036c63add8d5d08510033f21027d",
+  "dpi": 300,
+  "engines": {
+    "tesseract": "5.5.0",
+    "rapidocr": "rapidocr-onnxruntime 1.4.4 / onnxruntime 1.30.0 / PP-OCRv4"
+  },
+  "note": "Neither engine is authoritative alone. Reconcile them, adjudicate every disagreement against the page images, and record the result honestly in text_fidelity. original.pdf remains the integrity anchor.",
+  "tesseract": {
+    "version": "5.5.0",
+    "psm": 6,
+    "oem": 3,
+    "lang": "eng",
+    "pages": 3
+  },
+  "rapidocr": {
+    "engine": "rapidocr-onnxruntime 1.4.4 / onnxruntime 1.30.0 / PP-OCRv4",
+    "pages": 3
+  },
+  "gvision": {
+    "engine": "SKIPPED: GVISION_API_KEY not set",
+    "lang_hint": "en",
+    "pages": 0
+  }
+}
