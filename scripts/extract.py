@@ -163,13 +163,45 @@ def clean_ao_fr(raw: str) -> str:
              "pour le règlement des différends relatifs aux fonds marins, affaire n° 17)")
     return title + "\n\n" + "\n\n".join(paras) + "\n"
 
+class AnchorNotFound(RuntimeError):
+    """A cleaner's anchor line is absent from the extracted raw text.
+
+    WHY THIS RAISES INSTEAD OF FALLING BACK. Each cleaner below slices the document at a line that
+    marks the start of the annexed body (the preamble, or "Annexe"/"Anexo"/"Приложение"). Until
+    2026-09-14 a missing anchor fell back silently to `body = lines`, i.e. the WHOLE document — so a
+    shifted or re-rendered anchor produced a *different text* rather than an error, and the
+    reproducibility gate reported a plain MISMATCH that pointed at the record instead of naming the
+    cause. A silent fallback on a text-derivation path is the same defect class as a gate that passes
+    when it cannot do its job: it converts "I could not find the anchor" into "the text is different",
+    which is a much harder thing to diagnose and invites someone to "fix" the record.
+
+    These anchors are extractor-version-sensitive by construction. The Chinese one is the most fragile
+    of the four — a bare equality on 序言 with no confirming second line, unlike the fr/es/ru anchors
+    which also require the following line to begin with a known phrase.
+    """
+
+
+def find_anchor(lines, predicate, anchor_desc, title_line):
+    """Return the index of the line that begins the annexed body, or raise AnchorNotFound."""
+    for i, line in enumerate(lines):
+        if predicate(i, line):
+            return i
+    raise AnchorNotFound(
+        f"anchor {anchor_desc} not found in the extracted text for {title_line[:70]!r}. "
+        f"This recipe slices the document at that line; with it missing the WHOLE document would be "
+        f"used instead, silently producing the wrong text. Most likely cause: the extractor rendered "
+        f"the anchor differently (a different Poppler version can merge it with the following line, "
+        f"or change its spacing). Check the pinned extractor version (extract.py prints it, and warns "
+        f"when it differs) BEFORE regenerating any record."
+    )
+
+
 def clean_isa_fr(raw, title_line):
     lines=raw.splitlines()
-    start=None
-    for i,l in enumerate(lines):
-        if l.strip()=="Annexe" and i+1<len(lines) and lines[i+1].strip().startswith("Règlement relatif"):
-            start=i; break
-    body=lines[start+1:] if start is not None else lines
+    start=find_anchor(lines, lambda i,l: l.strip()=="Annexe" and i+1<len(lines)
+                      and lines[i+1].strip().startswith("Règlement relatif"),
+                      "'Annexe' followed by 'Règlement relatif'", title_line)
+    body=lines[start+1:]
     def art(s):
         if re.match(r'^\d{2}-\d{5}$', s): return True
         if re.match(r'^\*\d+\*$', s): return True
@@ -252,11 +284,10 @@ def clean_agr_fr(raw, title_line):
 
 def clean_isa_es(raw, title_line):
     lines=raw.splitlines()
-    start=None
-    for i,l in enumerate(lines):
-        if l.strip()=="Anexo" and i+1<len(lines) and lines[i+1].strip().startswith("Reglamento sobre"):
-            start=i; break
-    body=lines[start+1:] if start is not None else lines
+    start=find_anchor(lines, lambda i,l: l.strip()=="Anexo" and i+1<len(lines)
+                      and lines[i+1].strip().startswith("Reglamento sobre"),
+                      "'Anexo' followed by 'Reglamento sobre'", title_line)
+    body=lines[start+1:]
     def art(s):
         if re.match(r'^\d{2}-\d{5}(\s|$)', s): return True
         if re.match(r'^\*\d+\*$', s): return True
@@ -341,11 +372,10 @@ CJK='一-鿿'
 
 def clean_isa_ru(raw, title_line):
     lines=raw.splitlines()
-    start=None
-    for i,l in enumerate(lines):
-        if l.strip()=="Приложение" and i+1<len(lines) and lines[i+1].strip().startswith("Правила поиска"):
-            start=i; break
-    body=lines[start+1:] if start is not None else lines
+    start=find_anchor(lines, lambda i,l: l.strip()=="Приложение" and i+1<len(lines)
+                      and lines[i+1].strip().startswith("Правила поиска"),
+                      "'Приложение' followed by 'Правила поиска'", title_line)
+    body=lines[start+1:]
     def art(s):
         if re.match(r'^\d{2}-\d{5}(\s|$)', s): return True
         if re.match(r'^\*\d+\*$', s): return True
@@ -386,11 +416,12 @@ def clean_isa_ru(raw, title_line):
 
 def clean_isa_zh(raw, title_line):
     lines=raw.splitlines()
-    start=None
-    for i,l in enumerate(lines):
-        if l.strip()=="序言" and i>0:  # preamble marks the start of the annexed Regulations body
-            start=i; break
-    body=lines[start:] if start is not None else lines
+    # preamble marks the start of the annexed Regulations body. NOTE: this is the most fragile of the
+    # four anchors - a bare equality on the heading with no confirming second line, unlike fr/es/ru.
+    # If it ever fails to match, find_anchor raises rather than silently keeping the whole document.
+    start=find_anchor(lines, lambda i,l: l.strip()=="序言" and i>0, "'序言' on its own line",
+                      title_line)
+    body=lines[start:]
     def art(s):
         if re.match(r'^\d{2}-\d{5}(\s|$)', s): return True
         if re.match(r'^\*\d+\*$', s): return True
