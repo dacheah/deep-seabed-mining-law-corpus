@@ -1,0 +1,10 @@
+{
+  "corpus_id": "un/convention/unclos-partxi-1982",
+  "version_id": "1982-12-10",
+  "extractor": {
+    "tool": "passthrough",
+    "toolchain": null
+  },
+  "text_sha256": "sha256:3c02f3d1efcd32e41b4e07e1e0c824f9a140873234bfff62b57bb4d615000a06",
+  "note": "Toolchain under which this record's text.txt re-derives, proven by scripts/extract.py. Written only for records that reproduce byte-exact, and the hash beside it is the one that re-derivation produced. The byte-exact original.* and its recorded sha256 remain the authoritative anchor; this attests the DERIVATION, not the source."
+}

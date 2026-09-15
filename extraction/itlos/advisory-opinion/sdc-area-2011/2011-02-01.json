@@ -1,0 +1,14 @@
+{
+  "corpus_id": "itlos/advisory-opinion/sdc-area-2011",
+  "version_id": "2011-02-01",
+  "extractor": {
+    "tool": "pdftotext",
+    "args": [
+      "-enc",
+      "UTF-8"
+    ],
+    "toolchain": "poppler 22.02.0"
+  },
+  "text_sha256": "sha256:d31eca6c87f6f4db60b47f90c449d4eab03c8e90d75aa0ac9b5cdd8e4f00d1eb",
+  "note": "Toolchain under which this record's text.txt re-derives, proven by scripts/extract.py. Written only for records that reproduce byte-exact, and the hash beside it is the one that re-derivation produced. The byte-exact original.* and its recorded sha256 remain the authoritative anchor; this attests the DERIVATION, not the source."
+}

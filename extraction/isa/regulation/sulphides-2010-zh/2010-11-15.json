@@ -1,0 +1,14 @@
+{
+  "corpus_id": "isa/regulation/sulphides-2010-zh",
+  "version_id": "2010-11-15",
+  "extractor": {
+    "tool": "pdftotext",
+    "args": [
+      "-enc",
+      "UTF-8"
+    ],
+    "toolchain": "poppler 22.02.0"
+  },
+  "text_sha256": "sha256:28e0b0e6770e438e5357361cffce66ee3772c7cfddd2b1bc633265ee9664c157",
+  "note": "Toolchain under which this record's text.txt re-derives, proven by scripts/extract.py. Written only for records that reproduce byte-exact, and the hash beside it is the one that re-derivation produced. The byte-exact original.* and its recorded sha256 remain the authoritative anchor; this attests the DERIVATION, not the source."
+}

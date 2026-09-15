@@ -1,0 +1,14 @@
+{
+  "corpus_id": "usa/regulation/cfr15-971-2026",
+  "version_id": "2026-07-01",
+  "extractor": {
+    "tool": "pdftotext",
+    "args": [
+      "-enc",
+      "UTF-8"
+    ],
+    "toolchain": "poppler 22.02.0"
+  },
+  "text_sha256": "sha256:05e196e4d37d0d905d07dffba5c43e49a2b6f9e260d0a4f010f8b5351bf9aee4",
+  "note": "Toolchain under which this record's text.txt re-derives, proven by scripts/extract.py. Written only for records that reproduce byte-exact, and the hash beside it is the one that re-derivation produced. The byte-exact original.* and its recorded sha256 remain the authoritative anchor; this attests the DERIVATION, not the source."
+}

@@ -1,0 +1,14 @@
+{
+  "corpus_id": "isa/regulation/crusts-2012-ru",
+  "version_id": "2012-10-22",
+  "extractor": {
+    "tool": "pdftotext",
+    "args": [
+      "-enc",
+      "UTF-8"
+    ],
+    "toolchain": "poppler 22.02.0"
+  },
+  "text_sha256": "sha256:66bb2544ebbc5609623ae9ab470855326fd7515976e54120320036d8fe3259ef",
+  "note": "Toolchain under which this record's text.txt re-derives, proven by scripts/extract.py. Written only for records that reproduce byte-exact, and the hash beside it is the one that re-derivation produced. The byte-exact original.* and its recorded sha256 remain the authoritative anchor; this attests the DERIVATION, not the source."
+}

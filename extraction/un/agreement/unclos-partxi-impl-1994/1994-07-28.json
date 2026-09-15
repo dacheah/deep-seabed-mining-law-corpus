@@ -1,0 +1,10 @@
+{
+  "corpus_id": "un/agreement/unclos-partxi-impl-1994",
+  "version_id": "1994-07-28",
+  "extractor": {
+    "tool": "passthrough",
+    "toolchain": null
+  },
+  "text_sha256": "sha256:42359bda408c66d524c78a0a4ffd2d8d0420bbb6882bf5a9ef9e539e222a2e4a",
+  "note": "Toolchain under which this record's text.txt re-derives, proven by scripts/extract.py. Written only for records that reproduce byte-exact, and the hash beside it is the one that re-derivation produced. The byte-exact original.* and its recorded sha256 remain the authoritative anchor; this attests the DERIVATION, not the source."
+}

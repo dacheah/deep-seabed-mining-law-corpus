@@ -1,0 +1,14 @@
+{
+  "corpus_id": "isa/regulation/nodules-2013-ru",
+  "version_id": "2013-07-22",
+  "extractor": {
+    "tool": "pdftotext",
+    "args": [
+      "-enc",
+      "UTF-8"
+    ],
+    "toolchain": "poppler 22.02.0"
+  },
+  "text_sha256": "sha256:3685a21c164d6c6c038affae821e63ce9ff74e15f24be40e5d0d30a64ee37848",
+  "note": "Toolchain under which this record's text.txt re-derives, proven by scripts/extract.py. Written only for records that reproduce byte-exact, and the hash beside it is the one that re-derivation produced. The byte-exact original.* and its recorded sha256 remain the authoritative anchor; this attests the DERIVATION, not the source."
+}
