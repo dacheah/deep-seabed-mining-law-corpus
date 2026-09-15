@@ -7,7 +7,7 @@
       "capture_type": "pdf",
       "scope": "isa_mining_code",
       "last_sha256": "sha256:1ad170bd0d6b7b6c16c4e97aa308c8c8d8fe04ade0fbd9fdd090ce003e94726c",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "Mining Code",
       "ignore_patterns": [
         "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
@@ -21,7 +21,7 @@
       "capture_type": "pdf",
       "scope": "isa_exploration",
       "last_sha256": "sha256:d7f500cff8fff94ae4425913bed4acf6feaf1db10992c8fd0b1276cf811686bc",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "Exploration",
       "ignore_patterns": [
         "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
@@ -36,7 +36,7 @@
       "scope": "isa_sessions",
       "_note": "2026-07-18: was named 'Council documents' and pointed at /sessions/, which SILENTLY REDIRECTS to an agenda-item page from a past session (sessions-30th-session-2025-item16). There is no /sessions/ index — sessions are listed only in the site nav. It had already flagged one meaningless 'change' as the redirect target drifted. Repointed to the most recent completed session; the current session has its own source. NEEDS ANNUAL REVIEW when a new session opens. Hash cleared to force a fresh baseline. [2026-09-14: ignore_patterns added for the site chrome that re-flags every sweep — the footer session-list nav entries and the '(SHE)' programme link, both template-level on every ISA page. Deliberately NOT added: any date pattern. On the Draft Exploitation Regulations page the date-like strings are that instrument's own development chronology ('released on 16 February 2024', 'on 29 November 2024 the President presented…'); on the 31st-session page they are the meeting schedule and document citations. A pattern broad enough to absorb those would hide genuine developments. Also not added because they do not exist on the text surface: the newsletter widget and the anti-bot puzzle, which sit in markup to_text strips.]",
       "last_sha256": "sha256:186c0645bc39c2bb807ad320b46c10d53529befaae43cabbed19eec809c8a7f2",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "30th",
       "ignore_patterns": [
         "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
@@ -49,7 +49,7 @@
       "capture_type": "html",
       "scope": "unclos_partxi",
       "last_sha256": "sha256:0b5ae738b9d9cb64eb113b6f7ffa87932a0bf55b7540e541b0b8be0d2d3d687d",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "Part XI"
     },
     {
@@ -58,7 +58,7 @@
       "capture_type": "html",
       "scope": "unclos_partxi",
       "last_sha256": "sha256:ece1c1ec709219c31360698b3f2870434f5a29ea4580abfaf66f9df4fda8df13",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "polymetallic nodules"
     },
     {
@@ -69,7 +69,7 @@
       "scope": "itlos",
       "_note": "2026-07-18: ACTIVE PROCEEDINGS. Instituted 30 May 2026; Order 2026/6 of 24 June 2026; provisional-measures hearing opened 2 July 2026. Found only because the ITLOS source had been pointed at an overview page instead of the case register. Watch monthly — filings are ongoing. Press releases on this page are NOT authoritative instruments and must not enter authoritative/.",
       "last_sha256": "sha256:5f19457ea8dc6edba80ede485c1b3b1bf7851de0eb8680d93b4573898ca95587",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "Nauru Ocean Resources",
       "last_page_sha256": "sha256:74371b17bad423dde13bbda2a44eda6687c13293df081ed8570d8c233e347b9b"
     },
@@ -81,7 +81,7 @@
       "scope": "itlos",
       "_note": "2026-07-18: ACTIVE PROCEEDINGS, companion to Case No. 34. Document list not yet reviewed at time of adding. Press releases are NOT authoritative instruments.",
       "last_sha256": "sha256:82ccb54f9071153e6a67b28ba4211cee7bc142c76cf5c042ff1f91b31e647a52",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "Tonga Offshore Mining",
       "last_page_sha256": "sha256:f9003c9555f30a01efcb56e987bd52bcec1519df6fbb83eb9724d9cd94dd7781"
     },
@@ -95,7 +95,7 @@
       "expect_contains": "Nauru Ocean Resources",
       "last_sha256": "sha256:f8de46f7b4582e7f15aa07e9047d0be4ec387201a90d2267b09f3827bbda8d79",
       "last_page_sha256": "sha256:2807c53f6f534af76570ddf7698e18333f2896d4fda80622bdf75ee4841af82b",
-      "last_checked": "2026-09-14T23:57:54Z"
+      "last_checked": "2026-09-15T00:36:08Z"
     },
     {
       "name": "ITLOS — Case No. 35 provisional measures (incidental-proceeding sub-page)",
@@ -107,7 +107,7 @@
       "expect_contains": "Tonga Offshore Mining",
       "last_sha256": "sha256:d2ef64b475613a30edee9592fbd41e26b6974e4524f9906710f87d9c4aa5bea6",
       "last_page_sha256": "sha256:3ba6369b7cd359f3398219a9dd0a1b9c1ebe1b99b6e82d92e38e0e7fc1551634",
-      "last_checked": "2026-09-14T23:57:54Z"
+      "last_checked": "2026-09-15T00:36:08Z"
     },
     {
       "name": "ITLOS — Case No. 17 (2011 Advisory Opinion)",
@@ -116,7 +116,7 @@
       "capture_type": "pdf",
       "scope": "itlos",
       "last_sha256": "sha256:79d6dbc6c9ca3838e6e776e65da9253bfc326141f796bd25d3ccabe1e0142391",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "Responsibilities and obligations",
       "last_page_sha256": "sha256:6fe3e63d2812949dc491e3eefab3580c517cd73e485492e2c895bfcc5aece692"
     },
@@ -137,7 +137,7 @@
       "scope": "us_dsm",
       "_note": "2026-07-18: the human-facing eCFR page BLOCKS automated fetches — it redirected to unblock.federalregister.gov ('Request Access'), so this source was hashing an access-denied page. Symptom visible in hindsight: parts 970 and 971 carried IDENTICAL hashes, which two different regulations cannot. Switched to the OFFICIAL eCFR versioner API, which is published for programmatic use (NOT an evasion — no stealth, no proxy, per crawl boundary rule 2). Bonus: it reports amendment dates per section, so a change names the sections amended. Document capture for ingest remains a separate, human-verified step. Hash cleared to force a fresh baseline.",
       "last_sha256": "sha256:8d3ff0d3907e2b44ae72ff2327ce188cd81b7c7c66f0b63c4381fec34a81c95e",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "970",
       "last_page_sha256": "sha256:9dc871ef5e060dee1105d6cac97dd851d250dd2412017144b97c02ff671e1436"
     },
@@ -157,7 +157,7 @@
       "scope": "us_dsm",
       "_note": "2026-07-18: see the Part 970 note — the human-facing eCFR page blocks automated fetches. Switched to the official eCFR versioner API. Hash cleared to force a fresh baseline.",
       "last_sha256": "sha256:f27ea8b062875dc73bb993b41819b6e7c5cf047be57e6d64352ea0e2dbdd0f72",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "971",
       "last_page_sha256": "sha256:1859f8bd126a154af79f76c4fe16556820578782115026272c9ec840d3984283"
     },
@@ -167,7 +167,7 @@
       "capture_type": "pdf",
       "scope": "isa_mining_code",
       "last_sha256": "sha256:8714c87680d8a7ac108894a0bf6993166335dfa4ac81d5164b14609911ba6520",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "Exploitation",
       "ignore_patterns": [
         "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
@@ -181,7 +181,7 @@
       "capture_type": "pdf",
       "scope": "isa_mining_code",
       "last_sha256": "sha256:024b878857a0ff68bdaf07f0b625606f0d250a293e339595c27bbaa327f0d5ea",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "Standards and Guidelines",
       "ignore_patterns": [
         "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
@@ -195,7 +195,7 @@
       "capture_type": "pdf",
       "scope": "isa_mining_code",
       "last_sha256": "sha256:bd01775da6db6533f51583c548ceabb3f8af3ad6cf0314e2032765d2868de37f",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "Recommendations",
       "ignore_patterns": [
         "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
@@ -210,7 +210,7 @@
       "capture_type": "pdf",
       "scope": "isa_mining_code",
       "last_sha256": "sha256:172277668713e2a68c724a4decc6ac694d6e6a9dfa24f121b7a23d4ba0473b29",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "last_page_sha256": "sha256:4beeba597f9c7c8d443e9a51f2b37566ed8d9ba177c151cf15c6100d00800464",
       "expect_contains": "Mining Code"
     },
@@ -220,7 +220,7 @@
       "capture_type": "pdf",
       "scope": "isa_organs",
       "last_sha256": "sha256:8de9ab83c77acce5e4d79b5247b1fa93375a507d89a2d5b0ede2f4cc42a2bd4c",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "Legal and Technical Commission",
       "ignore_patterns": [
         "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
@@ -234,7 +234,7 @@
       "capture_type": "pdf",
       "scope": "isa_sessions",
       "last_sha256": "sha256:645604f65c9dd647441c3229e026c31107bdc9077f950ea4b32af6974d3b2794",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "31st",
       "ignore_patterns": [
         "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
@@ -248,7 +248,7 @@
       "capture_type": "pdf",
       "scope": "isa_organs",
       "last_sha256": "sha256:be1111d8aedba83678c39cac839a10a0681fbe83fdc0741f3f7e4832afcfe05b",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "Council",
       "ignore_patterns": [
         "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
@@ -264,7 +264,7 @@
       "scope": "itlos",
       "_note": "2026-07-18: corrected from /en/main/cases/ (an overview page carrying only prose and a case count) to /list-of-cases/, the actual case register. The old URL could not surface new cases; hash cleared to force a fresh baseline.",
       "last_sha256": "sha256:9e5333da732e7d57c47b9508f167711f46470e8b343d54e397bb0715cb3d3bf8",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "Case No. 17",
       "last_page_sha256": "sha256:555846a22db951e0c7e7bde2d046a40fea074fb66b8c679622955ec07a40af9b"
     },
@@ -274,7 +274,7 @@
       "capture_type": "json",
       "scope": "us_dsm",
       "last_sha256": "sha256:c46143a83e5302807a84103b69f721a5aa6ca1080da8b034e86485d32f19500e",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "deep seabed mining"
     },
     {
@@ -283,7 +283,7 @@
       "capture_type": "html",
       "scope": "us_dsm",
       "last_sha256": "sha256:8e330785d291f80cee2a792dd57786c5ebc31d282dbfd52f74da7e2e29f09544",
-      "last_checked": "2026-09-14T23:57:54Z",
+      "last_checked": "2026-09-15T00:36:08Z",
       "expect_contains": "seabed"
     }
   ],
