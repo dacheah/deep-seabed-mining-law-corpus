@@ -6,28 +6,42 @@
       "url": "https://www.isa.org.jm/the-mining-code/",
       "capture_type": "pdf",
       "scope": "isa_mining_code",
-      "last_sha256": "sha256:8817a55104cf2a79f9d9b2e0b0ae049794ef8643b2799aa5b0ecf29412304249",
+      "last_sha256": "sha256:1ad170bd0d6b7b6c16c4e97aa308c8c8d8fe04ade0fbd9fdd090ce003e94726c",
       "last_checked": "2026-09-14T23:57:54Z",
-      "expect_contains": "Mining Code"
+      "expect_contains": "Mining Code",
+      "ignore_patterns": [
+        "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
+        "\\(S\\.?H\\.?E\\.?\\)"
+      ],
+      "_note": "[2026-09-14: ignore_patterns added for the site chrome that re-flags every sweep — the footer session-list nav entries and the '(SHE)' programme link, both template-level on every ISA page. Deliberately NOT added: any date pattern. On the Draft Exploitation Regulations page the date-like strings are that instrument's own development chronology ('released on 16 February 2024', 'on 29 November 2024 the President presented…'); on the 31st-session page they are the meeting schedule and document citations. A pattern broad enough to absorb those would hide genuine developments. Also not added because they do not exist on the text surface: the newsletter widget and the anti-bot puzzle, which sit in markup to_text strips.]"
     },
     {
       "name": "ISA — Exploration regulations",
       "url": "https://www.isa.org.jm/the-mining-code/exploration-regulations/",
       "capture_type": "pdf",
       "scope": "isa_exploration",
-      "last_sha256": "sha256:fb6b3c1d168ce44b5112006a574efa66245ea5d6f7bfda2b5a74f174ea63934a",
+      "last_sha256": "sha256:d7f500cff8fff94ae4425913bed4acf6feaf1db10992c8fd0b1276cf811686bc",
       "last_checked": "2026-09-14T23:57:54Z",
-      "expect_contains": "Exploration"
+      "expect_contains": "Exploration",
+      "ignore_patterns": [
+        "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
+        "\\(S\\.?H\\.?E\\.?\\)"
+      ],
+      "_note": "[2026-09-14: ignore_patterns added for the site chrome that re-flags every sweep — the footer session-list nav entries and the '(SHE)' programme link, both template-level on every ISA page. Deliberately NOT added: any date pattern. On the Draft Exploitation Regulations page the date-like strings are that instrument's own development chronology ('released on 16 February 2024', 'on 29 November 2024 the President presented…'); on the 31st-session page they are the meeting schedule and document citations. A pattern broad enough to absorb those would hide genuine developments. Also not added because they do not exist on the text surface: the newsletter widget and the anti-bot puzzle, which sit in markup to_text strips.]"
     },
     {
       "name": "ISA — 30th session (2025)",
       "url": "https://isa.org.jm/sessions/30th-session-2025/",
       "capture_type": "pdf",
       "scope": "isa_sessions",
-      "_note": "2026-07-18: was named 'Council documents' and pointed at /sessions/, which SILENTLY REDIRECTS to an agenda-item page from a past session (sessions-30th-session-2025-item16). There is no /sessions/ index — sessions are listed only in the site nav. It had already flagged one meaningless 'change' as the redirect target drifted. Repointed to the most recent completed session; the current session has its own source. NEEDS ANNUAL REVIEW when a new session opens. Hash cleared to force a fresh baseline.",
-      "last_sha256": "sha256:96d2150bd8f1889aa2820a767163e3662a20d9d3b081ce8885b16064fda2213f",
+      "_note": "2026-07-18: was named 'Council documents' and pointed at /sessions/, which SILENTLY REDIRECTS to an agenda-item page from a past session (sessions-30th-session-2025-item16). There is no /sessions/ index — sessions are listed only in the site nav. It had already flagged one meaningless 'change' as the redirect target drifted. Repointed to the most recent completed session; the current session has its own source. NEEDS ANNUAL REVIEW when a new session opens. Hash cleared to force a fresh baseline. [2026-09-14: ignore_patterns added for the site chrome that re-flags every sweep — the footer session-list nav entries and the '(SHE)' programme link, both template-level on every ISA page. Deliberately NOT added: any date pattern. On the Draft Exploitation Regulations page the date-like strings are that instrument's own development chronology ('released on 16 February 2024', 'on 29 November 2024 the President presented…'); on the 31st-session page they are the meeting schedule and document citations. A pattern broad enough to absorb those would hide genuine developments. Also not added because they do not exist on the text surface: the newsletter widget and the anti-bot puzzle, which sit in markup to_text strips.]",
+      "last_sha256": "sha256:186c0645bc39c2bb807ad320b46c10d53529befaae43cabbed19eec809c8a7f2",
       "last_checked": "2026-09-14T23:57:54Z",
-      "expect_contains": "30th"
+      "expect_contains": "30th",
+      "ignore_patterns": [
+        "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
+        "\\(S\\.?H\\.?E\\.?\\)"
+      ]
     },
     {
       "name": "UN DOALOS — 1994 Part XI Implementation Agreement",
@@ -152,27 +166,42 @@
       "url": "https://isa.org.jm/the-mining-code/draft-exploitation-regulations-2/",
       "capture_type": "pdf",
       "scope": "isa_mining_code",
-      "last_sha256": "sha256:af2f275a8650977ca926ee13c19c5986779d444e401f0b7a626bb166d4fd072b",
+      "last_sha256": "sha256:8714c87680d8a7ac108894a0bf6993166335dfa4ac81d5164b14609911ba6520",
       "last_checked": "2026-09-14T23:57:54Z",
-      "expect_contains": "Exploitation"
+      "expect_contains": "Exploitation",
+      "ignore_patterns": [
+        "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
+        "\\(S\\.?H\\.?E\\.?\\)"
+      ],
+      "_note": "[2026-09-14: ignore_patterns added for the site chrome that re-flags every sweep — the footer session-list nav entries and the '(SHE)' programme link, both template-level on every ISA page. Deliberately NOT added: any date pattern. On the Draft Exploitation Regulations page the date-like strings are that instrument's own development chronology ('released on 16 February 2024', 'on 29 November 2024 the President presented…'); on the 31st-session page they are the meeting schedule and document citations. A pattern broad enough to absorb those would hide genuine developments. Also not added because they do not exist on the text surface: the newsletter widget and the anti-bot puzzle, which sit in markup to_text strips.]"
     },
     {
       "name": "ISA — Draft Standards and Guidelines (Mining Code)",
       "url": "https://isa.org.jm/the-mining-code/standards-and-guidelines/",
       "capture_type": "pdf",
       "scope": "isa_mining_code",
-      "last_sha256": "sha256:9b7d9744d83d8c1df47a00fe6a16a79bfd503e98485d043879388f4fcbf6924e",
+      "last_sha256": "sha256:024b878857a0ff68bdaf07f0b625606f0d250a293e339595c27bbaa327f0d5ea",
       "last_checked": "2026-09-14T23:57:54Z",
-      "expect_contains": "Standards and Guidelines"
+      "expect_contains": "Standards and Guidelines",
+      "ignore_patterns": [
+        "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
+        "\\(S\\.?H\\.?E\\.?\\)"
+      ],
+      "_note": "[2026-09-14: ignore_patterns added for the site chrome that re-flags every sweep — the footer session-list nav entries and the '(SHE)' programme link, both template-level on every ISA page. Deliberately NOT added: any date pattern. On the Draft Exploitation Regulations page the date-like strings are that instrument's own development chronology ('released on 16 February 2024', 'on 29 November 2024 the President presented…'); on the 31st-session page they are the meeting schedule and document citations. A pattern broad enough to absorb those would hide genuine developments. Also not added because they do not exist on the text surface: the newsletter widget and the anti-bot puzzle, which sit in markup to_text strips.]"
     },
     {
       "name": "ISA — Mining Code Recommendations and guidance (LTC)",
       "url": "https://isa.org.jm/mining-code-recommendations/",
       "capture_type": "pdf",
       "scope": "isa_mining_code",
-      "last_sha256": "sha256:34aa83561d11de750cc37eb17471f63e6a4502ed8575588027a481b793ecb687",
+      "last_sha256": "sha256:bd01775da6db6533f51583c548ceabb3f8af3ad6cf0314e2032765d2868de37f",
       "last_checked": "2026-09-14T23:57:54Z",
-      "expect_contains": "Recommendations"
+      "expect_contains": "Recommendations",
+      "ignore_patterns": [
+        "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
+        "\\(S\\.?H\\.?E\\.?\\)"
+      ],
+      "_note": "[2026-09-14: ignore_patterns added for the site chrome that re-flags every sweep — the footer session-list nav entries and the '(SHE)' programme link, both template-level on every ISA page. Deliberately NOT added: any date pattern. On the Draft Exploitation Regulations page the date-like strings are that instrument's own development chronology ('released on 16 February 2024', 'on 29 November 2024 the President presented…'); on the 31st-session page they are the meeting schedule and document citations. A pattern broad enough to absorb those would hide genuine developments. Also not added because they do not exist on the text surface: the newsletter widget and the anti-bot puzzle, which sit in markup to_text strips.]"
     },
     {
       "name": "ISA — Exploitation: Official documents",
@@ -190,27 +219,42 @@
       "url": "https://isa.org.jm/organs/the-legal-and-technical-commission/",
       "capture_type": "pdf",
       "scope": "isa_organs",
-      "last_sha256": "sha256:0d23639f67c6c11c6c7b8a59a30e677fc92babea5e766c01bdb47d6d2919b595",
+      "last_sha256": "sha256:8de9ab83c77acce5e4d79b5247b1fa93375a507d89a2d5b0ede2f4cc42a2bd4c",
       "last_checked": "2026-09-14T23:57:54Z",
-      "expect_contains": "Legal and Technical Commission"
+      "expect_contains": "Legal and Technical Commission",
+      "ignore_patterns": [
+        "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
+        "\\(S\\.?H\\.?E\\.?\\)"
+      ],
+      "_note": "[2026-09-14: ignore_patterns added for the site chrome that re-flags every sweep — the footer session-list nav entries and the '(SHE)' programme link, both template-level on every ISA page. Deliberately NOT added: any date pattern. On the Draft Exploitation Regulations page the date-like strings are that instrument's own development chronology ('released on 16 February 2024', 'on 29 November 2024 the President presented…'); on the 31st-session page they are the meeting schedule and document citations. A pattern broad enough to absorb those would hide genuine developments. Also not added because they do not exist on the text surface: the newsletter widget and the anti-bot puzzle, which sit in markup to_text strips.]"
     },
     {
       "name": "ISA — 31st session (2026)",
       "url": "https://www.isa.org.jm/sessions/31st-session-2026/",
       "capture_type": "pdf",
       "scope": "isa_sessions",
-      "last_sha256": "sha256:7150ce5d975d94a52d41006c976c99893e6ad2aa3dcbd311ef73fed454ae742b",
+      "last_sha256": "sha256:645604f65c9dd647441c3229e026c31107bdc9077f950ea4b32af6974d3b2794",
       "last_checked": "2026-09-14T23:57:54Z",
-      "expect_contains": "31st"
+      "expect_contains": "31st",
+      "ignore_patterns": [
+        "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
+        "\\(S\\.?H\\.?E\\.?\\)"
+      ],
+      "_note": "[2026-09-14: ignore_patterns added for the site chrome that re-flags every sweep — the footer session-list nav entries and the '(SHE)' programme link, both template-level on every ISA page. Deliberately NOT added: any date pattern. On the Draft Exploitation Regulations page the date-like strings are that instrument's own development chronology ('released on 16 February 2024', 'on 29 November 2024 the President presented…'); on the 31st-session page they are the meeting schedule and document citations. A pattern broad enough to absorb those would hide genuine developments. Also not added because they do not exist on the text surface: the newsletter widget and the anti-bot puzzle, which sit in markup to_text strips.]"
     },
     {
       "name": "ISA — The Council",
       "url": "https://isa.org.jm/organs/the-council/",
       "capture_type": "pdf",
       "scope": "isa_organs",
-      "last_sha256": "sha256:d16ed02daf371872461a4e15b305e3cd310a635a170d87ffca8ce9c1d4b99c12",
+      "last_sha256": "sha256:be1111d8aedba83678c39cac839a10a0681fbe83fdc0741f3f7e4832afcfe05b",
       "last_checked": "2026-09-14T23:57:54Z",
-      "expect_contains": "Council"
+      "expect_contains": "Council",
+      "ignore_patterns": [
+        "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
+        "\\(S\\.?H\\.?E\\.?\\)"
+      ],
+      "_note": "[2026-09-14: ignore_patterns added for the site chrome that re-flags every sweep — the footer session-list nav entries and the '(SHE)' programme link, both template-level on every ISA page. Deliberately NOT added: any date pattern. On the Draft Exploitation Regulations page the date-like strings are that instrument's own development chronology ('released on 16 February 2024', 'on 29 November 2024 the President presented…'); on the 31st-session page they are the meeting schedule and document citations. A pattern broad enough to absorb those would hide genuine developments. Also not added because they do not exist on the text surface: the newsletter widget and the anti-bot puzzle, which sit in markup to_text strips.]"
     },
     {
       "name": "ITLOS — List of cases (new cases / advisory opinions)",
