@@ -10,6 +10,32 @@ jobs:
       - uses: actions/checkout@v7
       - name: Install pinned Poppler
         run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      # (d) ASSERT, DON'T RELY ON THE IMAGE (issue #7). The pin above is enforced by `runs-on:
+      # ubuntu-22.04`, not by this install step — but that enforcement has an expiry: GitHub retires
+      # image labels, and package revisions move within a label (this job currently gets
+      # poppler-utils 22.02.0-2ubuntu0.13, a revision of the pinned version). If the toolchain moves,
+      # every historical MISMATCH silently becomes ambiguous between "the record changed" and "the
+      # runner changed" — which is exactly how a locally-built Poppler 26.01.0 produced a spurious
+      # mismatch on an untouched record. This step makes such a move a LOUD, DATED failure instead.
+      # It reads the pin from extract.py so there is one source of truth, not a copy in YAML.
+      # TARGET (issue #7): pin by container, so the job tests the recorded toolchain explicitly.
+      - name: Assert the toolchain is the PINNED one (fail closed if the runner moves)
+        run: |
+          python3 - <<'PY'
+          import sys
+          sys.path.insert(0, "scripts")
+          import extract as E
+          ver = E.poppler_version()
+          print(f"pdftotext (Poppler) {ver}  ·  pinned {E.PINNED_POPPLER}")
+          if ver != E.PINNED_POPPLER:
+              sys.exit(f"FAIL: the runner's Poppler is {ver}, but this corpus pins {E.PINNED_POPPLER}. "
+                       "Byte-exact reproduction of PDF-sourced records is guaranteed only against the "
+                       "pinned version, so every MISMATCH below would be ambiguous between 'the record "
+                       "changed' and 'the toolchain moved'. Pin this job to an image carrying the pinned "
+                       "Poppler (issue #7), or re-derive the affected records deliberately and move the "
+                       "pin in the same change.")
+          print("OK: toolchain matches the pin — so a MISMATCH below means the RECORD changed.")
+          PY
       - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
