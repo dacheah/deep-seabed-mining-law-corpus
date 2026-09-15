@@ -13,3 +13,9 @@ jobs:
       - run: pip install -r scripts/requirements.txt
       - name: Validate corpus (schema, hashes, two-layer wall, staleness)
         run: python3 scripts/validate_corpus.py
+      # verify_engine.py existed and was documented as one of this corpus's four gates, but was not
+      # referenced by ANY workflow — so engine drift was only ever caught if someone remembered to
+      # run it locally. It is set-aware, which is the point: `sha256sum -c` is blind to an ADDED
+      # engine file, and that is exactly the drift a hand-added script causes.
+      - name: Engine identity (no engine file added, modified or removed)
+        run: python3 scripts/verify_engine.py
