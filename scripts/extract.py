@@ -16,9 +16,14 @@ script proves the derived text.txt is reproducible, not a substitute for that an
 Usage:
     python3 scripts/extract.py            # check all records, print X/Y reproduced (exit 1 if any differ)
     python3 scripts/extract.py --write    # (re)write text.txt from the committed extractor
+    python3 scripts/extract.py --attest   # write/refresh per-record toolchain attestations
+
+PINNED_POPPLER is the version NEW derivations are calibrated against — a statement about the present.
+The per-record attestations under extraction/ are the historical claim (which toolchain actually
+re-derived which record's text); see the ATTEST comment below for why the two are not the same thing.
 """
 from __future__ import annotations
-import argparse, glob, hashlib, os, re, subprocess, sys, unicodedata
+import argparse, glob, hashlib, json, os, re, subprocess, sys, unicodedata
 import yaml
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -553,6 +558,65 @@ PDF_EXTRACTORS = {
                        "Further Revised Consolidated Text (ISBA/31/C/CRP.2, 23 December 2025) [DRAFT, NOT IN FORCE]"),
 }
 
+# ---- per-record toolchain attestation (issue #7, option (e)) ---------------------------------
+# The global PINNED_POPPLER above is a statement about the PRESENT: the version NEW derivations are
+# calibrated against. The reproducibility claim, though, is per record and HISTORICAL — "this dated
+# text re-derives from that original" — and the toolchain is part of that claim. One constant cannot
+# express "records 1–26 came from 22.02.0 and record 27 from 22.02.0-2ubuntu0.13", and moving it
+# silently restates the claim for every historical record at once. The portable form is per record,
+# in the same file convention space law already uses:
+#
+#     extraction/<corpus_id>/<version_id>.json   →   extractor: {tool, args, toolchain}
+#
+# AN ATTESTATION IS WRITTEN ONLY WHERE THE TEXT ACTUALLY RE-DERIVED BYTE-EXACT. Attesting a text that
+# does not reproduce would be a false provenance claim, so the records that legitimately do not
+# reproduce (the OCR-derived ITLOS orders, declared in repro-policy.json) get no file at all. That
+# absence is itself informative and is reported by --attest and by the CI assertion.
+ATTEST = os.path.join(REPO, "extraction")
+
+
+def attestation_for(meta: dict, got: bytes, ver: str) -> dict:
+    """The attestation record for one reproduced text: which toolchain re-derived it, and to what."""
+    cid = meta["corpus_id"]
+    if meta.get("original_format") == "pdf":
+        args = ["-enc", "UTF-8"] + (["-raw"] if cid in PDF_RAW else [])
+        extractor = {"tool": "pdftotext", "args": args, "toolchain": f"poppler {ver}"}
+    else:
+        extractor = {"tool": "passthrough", "toolchain": None}
+    return {
+        "corpus_id": cid,
+        "version_id": str(meta["version_id"]),
+        "extractor": extractor,
+        "text_sha256": "sha256:" + hashlib.sha256(got).hexdigest(),
+        "note": ("Toolchain under which this record's text.txt re-derives, proven by scripts/extract.py. "
+                 "Written only for records that reproduce byte-exact, and the hash beside it is the one "
+                 "that re-derivation produced. The byte-exact original.* and its recorded sha256 remain "
+                 "the authoritative anchor; this attests the DERIVATION, not the source."),
+    }
+
+
+def write_attestation(rec: dict) -> bool:
+    """Write the attestation file only if it would actually change.
+
+    A rebuild must not churn these. An attestation whose toolchain and text hash are unchanged is left
+    exactly as it is — no date stamp, no rewrite — so the files stay stable and a real change to one of
+    them means something. (A 'generated on' field here would make every run dirty for no gain, which is
+    the trap that once left this portfolio's derived layer permanently modified.)
+    """
+    p = os.path.join(ATTEST, rec["corpus_id"], f"{rec['version_id']}.json")
+    if os.path.isfile(p):
+        try:
+            if json.load(open(p, encoding="utf-8")) == rec:
+                return False
+        except Exception:
+            pass
+    os.makedirs(os.path.dirname(p), exist_ok=True)
+    with open(p, "w", encoding="utf-8", newline="\n") as fh:
+        json.dump(rec, fh, indent=2, ensure_ascii=False)
+        fh.write("\n")
+    return True
+
+
 def rederive(meta: dict, d: str) -> bytes | None:
     """Return the reproduced text.txt bytes, or None if this record has no stored text."""
     if meta.get("authoritative_status") == "authoritative_missing" or not meta.get("text_sha256"):
@@ -568,12 +632,21 @@ def rederive(meta: dict, d: str) -> bytes | None:
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--write", action="store_true", help="rewrite text.txt from the extractor")
+    ap.add_argument("--attest", action="store_true",
+                    help="write/refresh per-record toolchain attestations under extraction/")
     args = ap.parse_args()
     ver = poppler_version()
     print(f"pdftotext (Poppler) {ver}" + ("" if ver == PINNED_POPPLER else f"  ⚠ pinned {PINNED_POPPLER} — PDF bytes may differ"))
     pdf_ok = pdf_tot = txt_ok = txt_tot = 0; fails = []
+    att_new, att_same, att_no_extractor, att_nomatch = [], [], [], []
     for mp in sorted(glob.glob(os.path.join(AUTH, "**", "metadata.yaml"), recursive=True)):
         meta = yaml.safe_load(open(mp, encoding="utf-8")); d = os.path.dirname(mp)
+        if args.attest and meta.get("original_format") == "pdf" and meta["corpus_id"] not in PDF_EXTRACTORS:
+            # No committed extractor, so rederive() would SystemExit here — the defect that once
+            # aborted a whole run on the first OCR-derived record. Under --attest this is skipped BY
+            # DESIGN: an OCR-derived text gets NO attestation file, because committed, deterministic
+            # code cannot re-derive it. The absence is the honest record.
+            att_no_extractor.append(meta["corpus_id"]); continue
         got = rederive(meta, d)
         if got is None: continue
         is_pdf = meta.get("original_format") == "pdf"
@@ -585,8 +658,22 @@ def main() -> int:
             pdf_ok += is_pdf; txt_ok += (not is_pdf)
         else:
             fails.append(meta["corpus_id"])
+        if args.attest:
+            if match:
+                (att_new if write_attestation(attestation_for(meta, got, ver)) else att_same).append(meta["corpus_id"])
+            else:
+                att_nomatch.append(meta["corpus_id"])
     print(f"PDF-sourced reproduced byte-exact: {pdf_ok}/{pdf_tot}")
     print(f"txt-sourced reproduced (normaliser): {txt_ok}/{txt_tot}")
+    if args.attest:
+        print(f"attestations written: {len(att_new)}   already correct: {len(att_same)}")
+        print(f"NOT attested: {len(att_no_extractor)} without a committed extractor, "
+              f"{len(att_nomatch)} that did not reproduce")
+        if att_no_extractor:
+            print("  no committed extractor (expected for the declared OCR-derived records): "
+                  + ", ".join(att_no_extractor))
+        if att_nomatch:
+            print("  did NOT reproduce, so NOT attested: " + ", ".join(att_nomatch))
     if fails:
         print("DIFFERS: " + ", ".join(fails)); return 1
     print("RESULT: OK — every stored text re-derives from its committed original.")

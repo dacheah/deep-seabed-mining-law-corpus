@@ -6,6 +6,8 @@ on:
 jobs:
   reproduce:
     runs-on: ubuntu-22.04   # Poppler 22.02.0 — the pinned toolchain for byte-exact PDF extraction
+    permissions:
+      contents: write       # used ONLY by the workflow_dispatch attestation refresh at the end
     steps:
       - uses: actions/checkout@v7
       - name: Install pinned Poppler
@@ -34,6 +36,30 @@ jobs:
                        "changed' and 'the toolchain moved'. Pin this job to an image carrying the pinned "
                        "Poppler (issue #7), or re-derive the affected records deliberately and move the "
                        "pin in the same change.")
+          # (e) PER-RECORD ATTESTATIONS, where they exist (issue #7). Each must name the toolchain
+          # actually running here, or a CI result cannot be read per record. This is the check that
+          # makes a toolchain move name the affected records instead of silently restating them.
+          import glob, json
+          files = sorted(glob.glob("extraction/**/*.json", recursive=True))
+          bad = []
+          for f in files:
+              try:
+                  d = json.load(open(f, encoding="utf-8"))
+              except Exception:
+                  bad.append((f, "unreadable")); continue
+              tc = (d.get("extractor") or {}).get("toolchain")
+              if tc and tc != f"poppler {ver}":
+                  bad.append((d.get("corpus_id", f), tc))
+          if bad:
+              sys.exit("FAIL: attestation(s) name a toolchain other than this runner's: "
+                       + "; ".join(f"{c} -> {t}" for c, t in bad)
+                       + ". A stale attestation makes that record's reproduction unverifiable. "
+                         "Re-derive the record deliberately and refresh its attestation in the SAME "
+                         "change, or pin the job to the toolchain it was attested under (issue #7).")
+          print(f"OK: {len(files)} per-record attestation(s), all naming poppler {ver}."
+                if files else
+                "NOTE: this corpus carries no per-record attestations yet — the global pin above is "
+                "the only guard. Run this workflow manually to author them (issue #7, option e).")
           print("OK: toolchain matches the pin — so a MISMATCH below means the RECORD changed.")
           PY
       - uses: actions/setup-python@v6
@@ -47,3 +73,19 @@ jobs:
         # and fails only on a real mismatch, an extractor error, or an uncovered record beyond the
         # ratchet — so a genuinely non-reproducible record is declared, not fatal-on-sight.
         run: python3 scripts/repro_gate.py
+      # (e) AUTHOR the attestations, UNDER THE PINNED TOOLCHAIN (issue #7 option e). This is
+      # deliberately workflow_dispatch-only: authoring is only honest where the pinned toolchain runs,
+      # and a normal push run must not create commits. Run manually to author or refresh; the assert
+      # above keeps them honest on every other run.
+      - name: Refresh per-record toolchain attestations
+        if: github.event_name == 'workflow_dispatch'
+        run: python3 scripts/extract.py --attest
+      - name: Commit refreshed attestations
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "corpus-bot"
+          git config user.email "corpus-bot@users.noreply.github.com"
+          git add extraction
+          if git diff --cached --quiet; then echo "no attestation changes"; exit 0; fi
+          git commit -m "chore(attest): refresh per-record toolchain attestations"
+          git push
