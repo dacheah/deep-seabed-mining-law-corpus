@@ -1,0 +1,42 @@
+name: Ingest ITLOS #9 records (authoring; dispatched)
+# AUTHORING JOB - DELIBERATELY NOT RUN ON PUSH. Unlike the reproducibility gate, this job writes to
+# authoritative/ and therefore needs the PINNED toolchain: the stored text_sha256 of every record it
+# packages must be one that this corpus's own CI re-derives, so the derivation is done here, under
+# the pin, and never on a workstation (issue #9, approach 1). The script asserts the toolchain and
+# refuses to derive under any other version. Same rule as the attestation refresh in reproduce.yml:
+# a push run must never create commits.
+on:
+  workflow_dispatch: {}
+jobs:
+  author:
+    runs-on: ubuntu-22.04   # Poppler 22.02.0 - the pin; scripts/derive_ingest_itlos9.py asserts it
+    permissions:
+      contents: write       # used ONLY by the commit step at the end
+    steps:
+      - uses: actions/checkout@v7
+      - name: Install pinned Poppler
+        run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+      - run: pip install -r scripts/requirements.txt
+      - name: Derive text under the pin and ingest the five records
+        run: python3 scripts/derive_ingest_itlos9.py
+      - name: Reproducibility gate - every record reproduced or declared, nothing unaccounted for
+        run: python3 scripts/repro_gate.py
+      - name: Author per-record toolchain attestations, under the pin
+        run: python3 scripts/extract.py --attest
+      - name: Build the derived layer
+        # Stable by design: build_derived.py moves a generation_date only when that artifact actually
+        # changes, so this does not churn the existing derived records.
+        run: python3 scripts/build_derived.py
+      - name: Validate - schema, hashes, two-layer wall, derived staleness
+        run: python3 scripts/validate_corpus.py
+      - name: Commit the ingested records, their attestations and the derived layer
+        run: |
+          git config user.name "corpus-bot"
+          git config user.email "corpus-bot@users.noreply.github.com"
+          git add authoritative extraction derived docs/concept-vocabulary.md
+          if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+          git commit -m "feat(itlos): ingest the five born-digital records for issue #9, text derived under the pinned toolchain"
+          git push

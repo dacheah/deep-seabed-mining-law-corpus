@@ -70,6 +70,82 @@ def clean_ao(raw: str) -> str:
              "Chamber, Case No. 17)")
     return title + "\n\n" + "\n\n".join(paras) + "\n"
 
+# ---- ITLOS born-digital documents (text layer, no OCR) ------------------------------------------
+# The orders and declarations issued from the Tribunal's own typesetting carry an extractable text
+# layer, so nothing is OCR'd and nothing is adjudicated: pdftotext returns the Tribunal's own
+# characters, and the byte-exact original.pdf stays the integrity anchor. What they need is the
+# same STRUCTURAL NORMALISATION the scan-based ITLOS records received, so the two read alike - the
+# running header and page numbers dropped, hard line wraps rejoined into paragraphs, display lines
+# kept as their own block, curly quotes normalised to straight. Wording is never touched.
+#
+# Two features of the Tribunal's layout drive this cleaner:
+#   * every page after the first opens with its page number and nothing else;
+#   * the paragraph number sits in the left margin, so pdftotext emits it on a line of its own and
+#     the cleaner folds 'N.' back onto the paragraph it numbers.
+# A page break inside a paragraph is NOT re-joined, so such a paragraph appears as two blocks. The
+# scan-based siblings were reconciled by hand and break at different places, so block structure is
+# not comparable between the two conventions - only the wording is, and it is unchanged.
+_ITLOS_MASTHEAD = [r"SEABED DISPUTES CHAMBER OF THE",
+                   r"INTERNATIONAL TRIBUNAL FOR THE LAW OF THE SEA",
+                   r"Year \d{4}", r"\d{1,2} [A-Z][a-z]+ \d{4}", r"List of Cases:", r"No\. \d+"]
+
+def clean_itlos_text_layer(raw: str, title_anchor: str) -> str:
+    m = re.search(title_anchor, raw)
+    if not m:
+        raise ValueError("anchor not found in extraction: %r" % title_anchor)
+    blocks, page_of = [], []
+    for pi, page in enumerate(raw[m.start():].split("\f")):
+        lines = [l.rstrip() for l in page.split("\n")]
+        while lines and not lines[0].strip():
+            lines.pop(0)
+        if pi:
+            if lines and re.fullmatch(r"\d{1,3}", lines[0].strip()):
+                lines.pop(0)
+        elif len(lines) >= len(_ITLOS_MASTHEAD) and all(
+                re.fullmatch(p, lines[i].strip()) for i, p in enumerate(_ITLOS_MASTHEAD)):
+            # the masthead, kept line by line (the sibling record keeps the same lines as blocks)
+            for i in range(len(_ITLOS_MASTHEAD)):
+                blocks.append(lines[i].strip()); page_of.append(pi)
+            lines = lines[len(_ITLOS_MASTHEAD):]
+        for blk in "\n".join(lines).split("\n\n"):
+            glines = [l.strip() for l in blk.split("\n") if l.strip()]
+            if not glines:
+                continue
+            if len(glines) > 1 and re.fullmatch(r"\d{1,3}\.", glines[-1]):
+                # a margin number stranded at the end of a group - the line it sits under is NOT
+                # the paragraph it numbers, so peel it off and let it fold onto what follows. The
+                # test is on its own LINE, never on the joined text: a sentence ending in a numeral
+                # ("Section 5.") would otherwise be mistaken for a marker.
+                blocks.append(" ".join(glines[:-1])); page_of.append(pi)
+                glines = glines[-1:]
+            blk = " ".join(glines)
+            if blocks and re.fullmatch(r"\d{1,3}\.", blocks[-1]):
+                blocks[-1] = blocks[-1] + " " + blk
+            else:
+                blocks.append(blk); page_of.append(pi)
+    # The Tribunal's layout emits blank lines INSIDE a paragraph as well as between paragraphs, so
+    # a paragraph often arrives as several groups. Re-join on two pieces of evidence: the earlier
+    # group does not close a sentence (a group ending in a full stop, question or exclamation mark
+    # does - a comma, semicolon or closing bracket does not, and neither does a footnote reference
+    # interrupting a sentence), and the later group opens on a lower-case word, which in this
+    # register is always a continuation rather than the start of a paragraph. Display lines, the
+    # masthead and signature blocks therefore survive untouched.
+    joined = []
+    for b in blocks:
+        prev = joined[-1] if joined else ""
+        cont = (prev and b[:1].islower() and not re.fullmatch(r"\d{1,3}\.", b)
+                and not re.search(r"[.!?]$", prev)
+                and not re.search(r"\(\d{1,3}\)[.,;]?$", prev))
+        if cont:
+            joined[-1] = prev + " " + b
+        else:
+            joined.append(b)
+    t = "\n\n".join(joined)
+    for a, b in _LIG: t = t.replace(a, b)
+    for a, b in (("\u201c", '"'), ("\u201d", '"'), ("\u2018", "'"), ("\u2019", "'")):
+        t = t.replace(a, b)
+    return t + "\n"
+
 def clean_cfr(raw: str, part: str, title_line: str) -> str:
     lines = raw.splitlines()
     start = next(i for i, l in enumerate(lines) if re.match(r"^PART %s" % part, l))
@@ -556,7 +632,16 @@ PDF_EXTRACTORS = {
   "isa/draft/exploitation-code-2025": lambda raw:
       clean_draft(raw, "Draft Regulations on Exploitation of Mineral Resources in the Area — "
                        "Further Revised Consolidated Text (ISBA/31/C/CRP.2, 23 December 2025) [DRAFT, NOT IN FORCE]"),
-}
+  # ITLOS born-digital documents (issue #9). The Tribunal's own text layer, no OCR anywhere, so
+  # these are reproducible from the committed extractor under the pinned toolchain - which is why
+  # the three scan-based ITLOS orders are absent from this registry and declared excluded instead.
+  "itlos/order/case34-order-18jul2026": lambda raw: clean_itlos_text_layer(raw, r"SEABED DISPUTES CHAMBER OF THE"),
+  "itlos/order/case35-order-18jul2026": lambda raw: clean_itlos_text_layer(raw, r"SEABED DISPUTES CHAMBER OF THE"),
+  "itlos/declaration/case34-35-kittichaisaree-18jul2026":
+      lambda raw: clean_itlos_text_layer(raw, r"DECLARATION OF JUDGE KITTICHAISAREE"),
+  "itlos/declaration/case34-brown-18jul2026": lambda raw: clean_itlos_text_layer(raw, r"DECLARATION OF JUDGE BROWN"),
+  "itlos/declaration/case35-brown-18jul2026": lambda raw: clean_itlos_text_layer(raw, r"DECLARATION OF JUDGE BROWN"),
+  }
 
 # ---- per-record toolchain attestation (issue #7, option (e)) ---------------------------------
 # The global PINNED_POPPLER above is a statement about the PRESENT: the version NEW derivations are

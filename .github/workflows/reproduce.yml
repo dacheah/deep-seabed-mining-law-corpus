@@ -21,6 +21,13 @@ jobs:
       # mismatch on an untouched record. This step makes such a move a LOUD, DATED failure instead.
       # It reads the pin from extract.py so there is one source of truth, not a copy in YAML.
       # TARGET (issue #7): pin by container, so the job tests the recorded toolchain explicitly.
+      - name: Verify the build engine against MANIFEST.sha256
+        # Same defect class as the dormant engine gates found in the space-law and BBNJ corpora
+        # (issue #7): a manifest that nothing checks is a comment, and engine drift - a script
+        # modified, added or removed - became a fact nobody noticed until a reproduction disagreed.
+        # This makes it a LOUD failure on every push. It reads scripts/MANIFEST.sha256, so the
+        # engine fingerprint in the README and the atlas is now enforced, not merely recorded.
+        run: python3 scripts/verify_engine.py
       - name: Assert the toolchain is the PINNED one (fail closed if the runner moves)
         run: |
           python3 - <<'PY'

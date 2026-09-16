@@ -1,0 +1,58 @@
+{
+  "status": "reviewed_ready_for_ingest",
+  "_reviewed": "2026-09-16. Born-digital document: the Tribunal's own text layer, extracted by the committed extractor under the PINNED toolchain (issue #9, approach 1). Wording checked token-by-token against the raw extraction and page content checked against independent OCR of 300-dpi renders. See provenance_note.",
+
+  "corpus_id": "itlos/order/case35-order-18jul2026",
+  "version_id": "2026-07-18",
+  "title": "Order of 18 July 2026 in the Case concerning an inquiry by the International Seabed Authority (Tonga Offshore Mining Ltd. v. International Seabed Authority)",
+  "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+  "jurisdiction": "international",
+  "document_type": "order",
+  "official_citation": "Case concerning an inquiry by the International Seabed Authority (Tonga Offshore Mining Ltd. v. International Seabed Authority), Order of 18 July 2026, ITLOS List of Cases No. 35",
+  "authentic_languages": ["en", "fr"],
+  "adoption_date": "2026-07-18",
+
+  "source_url": "https://www.itlos.org/fileadmin/itlos/documents/cases/35/Provisional_Measures/Order_180726/C35_Order_18.07.2026_orig.pdf",
+  "source_publisher": "International Tribunal for the Law of the Sea (ITLOS)",
+  "source_is_official": true,
+  "retrieval_date": "2026-09-15",
+  "retrieved_by": "Hermes Jarvis polite capture (~/.hermes/scripts/itlos_capture_retry.py; verbatim byte download of the official ITLOS PDF after itlos.org had refused TCP from this host); text derived in CI from the publisher's own text layer under the pinned toolchain",
+
+  "original_format": "pdf",
+  "original_source_path": "capture/staging/case35-order18jul2026/original.pdf",
+  "text_source_path": null,
+  "_text_source_note": "null BY DESIGN (issue #9, approach 1). There is no reconciled text file for this record: the text is DERIVED in CI by scripts/derive_ingest_itlos9.py, which runs the committed extractor under the pinned Poppler (22.02.0 on ubuntu-22.04) and passes the result to ingest. Deriving it here on the workstation (Poppler 26.01.0) would stamp a text_sha256 that CI could not re-derive.",
+
+  "language": "en",
+  "authoritative_status": "authentic_text",
+  "text_fidelity": "extracted_verified",
+
+  "binding_force": "binding",
+  "issuing_authority": "Seabed Disputes Chamber of the International Tribunal for the Law of the Sea",
+  "administering_authority": null,
+
+  "license": "itlos-materials-terms",
+  "rights_note": "Official ITLOS materials, attributed to the International Tribunal for the Law of the Sea; not relicensed.",
+
+  "related_documents": [
+    "itlos/order/case34-order-18jul2026",
+    "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+    "itlos/declaration/case35-brown-18jul2026",
+    "itlos/order/case35-order9-2026",
+    "itlos/advisory-opinion/sdc-area-2011",
+    "un/convention/unclos-partxi-1982",
+    "un/agreement/unclos-partxi-impl-1994"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+
+  "capture_note": "Byte-exact official ITLOS PDF (476,903 bytes, sha256:4fefc1443362581e7a098c088deff6ecb52f093c65de4d45a13cc616df10d1e8) downloaded 2026-09-15 by a resumed, self-limiting capture run after itlos.org had refused TCP from this host; the seven Case 34/35 documents of issue #9 were staged together in that pass. Born-digital: 52 pages, zero embedded images, PDF producer indicates no paper-capture or OCR plug-in. It is the companion of the Order of the same date in Case No. 34, issued in the parallel inquiry concerning the other contractor; the two cases were heard together.",
+
+  "provenance_note": "SCOPE (JC-007, extended by maintainer decision 2026-09-16): ITLOS decisions in proceedings concerning the Area are in scope, and for issue #9 that scope is EXTENDED to the judges' declarations published with those decisions; party pleadings remain out of scope. IDENTIFIER (JC-008): case-number based, and for orders decoded as Case <n>, Order No. <m> of <year>. THAT DECODING DOES NOT REACH THIS INSTRUMENT. The Order of 18 July 2026 states no order number anywhere in its 52 pages - the string 'Order 2026/' does not occur in its text, and the running header reads only 'List of Cases: No. 35' - and no register was consulted to infer one, because minting an identifier the instrument does not state would put an invented citation into an authoritative record. It is therefore identified by DATE: 'case35-order-18jul2026'. The order numbers in evidence across this corpus are 3, 4, 6, 8 and 9; 2026/5 and 2026/7 appear nowhere. This order is the COMPANION of itlos/order/case34-order-18jul2026, delivered the same day in the parallel case, and the two are cited together below. WHAT THIS ORDER DOES: unanimously prescribes provisional measures under article 290, paragraph 1, of the Convention pending the final decision - (a) the Authority shall act in accordance with the relevant legal framework, including rules of due process, in the procedure for the inquiry mandated by the Council under paragraphs 9 and 10 of the 2025 Council Decision; (b) the Authority shall in particular clarify or provide TOML the relevant information concerning that procedure and the questions posed to it, so as to enable TOML to respond while engaging constructively; (c) the Parties shall cooperate and refrain from any action that might lead to aggravating the dispute - and further decides that TOML and the Authority shall each submit the initial report referred to in paragraph 190 not later than 31 August 2026, authorising the President of the Chamber after that date to request such information as he considers appropriate, and that each Party shall bear its own costs. Chamber: President ATTARD; Judges JESUS, KULYK, KITTICHAISAREE, KOLODKIN, LIJNZAAD, DUAN, BROWN, CARACCIOLO, ARMAS PFIRTER, JOYINI; Registrar HINRICHS OYARCE. Judge Kittichaisaree and Judge Brown each append a declaration to the Order; Judge Brown's declaration in this case is a SEPARATE instrument from the one appended in Case No. 34 (see itlos/declaration/case35-brown-18jul2026). TEXT RECOVERY - NO OCR, DERIVED IN CI UNDER THE PIN: this is a BORN-DIGITAL document carrying the Tribunal's own text layer, unlike the sibling ITLOS orders 2026/6, 2026/8 and 2026/9, which are office-scanner images whose text was recovered by two-engine OCR. pdftotext returns the Tribunal's own characters, so there is nothing to reconcile and no engine disagreement to adjudicate. Because this corpus's pinned toolchain is Poppler 22.02.0 (CI runs ubuntu-22.04) while the workstation that authored this record runs 26.01.0, the text was NOT derived locally: the committed extractor is run in CI under the pin (issue #9, approach 1), so text_sha256 is a hash that CI itself re-derives. text_fidelity is extracted_verified on the strength of two checks. (i) Wording: every token of the derived text appears IN ORDER in the raw extraction - nothing was reworded, reordered or dropped in normalisation. (ii) Content: Tesseract 5.5.0 was run over independent 300-dpi renders of pages 1, 27 and 52; 100% of its word tokens are present in the derived text on pages 1 and 52 and 99.1% on page 27, where the two absent tokens are OCR noise (a hyphenation split and 'managing' for 'managing'). A page whose content were missing or garbled would show as bulk coverage loss. STRUCTURAL NORMALISATION, matched to the scan-based sibling records: masthead and page numbers removed; hard line wraps rejoined into paragraphs; the left-margin paragraph numbers folded back onto the paragraphs they number; display lines, the disposition, each signature line and the closing note kept as their own block; curly quotation marks and apostrophes normalised to straight; canonical UTF-8, LF, no BOM, one trailing newline. Two residual artefacts are recorded rather than hidden: a sentence continuing across a layout break whose continuation opens on a capitalised word remains a separate block, and a run of roman-numeral markers remains a block of its own. The typed signature names are retained; the handwritten strokes are not part of the text. original.pdf remains the integrity anchor and original_sha256 is the hash of the official file itself. COVERAGE GAP: the order closes 'Done in English and in French, both texts being equally authoritative', so French is an equally authentic text (cf. JC-004); no French version is published, and it would be ingested as itlos/order/case35-order-18jul2026-fr under JC-006.",
+
+  "_open_questions": [
+    "The order number is unstated by the instrument (see IDENTIFIER above). If a maintainer wants the number ITLOS's own register gives it, that is one fetch of the case page; until then the record is identified by date.",
+    "French authentic text not yet captured - sibling record itlos/order/case35-order-18jul2026-fr (JC-006).",
+    "In the disposition of this order the measure (c) marker appears on its own in the derived text between measures (b) and (c). It is the source layout's, not a normalisation loss - the wording is intact in order - but do not cite measures by sub-letter without checking the PDF."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "status": "reviewed_ready_for_ingest",
+  "_reviewed": "2026-09-16. Born-digital document: the Tribunal's own text layer, extracted by the committed extractor under the PINNED toolchain (issue #9, approach 1). Wording checked token-by-token against the raw extraction and page content checked against independent OCR of 300-dpi renders. See provenance_note.",
+
+  "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+  "version_id": "2026-07-18",
+  "title": "Declaration of Judge Brown appended to the Order of the Chamber of 18 July 2026 in the Case concerning an inquiry by the International Seabed Authority (Nauru Ocean Resources Inc. v. International Seabed Authority)",
+  "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+  "jurisdiction": "international",
+  "document_type": "declaration",
+  "official_citation": "Declaration of Judge Brown, appended to the Order of the Chamber of 18 July 2026, Case concerning an inquiry by the International Seabed Authority (Nauru Ocean Resources Inc. v. International Seabed Authority), ITLOS List of Cases No. 34",
+  "authentic_languages": ["en"],
+  "adoption_date": "2026-07-18",
+
+  "source_url": "https://www.itlos.org/fileadmin/itlos/documents/cases/34/Provisional_Measures/Order_180726/C34_Order_18.07.2026_decl_Brown_orig.pdf",
+  "source_publisher": "International Tribunal for the Law of the Sea (ITLOS)",
+  "source_is_official": true,
+  "retrieval_date": "2026-09-15",
+  "retrieved_by": "Hermes Jarvis polite capture (~/.hermes/scripts/itlos_capture_retry.py; verbatim byte download of the official ITLOS PDF after itlos.org had refused TCP from this host); text derived in CI from the publisher's own text layer under the pinned toolchain",
+
+  "original_format": "pdf",
+  "original_source_path": "capture/staging/case34-decl-brown-18jul2026/original.pdf",
+  "text_source_path": null,
+  "_text_source_note": "null BY DESIGN (issue #9, approach 1): the text is DERIVED in CI by scripts/derive_ingest_itlos9.py under the pinned Poppler (22.02.0 on ubuntu-22.04), never on this workstation (26.01.0), whose output CI could not re-derive.",
+
+  "language": "en",
+  "authoritative_status": "authentic_text",
+  "text_fidelity": "extracted_verified",
+
+  "binding_force": "non_binding",
+  "issuing_authority": "Judge BROWN, Judge of the International Tribunal for the Law of the Sea sitting in the Seabed Disputes Chamber (individual declaration)",
+  "administering_authority": null,
+
+  "license": "itlos-materials-terms",
+  "rights_note": "Official ITLOS materials, attributed to the International Tribunal for the Law of the Sea; not relicensed.",
+
+  "related_documents": [
+    "itlos/order/case34-order-18jul2026",
+    "itlos/declaration/case35-brown-18jul2026",
+    "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+    "un/convention/unclos-partxi-1982"
+  ],
+  "supersedes": null,
+  "superseded_by": null,
+
+  "capture_note": "Byte-exact official ITLOS PDF (193,088 bytes, sha256:445ed71bacec7e68c5e79fd8641bc56a19d19e9917d4f211aebcef3899033411) downloaded 2026-09-15 by a resumed, self-limiting capture run after itlos.org had refused TCP from this host; the seven Case 34/35 documents of issue #9 were staged together in that pass. 4 pages, zero embedded images, born-digital. Judge Brown's declaration is published SEPARATELY for each case; the two PDFs are distinct instruments, not copies (see provenance_note).",
+
+  "provenance_note": "SCOPE AND CLASS (maintainer decision 2026-09-16, issue #9): the corpus's authoritative layer holds operative instruments, and that rule is EXTENDED for this ingest to include the judges' declarations published with the Orders of 18 July 2026. This record creates the record class 'itlos/declaration/*' as a SIBLING of 'itlos/order/*'. A declaration binds nobody and decides nothing, so it is recorded as binding_force 'non_binding' - the layer states that plainly rather than blurring a declaration into the decision it accompanies. ONE JUDGE, TWO INSTRUMENTS: unlike the single Kittichaisaree declaration published for both cases, Judge Brown's declaration is published per case as two separate PDFs. VERIFIED: they are NOT duplicates and NOT the same file. The Case No. 34 copy (193,088 bytes, sha256:445ed71b...) and the Case No. 35 copy (193,098 bytes, sha256:325099d5...) differ at exactly three sites - 'paragraph 97 of the Order' for 'paragraph 84 of the Order' (the finding to which the declaration responds, which sits at a different paragraph in each Order) occurring twice, and 'NORI' for 'TOML' once. The near-identical per-page character counts that make the two files easy to mistake for each other are a coincidence of those edits. WHAT THIS DECLARATION SAYS: seven numbered paragraphs, with footnotes. Judge Brown states that he fully shares the Chamber's views on the exercise of its jurisdiction and adds observations on the finding stated at paragraph 97 of the Order: the Applicant's assertion of prima facie jurisdiction under article 187(c)(i) and (ii); that neither Party addresses article 188, paragraph 2(a), of the Convention; that the default reference there to commercial arbitration covers disputes of a commercial or technical nature and does not oust the Chamber's jurisdiction under article 187; and that the question whether the Chamber's prima facie jurisdiction may be established on the basis of consent inferred from the respondent's conduct is one for the Chamber to determine. TEXT RECOVERY - NO OCR, DERIVED IN CI UNDER THE PIN: born-digital text layer (pdftotext returns the Tribunal's own characters; no scan, no OCR, no engine disagreement to adjudicate). The corpus pins Poppler 22.02.0 (CI runs ubuntu-22.04) while this workstation runs 26.01.0, so the text was NOT derived locally: the committed extractor runs in CI under the pin (issue #9, approach 1) and text_sha256 is the hash CI re-derives. text_fidelity is extracted_verified on two checks: (i) wording - every token of the derived text appears IN ORDER in the raw extraction; (ii) content - Tesseract 5.5.0 over independent 300-dpi renders of pages 1, 3 and 4 gave 99.5%, 99.5% and 98.6% of its word tokens present in the derived text, every absent token being OCR noise ('acommercial' for 'a commercial', 'tihe' for 'the', a split 'Secretary-General'). STRUCTURAL NORMALISATION: page numbers removed, hard wraps rejoined, the left-margin paragraph numbers folded onto their paragraphs, display lines, footnote blocks and the signature kept as their own blocks, curly quotes and apostrophes normalised to straight, canonical UTF-8, LF, no BOM, one trailing newline. Two residual artefacts are recorded rather than hidden: a sentence continuing across a layout break whose continuation opens on a capitalised word remains a separate block, and where a footnote interrupts a sentence the footnote block interrupts the paragraph in the same place it does on the page. original.pdf remains the integrity anchor and original_sha256 is the hash of the official file itself. NOTE ON AUTHENTIC LANGUAGE: this declaration carries no 'Done in English and in French' clause and no published French version exists, so authentic_languages records 'en' only, unlike the Orders it accompanies.",
+
+  "_open_questions": [
+    "Judge Brown's two declarations differ at three sites - recorded here and in the Case No. 35 record. Cite the case-specific copy, never the other case's.",
+    "French authentic text: the Orders are equally authentic in English and French, but no French declaration is published (cf. JC-004)."
+  ]
+}
