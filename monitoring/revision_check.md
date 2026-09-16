@@ -15,8 +15,8 @@ Advisory only: nothing was ingested and no record was changed. This check exists
   per page:
 
     - read         https://www.isa.org.jm/sessions/31st-session-2026/ — highest revision on this page: Rev.3
-    - no match     https://isa.org.jm/sessions/32nd-session-2027/ — page does not mention the series ('ISBA/31/C/CRP\\.1/Rev\\.(\\d+)' matches nothing)
-    - no match     https://isa.org.jm/the-mining-code/draft-exploitation-regulations-2/ — page does not mention the series ('ISBA/31/C/CRP\\.1/Rev\\.(\\d+)' matches nothing)
+    - no match     https://isa.org.jm/sessions/32nd-session-2027/ — page does not mention the series (ISBA/31/C/CRP\.1/Rev\.(\d+) matches nothing)
+    - no match     https://isa.org.jm/the-mining-code/draft-exploitation-regulations-2/ — page does not mention the series (ISBA/31/C/CRP\.1/Rev\.(\d+) matches nothing)
 
 ---
 

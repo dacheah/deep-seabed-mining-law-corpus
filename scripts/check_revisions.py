@@ -75,7 +75,7 @@ def read_page(page_text: str, pattern: str, expect_contains: str) -> tuple[str, 
                 f"page does not contain {expect_contains!r} — wrong page, or the page changed shape")
     found = [int(m) for m in re.findall(pattern, page_text)]
     if not found:
-        return (NOMATCH, None, f"page does not mention the series ({pattern!r} matches nothing)")
+        return (NOMATCH, None, f"page does not mention the series ({pattern} matches nothing)")
     return (READ, max(found), f"highest revision on this page: Rev.{max(found)}")
 
 
