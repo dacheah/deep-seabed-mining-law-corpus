@@ -1,0 +1,83 @@
+corpus_id: itlos/order/case34-order3-2026
+version_id: '2026-06-10'
+title: Order of 10 June 2026 (Order 2026/3) in the Case concerning an inquiry by the International Seabed
+  Authority (Nauru Ocean Resources Inc. v. International Seabed Authority)
+short_title: ITLOS Order 2026/3 (Case No. 34, NORI v. ISA)
+jurisdiction: international
+document_type: order
+official_citation: Order 2026/3, Case concerning an inquiry by the International Seabed Authority (Nauru
+  Ocean Resources Inc. v. International Seabed Authority), ITLOS List of Cases No. 34
+authentic_languages:
+- en
+- fr
+adoption_date: '2026-06-10'
+source_url: https://www.itlos.org/fileadmin/itlos/documents/cases/34/Provisional_Measures/C34_Order_10.06.2026-3.pdf
+source_publisher: International Tribunal for the Law of the Sea (ITLOS)
+source_is_official: true
+retrieval_date: '2026-09-15'
+retrieved_by: Hermes Jarvis polite, self-limiting capture (this host had been refused TCP by itlos.org;
+  the capture resumed later rather than working around it) - verbatim byte download of the official ITLOS
+  PDF; text recovered by two-engine OCR and reconciled by scripts/reconcile_itlos_orders.py
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:c22504f3b094da12d1b291b75473942d57e4eeaf37da7edee50c6e820cc5686d
+original_sha256: sha256:a3c23a7fc248e59bb18bbb677b419a4a9bd9573012c2d29b4b81861331a0943a
+text_sha256: sha256:c22504f3b094da12d1b291b75473942d57e4eeaf37da7edee50c6e820cc5686d
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: itlos-materials-terms
+rights_note: Official ITLOS materials, attributed to the International Tribunal for the Law of the Sea;
+  not relicensed.
+capture_history:
+- date: '2026-09-15'
+  source_url: https://www.itlos.org/fileadmin/itlos/documents/cases/34/Provisional_Measures/C34_Order_10.06.2026-3.pdf
+  original_sha256: sha256:a3c23a7fc248e59bb18bbb677b419a4a9bd9573012c2d29b4b81861331a0943a
+  note: 'Byte-exact official ITLOS PDF (573,508 bytes, sha256:a3c23a7fc248e59bb18bbb677b419a4a9bd9573012c2d29b4b81861331a0943a)
+    downloaded 2026-09-15 as part of the seven-document Case 34/35 harvest for issue #9. Two pages, office-scanner
+    images (Konica KM_4050i) carrying an Adobe Paper Capture vendor text layer. The recorded hash is the
+    hash of the official file itself, and original.pdf is the integrity anchor.'
+supersedes: null
+superseded_by: null
+related_documents:
+- itlos/order/case34-order-18jul2026
+- itlos/order/case34-order6-2026
+- itlos/order/case34-order8-2026
+- un/convention/unclos-partxi-1982
+provenance_note: 'SCOPE (JC-007): ITLOS decisions in proceedings concerning the Area are in scope; party
+  pleadings are not. IDENTIFIER (JC-008): case-number based, order decoded as Case <n>, Order No. <m>
+  of <year> - here Case No. 34, Order 2026/3, which the instrument states itself in its header and its
+  first line. WHAT THIS ORDER DOES: it is procedural and short. The President of the Seabed Disputes Chamber,
+  having regard to the Request submitted by NORI on 5 June 2026 for the prescription of provisional measures
+  under article 290, paragraph 1, of the Convention, and having regard to the Application filed on 5 June
+  2026, FIXES 2 July 2026 as the date for the opening of the oral proceedings and RESERVES the subsequent
+  procedure for further decision. No provisional measures are prescribed in it; the measures come with
+  the Order of the Chamber of 18 July 2026. TEXT RECOVERY - TWO ENGINES, NOT A VENDOR LAYER. The PDF is
+  a scan: each page is one image and the embedded text is an Adobe Acrobat Pro DC 22 Paper Capture layer.
+  That layer was NOT adopted. It is a third, unversioned engine, it cannot be re-derived, and it is demonstrably
+  wrong in it - it reads ''ING.'' for ''INC.'' and ''heceinafter'' for ''hereinafter'' - which is how
+  it was identified as vendor OCR rather than the Tribunal''s own typing. The text here is instead the
+  consensus of Tesseract 5.5.0 (psm 6, oem 3, eng) and RapidOCR (rapidocr-onnxruntime 1.4.4 / onnxruntime
+  1.30.0 / PP-OCRv4 ONNX), both run over the same 300-dpi page renders, then reconciled by hand against
+  those renders; disagreement sites: Tesseract adopted for ''hereinafter'' (RapidOCR read ''hereinater'')
+  and for whole recital lines (RapidOCR garbled ''International'' as ''Internatioral'' and dropped tokens),
+  RapidOCR adopted for the Registrar''s given name ''Ximena'' (Tesseract read ''de''). Agreement between
+  the engines was measured rather than asserted: 94.0% (page 1) and 98.4% (page 2) of characters agree
+  after removing all whitespace, the lower figure being that page-1 garble; the naive word agreement of
+  55.2% and 63.1% is an artefact of RapidOCR dropping the spaces between words in centred display lines,
+  and is recorded here so the two numbers are not confused for one another. QUOTE GLYPHS: Tesseract renders
+  the closing quote of each parenthetical as an apostrophe (''the Chamber'')''); the page carries a closing
+  double quote, so all quotes are normalised to straight double quotes, matching the sibling records.
+  NON-TEXT DROPPED: the handwritten signature strokes, which Tesseract emitted as ''4 .'' and ''bal''
+  and RapidOCR omitted - signatures are not part of the authentic text, the typed names beneath them are.
+  WHY THIS RECORD IS EXCLUDED FROM THE REPRODUCIBILITY GATE: see scripts/repro-policy.json. Reproduction
+  needs the OCR toolchain (the Tesseract binary and the pinned ONNX models), not committed, deterministic
+  code, so the gate cannot re-derive this text. That is an honest exclusion, not a coverage gap; original.pdf
+  and its recorded hash remain the authoritative anchor. COVERAGE GAP: the order closes ''Done in English
+  and in French, both texts being equally authoritative'' (cf. JC-004), so French is an equally authentic
+  text; no French version is published, and it would be ingested as this record''s -fr sibling under JC-006
+  when one appears.'
+binding_force: binding
+issuing_authority: President of the Seabed Disputes Chamber of the International Tribunal for the Law
+  of the Sea
+administering_authority: null

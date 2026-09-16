@@ -35,6 +35,30 @@ ENGINE DIVISION OF LABOUR, every site adjudicated against the 300-dpi page rende
   noise ("ae ------- mena an", "va / | 4", "f Real") and RapidOCR omitted. Signatures are not part
   of the authentic text; the typed names beneath them are retained.
 
+ORDERS 2026/3 AND 2026/4 (Cases No. 34 and No. 35, 10 June 2026) — SAME METHOD, SHORTER DOCUMENTS.
+Both are office-scanner images (Konica, "KM_4050i") carrying an Adobe Paper Capture VENDOR text layer.
+That layer was NOT adopted and is not the base: it is a third, unversioned engine, and it is provably
+wrong in it — it reads "ING." for "INC." on Order 2026/3 and "heceinafter" for "hereinafter", which is
+how it was identified as vendor OCR rather than the Tribunal's own typing. The text is the two-engine
+reading, adjudicated the same way as the orders above:
+
+  Tesseract adopted (RapidOCR wrong):
+    - "hereinafter" — RapidOCR read "hereinater" (Order 2026/3, page 1).
+    - whole recital lines: RapidOCR garbled "International" as "Internatioral" and merged or dropped
+      lines on both orders' page 1. Tesseract's structure matched the page at every site checked.
+  RapidOCR adopted (Tesseract wrong):
+    - the Registrar's given name "Ximena" on BOTH orders. Tesseract read "de" on Order 2026/3 and
+      "ximene" on Order 2026/4; RapidOCR read the name correctly on both, verified against both page
+      images. This is the same correction the sibling orders needed — a third confirmation of it.
+  Adjudicated ON THE PAGE and retained as the Tribunal's own text, not "corrected" as an OCR error:
+    - Order 2026/4: "the Request submitted by TOML Registry on 5 June 2026" — the word "Registry" is
+      PRINTED on the page. It is a drafting slip in the instrument (Order 2026/3 reads "submitted by
+      NORI", with no such word) and it is reproduced, not silently fixed. Likewise "transmitted to the
+      NORI and the Authority" / "the TOML and the Authority" — the article is on the page in both.
+  Dropped as non-text: the signature strokes. Tesseract emitted them as "4 ." and "bal" (Order
+  2026/3) and "Pr 4" (Order 2026/4); RapidOCR omitted them. On Order 2026/4 a scanner edge mark was
+  read as "|" at the head of the last recital line.
+
 NORMALISATION — matched to the ingested sibling record itlos/order/case34-order6-2026, which is the
 spec, not invented here:
 
@@ -63,6 +87,12 @@ LINE_CORRECTIONS = {
                                        ("part | of", "part I of")],
     "itlos-order-case35-order9-2026": [("X{mena HINRICHS", "Ximena HINRICHS"),
                                        ("part | of", "part I of")],
+    # Orders 2026/3 and 2026/4 (10 June 2026). Adjudicated 2026-09-16 against the 300-dpi renders:
+    # the Registrar's given name is printed "Ximena" in both (Tesseract read "de" and "ximene"), and
+    # on Order 2026/4 a scanner edge mark sits at the head of the last recital line.
+    "case34-order3-2026": [("de HINRICHS OYARCE", "Ximena HINRICHS OYARCE")],
+    "case35-order4-2026": [("ximene HINRICHS OYARCE", "Ximena HINRICHS OYARCE"),
+                           ("| Having regard", "Having regard")],
 }
 
 # Tail repairs applied AFTER the join. On Order 2026/9 Tesseract split "Registrar" into "f Real" +
@@ -72,16 +102,19 @@ TAIL_REPAIR = {"itlos-order-case35-order9-2026": "Registrar"}
 
 # Lines that are signature strokes / scanner artefacts, not text.
 NOISE = {"|", "<n =o See -.", "ae ———- mena an", "va / | 4", "f Real", "egistrar",
-         "f Real egistrar"}
+         "f Real egistrar",
+         # Signature-stroke noise on the 10 June 2026 orders, dropped after checking the page:
+         # "4 ." and "bal" (Order 2026/3), "Pr 4" (Order 2026/4). RapidOCR omitted all of them.
+         "4 .", "bal", "Pr 4"}
 
 HEADER_RE = re.compile(r"^List of Cases No\.\s*\d+\s*\d*\s*Order 2026/\d+\s*$")
 
 # Lines that are always their own block, never merged into neighbouring prose.
 BLOCK_RE = re.compile(
     r"^(List of Cases No\.|Order 2026/\d+$|\(.*\)$|Makes the following Order:$|THE PRESIDENT|"
-    r"Taking into account|Extends |Reserves |Done in English|David Joseph ATTARD$|"
+    r"Taking into account|Extends |Reserves |Fixes |Done in English|David Joseph ATTARD$|"
     r"President of the Seabed|Ximena HINRICHS|Registrar$|YEAR \d{4}$|\d{1,2} \w+ \d{4}$|"
-    r"Having regard|The President of the Seabed)"
+    r"Having regard|Having ascertained|The President of the Seabed)"
 )
 
 
@@ -131,7 +164,10 @@ def normalise_quotes(s: str) -> str:
 def build(order: str) -> str:
     base = STAGING / order / "ocr"
     pages: list[str] = []
-    for p in ("p-01", "p-02", "p-03"):
+    # Globbed, not hardcoded: the 10 June 2026 orders are two pages each and the 2026/6-2026/9
+    # orders are three. A hardcoded page tuple silently drops pages the day a shorter document is
+    # added to the loop below.
+    for p in [f.stem for f in sorted((STAGING / order / "ocr" / "tess").glob("p-*.txt"))]:
         lines = (base / "tess" / f"{p}.txt").read_text(encoding="utf-8").splitlines()
         cleaned = []
         for ln in lines:
@@ -154,7 +190,8 @@ def build(order: str) -> str:
 
 
 def main() -> int:
-    for order in ("itlos-order-case34-order8-2026", "itlos-order-case35-order9-2026"):
+    for order in ("itlos-order-case34-order8-2026", "itlos-order-case35-order9-2026",
+                  "case34-order3-2026", "case35-order4-2026"):
         out = STAGING / order / "text.reconciled.txt"
         out.write_text(build(order), encoding="utf-8", newline="\n")
         b = out.read_bytes()

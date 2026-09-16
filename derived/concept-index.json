@@ -35506,6 +35506,12 @@
         "unit": "Article 189 of the Convention"
       },
       {
+        "corpus_id": "itlos/order/case34-order3-2026",
+        "short_title": "ITLOS Order 2026/3 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-06-10",
+        "unit": "(whole text)"
+      },
+      {
         "corpus_id": "itlos/order/case34-order6-2026",
         "short_title": "ITLOS Order 2026/6 (Case No. 34, NORI v. ISA)",
         "version_id": "2026-06-24",
@@ -35942,6 +35948,12 @@
         "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
         "version_id": "2026-07-18",
         "unit": "Paragraph 192"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order4-2026",
+        "short_title": "ITLOS Order 2026/4 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-06-10",
+        "unit": "(whole text)"
       },
       {
         "corpus_id": "itlos/order/case35-order9-2026",
