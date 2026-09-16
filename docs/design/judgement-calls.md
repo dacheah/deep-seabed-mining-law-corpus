@@ -35,6 +35,12 @@ versioning captures that without pretending a draft is binding law.
 **Status (2026-07-03):** applied — the Dec-2025 consolidated draft (ISBA/31/C/CRP.2) is ingested as
 `isa/draft/exploitation-code-2025`, authentic draft text, `entry_into_force_date: null`, short_title and
 provenance marked DRAFT/NOT IN FORCE; alternatives preserved verbatim.
+**Status (2026-09-16, annual review #1):** the held text is **superseded**. The 31st session negotiated
+the Further Revised Consolidated Text **ISBA/31/C/CRP.1/Rev.3** across its two parts, listed Item 11
+"with a view to adoption" in July 2026, and did **not** adopt: the Council adopted **ISBA/31/C/38**
+(decision on the approach to the continuation of the elaboration) and contemplated a third part of the
+session. The Dec-2025 draft stays as the dated draft it was; the newer revision is due as its own
+version (**issue #11**). Still no in-force exploitation regulation, so this JC governs unchanged.
 
 ---
 
@@ -180,3 +186,25 @@ Identifier stability outranks retrospective consistency, and a rename would brea
 links in five other records. The rule applies to decisions identified from 2026-07-18 onward.
 
 **Status (2026-07-18):** decided; first applied to `itlos/order/case34-order6-2026`, not yet ingested.
+
+---
+
+## JC-009 — A held draft can be superseded without any monitored page reporting a change
+**Date:** 2026-09-16 (found by the first annual review, issue #1)
+**Context:** the held Mining Code draft (`ISBA/31/C/CRP.2`, 23 Dec 2025) was superseded during 2026 by
+the Further Revised Consolidated Text **ISBA/31/C/CRP.1/Rev.3**, negotiated across both parts of the
+31st session, with adoption attempted in July 2026 and not achieved (Council decision ISBA/31/C/38).
+No source-watch flag pointed at it: the monitored Mining Code pages were byte-stable, and the page that
+did change (the 31st session page) was triaged as session documents rather than as "the draft you hold
+is now historical".
+**Options:** (a) leave the check to the annual review; (b) compare a held draft's official identifier
+against the latest published revision at every sweep.
+**Decision:** (a) for now, with the check named in the review and (b) raised as **issue #14**. "Latest
+revision" is per-instrument knowledge (CRP vs CRP/Rev vs L vs WP series, and which session published
+each), and a false *superseded* claim is worse than a late one: it invites an ingest of a document that
+supersedes nothing.
+**Reason:** the corpus's value is being the reference record of how the regime formed, so a draft that
+quietly becomes historical is a wrong claim, not merely a late one — and it is the one error class that
+survives the reproducibility gate, which will re-derive the superseded text byte-for-byte forever.
+**Status (2026-09-16):** applied — the superseded draft is retained unchanged, the newer revision is due
+via issue #11, and the record-level freshness check is issue #14.
