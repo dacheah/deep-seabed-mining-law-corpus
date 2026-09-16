@@ -206,5 +206,33 @@ supersedes nothing.
 **Reason:** the corpus's value is being the reference record of how the regime formed, so a draft that
 quietly becomes historical is a wrong claim, not merely a late one — and it is the one error class that
 survives the reproducibility gate, which will re-derive the superseded text byte-for-byte forever.
-**Status (2026-09-16):** applied — the superseded draft is retained unchanged, the newer revision is due
-via issue #11, and the record-level freshness check is issue #14.
+**Status (2026-09-16):** applied — the superseded draft is retained unchanged and now carries
+`superseded_by`; the newer revision is held as `isa/draft/exploitation-code-2026` (artefact only —
+see JC-010 for why it stores no text); the record-level freshness check is issue #14.
+
+---
+
+## JC-010 — A marked-up revision is not a text record: hold the artefact, never launder the marks
+**Date:** 2026-09-16 (issue #11, from the annual review, issue #1)
+**Context:** the latest text of the Mining Code draft, ISBA/31/C/CRP.1/Rev.3 (19 June 2026), carries
+this revision's changes as VISUAL marks — inserted text set apart by formatting, deleted text left in
+place. `pdftotext` cannot tell them apart and merges them where they share a position: at Regulation 1
+the paragraph numbers come back as `4.`, `[45.`, `56.`, `67.`, `[78.`, `89.` (the previous numbering
+and the renumbering rendered as single tokens), and a renumbered cross-reference comes back as
+`Subject to paragraph 1 and 3the Schedule`, an insertion abutting existing text with no space.
+**Options:** (a) store the extracted text as usual with the caveat declared in `provenance_note`;
+(b) hold the byte-exact official PDF and store no text; (c) derive the text from the publisher's Word
+form, whose changes are machine-readable tracked changes.
+**Decision:** (b) now; (c) raised as a convention question, not taken (issue #15). (a) is refused.
+**Reason:** (a) asserts deleted wording as text and mints paragraph numbers the document does not use.
+That is a wrong claim, not a rough one — and it is the one error class the reproducibility gate cannot
+catch, because a re-derivation reproduces the corruption byte-for-byte forever with a green tick. Same
+shape as the `"Part XI, Section 5."` → `"5. 70."` corruption found under issue #9. (c) is faithful, but
+`text.txt` in this corpus is *defined* as the committed extractor's output over `original.*`; deriving
+it from a second artefact is a change to what the field means, so it needs a decision rather than a
+script. The Word form is preserved in `capture/` so the derivation needs no further fetch.
+**Status (2026-09-16):** applied — `isa/draft/exploitation-code-2026` holds the byte-exact official PDF
+(3,661,689 bytes, sha256:c0d01ee2…c68c16, 335 pp) and stores no text (`authoritative_status:
+authoritative_missing`), the gate reads it as "excluded — no stored text by design", and
+`isa/draft/exploitation-code-2025` carries `superseded_by`. What a reader may rely on here: the file,
+its hash, its page count, its date, and the citation — not a quotation.
