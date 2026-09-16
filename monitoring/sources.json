@@ -1,5 +1,5 @@
 {
-  "_comment": "Pages watched monthly by scripts/watch_sources.py. A change opens/updates a report for a maintainer to TRIAGE (it may be a new/amended instrument OR a cosmetic page update). Nothing is ingested automatically. Per-source fields: capture_type (pdf|html|json) hints how the crawl layer captures the listed documents; scope tags the design-lock scope area; add an OPTIONAL \"schema\" (a file under scripts/crawl/schemas/) to switch a source from whole-page-hash to structured schema-mode monitoring (see scripts/crawl/README.md). [Expanded 2026-07-04: Mining Code drafts/standards/guidance, LTC, 31st session, ITLOS case list, US Federal Register DSM feed + NOAA. 2026-07: capture_type/scope added for the Crawl4AI source-mapping layer.]",
+  "_comment": "Pages watched monthly by scripts/watch_sources.py. A change opens/updates a report for a maintainer to TRIAGE (it may be a new/amended instrument OR a cosmetic page update). Nothing is ingested automatically. Per-source fields: capture_type (pdf|html|json) hints how the crawl layer captures the listed documents; scope tags the design-lock scope area; add an OPTIONAL \"schema\" (a file under scripts/crawl/schemas/) to switch a source from whole-page-hash to structured schema-mode monitoring (see scripts/crawl/README.md). [Expanded 2026-07-04: Mining Code drafts/standards/guidance, LTC, 31st session, ITLOS case list, US Federal Register DSM feed + NOAA. 2026-07: capture_type/scope added for the Crawl4AI source-mapping layer.] [2026-09-16: 32nd session (2027) added; the Mining Code summary pages annotated as summary-only - the 2026 substantive movement (Further Revised Consolidated Text Rev.3, the adoption attempt, ISBA/31/C/38) appeared on the session pages, per the annual review's finding (issue #12).]",
   "sources": [
     {
       "name": "ISA — The Mining Code (exploitation regulations)",
@@ -13,7 +13,7 @@
         "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
         "\\(S\\.?H\\.?E\\.?\\)"
       ],
-      "_note": "[2026-09-14: ignore_patterns added for the site chrome that re-flags every sweep — the footer session-list nav entries and the '(SHE)' programme link, both template-level on every ISA page. Deliberately NOT added: any date pattern. On the Draft Exploitation Regulations page the date-like strings are that instrument's own development chronology ('released on 16 February 2024', 'on 29 November 2024 the President presented…'); on the 31st-session page they are the meeting schedule and document citations. A pattern broad enough to absorb those would hide genuine developments. Also not added because they do not exist on the text surface: the newsletter widget and the anti-bot puzzle, which sit in markup to_text strips.]"
+      "_note": "[2026-09-14: ignore_patterns added for the site chrome that re-flags every sweep — the footer session-list nav entries and the '(SHE)' programme link, both template-level on every ISA page. Deliberately NOT added: any date pattern. On the Draft Exploitation Regulations page the date-like strings are that instrument's own development chronology ('released on 16 February 2024', 'on 29 November 2024 the President presented…'); on the 31st-session page they are the meeting schedule and document citations. A pattern broad enough to absorb those would hide genuine developments. Also not added because they do not exist on the text surface: the newsletter widget and the anti-bot puzzle, which sit in markup to_text strips.] SUMMARY PAGE, NOT A SIGNAL OF MOVEMENT (reviewed 2026-09-16, issue #12). This page is the Authority's own overview and stayed byte-stable through 2026 while the negotiation moved to a Further Revised Consolidated Text (Rev.3, 19 June 2026) and a session that considered adoption without adopting (ISBA/31/C/38). Those documents appear on the SESSION pages. A clean sweep here is not evidence that the Mining Code has not moved: read 'ISA - 31st session (2026)' and 'ISA - 32nd session (2027)' for that, and see monitoring/held_revisions.json for the record-level check."
     },
     {
       "name": "ISA — Exploration regulations",
@@ -173,7 +173,7 @@
         "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
         "\\(S\\.?H\\.?E\\.?\\)"
       ],
-      "_note": "[2026-09-14: ignore_patterns added for the site chrome that re-flags every sweep — the footer session-list nav entries and the '(SHE)' programme link, both template-level on every ISA page. Deliberately NOT added: any date pattern. On the Draft Exploitation Regulations page the date-like strings are that instrument's own development chronology ('released on 16 February 2024', 'on 29 November 2024 the President presented…'); on the 31st-session page they are the meeting schedule and document citations. A pattern broad enough to absorb those would hide genuine developments. Also not added because they do not exist on the text surface: the newsletter widget and the anti-bot puzzle, which sit in markup to_text strips.]"
+      "_note": "[2026-09-14: ignore_patterns added for the site chrome that re-flags every sweep — the footer session-list nav entries and the '(SHE)' programme link, both template-level on every ISA page. Deliberately NOT added: any date pattern. On the Draft Exploitation Regulations page the date-like strings are that instrument's own development chronology ('released on 16 February 2024', 'on 29 November 2024 the President presented…'); on the 31st-session page they are the meeting schedule and document citations. A pattern broad enough to absorb those would hide genuine developments. Also not added because they do not exist on the text surface: the newsletter widget and the anti-bot puzzle, which sit in markup to_text strips.] SUMMARY PAGE, NOT A SIGNAL OF MOVEMENT (reviewed 2026-09-16, issue #12). This page is the Authority's own overview and stayed byte-stable through 2026 while the negotiation moved to a Further Revised Consolidated Text (Rev.3, 19 June 2026) and a session that considered adoption without adopting (ISBA/31/C/38). Those documents appear on the SESSION pages. A clean sweep here is not evidence that the Mining Code has not moved: read 'ISA - 31st session (2026)' and 'ISA - 32nd session (2027)' for that, and see monitoring/held_revisions.json for the record-level check."
     },
     {
       "name": "ISA — Draft Standards and Guidelines (Mining Code)",
@@ -212,7 +212,8 @@
       "last_sha256": "sha256:172277668713e2a68c724a4decc6ac694d6e6a9dfa24f121b7a23d4ba0473b29",
       "last_checked": "2026-09-15T00:36:08Z",
       "last_page_sha256": "sha256:4beeba597f9c7c8d443e9a51f2b37566ed8d9ba177c151cf15c6100d00800464",
-      "expect_contains": "Mining Code"
+      "expect_contains": "Mining Code",
+      "_note": "SUMMARY PAGE, NOT A SIGNAL OF MOVEMENT (reviewed 2026-09-16, issue #12). This page is the Authority's own overview and stayed byte-stable through 2026 while the negotiation moved to a Further Revised Consolidated Text (Rev.3, 19 June 2026) and a session that considered adoption without adopting (ISBA/31/C/38). Those documents appear on the SESSION pages. A clean sweep here is not evidence that the Mining Code has not moved: read 'ISA - 31st session (2026)' and 'ISA - 32nd session (2027)' for that, and see monitoring/held_revisions.json for the record-level check."
     },
     {
       "name": "ISA — Legal and Technical Commission",
@@ -241,6 +242,14 @@
         "\\(S\\.?H\\.?E\\.?\\)"
       ],
       "_note": "[2026-09-14: ignore_patterns added for the site chrome that re-flags every sweep — the footer session-list nav entries and the '(SHE)' programme link, both template-level on every ISA page. Deliberately NOT added: any date pattern. On the Draft Exploitation Regulations page the date-like strings are that instrument's own development chronology ('released on 16 February 2024', 'on 29 November 2024 the President presented…'); on the 31st-session page they are the meeting schedule and document citations. A pattern broad enough to absorb those would hide genuine developments. Also not added because they do not exist on the text surface: the newsletter widget and the anti-bot puzzle, which sit in markup to_text strips.]"
+    },
+    {
+      "name": "ISA — 32nd session (2027)",
+      "url": "https://isa.org.jm/sessions/32nd-session-2027/",
+      "capture_type": "pdf",
+      "scope": "isa_sessions",
+      "expect_contains": "32nd session 2027",
+      "_note": "Added 2026-09-16 (issue #12). The 31st session's substantive developments arrived as SESSION DOCUMENTS rather than on the Mining Code pages, and a third part of the 31st session was contemplated when part II closed; the 32nd session is where a Revision 4, an adoption, or a resumed negotiation would first appear. No baseline yet: the first sweep records one silently (a new source with no snapshot is a 'baseline', not a change)."
     },
     {
       "name": "ISA — The Council",

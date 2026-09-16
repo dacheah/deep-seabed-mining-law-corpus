@@ -1,0 +1,21 @@
+{
+  "_comment": "Records whose instrument is expected to be REVISED, and how to tell when it has been. Read by scripts/check_revisions.py, which runs monthly inside the source-watch workflow. WHY THIS EXISTS: every other check in this corpus watches a PAGE, and a page can stay byte-stable for a year while the revision that supersedes a held text is published somewhere the monitor is not looking. That happened in 2026 - the held Mining Code draft (ISBA/31/C/CRP.2) was superseded by ISBA/31/C/CRP.1/Rev.3 with no page-level signal - and nothing in the corpus said so until a human ran the annual review. See docs/design/judgement-calls.md JC-009. ADDING A CHECK: one entry per HELD record (not per instrument: the check compares what this corpus asserts against what is published). fields: record, held, held_version_id, series (prose), pattern (regex with ONE capture group = the revision ordinal), watch_urls (every page where a newer revision would first appear), expect_contains (a stable string the page must carry, so a wrong or empty page reads as CANNOT DETERMINE rather than as fine), note. THE RULE THAT MATTERS: a page that cannot be read, or that no longer mentions the series, is a BROKEN check - never a pass.",
+  "checks": [
+    {
+      "record": "isa/draft/exploitation-code-2026",
+      "held": "ISBA/31/C/CRP.1/Rev.3",
+      "held_version_id": "2026-06-19",
+      "series": "Further Revised Consolidated Text of the draft exploitation regulations (ISBA/31/C/CRP.1/Rev.<n>)",
+      "pattern": "ISBA/31/C/CRP\\.1/Rev\\.(\\d+)",
+      "watch_urls": [
+        {"url": "https://www.isa.org.jm/sessions/31st-session-2026/",
+         "expect_contains": "Further Revised Consolidated Text"},
+        {"url": "https://isa.org.jm/sessions/32nd-session-2027/",
+         "expect_contains": "32nd session 2027"},
+        {"url": "https://isa.org.jm/the-mining-code/draft-exploitation-regulations-2/",
+         "expect_contains": "Draft Exploitation Regulations"}
+      ],
+      "note": "The held record is the artefact-only record for Rev.3 (JC-010); the Council considered adoption at the 31st session's second part and instead adopted ISBA/31/C/38, and contemplated a third part of the session. If this check fires, the corpus is asserting a superseded text - the failure mode this check was written for - and the fix is a new dated record for the newer revision (plus, for a marked-up revision, JC-010's route to a text). If it reads CANNOT DETERMINE, the session pages have changed shape or the documents have moved: fix the check, do not read it as reassurance."
+    }
+  ]
+}

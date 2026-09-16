@@ -31,6 +31,15 @@ jobs:
       - id: watch
         run: python3 scripts/watch_sources.py
 
+      # A page monitor cannot see a held text being superseded: every monitored page can stay
+      # byte-stable while the newer revision is published somewhere else (that is what happened in
+      # 2026 — see JC-009), and the reproducibility gate re-derives the superseded text byte-for-byte
+      # with a green tick. So the sweep is followed by a record-level check against the pages where a
+      # newer revision would first appear. It is advisory: it changes no record and ingests nothing.
+      - id: revisions
+        name: Held-revision check (is a held instrument still the current revision?)
+        run: python3 scripts/check_revisions.py
+
       - name: Commit advanced baselines
         # monitoring/snapshots/ MUST be staged. Record mode decides baseline-vs-changed on
         # `not os.path.isfile(snapshot)`, so an uncommitted snapshot means every run starts with
@@ -41,7 +50,7 @@ jobs:
         run: |
           git config user.name "corpus-bot"
           git config user.email "corpus-bot@users.noreply.github.com"
-          git add monitoring/sources.json monitoring/last_report.md monitoring/snapshots monitoring/false_alarm_log.jsonl || true
+          git add monitoring/sources.json monitoring/last_report.md monitoring/snapshots monitoring/false_alarm_log.jsonl monitoring/revision_check.md monitoring/held_revisions.json || true
           git commit -m "chore(watch): update source baselines" || echo "no changes"
           git push || true
 
@@ -70,5 +79,42 @@ jobs:
               owner: context.repo.owner, repo: context.repo.repo,
               title, body: lede + `\n\n` + report,
               labels: broken ? ['source-watch', 'monitor-broken'] : ['source-watch'],
+              assignees: [context.repo.owner]
+            });
+
+      - name: Open issue when a held revision is out of date, or the check lost its evidence
+        # Two different alarms, and neither is a pass: a held record that is no longer the latest
+        # revision (the corpus is asserting a superseded text), and a check that could read no page
+        # at all (silence would otherwise read as reassurance).
+        if: steps.revisions.outputs.outdated == 'true' || steps.revisions.outputs.broken == 'true'
+        uses: actions/github-script@v9
+        env:
+          OUTDATED: ${{ steps.revisions.outputs.outdated }}
+          BROKEN: ${{ steps.revisions.outputs.broken }}
+        with:
+          script: |
+            const fs = require('fs');
+            const report = fs.readFileSync('monitoring/revision_check.md', 'utf8');
+            const outdated = process.env.OUTDATED === 'true';
+            const broken = process.env.BROKEN === 'true';
+            const today = new Date().toISOString().slice(0, 10);
+            const title = outdated
+              ? `Held revision check: the corpus asserts a SUPERSEDED text (${today})`
+              : `Held revision check: MONITOR BROKEN - no page yielded a reading (${today})`;
+            const lede = outdated
+              ? `@${context.repo.owner} — a record declared in monitoring/held_revisions.json is no `
+                + `longer the latest published revision of its instrument. A page monitor cannot see `
+                + `this (the pages can stay byte-stable) and the reproducibility gate cannot catch it `
+                + `(it re-derives the superseded text byte-for-byte, forever). Nothing has been `
+                + `ingested: the fix is a new dated record for the newer revision.`
+              : `@${context.repo.owner} — the held-revision check read no page it could trust, so it `
+                + `knows nothing about whether the held revisions are still current. An unreadable `
+                + `check is not a pass: fix monitoring/held_revisions.json or the pages before `
+                + `reading anything else as reassurance.`
+                + (outdated && broken ? ` BOTH flags fired this run.` : ``);
+            await github.rest.issues.create({
+              owner: context.repo.owner, repo: context.repo.repo,
+              title, body: lede + `\n\n` + report,
+              labels: outdated ? ['source-watch', 'revision-stale'] : ['source-watch', 'monitor-broken'],
               assignees: [context.repo.owner]
             });
