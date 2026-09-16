@@ -1,0 +1,97 @@
+corpus_id: itlos/declaration/case34-35-kittichaisaree-18jul2026
+version_id: '2026-07-18'
+title: Declaration of Judge Kittichaisaree appended to the Order of the Chamber of 18 July 2026 in the
+  Cases concerning an inquiry by the International Seabed Authority (Lists of Cases Nos. 34 and 35)
+short_title: ITLOS Declaration of Judge Kittichaisaree, 18 July 2026 (Cases Nos. 34 and 35)
+jurisdiction: international
+document_type: declaration
+official_citation: Declaration of Judge Kittichaisaree, appended to the Order of the Chamber of 18 July
+  2026, Cases concerning an inquiry by the International Seabed Authority (Nauru Ocean Resources Inc.
+  v. International Seabed Authority; Tonga Offshore Mining Ltd. v. International Seabed Authority), ITLOS
+  Lists of Cases Nos. 34 and 35
+authentic_languages:
+- en
+adoption_date: '2026-07-18'
+source_url: https://www.itlos.org/fileadmin/itlos/documents/cases/34/Provisional_Measures/Order_180726/C34_C35_Order_18.07.2026_decl_Kittichaisaree_orig.pdf
+source_publisher: International Tribunal for the Law of the Sea (ITLOS)
+source_is_official: true
+retrieval_date: '2026-09-15'
+retrieved_by: Hermes Jarvis polite capture (~/.hermes/scripts/itlos_capture_retry.py; verbatim byte download
+  of the official ITLOS PDF after itlos.org had refused TCP from this host); text derived in CI from the
+  publisher's own text layer under the pinned toolchain
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:2f7ba4e0741bef280f7de495406a1b4aa4e95333b78106ddb773c78be9315939
+original_sha256: sha256:180784f788655e8f5d670cf48f85f9e497be366071e5c6e41323d01c662450db
+text_sha256: sha256:2f7ba4e0741bef280f7de495406a1b4aa4e95333b78106ddb773c78be9315939
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: itlos-materials-terms
+rights_note: Official ITLOS materials, attributed to the International Tribunal for the Law of the Sea;
+  not relicensed.
+capture_history:
+- date: '2026-09-15'
+  source_url: https://www.itlos.org/fileadmin/itlos/documents/cases/34/Provisional_Measures/Order_180726/C34_C35_Order_18.07.2026_decl_Kittichaisaree_orig.pdf
+  original_sha256: sha256:180784f788655e8f5d670cf48f85f9e497be366071e5c6e41323d01c662450db
+  note: 'Byte-exact official ITLOS PDF (101,903 bytes, sha256:180784f788655e8f5d670cf48f85f9e497be366071e5c6e41323d01c662450db)
+    downloaded 2026-09-15 by a resumed, self-limiting capture run after itlos.org had refused TCP from
+    this host; the seven Case 34/35 documents of issue #9 were staged together in that pass. 2 pages,
+    zero embedded images, born-digital. ONE instrument published for BOTH cases: the filename spans Cases
+    34 and 35 and the file appears in the Order_180726/ directory of both case pages, and both Orders
+    record that Judge Kittichaisaree appends a declaration.'
+supersedes: null
+superseded_by: null
+related_documents:
+- itlos/order/case34-order-18jul2026
+- itlos/order/case35-order-18jul2026
+- itlos/declaration/case34-brown-18jul2026
+- itlos/declaration/case35-brown-18jul2026
+- un/convention/unclos-partxi-1982
+- un/agreement/unclos-partxi-impl-1994
+provenance_note: 'SCOPE AND CLASS (maintainer decision 2026-09-16, issue #9): the corpus''s authoritative
+  layer holds operative instruments, and that rule is EXTENDED for this ingest to include the judges''
+  declarations published with the Orders of 18 July 2026, because a declaration is part of what the Chamber
+  published with the decision and is cited in the Order''s own closing lines. This record therefore creates
+  the record class ''itlos/declaration/*'' as a SIBLING of ''itlos/order/*'', not a variant of it. Because
+  a declaration does not bind the parties and decides nothing, it is recorded as binding_force ''non_binding''
+  - a distinction the layer keeps rather than blurs, so nobody cites a declaration as if it disposed of
+  the case. ONE INSTRUMENT, TWO CASES: this is the single Kittichaisaree declaration published with the
+  two parallel Orders; the two Orders each record that he appends a declaration, and one PDF is published,
+  named for both cases, whose text addresses its points generically (''the Applicant'', ''the Parties'').
+  It is therefore recorded ONCE, under ''case34-35-'', rather than duplicated per case - the opposite
+  of Judge Brown, whose declarations are genuinely two instruments with different text and are recorded
+  separately. WHAT THIS DECLARATION SAYS: six numbered paragraphs. It reads the multilateral legal regime
+  established under Part XI of the Convention and the 1994 Agreement as the case''s real subject - the
+  case tests the practical administration of that institutional architecture; that equilibrium is fundamentally
+  compromised if regulatory compliance inquiries are perceived to lack rigorous procedural guarantees,
+  which is not a victory of private commercial interests over the global commons but the protection of
+  the Applicant''s procedural rights; contractors and their sponsoring States are entitled to have their
+  legitimate interests safeguarded, while the relationship between corporate personality, sponsoring State
+  control and the integrity of the multilateral legal framework must be preserved; it confronts the Authority''s
+  allegation that the Applicant is a wholly owned subsidiary of The Metals Company (another of whose subsidiaries
+  was pursuing a domestic licence for seabed exploration); and it closes by observing that in prescribing
+  these provisional measures the Chamber reinforces the principle that all actors within the Area are
+  bound by the rule of law, expressing the hope that in the merits phase the Authority, the Applicant
+  and the sponsoring State will engage so as to vindicate the international community''s ''great expectations''.
+  Signed ''Kriangsak Kittichaisaree''. TEXT RECOVERY - NO OCR, DERIVED IN CI UNDER THE PIN: born-digital
+  text layer (pdftotext returns the Tribunal''s own characters; no scan, no OCR, no engine disagreement
+  to adjudicate). The corpus pins Poppler 22.02.0 (CI runs ubuntu-22.04) while this workstation runs 26.01.0,
+  so the text was NOT derived locally: the committed extractor runs in CI under the pin (issue #9, approach
+  1) and text_sha256 is the hash CI re-derives. text_fidelity is extracted_verified on two checks: (i)
+  wording - every token of the derived text appears IN ORDER in the raw extraction; (ii) content - Tesseract
+  5.5.0 over independent 300-dpi renders of both pages returned 100% of its word tokens present in the
+  derived text (222 tokens on page 1, 203 on page 2). STRUCTURAL NORMALISATION: masthead absent (a declaration
+  carries none), page numbers removed, hard wraps rejoined, the left-margin paragraph numbers folded onto
+  their paragraphs, display lines and the signature kept as their own block, curly quotes and apostrophes
+  normalised to straight, canonical UTF-8, LF, no BOM, one trailing newline. One residual artefact is
+  recorded rather than hidden: paragraph 5 continues across a layout break onto a word opening with a
+  capital, so that fragment remains a separate block. original.pdf remains the integrity anchor and original_sha256
+  is the hash of the official file itself. NOTE ON AUTHENTIC LANGUAGE: the Orders are ''Done in English
+  and in French, both texts being equally authoritative'', but this declaration carries no such clause
+  in its published text and no published French version exists; authentic_languages therefore records
+  ''en'' only, unlike the Orders.'
+binding_force: non_binding
+issuing_authority: Judge Kriangsak Kittichaisaree, Judge of the International Tribunal for the Law of
+  the Sea sitting in the Seabed Disputes Chamber (individual declaration)
+administering_authority: null

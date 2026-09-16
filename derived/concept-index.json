@@ -1376,6 +1376,66 @@
         "unit": "Paragraph 5"
       },
       {
+        "corpus_id": "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Kittichaisaree, 18 July 2026 (Cases Nos. 34 and 35)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Kittichaisaree, 18 July 2026 (Cases Nos. 34 and 35)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Kittichaisaree, 18 July 2026 (Cases Nos. 34 and 35)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Kittichaisaree, 18 July 2026 (Cases Nos. 34 and 35)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 5"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 189 of the Convention"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 47"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 48"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 49"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 151"
+      },
+      {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994-es",
         "short_title": "Acuerdo de 1994 sobre la aplicación de la Parte XI [ES]",
         "version_id": "1994-07-28",
@@ -4896,6 +4956,48 @@
         "unit": "Paragraph 5"
       },
       {
+        "corpus_id": "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Kittichaisaree, 18 July 2026 (Cases Nos. 34 and 35)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Kittichaisaree, 18 July 2026 (Cases Nos. 34 and 35)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Kittichaisaree, 18 July 2026 (Cases Nos. 34 and 35)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Kittichaisaree, 18 July 2026 (Cases Nos. 34 and 35)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Kittichaisaree, 18 July 2026 (Cases Nos. 34 and 35)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 6"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 189 of the Convention"
+      },
+      {
         "corpus_id": "itlos/order/case34-order6-2026",
         "short_title": "ITLOS Order 2026/6 (Case No. 34, NORI v. ISA)",
         "version_id": "2026-06-24",
@@ -4912,6 +5014,90 @@
         "short_title": "ITLOS Order 2026/6 (Case No. 34, NORI v. ISA)",
         "version_id": "2026-06-24",
         "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 6"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 35"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 38"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 48"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 57"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 58"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 129"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 135"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 141"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 146"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 154"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 163"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 169"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 184"
       },
       {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994-es",
@@ -12884,6 +13070,42 @@
         "unit": "Paragraph 5"
       },
       {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 8"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 8"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 187(c)(i) and (ii) do not afford a prima facie basis on which the jurisdiction of the [Chamber] might be founded.\""
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 283 of the Convention"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 189 of the Convention"
+      },
+      {
         "corpus_id": "itlos/order/case34-order8-2026",
         "short_title": "ITLOS Order 2026/8 (Case No. 34, NORI v. ISA)",
         "version_id": "2026-08-04",
@@ -12894,6 +13116,258 @@
         "short_title": "ITLOS Order 2026/8 (Case No. 34, NORI v. ISA)",
         "version_id": "2026-08-04",
         "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 5"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 7"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 9"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 17"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 26"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 27"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 36"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 37"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 38"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 39"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 41"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 42"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 48"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 54"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 73"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 81"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 83"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 90"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 91"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 105"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 121"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 122"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 128"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 129"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 130"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 132"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 136"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 138"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 142"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 143"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 146"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 147"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 148"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 151"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 152"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 153"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 154"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 163"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 164"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 170"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 188"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 192"
       },
       {
         "corpus_id": "itlos/order/case35-order9-2026",
@@ -22840,6 +23314,144 @@
         "unit": "Paragraph 5"
       },
       {
+        "corpus_id": "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Kittichaisaree, 18 July 2026 (Cases Nos. 34 and 35)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Kittichaisaree, 18 July 2026 (Cases Nos. 34 and 35)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Kittichaisaree, 18 July 2026 (Cases Nos. 34 and 35)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Kittichaisaree, 18 July 2026 (Cases Nos. 34 and 35)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 5"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 7"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 8"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 9"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 10"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 11"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 5"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 7"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 8"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 9"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 10"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 11"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 187(c)(i) and (ii) do not afford a prima facie basis on which the jurisdiction of the [Chamber] might be founded.\""
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 189 of the Convention"
+      },
+      {
         "corpus_id": "itlos/order/case34-order6-2026",
         "short_title": "ITLOS Order 2026/6 (Case No. 34, NORI v. ISA)",
         "version_id": "2026-06-24",
@@ -22850,6 +23462,378 @@
         "short_title": "ITLOS Order 2026/8 (Case No. 34, NORI v. ISA)",
         "version_id": "2026-08-04",
         "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 26"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 27"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 28"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 35"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 36"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 37"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 38"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 39"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 42"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 48"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 50"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 54"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 58"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 59"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 64"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 66"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 71"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 73"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 74"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 75"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 76"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 77"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 79"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 82"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 83"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 96"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 98"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 99"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 101"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 102"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 103"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 105"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 106"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 109"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 112"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 121"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 124"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 125"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 126"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 127"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 128"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 129"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 134"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 135"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 136"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 138"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 140"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 141"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 146"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 148"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 149"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 150"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 151"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 152"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 153"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 154"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 155"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 166"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 178"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 179"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 184"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 186"
       },
       {
         "corpus_id": "itlos/order/case35-order9-2026",
@@ -24426,6 +25410,42 @@
         "unit": "Paragraph 4"
       },
       {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 283 of the Convention"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 189 of the Convention"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 54"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 91"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 143"
+      },
+      {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994-es",
         "short_title": "Acuerdo de 1994 sobre la aplicación de la Parte XI [ES]",
         "version_id": "1994-07-28",
@@ -25026,6 +26046,18 @@
         "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
         "version_id": "2011-02-01",
         "unit": "Paragraph 157"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 189 of the Convention"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 153"
       },
       {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994-es",
@@ -29030,6 +30062,54 @@
         "unit": "Paragraph 3"
       },
       {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 189 of the Convention"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 25"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 26"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 37"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 39"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 121"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 129"
+      },
+      {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994-fr",
         "short_title": "Accord de 1994 relatif à l’application de la partie XI [FR]",
         "version_id": "1994-07-28",
@@ -30100,6 +31180,18 @@
         "short_title": "2011 Seabed Disputes Chamber Advisory Opinion (Case No. 17)",
         "version_id": "2011-02-01",
         "unit": "Paragraph 5"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 40"
       },
       {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994-es",
@@ -32678,10 +33770,292 @@
         "unit": "Paragraph 5"
       },
       {
+        "corpus_id": "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Kittichaisaree, 18 July 2026 (Cases Nos. 34 and 35)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Kittichaisaree, 18 July 2026 (Cases Nos. 34 and 35)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 187(c)(i) and (ii) do not afford a prima facie basis on which the jurisdiction of the [Chamber] might be founded.\""
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 189 of the Convention"
+      },
+      {
         "corpus_id": "itlos/order/case34-order8-2026",
         "short_title": "ITLOS Order 2026/8 (Case No. 34, NORI v. ISA)",
         "version_id": "2026-08-04",
         "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 26"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 28"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 36"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 37"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 38"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 39"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 64"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 67"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 69"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 71"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 76"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 80"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 81"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 82"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 83"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 98"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 100"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 101"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 105"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 107"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 109"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 115"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 121"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 122"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 123"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 124"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 125"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 126"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 128"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 130"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 135"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 140"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 148"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 149"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 152"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 153"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 162"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 165"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 166"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 167"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 178"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 190"
       },
       {
         "corpus_id": "itlos/order/case35-order9-2026",
@@ -33976,6 +35350,162 @@
         "unit": "Paragraph 2"
       },
       {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 5"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 6"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 7"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 8"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 10"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 11"
+      },
+      {
+        "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 12"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 2"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 3"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 5"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 6"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 7"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 8"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 10"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 11"
+      },
+      {
+        "corpus_id": "itlos/declaration/case35-brown-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Brown, 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 12"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 187(c)(i) and (ii) do not afford a prima facie basis on which the jurisdiction of the [Chamber] might be founded.\""
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 283 of the Convention"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 189 of the Convention"
+      },
+      {
         "corpus_id": "itlos/order/case34-order6-2026",
         "short_title": "ITLOS Order 2026/6 (Case No. 34, NORI v. ISA)",
         "version_id": "2026-06-24",
@@ -33998,6 +35528,420 @@
         "short_title": "ITLOS Order 2026/8 (Case No. 34, NORI v. ISA)",
         "version_id": "2026-08-04",
         "unit": "Paragraph 7"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 1"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 4"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 16"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 28"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 30"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 41"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 43"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 44"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 46"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 49"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 51"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 52"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 53"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 54"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 55"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 60"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 61"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 62"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 64"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 65"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 66"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 67"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 68"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 70"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 71"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 72"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 73"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 74"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 78"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 79"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 81"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 84"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 86"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 87"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 88"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 89"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 92"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 93"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 95"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 96"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 97"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 99"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 100"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 101"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 102"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 103"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 104"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 106"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 108"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 110"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 111"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 112"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 113"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 114"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 115"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 116"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 117"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 118"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 130"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 136"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 160"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 161"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 165"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 176"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 178"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 189"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 191"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 192"
       },
       {
         "corpus_id": "itlos/order/case35-order9-2026",
@@ -34391,6 +36335,30 @@
       }
     ],
     "privileges_immunities_and_legal_status": [
+      {
+        "corpus_id": "itlos/declaration/case34-35-kittichaisaree-18jul2026",
+        "short_title": "ITLOS Declaration of Judge Kittichaisaree, 18 July 2026 (Cases Nos. 34 and 35)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 5"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 189 of the Convention"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 49"
+      },
       {
         "corpus_id": "un/convention/unclos-partxi-1982-es",
         "short_title": "CNUDM Parte XI (La Zona) [ES]",
@@ -34988,6 +36956,18 @@
         "unit": "Regulation 44. Review"
       },
       {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "preamble/chapeau"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 49"
+      },
+      {
         "corpus_id": "un/agreement/unclos-partxi-impl-1994-es",
         "short_title": "Acuerdo de 1994 sobre la aplicación de la Parte XI [ES]",
         "version_id": "1994-07-28",
@@ -35217,6 +37197,18 @@
       }
     ],
     "us_non_unclos_parallel_regime": [
+      {
+        "corpus_id": "itlos/order/case34-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 34, NORI v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Article 189 of the Convention"
+      },
+      {
+        "corpus_id": "itlos/order/case35-order-18jul2026",
+        "short_title": "ITLOS Order of 18 July 2026 (Case No. 35, TOML v. ISA)",
+        "version_id": "2026-07-18",
+        "unit": "Paragraph 135"
+      },
       {
         "corpus_id": "usa/regulation/cfr15-970-2026",
         "short_title": "15 CFR 970 — DSM Exploration Licences (NOAA)",

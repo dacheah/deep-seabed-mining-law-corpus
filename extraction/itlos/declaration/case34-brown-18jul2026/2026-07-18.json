@@ -1,0 +1,14 @@
+{
+  "corpus_id": "itlos/declaration/case34-brown-18jul2026",
+  "version_id": "2026-07-18",
+  "extractor": {
+    "tool": "pdftotext",
+    "args": [
+      "-enc",
+      "UTF-8"
+    ],
+    "toolchain": "poppler 22.02.0"
+  },
+  "text_sha256": "sha256:9d5b71502c151964b187136cd9a11c1b276966843e5555c580034e2f12f92ff3",
+  "note": "Toolchain under which this record's text.txt re-derives, proven by scripts/extract.py. Written only for records that reproduce byte-exact, and the hash beside it is the one that re-derivation produced. The byte-exact original.* and its recorded sha256 remain the authoritative anchor; this attests the DERIVATION, not the source."
+}
