@@ -17,7 +17,11 @@ jurisdiction) and the parallel US regime:
   (Case 17), the key case law on sponsoring-state responsibility and liability.
   *(Extended 2026-07-18 from "Case 17 only" — see JC-007. **Party pleadings** — applications,
   memorials, written submissions — are **not** in scope: they are authentic official filings but they
-  are not law. They are recorded in `queue/candidates.md` so the trail exists.)*
+  are not law. They are recorded in `queue/candidates.md` so the trail exists. Extended 2026-09-17:
+  **hearing transcripts** (verbatim records) and **compliance filings** (party reports to the Tribunal,
+  including the ISA's initial report under the provisional measures) are likewise **not** in scope. A
+  record of the proceedings' own state under supervision would be a new layer with its own rules, not
+  an extension of this one — see JC-007's 2026-09-17 status.)*
 - **Sponsoring-state national laws** enabling contractors under the ISA regime.
 - The **US non-UNCLOS parallel track**: DSHMRA and its NOAA regulations (15 CFR 970/971), plus
   Outer Continental Shelf activity under OCSLA/BOEM — captured but clearly marked as the

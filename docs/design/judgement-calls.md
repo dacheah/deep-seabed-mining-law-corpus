@@ -148,6 +148,33 @@ schema excludes them structurally by URL path rather than by manual filtering.
 **Status (2026-07-18):** decided. Order 2026/6 not yet captured. Cases 34 and 35 are now monitored
 sources in their own right, at document level — these are live proceedings, not closed records.
 
+**Status (2026-09-17, issue #9 — the case-file classes this JC did not name).** The 18 July 2026
+provisional-measures orders in both cases, the 10 June orders, and the judges' declarations published
+with them are **ingested** (the declarations as records of their own, identified by date — the orders
+carry no official number, and minting one would invent a citation). Three further classes are ruled
+**out** of `authoritative/`:
+
+- **Hearing transcripts** (`ITLOS_PV26_C34-35_1..4_E.pdf`) — verbatim records of what was said. They
+  state no law, they are the least authoritative rendition of anything in the case file, and
+  ingesting four large scans would buy OCR cost and corruption risk for no legal content.
+- **Party documents** — provisional-measures applications, final submissions, Nauru's written
+  statement, the ISA's response. Already excluded when this JC was decided: an application states *a
+  party's case*, not law. Issue #9 asserted a precedent for including them ("the corpus already holds
+  the Case 34/35 Applications") — **that precedent does not exist**. The corpus's ITLOS holdings are
+  six orders, three declarations and the 2011 Advisory Opinion; no application, submission, statement
+  or transcript, from the main case pages or anywhere else. Checked record by record on 2026-09-17.
+- **Compliance filings** (the applicants' report of 31 August 2026 on compliance with the provisional
+  measures, and the Registrar's letter covering the ISA's initial report) — self-reported filings by
+  the parties, unverified by the Tribunal. `authoritative/` holds operative instruments, extended once
+  to judicial declarations; a second extension, to "whatever is in the case folder", dissolves the
+  boundary that makes the layer citable.
+
+**Consequence:** all three classes are recorded in `queue/candidates.md` with the official case-page
+URLs, so the trail exists without the case file entering the layer. If the corpus is ever to carry the
+proceedings' own state under supervision — what the compliance filings, and the ISA's initial report
+under them, are evidence of — that is a **new layer with its own rules and its own completeness
+obligation**, argued on its own merits. It is not an expansion of the citable layer.
+
 ---
 
 ## JC-008 — Identifying multiple decisions within one case
