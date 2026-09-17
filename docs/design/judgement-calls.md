@@ -207,8 +207,9 @@ supersedes nothing.
 quietly becomes historical is a wrong claim, not merely a late one — and it is the one error class that
 survives the reproducibility gate, which will re-derive the superseded text byte-for-byte forever.
 **Status (2026-09-16):** applied — the superseded draft is retained unchanged and now carries
-`superseded_by`; the newer revision is held as `isa/draft/exploitation-code-2026` (artefact only —
-see JC-010 for why it stores no text); the record-level freshness check is issue #14.
+`superseded_by`; the newer revision is held as `isa/draft/exploitation-code-2026`; the record-level
+freshness check is issue #14. **(2026-09-17, issue #15:)** the newer revision is no longer artefact-only
+— it carries a derived, reproducible `text.txt`; see JC-010's resolution.
 
 ---
 
@@ -236,3 +237,36 @@ script. The Word form is preserved in `capture/` so the derivation needs no furt
 authoritative_missing`), the gate reads it as "excluded — no stored text by design", and
 `isa/draft/exploitation-code-2025` carries `superseded_by`. What a reader may rely on here: the file,
 its hash, its page count, its date, and the citation — not a quotation.
+
+**RESOLVED (2026-09-17, issue #15) — option (c) adopted, narrower than "a second artefact":** the text
+is derived from the official Word form, but by the SAME committed extractor and stored under the same
+name, so nothing about what `text.txt` means changes. `original_format` stays `pdf` (the PDF remains the
+artefact a reader opens and the page-citation anchor) and the Word form is held beside it as
+`original.docx`, recorded in `capture_history` with its own hash. `scripts/extract.py` gains a
+`DOCX_EXTRACTORS` registry: for `isa/draft/exploitation-code-2026` the text is the Word form's paragraphs
+with tracked changes resolved — insertions kept, deletions dropped, **nothing substituted for a deletion**
+— and the 160 single-cell tables that carry secretariat and working-group commentary excluded on that
+structural test.
+
+Three things this decision rests on, all measured on 2026-09-17:
+- **Nothing may be substituted for a deletion.** Substituting a space looks right on the obvious case
+  (`defined]` + deleted space + `for` → `defined] for`) but splits words everywhere else, because most
+  deletions in this document sit *inside* a word: `(a)` + deleted `t` + `he principle` becomes
+  `(a) t he principle`, and `4` + deleted `5` + `.` becomes `4 .`, which stops the paragraph reading as
+  a numbered item at all. Removing the deletion and nothing else is Word's own "accept all changes".
+- **The commentary is separable by structure, not by guessing at prose.** Every one of the 160 commentary
+  boxes is a table with one row and one cell; the Schedule's definitions table (121 rows, 2 cells) and
+  every other multi-cell table is instrument text and is kept.
+- **The result is the record's text, not a second-class citizen.** Because the resolver is committed code
+  over a byte-exact original, the text re-derives byte-exactly and the reproduce gate verifies it on every
+  push. No `repro-policy.json` exclusion was needed — which is what made option (c) worth taking rather
+  than declaring: the corpus's reproducibility claim now covers the live draft instead of stopping short of it.
+
+**Why this is not a laundering of the marks:** the marks are not interpreted, only resolved. What was
+refused in (a) was asking `pdftotext` to answer a question its output cannot answer; what is done here is
+reading the publisher's own machine-readable record of the same revisions. Residual, stated: where the
+mark-up carried a space *inside* a deletion the words abut (`...are defined]for the purposes...`) — the
+document's own mark-up, resolved exactly as Word resolves it, and recorded in `provenance_note`.
+**Status (2026-09-17):** applied — `text_fidelity: extracted_verified`, `authoritative_status:
+authentic_text`, text sha256:252a0da5…de5 (570,727 bytes), attestation authored in CI under the pinned
+toolchain; JC-010's own question is settled and the rule is in doc 03 (authoritative-text policy).

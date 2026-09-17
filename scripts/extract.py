@@ -184,34 +184,36 @@ def clean_cfr(raw: str, part: str, title_line: str) -> str:
     paras = [re.sub(r"\s+", " ", p).strip() for p in paras if p.strip()]
     return title_line + "\n\n" + "\n\n".join(paras) + "\n"
 
-def clean_draft(raw: str, title_line: str) -> str:
-    lines = raw.splitlines()
-    # body starts at the operative Preamble (after the ~14-page front matter / TOC)
-    start = next(i for i, l in enumerate(lines) if l.strip() == "Preamble" and i > 480)
-    body = lines[start:]
-    def art(s):
-        if re.match(r"^\d{1,3} of 194$", s): return True
-        if s == "ISBA/31/C/CRP.2": return True
-        if re.search(r"\.{6,}\s*\d+$", s): return True
-        return False
-    kept = [s.strip() for s in body if s.strip() and not art(s.strip())]
-    HDR = re.compile(r"^(Part|Regulation|Schedule|Annex|Appendix|Section)\s+([0-9]+|[IVXLCDM]+)(\s+bis)?\s*$")
-    HDRT = re.compile(r"^(Part|Regulation|Schedule|Annex|Appendix|Section)\s+([0-9]+|[IVXLCDM]+)(\s+bis)?\s+(.+)$")
-    NUM = re.compile(r"^\d{1,2}\.(\s+bis)?\s"); LET = re.compile(r"^\([a-z0-9]{1,4}\)\s")
+_DRAFT_HDR = re.compile(r"^(Part|Regulation|Schedule|Annex|Appendix|Section)\s+([0-9]+|[IVXLCDM]+)(\s+bis)?\s*$")
+_DRAFT_HDRT = re.compile(r"^(Part|Regulation|Schedule|Annex|Appendix|Section)\s+([0-9]+|[IVXLCDM]+)(\s+bis)?\s+(.+)$")
+_DRAFT_NUM = re.compile(r"^\d{1,2}\.(\s+bis)?\s")
+_DRAFT_LET = re.compile(r"^\([a-z0-9]{1,4}\)\s")
+
+
+def _assemble_draft(lines, title_line: str, is_artefact) -> str:
+    """Shared paragraph assembly for the exploitation-code drafts (PDF path and Word path).
+
+    One function, not two, because the two sources must produce the SAME text conventions:
+    a heading merged with its title line, one item per numbered paragraph, whitespace collapsed
+    within a paragraph. It also means a change here moves BOTH records' hashes together, which is
+    the honest behaviour - they are the same instrument in two dated states.
+    """
+    kept = [s.strip() for s in lines if s.strip() and not is_artefact(s.strip())]
     paras = []; cur = None; i = 0; n = len(kept)
     while i < n:
-        s = kept[i]; mh = HDR.match(s)
+        s = kept[i]; mh = _DRAFT_HDR.match(s)
         if mh:
             title = ""
-            if (i + 1 < n and not HDR.match(kept[i + 1]) and not HDRT.match(kept[i + 1])
-                    and not NUM.match(kept[i + 1]) and not LET.match(kept[i + 1]) and len(kept[i + 1]) < 90):
+            if (i + 1 < n and not _DRAFT_HDR.match(kept[i + 1]) and not _DRAFT_HDRT.match(kept[i + 1])
+                    and not _DRAFT_NUM.match(kept[i + 1]) and not _DRAFT_LET.match(kept[i + 1])
+                    and len(kept[i + 1]) < 90):
                 title = kept[i + 1]; i += 1
             if cur: paras.append(cur)
             cur = (s + (". " + title if title else "")).strip()
-        elif HDRT.match(s):
+        elif _DRAFT_HDRT.match(s):
             if cur: paras.append(cur)
             cur = s
-        elif NUM.match(s) or LET.match(s):
+        elif _DRAFT_NUM.match(s) or _DRAFT_LET.match(s):
             if cur: paras.append(cur)
             cur = s
         else:
@@ -220,6 +222,128 @@ def clean_draft(raw: str, title_line: str) -> str:
     if cur: paras.append(cur)
     paras = [re.sub(r"\s+", " ", p).strip() for p in paras if p.strip()]
     return title_line + "\n\n" + "\n\n".join(paras) + "\n"
+
+
+def clean_draft(raw: str, title_line: str) -> str:
+    """The 23 December 2025 draft, from the ISA's PDF whose text layer carries no tracked changes."""
+    lines = raw.splitlines()
+    # body starts at the operative Preamble (after the ~14-page front matter / TOC)
+    start = next(i for i, l in enumerate(lines) if l.strip() == "Preamble" and i > 480)
+    def art(s):
+        if re.match(r"^\d{1,3} of 194$", s): return True
+        if s == "ISBA/31/C/CRP.2": return True
+        if re.search(r"\.{6,}\s*\d+$", s): return True
+        return False
+    return _assemble_draft(lines[start:], title_line, art)
+
+
+# ---- the tracked-changes Word form (issue #15) -----------------------------------------------
+# THE PROBLEM THIS SOLVES. A marked-up revision sets its changes apart by FORMATTING - insertions
+# underlined or boxed, deletions left in place struck through - so the PDF's text layer carries the
+# OLD AND THE NEW wording fused together. At Regulation 1 the paragraph numbers come back as "4.",
+# "[45.", "56.", "67.", "[78.", "89." (old number, new number, one token) and a cross-reference as
+# "Subject to paragraph 1 and 3the Schedule". Storing that as text.txt would assert deleted wording
+# as operative draft language and mint numbers the document does not use - and no gate could catch
+# it, because the committed extractor would re-derive the same corruption byte-for-byte forever.
+#
+# THE FIX. The ISA publishes the same revision as a Word document in which the changes are
+# MACHINE-READABLE (w:ins / w:del). The text is therefore derived from that part of the official
+# record: insertions kept, deletions dropped, tracked changes resolved deterministically by
+# committed code from a byte-exact preserved original.docx - Word's own "accept all changes",
+# with nothing substituted in a deletion's place (the measured reason why is in
+# _docx_paragraph_text). Comment bodies (word/comments.xml), footnotes and endnotes are separate
+# zip parts, so they are absent by construction rather than by a filter that could miss one.
+_W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
+
+
+def _docx_paragraph_text(p) -> str:
+    """One Word paragraph with the tracked changes RESOLVED. Insertions kept, deletions dropped.
+
+    NOTHING IS SUBSTITUTED FOR A DELETION, and that is a measured decision, not a default. Putting
+    a space where a deletion sat is tempting (the mark-up sometimes carries the space away with it,
+    leaving "]for" where the ISA's own earlier clean text reads "] for"), but the same rule SPLITS
+    WORDS: in 558 paragraphs the deletion sits INSIDE a word - "(a)" + deleted "t" + "he principle"
+    - so a space there yields "(a) t he principle", and renumbering "4" + deleted "5" + "." yields
+    "4 .", which stops the paragraph from reading as a numbered item at all. Deleting and
+    substituting nothing is what Word's own "accept all changes" does, and it is the only rule of
+    the three that never corrupts a word.
+    """
+    out = []
+
+    def rec(el):
+        for c in el:
+            t = c.tag
+            if t == _W + "del":          # struck-out wording: dropped whole
+                continue
+            if t == _W + "delText":      # only reached outside a w:del wrapper
+                continue
+            if t == _W + "t":
+                out.append(c.text or "")
+            elif t == _W + "tab":
+                out.append("\t")
+            elif t in (_W + "br", _W + "cr"):
+                out.append("\n")
+            else:
+                rec(c)
+
+    rec(p)
+    return "".join(out)
+
+
+def docx_paragraph_lines(path: str) -> list[str]:
+    """Every Word paragraph, in document order; a table contributes its cells' paragraphs.
+
+    THE COMMENTARY BOXES ARE EXCLUDED BY STRUCTURE, NOT BY GUESSWORK. Rev.3 carries 160 boxes of
+    secretariat and working-group commentary ("Comments / It is proposed…", "Action:…",
+    "Rev.3 - Group submission (…)", "Rev 3 - Comments"). Every one of them is a table with a single
+    row and a single cell, and they sit inline among the provisions - so left in, they would be
+    joined into the regulation they annotate and the stored text would present commentary as draft
+    wording. Their count is reported in the record's provenance_note, so nothing disappears
+    silently. Multi-cell tables are instrument text (the Schedule's definitions are one) and are kept.
+    """
+    import zipfile
+    from xml.etree import ElementTree as ET
+    with zipfile.ZipFile(path) as z:
+        root = ET.fromstring(z.read("word/document.xml"))
+    lines: list[str] = []
+
+    def walk(el):
+        for c in el:
+            if c.tag == _W + "p":
+                lines.append(_docx_paragraph_text(c))
+            elif c.tag == _W + "tbl":
+                rows = c.findall(_W + "tr")
+                if len(rows) == 1 and len(rows[0].findall(_W + "tc")) == 1:
+                    continue                      # a commentary box
+                for row in rows:
+                    for cell in row.findall(_W + "tc"):
+                        walk(cell)
+            else:
+                walk(c)
+    walk(root.find(_W + "body"))
+    return lines
+
+
+def clean_draft_docx(path: str, title_line: str) -> str:
+    """Rev.3's text, resolved from the official Word form's tracked changes."""
+    lines = docx_paragraph_lines(path)
+    # The body starts at the Preamble that FOLLOWS the front matter's table of contents. Both
+    # anchors are asserted rather than assumed: if either moves, this fails loudly instead of
+    # quietly emitting the table of contents as if it were the instrument.
+    toc = [i for i, l in enumerate(lines) if re.search(r"\t\d+$", l.strip())]
+    if not toc:
+        raise SystemExit("clean_draft_docx: no table of contents found — the slicing rule needs revisiting")
+    start = next((i for i, l in enumerate(lines) if i > toc[-1] and l.strip() == "Preamble"), None)
+    if start is None:
+        raise SystemExit("clean_draft_docx: no body Preamble after the table of contents")
+
+    def art(s):
+        if re.match(r"^ISBA/\d", s): return True          # running document code
+        if re.match(r"^\d{1,3} of \d+$", s): return True  # any page footer that reaches the XML
+        if re.search(r"\t\d+$", s): return True           # any residual contents entry
+        return False
+    return _assemble_draft(lines[start:], title_line, art)
+
 
 
 def clean_ao_fr(raw: str) -> str:
@@ -643,6 +767,19 @@ PDF_EXTRACTORS = {
   "itlos/declaration/case35-brown-18jul2026": lambda raw: clean_itlos_text_layer(raw, r"DECLARATION OF JUDGE BROWN"),
   }
 
+# ---- Word-form-sourced texts (issue #15) -----------------------------------------------------
+# A record whose text is resolved from the official Word form keeps original_format: pdf, because
+# the PDF is the artefact a reader opens and the citation anchor. The docx sits beside it as
+# original.docx (recorded in capture_history with its own hash), and the text is derived from THAT.
+# The generated text is therefore fully reproducible - the resolver is committed code and the docx
+# is byte-exact - so no repro-policy.json exclusion is needed for it: the gate re-derives it and
+# compares, like any other record. That is a strict improvement on "declare it excluded and move on".
+TITLE_REV3 = ("Draft Regulations on Exploitation of Mineral Resources in the Area — Further Revised "
+              "Consolidated Text (Revision 3, ISBA/31/C/CRP.1/Rev.3, 19 June 2026) [DRAFT, NOT IN FORCE]")
+DOCX_EXTRACTORS = {
+    "isa/draft/exploitation-code-2026": lambda p: clean_draft_docx(p, TITLE_REV3),
+}
+
 # ---- per-record toolchain attestation (issue #7, option (e)) ---------------------------------
 # The global PINNED_POPPLER above is a statement about the PRESENT: the version NEW derivations are
 # calibrated against. The reproducibility claim, though, is per record and HISTORICAL — "this dated
@@ -663,7 +800,12 @@ ATTEST = os.path.join(REPO, "extraction")
 def attestation_for(meta: dict, got: bytes, ver: str) -> dict:
     """The attestation record for one reproduced text: which toolchain re-derived it, and to what."""
     cid = meta["corpus_id"]
-    if meta.get("original_format") == "pdf":
+    if cid in DOCX_EXTRACTORS:
+        import platform
+        extractor = {"tool": "python-stdlib-docx-tracked",
+                     "args": ["word/document.xml", "w:ins kept, w:del dropped"],
+                     "toolchain": f"CPython {platform.python_version()}"}
+    elif meta.get("original_format") == "pdf":
         args = ["-enc", "UTF-8"] + (["-raw"] if cid in PDF_RAW else [])
         extractor = {"tool": "pdftotext", "args": args, "toolchain": f"poppler {ver}"}
     else:
@@ -707,6 +849,10 @@ def rederive(meta: dict, d: str) -> bytes | None:
     if meta.get("authoritative_status") == "authoritative_missing" or not meta.get("text_sha256"):
         return None
     cid = meta["corpus_id"]; fmt = meta.get("original_format")
+    if cid in DOCX_EXTRACTORS:
+        # Word-form-sourced: the PDF's text layer fuses old and new wording, so the text is
+        # resolved from the tracked changes in the official Word document beside it.
+        return norm(DOCX_EXTRACTORS[cid](os.path.join(d, "original.docx")))
     if fmt == "pdf":
         fn = PDF_EXTRACTORS.get(cid)
         if not fn: raise SystemExit(f"no committed PDF extractor for {cid}")
@@ -722,11 +868,12 @@ def main() -> int:
     args = ap.parse_args()
     ver = poppler_version()
     print(f"pdftotext (Poppler) {ver}" + ("" if ver == PINNED_POPPLER else f"  ⚠ pinned {PINNED_POPPLER} — PDF bytes may differ"))
-    pdf_ok = pdf_tot = txt_ok = txt_tot = 0; fails = []
+    pdf_ok = pdf_tot = txt_ok = txt_tot = docx_ok = docx_tot = 0; fails = []
     att_new, att_same, att_no_extractor, att_nomatch = [], [], [], []
     for mp in sorted(glob.glob(os.path.join(AUTH, "**", "metadata.yaml"), recursive=True)):
         meta = yaml.safe_load(open(mp, encoding="utf-8")); d = os.path.dirname(mp)
-        if args.attest and meta.get("original_format") == "pdf" and meta["corpus_id"] not in PDF_EXTRACTORS:
+        if args.attest and meta.get("original_format") == "pdf" and meta["corpus_id"] not in PDF_EXTRACTORS \
+                and meta["corpus_id"] not in DOCX_EXTRACTORS:
             # No committed extractor, so rederive() would SystemExit here — the defect that once
             # aborted a whole run on the first OCR-derived record. Under --attest this is skipped BY
             # DESIGN: an OCR-derived text gets NO attestation file, because committed, deterministic
@@ -734,13 +881,15 @@ def main() -> int:
             att_no_extractor.append(meta["corpus_id"]); continue
         got = rederive(meta, d)
         if got is None: continue
-        is_pdf = meta.get("original_format") == "pdf"
-        if is_pdf: pdf_tot += 1
+        is_docx = meta["corpus_id"] in DOCX_EXTRACTORS
+        is_pdf = meta.get("original_format") == "pdf" and not is_docx
+        if is_docx: docx_tot += 1
+        elif is_pdf: pdf_tot += 1
         else: txt_tot += 1
         match = ("sha256:" + hashlib.sha256(got).hexdigest()) == meta["text_sha256"]
         if args.write: open(os.path.join(d, "text.txt"), "wb").write(got)
         if match:
-            pdf_ok += is_pdf; txt_ok += (not is_pdf)
+            docx_ok += is_docx; pdf_ok += is_pdf; txt_ok += (not is_pdf and not is_docx)
         else:
             fails.append(meta["corpus_id"])
         if args.attest:
@@ -750,6 +899,8 @@ def main() -> int:
                 att_nomatch.append(meta["corpus_id"])
     print(f"PDF-sourced reproduced byte-exact: {pdf_ok}/{pdf_tot}")
     print(f"txt-sourced reproduced (normaliser): {txt_ok}/{txt_tot}")
+    if docx_tot:
+        print(f"docx-sourced reproduced (tracked-changes resolver): {docx_ok}/{docx_tot}")
     if args.attest:
         print(f"attestations written: {len(att_new)}   already correct: {len(att_same)}")
         print(f"NOT attested: {len(att_no_extractor)} without a committed extractor, "

@@ -15,6 +15,32 @@
 - **Fidelity ladder** — set it honestly and upgrade it only after a real check against the source,
   recording a `verification{}` record.
 
+## Marked-up revisions and the publisher's machine-readable form (JC-010, issue #15)
+
+- **Never store a marked-up document's text layer.** If a revision's changes are marked visually
+  (insertions set apart by formatting, deletions struck through or left in place), `pdftotext` merges both
+  wordings where they share a position — at Regulation 1 of ISBA/31/C/CRP.1/Rev.3 it returns the previous
+  and the new paragraph numbers as single tokens (`4.`, `[45.`, `56.`, `67.`, `[78.`, `89.`) — and so
+  asserts deleted wording as text and mints numbers the document does not use. That is a wrong claim, not
+  a rough one, and the reproduce gate cannot catch it: re-derivation reproduces the corruption byte-for-byte.
+- **Derive from the machine-readable form when the publisher issues one.** Where the same revision is
+  published as a Word document whose changes are machine-readable (`w:ins` / `w:del`), the text is the
+  committed extractor's resolution of that file — insertions kept, deletions dropped, and **nothing
+  substituted for a deletion**. Substituting a space is the tempting wrong rule: it fixes the case where
+  the mark-up carried a space away (`defined]` + `for`) and splits words everywhere else, because most
+  deletions sit *inside* a word (`(a)` + deleted `t` + `he principle`).
+- **Hold both files in the record.** `original_format` / `original_sha256` name the artefact a reader
+  opens and the page-citation anchor; the machine-readable file is held beside it as `original.docx`,
+  recorded in `capture_history` with its own hash, and is what the extractor reads.
+- **Exclude editorial commentary by structure, never by guessing at prose.** In ISA conference-room
+  papers the secretariat's commentary sits in single-cell tables (all 160 of Rev.3's boxes); those are
+  excluded on that structural test and the count is recorded in `provenance_note`, so nothing disappears
+  silently. A document that offers no structural separation keeps its commentary in the text, and the
+  text says so.
+- **Such records are attested like any other**, in CI, naming the toolchain that actually ran (`CPython
+  x.y` for a Word-form resolver, `poppler x.y` for PDF extraction) — a per-record attestation is only
+  meaningful if it names the engine that produced the bytes.
+
 ## DSM authentic-language rules (DSM-specific)
 
 - **UNCLOS and the 1994 Agreement** are authentic in **Arabic, Chinese, English, French, Russian and

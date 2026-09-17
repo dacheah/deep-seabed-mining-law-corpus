@@ -46,16 +46,26 @@ jobs:
           # (e) PER-RECORD ATTESTATIONS, where they exist (issue #7). Each must name the toolchain
           # actually running here, or a CI result cannot be read per record. This is the check that
           # makes a toolchain move name the affected records instead of silently restating them.
-          import glob, json
+          # A record whose text derives from a Word form's tracked changes (JC-010, issue #15) is
+          # resolved by CPython's own zipfile+xml, not by Poppler, so it is held to the Python that
+          # is running rather than to the pinned pdftotext — same principle, different engine.
+          import glob, json, platform
+          py = platform.python_version()[:platform.python_version().rfind(".")]
           files = sorted(glob.glob("extraction/**/*.json", recursive=True))
-          bad = []
+          bad = []; docx = []
           for f in files:
               try:
                   d = json.load(open(f, encoding="utf-8"))
               except Exception:
                   bad.append((f, "unreadable")); continue
-              tc = (d.get("extractor") or {}).get("toolchain")
-              if tc and tc != f"poppler {ver}":
+              ex = d.get("extractor") or {}
+              tc = ex.get("toolchain") or ""
+              if ex.get("tool") == "python-stdlib-docx-tracked":
+                  if tc.startswith(f"CPython {py}"):
+                      docx.append((d.get("corpus_id", f), tc))
+                  else:
+                      bad.append((d.get("corpus_id", f), tc))
+              elif tc and tc != f"poppler {ver}":
                   bad.append((d.get("corpus_id", f), tc))
           if bad:
               sys.exit("FAIL: attestation(s) name a toolchain other than this runner's: "
@@ -63,7 +73,8 @@ jobs:
                        + ". A stale attestation makes that record's reproduction unverifiable. "
                          "Re-derive the record deliberately and refresh its attestation in the SAME "
                          "change, or pin the job to the toolchain it was attested under (issue #7).")
-          print(f"OK: {len(files)} per-record attestation(s), all naming poppler {ver}."
+          print(f"OK: {len(files)} per-record attestation(s) — {len(files) - len(docx)} naming poppler {ver}"
+                + (f", {len(docx)} naming the Word-form resolver ({docx[0][1]})" if docx else "") + "."
                 if files else
                 "NOTE: this corpus carries no per-record attestations yet — the global pin above is "
                 "the only guard. Run this workflow manually to author them (issue #7, option e).")

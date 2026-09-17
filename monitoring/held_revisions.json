@@ -15,7 +15,7 @@
         {"url": "https://isa.org.jm/the-mining-code/draft-exploitation-regulations-2/",
          "expect_contains": "Draft Exploitation Regulations"}
       ],
-      "note": "The held record is the artefact-only record for Rev.3 (JC-010); the Council considered adoption at the 31st session's second part and instead adopted ISBA/31/C/38, and contemplated a third part of the session. If this check fires, the corpus is asserting a superseded text - the failure mode this check was written for - and the fix is a new dated record for the newer revision (plus, for a marked-up revision, JC-010's route to a text). If it reads CANNOT DETERMINE, the session pages have changed shape or the documents have moved: fix the check, do not read it as reassurance."
+      "note": "The held record is the record for Rev.3 (JC-010, resolved 2026-09-17 under issue #15: its text derives from the official Word form's machine-readable tracked changes); the Council considered adoption at the 31st session's second part and instead adopted ISBA/31/C/38, and contemplated a third part of the session. If this check fires, the corpus is asserting a superseded text - the failure mode this check was written for - and the fix is a new dated record for the newer revision (plus, for a marked-up revision, JC-010's route to a text). If it reads CANNOT DETERMINE, the session pages have changed shape or the documents have moved: fix the check, do not read it as reassurance."
     }
   ]
 }
