@@ -28,15 +28,17 @@ jobs:
         # This makes it a LOUD failure on every push. It reads scripts/MANIFEST.sha256, so the
         # engine fingerprint in the README and the atlas is now enforced, not merely recorded.
         run: python3 scripts/verify_engine.py
-      # setup-python is hoisted ABOVE the assert deliberately. The assert compares a Word-form
-      # attestation's `CPython <major.minor>` against the interpreter running it, and those
-      # attestations are authored under this 3.11. With setup-python below the assert, the check ran
-      # on the runner's system Python (3.10 on ubuntu-22.04) and reported a CORRECT 3.11 attestation
-      # as stale - a false alarm naming a record that was never wrong, which is the expensive kind.
-      # The check must run on the same interpreter the authoring step does.
+      # setup-python and the dependency install are hoisted ABOVE the assert deliberately. The
+      # assert compares a Word-form attestation's `CPython <major.minor>` against the interpreter
+      # running it, and those attestations are authored under this 3.11 - with setup-python below,
+      # the check ran on the runner's system Python (3.10 on ubuntu-22.04) and reported a CORRECT
+      # 3.11 attestation as stale. The assert also imports extract.py, which needs PyYAML, so the
+      # requirements install moves with it. The check must run on the same interpreter and with the
+      # same dependencies the authoring step does.
       - uses: actions/setup-python@v6
         with:
           python-version: "3.11"
+      - run: pip install -r scripts/requirements.txt
       - name: Assert the toolchain is the PINNED one (fail closed if the runner moves)
         run: |
           python3 - <<'PY'
@@ -89,7 +91,6 @@ jobs:
                 "the only guard. Run this workflow manually to author them (issue #7, option e).")
           print("OK: toolchain matches the pin — so a MISMATCH below means the RECORD changed.")
           PY
-      - run: pip install -r scripts/requirements.txt
       - name: Reproducibility gate — every record reproduced or declared, nothing unaccounted for
         # Was `python3 scripts/extract.py`, which aborted on the first record without a committed
         # extractor (the OCR-derived ITLOS order) and took 27 passing records' results down with
