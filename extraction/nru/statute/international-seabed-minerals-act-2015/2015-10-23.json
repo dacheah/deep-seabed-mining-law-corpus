@@ -1,0 +1,14 @@
+{
+  "corpus_id": "nru/statute/international-seabed-minerals-act-2015",
+  "version_id": "2015-10-23",
+  "extractor": {
+    "tool": "pdftotext",
+    "args": [
+      "-enc",
+      "UTF-8"
+    ],
+    "toolchain": "poppler 22.02.0"
+  },
+  "text_sha256": "sha256:052f3ec6572022027cba1bd37265d402b5874a47a3c977c798c75c46742a108e",
+  "note": "Toolchain under which this record's text.txt re-derives, proven by scripts/extract.py. Written only for records that reproduce byte-exact, and the hash beside it is the one that re-derivation produced. The byte-exact original.* and its recorded sha256 remain the authoritative anchor; this attests the DERIVATION, not the source."
+}

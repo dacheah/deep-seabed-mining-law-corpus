@@ -1,0 +1,14 @@
+{
+  "corpus_id": "nru/statute/seabed-minerals-authority-act-2024",
+  "version_id": "2024-08-20",
+  "extractor": {
+    "tool": "pdftotext",
+    "args": [
+      "-enc",
+      "UTF-8"
+    ],
+    "toolchain": "poppler 22.02.0"
+  },
+  "text_sha256": "sha256:0905d8828ef81c8f7d6d9bcc717a45ddfdd79ae50e0c982a70906f0ccd7095c9",
+  "note": "Toolchain under which this record's text.txt re-derives, proven by scripts/extract.py. Written only for records that reproduce byte-exact, and the hash beside it is the one that re-derivation produced. The byte-exact original.* and its recorded sha256 remain the authoritative anchor; this attests the DERIVATION, not the source."
+}
