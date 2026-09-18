@@ -100,3 +100,8 @@ provenance_note: 'SCOPE (JC-007, extended by maintainer decision 2026-09-16): IT
 binding_force: binding
 issuing_authority: Seabed Disputes Chamber of the International Tribunal for the Law of the Sea
 administering_authority: null
+akn_expression_uri: null
+akn_uri: null
+akn_uri_basis: none
+akn_uri_note: ITLOS and its Seabed Disputes Chamber are established by UNCLOS Annex VI as an independent
+  judicial body, not a UN organ. No ISO 3166 code and no published AKN profile applies.

@@ -22,7 +22,14 @@ jurisdiction) and the parallel US regime:
   including the ISA's initial report under the provisional measures) are likewise **not** in scope. A
   record of the proceedings' own state under supervision would be a new layer with its own rules, not
   an extension of this one — see JC-007's 2026-09-17 status.)*
-- **Sponsoring-state national laws** enabling contractors under the ISA regime.
+- **Sponsoring-state national laws** enabling contractors under the ISA regime. Held for Nauru and
+  Tonga from issue #13 (2026-09-18): Nauru's International Seabed Minerals Act 2015, SBMA Act 2024 and
+  SBMA Regulations 2025, and Tonga's Seabed Minerals Act 2014 in the Attorney General's Office 2020
+  Revised Edition (CAP 20.07). The ISA's National Legislation Database is a finding aid - it reproduces
+  State submissions "in the form and the language(s) received" and does not edit or translate them - so
+  the artefact of record is the State's own file, each held with a hash-verified source URL. Reuse terms
+  are unstated on every one of them (JC-013). One version per instrument: for Tonga the AGO's current
+  revised edition, not the 2016 edition or the as-enacted 2014 text it also publishes.
 - The **US non-UNCLOS parallel track**: DSHMRA and its NOAA regulations (15 CFR 970/971), plus
   Outer Continental Shelf activity under OCSLA/BOEM — captured but clearly marked as the
   non-UNCLOS alternative (JC-001).

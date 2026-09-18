@@ -1,0 +1,75 @@
+corpus_id: nru/statute/international-seabed-minerals-act-2015
+version_id: '2015-10-23'
+title: International Seabed Minerals Act 2015 (No. 26 of 2015)
+short_title: ISMA 2015 (Nauru)
+jurisdiction: NRU
+document_type: national_statute
+official_citation: International Seabed Minerals Act 2015, No. 26 of 2015 (Nauru), certified 23 October
+  2015
+authentic_languages:
+- en
+adoption_date: '2015-10-23'
+entry_into_force_date: null
+source_url: https://www.isa.org.jm/wp-content/uploads/2022/05/Nauru_ISM.pdf
+source_publisher: International Seabed Authority - National Legislation Database on Deep Seabed Mining
+  (publishing the Republic of Nauru's own file, as submitted to the Authority)
+source_is_official: true
+retrieval_date: '2026-09-17'
+retrieved_by: Hermes Jarvis (this host) - direct byte download located through the ISA National Legislation
+  Database; the file is the State's own copy, carrying the RONLAW register print (see provenance_note)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:052f3ec6572022027cba1bd37265d402b5874a47a3c977c798c75c46742a108e
+original_sha256: sha256:3c8b6acdbf98744e5f18a4224e7ab3aee922164f5be5423657a9719597333dc4
+text_sha256: sha256:052f3ec6572022027cba1bd37265d402b5874a47a3c977c798c75c46742a108e
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: government-legislation-terms-unstated
+rights_note: The instrument is the law of the Republic of Nauru. No reuse licence is stated on the face
+  of the copy or in the register it comes from; the copy was obtained through the International Seabed
+  Authority's National Legislation Database, whose own website terms govern the copy as published there.
+  Ingested for citation and reference with attribution to the Republic of Nauru; a per-statute rights
+  determination is an open item (issue #13), and the record is withdrawn on request of the rightsholder.
+capture_history:
+- date: '2026-09-17'
+  source_url: https://www.isa.org.jm/wp-content/uploads/2022/05/Nauru_ISM.pdf
+  original_sha256: sha256:3c8b6acdbf98744e5f18a4224e7ab3aee922164f5be5423657a9719597333dc4
+  note: 'Byte-exact download of the official file (650,579 bytes). Verified on 2026-09-18 by re-fetching
+    the same URL and comparing hashes: the served file and the recorded file are the same bytes, so source_url
+    is evidence rather than an assertion. The file itself is a RONLAW service copy: producer XyEnterprise
+    XPP + Ghostscript, and the register''s own ''TABLE OF AMENDMENTS'' page at the end of the document.'
+supersedes: null
+superseded_by: nru/statute/seabed-minerals-authority-act-2024
+related_documents:
+- nru/statute/seabed-minerals-authority-act-2024
+- nru/regulation/seabed-minerals-authority-regulations-2025
+- un/convention/unclos-partxi-1982
+provenance_note: 'SCOPE (issue #13, ruled 2026-09-17): sponsoring-State national law is in scope, and national
+  legislation of the States sponsoring contracts in the Area is the class this record belongs to. SOURCING,
+  AND WHAT THE SOURCE IS: the text was located through the ISA''s National Legislation Database, which
+  describes its own collection in these words - "The present collection of laws, regulations and administrative
+  measures concerning activities in the Area is based on submissions made by the Member States. Accordingly,
+  the texts are reproduced in the form and the language(s) received from the Member States and were not
+  formally edited and/or translated by ISA." That statement is why the file is treated as the State''s
+  own text and not as an ISA transcription - a database transcription is a step further from the authentic
+  text and would have been recorded as such (cf. JC-005). The distinctive shape of the copy confirms it:
+  RONLAW register furniture (page-stamp dates, a TABLE OF AMENDMENTS page). IDENTIFIER AND DATES: the
+  Act''s own number is No. 26 of 2015 and the copy states "Certified: 23 October 2015"; no commencement
+  date is stated on the face of the copy held, so entry_into_force_date is null rather than guessed (cf.
+  JC-008: no invented identifiers or dates). WHAT THE INSTRUMENT DOES: it is Nauru''s first national seabed
+  minerals statute - sponsorship certificates, the sponsoring State''s obligations under Article 139 and
+  Annex III of the Convention, the environmental and reporting duties attaching to a sponsorship, and
+  the powers of the Minister. It is REPEALED: see the 2024 Act in related_documents, which repeals it
+  at section 70. THE TEXT: born-digital, so no OCR; recovered from the PDF text layer by the per-record
+  cleaner in scripts/extract.py and stored as the corpus''s plain text. Verified against the instrument''s
+  own Table of Provisions: 56 sections, contiguous 1-56, zero gaps, no page furniture retained, and no
+  token present in the text that is not present in the raw extraction.'
+binding_force: binding
+issuing_authority: Parliament of Nauru
+administering_authority: null
+corrections: []
+akn_expression_uri: /akn/nr/act/2015-10-23/international-seabed-minerals-act-2015/eng
+akn_uri: /akn/nr/act/2015-10-23/international-seabed-minerals-act-2015
+akn_uri_basis: iso3166
+akn_uri_note: ''

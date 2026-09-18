@@ -1,0 +1,71 @@
+corpus_id: nru/regulation/seabed-minerals-authority-regulations-2025
+version_id: '2025-06-22'
+title: Nauru Seabed Minerals Authority Regulations 2025 (SL No. 32 of 2025)
+short_title: SBMA Regulations 2025 (Nauru)
+jurisdiction: NRU
+document_type: national_regulation
+official_citation: Nauru Seabed Minerals Authority Regulations 2025, SL No. 32 of 2025 (Nauru), notified
+  22 June 2025, made under section 68 of the Nauru Seabed Minerals Authority Act 2024
+authentic_languages:
+- en
+adoption_date: '2025-06-22'
+entry_into_force_date: '2025-06-22'
+source_url: https://isa.org.jm/wp-content/uploads/2026/03/Nauru-Seabed-Minerals-Authority-Regulations-2025.pdf
+source_publisher: International Seabed Authority - National Legislation Database on Deep Seabed Mining
+  (publishing the Republic of Nauru's own file, as submitted to the Authority)
+source_is_official: true
+retrieval_date: '2026-09-17'
+retrieved_by: Hermes Jarvis (this host) - direct byte download located through the ISA National Legislation
+  Database; the file is the State's own copy, as submitted with the Republic of Nauru's Note No. 418/2025
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:16443fb2254db16436ba69aedc90e8fbfcb5461da9ad166e7acadbb4f8500bb6
+original_sha256: sha256:66a0a2584791fed21670591f2ffd7c6de21a55177689281c789d455ab913280f
+text_sha256: sha256:16443fb2254db16436ba69aedc90e8fbfcb5461da9ad166e7acadbb4f8500bb6
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: government-legislation-terms-unstated
+rights_note: The instrument is subsidiary legislation of the Republic of Nauru. No reuse licence is stated
+  on the face of the copy or in the register it comes from; the copy was obtained through the International
+  Seabed Authority's National Legislation Database, whose own website terms govern the copy as published
+  there. Ingested for citation and reference with attribution to the Republic of Nauru; a per-statute
+  rights determination is an open item (issue #13), and the record is withdrawn on request of the rightsholder.
+capture_history:
+- date: '2026-09-17'
+  source_url: https://isa.org.jm/wp-content/uploads/2026/03/Nauru-Seabed-Minerals-Authority-Regulations-2025.pdf
+  original_sha256: sha256:66a0a2584791fed21670591f2ffd7c6de21a55177689281c789d455ab913280f
+  note: 'Byte-exact download of the official file (637,853 bytes). Verified on 2026-09-18 by re-fetching
+    the same URL and comparing hashes: same bytes, so source_url is evidence rather than an assertion.
+    The file came to the ISA with Nauru''s Note No. 418/2025, dated 10 July 2025, which is the transmittal
+    the database lists this instrument under.'
+supersedes: null
+superseded_by: null
+related_documents:
+- nru/statute/seabed-minerals-authority-act-2024
+- nru/statute/international-seabed-minerals-act-2015
+- un/convention/unclos-partxi-1982
+provenance_note: 'SCOPE (issue #13, ruled 2026-09-17): sponsoring-State national law, here the subsidiary
+  legislation that makes the 2024 Act workable. SOURCING: located through the ISA''s National Legislation
+  Database, which reproduces State submissions in the form and language received; the file is the State''s
+  own copy, not a database transcription (contrast JC-005). IDENTIFIER AND DATES: SL No. 32 of 2025, notified
+  22 June 2025 - the instrument''s own number and notification date, taken from its face. The maker is
+  stated in the instrument itself: "The Cabinet makes the following Regulations under Section 68 of the
+  Nauru Seabed Minerals Act 2024". THE TEXT, AND ONE TREATMENT DECISION WORTH READING: born-digital,
+  no OCR. The body is numbered 1-62 and is assembled section by section, but the instrument ends in three
+  SCHEDULEs of forms (sponsorship application requirements, compliance history statement, annual compliance
+  statement). Assembly stops at the first SCHEDULE heading on purpose: a form prints its own item numbers,
+  and those numbers carry on the section sequence, so reading them as sections minted a "Section 63" and
+  a "Section 64" that do not exist in the instrument. Everything from the schedule heading on is retained
+  exactly as printed, line by line, so no wording is lost - a schedule is part of the instrument, only
+  its numbering is not section numbering. Verified against the instrument''s own Table of Provisions:
+  62 sections, contiguous 1-62, zero gaps, no page furniture retained, and no token in the text that is
+  absent from the raw extraction.'
+binding_force: binding
+issuing_authority: Cabinet of Nauru
+administering_authority: Nauru Seabed Minerals Authority
+corrections: []
+akn_expression_uri: /akn/nr/act/regulation/2025-06-22/seabed-minerals-authority-regulations-2025/eng
+akn_uri: /akn/nr/act/regulation/2025-06-22/seabed-minerals-authority-regulations-2025
+akn_uri_basis: iso3166
+akn_uri_note: ''

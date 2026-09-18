@@ -1,0 +1,77 @@
+corpus_id: ton/statute/seabed-minerals-act-2014
+version_id: 2020-revised-edition
+title: Seabed Minerals Act 2014 (Act 10 of 2014) - Kingdom of Tonga, 2020 Revised Edition (CAP 20.07)
+short_title: Seabed Minerals Act 2014 (Tonga, 2020 Rev. Ed.)
+jurisdiction: TON
+document_type: national_statute
+official_citation: Seabed Minerals Act 2014 (Act 10 of 2014) (Tonga), 2020 Revised Edition, Chapter 20.07
+authentic_languages:
+- en
+adoption_date: null
+entry_into_force_date: '2014-08-25'
+source_url: https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/2014/2014-0008/SeabedMineralsAct2014_3.pdf
+source_publisher: Kingdom of Tonga - Attorney General's Office (AGO legislation register)
+source_is_official: true
+retrieval_date: '2026-09-18'
+retrieved_by: Hermes Jarvis (this host) - direct byte download from the Attorney General's Office legislation
+  register, the Kingdom of Tonga's own publisher of revised legislation
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:fe2fbec413c658ac5a8bdb04b5b133198c07fc56f76aa61c5d6b58187bd88c1c
+original_sha256: sha256:215951b1ec86ee3d411cdf48afacb085981e11937649194ccb48222c80d3047a
+text_sha256: sha256:fe2fbec413c658ac5a8bdb04b5b133198c07fc56f76aa61c5d6b58187bd88c1c
+text_fidelity: extracted_verified
+language: en
+authoritative_status: official_consolidation
+license: government-legislation-terms-unstated
+rights_note: The instrument is the law of the Kingdom of Tonga and this edition is the Attorney General's
+  Office's own consolidation of it. No reuse licence is stated on the face of the copy. Ingested for
+  citation and reference with attribution to the Kingdom of Tonga, Attorney General's Office; a per-statute
+  rights determination is an open item (issue #13), and the record is withdrawn on request of the rightsholder.
+capture_history:
+- date: '2026-09-18'
+  source_url: https://ago.gov.to/cms/images/LEGISLATION/PRINCIPAL/2014/2014-0008/SeabedMineralsAct2014_3.pdf
+  original_sha256: sha256:215951b1ec86ee3d411cdf48afacb085981e11937649194ccb48222c80d3047a
+  note: 'Byte-exact download of the official file (911,097 bytes, 74 pages), verified by comparing the
+    served bytes with the held file: same hash, so source_url is evidence rather than an assertion. The
+    AGO publishes three files for this Act under the same register path - _1 (Act 10 of 2014 as enacted),
+    _2 (2016 Revised Edition, CAP 46.05) and _3 (2020 Revised Edition, CAP 20.07). The 2020 edition is
+    the current one and the one held here; the earlier two were downloaded and inspected so that the
+    choice was made against the publisher''s own files rather than assumed, and they are NOT held in
+    the corpus.'
+supersedes: null
+superseded_by: null
+related_documents:
+- nru/statute/seabed-minerals-authority-act-2024
+- un/convention/unclos-partxi-1982
+provenance_note: 'SCOPE (issue #13, ruled 2026-09-17): sponsoring-State national law. VERSION: this is
+  the Attorney General''s Office''s 2020 Revised Edition, Chapter 20.07 - the current consolidation of
+  Act 10 of 2014, replacing the 2016 Revised Edition (CAP 46.05) that a first pass had staged. The correction
+  came from checking the publisher''s register rather than trusting the copy already in hand, which is
+  the annual-review discipline: a file being official does not make it current. WHY THERE IS NO DATE IN
+  version_id: the AGO prints the revision year and the chapter number, and no revision date - so the version
+  identifier is the edition itself and adoption_date is null (the assent date of the 2014 Act is not stated
+  in this edition), rather than inventing either. Commencement, which the edition does state, is 25 August
+  2014 (Gazette G 44/2014, cited in its own Endnotes). IDENTIFIER: Act 10 of 2014, the Act''s own number,
+  carried in the Endnotes. THE TEXT, AND WHY THIS RECORD READS ITS PDF DIFFERENTLY: this edition typesets
+  each section''s number and title as a margin block beside the body. In the default reading order that
+  block is interleaved wrongly - section numbers land against the neighbouring section''s title, and the
+  Act assembles as if it had 99 sections in a broken sequence. The record therefore reads its PDF with
+  layout preserved (pdftotext -layout; the per-record read flag in scripts/extract.py, recorded in this
+  record''s attestation as well), which reproduces the printed page and assembles correctly. APPARATUS
+  DROPPED: the Arrangement of Sections (a table of contents) and the AGO''s Endnotes, which carry the
+  amendment history (Act 10 of 2014, G 44/2014 and the amending instruments). Both are apparatus, not
+  operative text, and dropping them means the amendment history is not represented in this record - a
+  reader who needs the legislative history must go to the AGO''s Endnotes. THE TEXT: born-digital, no
+  OCR. Verified against the edition''s own Arrangement of Sections: 125 sections, contiguous 1-125, zero
+  gaps, the text ending at section 125 (Consequential Amendments), no page furniture retained, and no
+  token in the text that is absent from the raw extraction.'
+binding_force: binding
+issuing_authority: Legislative Assembly of Tonga
+administering_authority: Tonga Seabed Minerals Authority
+corrections: []
+akn_expression_uri: null
+akn_uri: null
+akn_uri_basis: unmapped
+akn_uri_note: version_id '2020-revised-edition' is not an ISO date or year (and any trailing tag does
+  not match the record's declared language 'en'), so no AKN Work date can be derived

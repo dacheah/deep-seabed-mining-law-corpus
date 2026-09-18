@@ -30,8 +30,15 @@ REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 AUTH = os.path.join(REPO, "authoritative")
 PINNED_POPPLER = "22.02.0"
 
-def pdftotext(pdf: str, raw: bool = False) -> str:
-    cmd = ["pdftotext", "-enc", "UTF-8"] + (["-raw"] if raw else []) + [pdf, "-"]
+def pdftotext(pdf: str, raw: bool = False, layout: bool = False) -> str:
+    """pdftotext with this record's extra flags (both are per-record: see PDF_RAW / PDF_LAYOUT).
+
+    `-layout` keeps every printed line where it sits on the page. It is the honest read for a document
+    whose section number and section title are typeset as a margin block, because the default reading
+    order pairs each number with the wrong section (Tonga's 2016 Revised Edition, issue #13).
+    """
+    cmd = (["pdftotext", "-enc", "UTF-8"] + (["-raw"] if raw else []) + (["-layout"] if layout else [])
+           + [pdf, "-"])
     return subprocess.run(cmd, capture_output=True, text=True, check=True).stdout
 
 def poppler_version() -> str:
@@ -720,6 +727,8 @@ def clean_unclos(raw, title_line, lang):
     return title_line + "\n\n" + "\n\n".join(paras) + "\n"
 
 PDF_RAW = {"un/convention/unclos-partxi-1982-fr", "un/convention/unclos-partxi-1982-es"}
+# Records whose text must be read with the printed layout preserved, not in the default reading order.
+PDF_LAYOUT = {"ton/statute/seabed-minerals-act-2014"}
 
 # ---- registry: corpus_id -> how to re-derive text from original.* ----------------------------
 PDF_EXTRACTORS = {
@@ -765,7 +774,188 @@ PDF_EXTRACTORS = {
       lambda raw: clean_itlos_text_layer(raw, r"DECLARATION OF JUDGE KITTICHAISAREE"),
   "itlos/declaration/case34-brown-18jul2026": lambda raw: clean_itlos_text_layer(raw, r"DECLARATION OF JUDGE BROWN"),
   "itlos/declaration/case35-brown-18jul2026": lambda raw: clean_itlos_text_layer(raw, r"DECLARATION OF JUDGE BROWN"),
+  "nru/statute/international-seabed-minerals-act-2015": lambda raw: clean_nru_ism_2015(raw, TITLE_NRU_ISM),
+  "nru/statute/seabed-minerals-authority-act-2024": lambda raw: clean_nru_ronlaw(raw, TITLE_NRU_SBMA, _NRU_FIRST_PART),
+  "nru/regulation/seabed-minerals-authority-regulations-2025": lambda raw: clean_nru_ronlaw(
+      raw, TITLE_NRU_REGS, _NRU_FIRST_PART, stop_at=_NRU_SCHEDULE),
+  "ton/statute/seabed-minerals-act-2014": lambda raw: clean_ton_sma_2014(raw, TITLE_TON_SMA),
   }
+
+# ---- sponsoring-State national law (issue #13) ------------------------------------------------
+# The title line of each national record, in the same form the extraction convention uses: what the
+# instrument is, its own number and date, and the status a reader must not have to guess at.
+TITLE_NRU_ISM = ("International Seabed Minerals Act 2015 (No. 26 of 2015, certified 23 October 2015) "
+                 "— Republic of Nauru [REPEALED by the Nauru Seabed Minerals Authority Act 2024, s.70]")
+TITLE_NRU_SBMA = ("Nauru Seabed Minerals Authority Act 2024 (No. 13 of 2024) — Republic of Nauru "
+                  "[consolidated service copy of the official text, RONLAW]")
+TITLE_NRU_REGS = ("Nauru Seabed Minerals Authority Regulations 2025 (SL No. 32 of 2025, notified "
+                  "22 June 2025) — Republic of Nauru")
+TITLE_TON_SMA = ("Seabed Minerals Act 2014 (Act 10 of 2014) — Kingdom of Tonga, 2020 Revised Edition "
+                 "(CAP 20.07)")
+
+# ---- sponsoring-State national statutes and regulations (issue #13) --------------------------
+# Four born-digital official PDFs: Nauru's own register copies (RONLAW service copies, as submitted
+# by Nauru to the ISA) and Tonga's 2016 Revised Edition. Their page furniture is POSITIONAL -
+# running heads, a marginal "Section" column, RONLAW service stamps, printed page numbers - and in
+# the Nauru documents the page number is a BARE NUMBER that looks exactly like a section number.
+# It is removed by name and by its own page sequence, never by guessing at prose, and a registration
+# in PDF_EXTRACTORS below fails loudly if a document stops matching its shape.
+def _pages(raw: str) -> list:
+    """pdftotext's page chunks: the extractor calls it without -nopgbrk, so \f separates pages."""
+    return raw.split("\f")
+
+
+_NRU_FURN = re.compile(
+    r"^(LAWS OF THE REPUBLIC OF NAURU|Service \d+|Section|Table of Provisions|Table of Contents|"
+    r"Table of Amendments|Principal|Job: .*|Page: \d+ Date: .*|bwpageid::.*|bwservice::.*|"
+    r"\[The next page is [\d,]+\]|\d{3},\d{3}|s \d+[A-Z]?|Nauru Seabed Minerals Authority "
+    r"(Act 2024|Regulations 2025)|NAURU SEABED MINERALS AUTHORITY (ACT 2024|REGULATIONS 2025))$")
+
+# Furniture by NAME. The last three alternatives matter: `-layout` prints the two running heads on ONE
+# line (in either order), and the AGO's 2020 Revised Edition drops the year from the instrument name
+# ("Seabed Minerals Act") - so the name and the edition year are both optional here.
+_TON_FURN = re.compile(
+    r"^(C|T|to|Page \d+|CAP \d+\.\d+( Section \d+)?|Section \d+ to|Seabed Minerals Act( 2014(A1)?)?|"
+    r"SEABED MINERALS ACT( 2014(A1)?)?|\d{4} Revised Edition|Endnotes|Act \d+ of 2014"
+    r"|Seabed Minerals Act( 2014)?\s+CAP \d+\.\d+ (Section \d+|Arrangement of Sections|Endnotes)"
+    r"|Section \d+ CAP \d+\.\d+\s+Seabed Minerals Act( 2014)?)$")
+def _assemble_numbered(lines, title_line, part_re, stats=None, stop_at=None, inline_title=False):
+    """Numbered sections: 'N' alone, the section title on the next line, then its body.
+
+    A bare number counts as a section marker only when it continues the section sequence (a gap of
+    one is allowed, for a section revoked or renumbered by an amendment). Any other bare number is
+    page furniture: it is dropped and counted, never left in the text and never guessed at.
+
+    `inline_title` covers a document that prints the number and the title on ONE line ('100 Duties
+    on parties conducting Marine Scientific Research', Tonga's 2016 Revised Edition, where the margin
+    block puts them together): same sequence rule, and the title comes off the same line. A line that
+    merely begins with a number is ordinary text unless it continues the sequence - only a BARE number
+    is ever dropped as furniture, because dropping a line of prose would lose wording.
+
+    `stop_at` is where the numbered body ends and non-sectioned material begins (a SCHEDULE). From
+    that heading on, the printed line breaks are kept as paragraph breaks and no bare number is read
+    as a section - a form's own item numbers carry on the section sequence, so item '64' in Schedule 3
+    of the Nauru SBMA Regulations 2025 minted a Section 64 that does not exist. Everything after the
+    heading is retained, as printed: a schedule is part of the instrument, not apparatus.
+    """
+    paras, cur, expect, dropped = [], None, 1, []
+    tail = 0
+    i, n = 0, len(lines)
+    while i < n:
+        s = lines[i].strip()
+        if stop_at is not None and stop_at.match(s):
+            if cur:
+                paras.append(cur)
+                cur = None
+            for tail_line in lines[i:]:
+                t = re.sub(r"\s+", " ", tail_line).strip()
+                if t:
+                    paras.append(t)
+                    tail += 1
+            break
+        m = re.fullmatch(r"(\d{1,3})([A-Z]{0,2})", s)
+        mi = re.match(r"^(\d{1,3})\s+(\S.*)$", s) if inline_title else None
+        if m and expect <= int(m.group(1)) <= expect + 1:
+            if cur: paras.append(cur)
+            num, suff = int(m.group(1)), m.group(2)
+            expect = num + 1
+            title = lines[i + 1].strip() if i + 1 < n else ""
+            cur = f"Section {num}{suff}. {title}".rstrip(" .") + "."
+            i += 1
+        elif mi and expect <= int(mi.group(1)) <= expect + 1:
+            if cur: paras.append(cur)
+            expect = int(mi.group(1)) + 1
+            cur = f"Section {mi.group(1)}. {mi.group(2).strip()}"
+        elif part_re.match(s):
+            if cur: paras.append(cur); cur = None
+            paras.append(s)
+        elif re.fullmatch(r"\d{1,3}", s):
+            dropped.append(int(s))
+        else:
+            cur = (cur + " " + s) if cur else s
+        i += 1
+    if cur: paras.append(cur)
+    paras = [re.sub(r"\s+", " ", p).strip() for p in paras if p.strip()]
+    if stats is not None:
+        stats["sections"] = expect - 1
+        stats["bare_numbers_dropped"] = dropped
+        if stop_at is not None:
+            stats["schedule_paragraphs"] = tail
+    return title_line + "\n\n" + "\n\n".join(paras) + "\n"
+_NRU_SCHEDULE = re.compile(r"^SCHEDULE \d+ [—–-] .+$")
+_NRU_PARTS = re.compile(r"^PART \d+ [—–-] .+$")
+_TON_PARTS = re.compile(r"^PART (\d+|[IVX]+) [—–-] .+$")
+_NRU_FIRST_PART = re.compile(r"^PART 1 [—–-] PRELIMINARY$")
+_TON_FIRST_PART = re.compile(r"^PART (1|I) [—–-] PRELIMINARY$")
+
+
+def _body_start(lines, first_part_re):
+    """The Act's body starts at its FIRST Part heading - the last such line, the TOC being above."""
+    idx = [i for i, l in enumerate(lines) if first_part_re.match(l)]
+    if not idx:
+        raise SystemExit("national-law extractor: first Part heading not found — shape changed")
+    return idx[-1]
+
+
+def clean_nru_ism_2015(raw, title_line, stats=None):
+    """Nauru International Seabed Minerals Act 2015 (No. 26 of 2015, certified 23 Oct 2015).
+
+    Its only page furniture is the printed page number, standing alone as the last line of its page.
+    It is dropped only when it is the NEXT number in the printed sequence, so no section number can
+    be mistaken for it; the sequence is recorded in stats.
+    """
+    lines, expect, dropped = [], 1, []
+    for ci, page in enumerate(_pages(raw)):
+        L = [l.strip() for l in page.splitlines() if l.strip()]
+        if ci >= 4 and L and re.fullmatch(r"\d{1,3}", L[-1]) and int(L[-1]) == expect:
+            dropped.append(expect)
+            expect += 1
+            L = L[:-1]
+        lines.extend(L)
+    if stats is not None:
+        stats["page_numbers"] = dropped
+    return _assemble_numbered(lines[_body_start(lines, _NRU_FIRST_PART):], title_line, _NRU_PARTS, stats)
+
+
+def clean_nru_ronlaw(raw, title_line, first_part_re, stats=None, stop_at=None):
+    """RONLAW service copies (Nauru): the furniture is named - service stamps, marginal 'Section'
+    column, running heads - so it is dropped by name and the body is assembled from the Part heading.
+    The SBMA Regulations 2025 end in three SCHEDULEs of forms, so `stop_at` hands them to the
+    assembler as non-sectioned material instead of letting a form's item numbers mint sections.
+    """
+    lines = [l.strip() for page in _pages(raw) for l in page.splitlines()
+             if l.strip() and not _NRU_FURN.match(l.strip())]
+    return _assemble_numbered(lines[_body_start(lines, first_part_re):], title_line, _NRU_PARTS, stats,
+                              stop_at=stop_at)
+
+
+def clean_ton_sma_2014(raw, title_line, stats=None):
+    """Tonga, Seabed Minerals Act 2014 - 2016 Revised Edition (CAP 46.05).
+
+    The Revised Edition prints an Arrangement of Sections before the Act and the AGO's ENDNOTES
+    (amendment history) after it: both are apparatus, and both are dropped. The Arrangement lists
+    ENDNOTES as its own last entry, so the FIRST 'ENDNOTES' in the file sits in the front matter:
+    cutting there discarded the entire Act and left the table of contents as the "text" (it read as
+    'Section 1. 2. 3. ...' with a gap of two between every section). The Act's own endnotes heading
+    is the LAST one, and that is where the cut belongs.
+
+    This record is read with `-layout` (see PDF_LAYOUT) and that is not cosmetic. Its margin block
+    typesets each section's number and title together, and the default reading order interleaves them
+    wrongly: it emitted '9', then '10', then the title belonging to 9 - so a number/title pairing
+    taken from the running order is not evidence. With the layout preserved, every section reads as
+    'N  Title' on one line, hence `inline_title=True`; the body of each section stays on the lines
+    below, indented as printed. Sections 1-99 and 100+ differ only in whether the number and title fit
+    the line, not in structure, and the sequence rule treats both the same way.
+    """
+    lines = [l.strip() for page in _pages(raw) for l in page.splitlines()
+             if l.strip() and not _TON_FURN.match(l.strip())]
+    cut = [i for i, l in enumerate(lines) if l.upper() == "ENDNOTES"]
+    if not cut:
+        raise SystemExit("Tonga extractor: ENDNOTES heading not found — shape changed")
+    lines = lines[:cut[-1]]
+    return _assemble_numbered(lines[_body_start(lines, _TON_FIRST_PART):], title_line, _TON_PARTS, stats,
+                              inline_title=True)
+
 
 # ---- Word-form-sourced texts (issue #15) -----------------------------------------------------
 # A record whose text is resolved from the official Word form keeps original_format: pdf, because
@@ -806,7 +996,8 @@ def attestation_for(meta: dict, got: bytes, ver: str) -> dict:
                      "args": ["word/document.xml", "w:ins kept, w:del dropped"],
                      "toolchain": f"CPython {platform.python_version()}"}
     elif meta.get("original_format") == "pdf":
-        args = ["-enc", "UTF-8"] + (["-raw"] if cid in PDF_RAW else [])
+        args = (["-enc", "UTF-8"] + (["-raw"] if cid in PDF_RAW else [])
+                + (["-layout"] if cid in PDF_LAYOUT else []))
         extractor = {"tool": "pdftotext", "args": args, "toolchain": f"poppler {ver}"}
     else:
         extractor = {"tool": "passthrough", "toolchain": None}
@@ -856,7 +1047,8 @@ def rederive(meta: dict, d: str) -> bytes | None:
     if fmt == "pdf":
         fn = PDF_EXTRACTORS.get(cid)
         if not fn: raise SystemExit(f"no committed PDF extractor for {cid}")
-        return norm(fn(pdftotext(os.path.join(d, meta["original_filename"]), raw=(cid in PDF_RAW))))
+        return norm(fn(pdftotext(os.path.join(d, meta["original_filename"]),
+                                  raw=(cid in PDF_RAW), layout=(cid in PDF_LAYOUT))))
     # txt-sourced: canonical normalisation of the stored original (raw HTML capture was cleaned pre-ingest)
     return norm(open(os.path.join(d, meta["original_filename"]), encoding="utf-8").read())
 
@@ -872,12 +1064,13 @@ def main() -> int:
     att_new, att_same, att_no_extractor, att_nomatch = [], [], [], []
     for mp in sorted(glob.glob(os.path.join(AUTH, "**", "metadata.yaml"), recursive=True)):
         meta = yaml.safe_load(open(mp, encoding="utf-8")); d = os.path.dirname(mp)
-        if args.attest and meta.get("original_format") == "pdf" and meta["corpus_id"] not in PDF_EXTRACTORS \
+        if meta.get("original_format") == "pdf" and meta["corpus_id"] not in PDF_EXTRACTORS \
                 and meta["corpus_id"] not in DOCX_EXTRACTORS:
             # No committed extractor, so rederive() would SystemExit here — the defect that once
-            # aborted a whole run on the first OCR-derived record. Under --attest this is skipped BY
-            # DESIGN: an OCR-derived text gets NO attestation file, because committed, deterministic
-            # code cannot re-derive it. The absence is the honest record.
+            # aborted a whole run on the first OCR-derived record. Skipped BY DESIGN, under --write as
+            # well as --attest: there is no committed code to re-derive the text from, so there is
+            # nothing to rewrite; and such a text gets NO attestation file, because committed,
+            # deterministic code cannot re-derive it. The absence is the honest record.
             att_no_extractor.append(meta["corpus_id"]); continue
         got = rederive(meta, d)
         if got is None: continue
@@ -886,8 +1079,15 @@ def main() -> int:
         if is_docx: docx_tot += 1
         elif is_pdf: pdf_tot += 1
         else: txt_tot += 1
+        committed = re.fullmatch(r"sha256:[0-9a-f]{64}", str(meta.get("text_sha256") or ""))
         match = ("sha256:" + hashlib.sha256(got).hexdigest()) == meta["text_sha256"]
-        if args.write: open(os.path.join(d, "text.txt"), "wb").write(got)
+        # NEVER write over a committed text with one that does not reproduce it. Writing first and
+        # comparing afterwards replaced the pinned-toolchain text of isa/regulation/sulphides-2010-zh
+        # with a locally-derived variant on a box whose poppler was not the pin - caught only because
+        # the mismatch was reported. A record with no committed hash (a new one) still writes; to
+        # re-derive deliberately under a new pin, clear text_sha256 first and let this rewrite it.
+        if args.write and (match or not committed):
+            open(os.path.join(d, "text.txt"), "wb").write(got)
         if match:
             docx_ok += is_docx; pdf_ok += is_pdf; txt_ok += (not is_pdf and not is_docx)
         else:
@@ -901,13 +1101,13 @@ def main() -> int:
     print(f"txt-sourced reproduced (normaliser): {txt_ok}/{txt_tot}")
     if docx_tot:
         print(f"docx-sourced reproduced (tracked-changes resolver): {docx_ok}/{docx_tot}")
+    if att_no_extractor:
+        print(f"not re-derived, no committed extractor ({len(att_no_extractor)}, expected for the "
+              f"declared OCR-derived records), left untouched: " + ", ".join(att_no_extractor))
     if args.attest:
         print(f"attestations written: {len(att_new)}   already correct: {len(att_same)}")
         print(f"NOT attested: {len(att_no_extractor)} without a committed extractor, "
               f"{len(att_nomatch)} that did not reproduce")
-        if att_no_extractor:
-            print("  no committed extractor (expected for the declared OCR-derived records): "
-                  + ", ".join(att_no_extractor))
         if att_nomatch:
             print("  did NOT reproduce, so NOT attested: " + ", ".join(att_nomatch))
     if fails:

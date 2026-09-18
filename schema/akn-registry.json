@@ -36,12 +36,19 @@
   },
 
   "alpha3_to_alpha2": {
+    "$national_note": [
+      "NRU and TON were added 2026-09-18 with the issue #13 national-law ingest. Both are codes",
+      "ISO 3166-1 actually assigns ('nr', 'to'), so the country slot is spec-legal on the same",
+      "basis as any other nation-state here; nothing was invented to make a URI possible.",
+      "Tonga's record still declines on a different slot - see the version_id note in akn.py's",
+      "_date(): the AGO's 2020 Revised Edition carries no ISO date on its face."
+    ],
     "ARE": "ae", "ARG": "ar", "AUS": "au", "BHR": "bh", "BMU": "bm", "BRA": "br",
     "CAN": "ca", "CHE": "ch", "CHN": "cn", "CYM": "ky", "DEU": "de", "ESP": "es",
     "FRA": "fr", "GBR": "gb", "GIB": "gi", "HKG": "hk", "IDN": "id", "IND": "in",
     "ITA": "it", "JPN": "jp", "KOR": "kr", "LIE": "li", "LUX": "lu", "MEX": "mx",
-    "MLT": "mt", "MYS": "my", "NGA": "ng", "NLD": "nl", "NZL": "nz", "PHL": "ph",
-    "QAT": "qa", "SGP": "sg", "SLV": "sv", "THA": "th", "TUR": "tr", "USA": "us",
+    "MLT": "mt", "MYS": "my", "NGA": "ng", "NLD": "nl", "NRU": "nr", "NZL": "nz", "PHL": "ph",
+    "QAT": "qa", "SGP": "sg", "SLV": "sv", "THA": "th", "TON": "to", "TUR": "tr", "USA": "us",
     "VGB": "vg", "VNM": "vn", "ZAF": "za"
   },
 

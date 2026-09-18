@@ -297,3 +297,79 @@ document's own mark-up, resolved exactly as Word resolves it, and recorded in `p
 **Status (2026-09-17):** applied — `text_fidelity: extracted_verified`, `authoritative_status:
 authentic_text`, text sha256:252a0da5…de5 (570,727 bytes), attestation authored in CI under the pinned
 toolchain; JC-010's own question is settled and the rule is in doc 03 (authoritative-text policy).
+
+## JC-011 — A margin-block page: read the record with the printed layout, not the default reading order
+**Date:** 2026-09-18 (issue #13)
+**Context:** the AGO's Revised Editions of Tonga's Seabed Minerals Act 2014 typeset each section as a
+heading block — the number in a margin column, the title beside it — with the body in a second column.
+`pdftotext`'s default reading order pairs those numbers with the *neighbouring* section: the assembly
+produced `Section 6. (a).`, `Section 9. 10.`, and over the whole Act captured 85 of its 125 sections.
+**Options:** (a) re-pair the numbers with the titles printed in the document's own Arrangement of
+Sections; (b) adopt PyMuPDF as a per-record toolchain (the sibling BBNJ corpus has that precedent:
+`un/unclos-1982` under pymupdf 1.28.2, its own attestation and its own branch in the validate check);
+(c) read the same pinned poppler with `-layout`.
+**Decision:** (c).
+**Reason:** the read flag is a per-record *argument* on the same pinned toolchain — exactly parallel to
+the existing `PDF_RAW` for the two UNCLOS language copies — so the toolchain contract, the attestation
+and the gate's re-derivation are unchanged, and the args recorded in the attestation say what was
+actually run. (b) reaches the same result through a larger change: a third toolchain branch in the
+workflow's assert, for one record. (a) works from the instrument's own apparatus, but mis-pairs
+silently wherever the Arrangement and the body disagree — the exact failure class this corpus exists
+to avoid.
+**Status (2026-09-18):** applied — 125 sections against the Arrangement's 125, zero gaps, no furniture
+and no invented token in the text.
+
+## JC-012 — A schedule is part of the instrument and is not sectioned
+**Date:** 2026-09-18 (issue #13)
+**Context:** the Nauru Seabed Minerals Authority Regulations 2025 end in three Schedules of forms. A
+form's own item numbering continues the section sequence (Schedule 3 item 64 follows s.62), so the
+section assembler minted a Section 63 and a Section 64 that the instrument does not have: 64 assembled
+against the Table of Provisions' 62.
+**Options:** (a) accept the extra sections; (b) drop the schedules from the text; (c) stop the numbered
+assembly at the SCHEDULE heading and keep everything after it as printed.
+**Decision:** (c).
+**Reason:** (a) asserts sections that do not exist — a wrong citation, not a rough one, and one the
+reproduce gate would re-derive byte-for-byte forever with a green tick. (b) discards operative material:
+the schedules carry the forms a contractor actually files. (c) keeps them and stops the one inference
+that is wrong there: after the heading no bare number is read as a section, and the printed line breaks
+are kept as paragraph breaks so the form structure stays legible.
+**Status (2026-09-18):** applied — 62 sections, zero gaps, 873 schedule lines retained.
+
+## JC-013 — National legislation whose reuse terms are unstated
+**Date:** 2026-09-18 (issue #13)
+**Context:** none of the four national-law records carries a stated reuse licence. The Nauru copies
+come from the ISA's National Legislation Database, whose terms govern the database and which states that
+it reproduces State submissions "in the form and the language(s) received", "not formally edited and/or
+translated"; the Tonga copy comes from the Attorney General's Office register. Both are the State's own
+text; neither states terms for reuse.
+**Options:** (a) treat government legislation as effectively public and record a permissive licence;
+(b) refuse to ingest without stated terms; (c) ingest, with the licence recorded as unstated, the
+reasoning written down, and a takedown path.
+**Decision:** (c).
+**Reason:** (a) is a claim about someone else's rights that we cannot source — the same class of error
+as minting a citation. (b) would leave the primary law of two sponsoring States out of the corpus on a
+paperwork question, when the corpus's job is to hold it accurately and say what is uncertain. What must
+not happen is silence: the licence field says `government-legislation-terms-unstated` and the
+`rights_note` on each record says where it came from and what the source does and does not state.
+**Status (2026-09-18):** applied; a per-statute rights determination is recorded as an open item.
+
+## JC-014 — The AKN registry grows by mapping, never by hand-editing a record
+**Date:** 2026-09-18 (issue #13)
+**Context:** four new records needed AKN Work URIs. `validate_corpus.py` mints them from
+`schema/akn-registry.json` and FAILS any record whose stored fields differ from the mint, so a
+hand-written URI is refused by construction — which is how a first-draft
+`/akn/nr/regulation/…` (missing the `act` doctype the registry's own doctypes map supplies) was caught.
+**Options:** (a) write the URIs into the records; (b) add the jurisdictions to the registry and let the
+mint populate the records; (c) leave all four records without URIs.
+**Decision:** (b) — `NRU → nr` and `TON → to` added to `alpha3_to_alpha2`, then
+`scripts/migrate_akn.py --apply` (never an editor) wrote the records.
+**Reason:** both are codes ISO 3166-1 actually assigns, so the country slot is spec-legal on the same
+basis as every other nation-state in the map; nothing was invented to make a URI possible. (c) would
+leave a real, closeable gap open out of caution.
+**Status (2026-09-18):** applied — three records mint under basis `iso3166`. Tonga declines, and the
+reason is recorded by the mint itself: its `version_id` (`2020-revised-edition`) is not an ISO date and
+the AGO's Revised Edition carries none on its face, so no Work date can be derived; minting one would
+invent it. Wrinkle worth stating plainly: the mint labels a code-bearing body's remaining failure
+`unmapped` (a gap in our mapping), while Tonga's missing slot is arguably a fact about the source —
+which that vocabulary reserves for `none`. Left as written rather than special-cased in shared code;
+what a reader may rely on is the note, which names the failing slot.

@@ -1,0 +1,69 @@
+corpus_id: nru/statute/seabed-minerals-authority-act-2024
+version_id: '2024-08-20'
+title: Nauru Seabed Minerals Authority Act 2024 (No. 13 of 2024)
+short_title: SBMA Act 2024 (Nauru)
+jurisdiction: NRU
+document_type: national_statute
+official_citation: Nauru Seabed Minerals Authority Act 2024, No. 13 of 2024 (Nauru), certified and commenced
+  20 August 2024
+authentic_languages:
+- en
+adoption_date: '2024-08-20'
+entry_into_force_date: '2024-08-20'
+source_url: https://isa.org.jm/wp-content/uploads/2026/03/Nauru-Seabed-Minerals-Authority-Act-2024.pdf
+source_publisher: International Seabed Authority - National Legislation Database on Deep Seabed Mining
+  (publishing the Republic of Nauru's own file, as submitted to the Authority)
+source_is_official: true
+retrieval_date: '2026-09-17'
+retrieved_by: Hermes Jarvis (this host) - direct byte download located through the ISA National Legislation
+  Database; the file is the State's own copy, carrying the RONLAW register print (see provenance_note)
+original_format: pdf
+original_filename: original.pdf
+content_hash: sha256:0905d8828ef81c8f7d6d9bcc717a45ddfdd79ae50e0c982a70906f0ccd7095c9
+original_sha256: sha256:0f5cfb5e59302b6671dcf060c93dc33caef0e5928dc2d21435b2c3fcb06adef2
+text_sha256: sha256:0905d8828ef81c8f7d6d9bcc717a45ddfdd79ae50e0c982a70906f0ccd7095c9
+text_fidelity: extracted_verified
+language: en
+authoritative_status: authentic_text
+license: government-legislation-terms-unstated
+rights_note: The instrument is the law of the Republic of Nauru. No reuse licence is stated on the face
+  of the copy or in the register it comes from; the copy was obtained through the International Seabed
+  Authority's National Legislation Database, whose own website terms govern the copy as published there.
+  Ingested for citation and reference with attribution to the Republic of Nauru; a per-statute rights
+  determination is an open item (issue #13), and the record is withdrawn on request of the rightsholder.
+capture_history:
+- date: '2026-09-17'
+  source_url: https://isa.org.jm/wp-content/uploads/2026/03/Nauru-Seabed-Minerals-Authority-Act-2024.pdf
+  original_sha256: sha256:0f5cfb5e59302b6671dcf060c93dc33caef0e5928dc2d21435b2c3fcb06adef2
+  note: 'Byte-exact download of the official file (181,018 bytes). Verified on 2026-09-18 by re-fetching
+    the same URL and comparing hashes: same bytes, so source_url is evidence rather than an assertion.
+    The file is a RONLAW register print: producer XyEnterprise XPP + Ghostscript, the register''s job string
+    in the document properties, and page stamps dated 9 October 2024 (the print run, after the Act''s own
+    20 August 2024 commencement).'
+supersedes: nru/statute/international-seabed-minerals-act-2015
+superseded_by: null
+related_documents:
+- nru/statute/international-seabed-minerals-act-2015
+- nru/regulation/seabed-minerals-authority-regulations-2025
+- un/convention/unclos-partxi-1982
+provenance_note: 'SCOPE (issue #13, ruled 2026-09-17): sponsoring-State national law. SOURCING: located
+  through the ISA''s National Legislation Database, which reproduces State submissions in the form and
+  language received and does not edit them; the file is therefore the State''s own copy and not a database
+  transcription (contrast JC-005). IDENTIFIER AND DATES: No. 13 of 2024, certified and commenced 20 August
+  2024, both stated in the register''s legislative note carried with the copy - so both dates are the instrument''s
+  own, not inferred. WHAT THE INSTRUMENT DOES: it establishes the Nauru Seabed Minerals Authority as the
+  national body for sponsorship and regulation of activities in the Area, and it REPEALS the International
+  Seabed Minerals Act 2015 at section 70. That repeal is why the 2015 record carries superseded_by pointing
+  here: a reader who takes the 2015 text as the law in force would be reading repealed law, and the cross-reference
+  is the correction. Regulations under it are recorded separately (see related_documents). THE TEXT: born-digital,
+  no OCR. Recovered by the per-record cleaner in scripts/extract.py. Verified against the instrument''s
+  own Table of Provisions: 70 sections, contiguous 1-70, zero gaps, the text ending at section 70 (Repeal),
+  no page furniture retained, and no token in the text that is absent from the raw extraction.'
+binding_force: binding
+issuing_authority: Parliament of Nauru
+administering_authority: Nauru Seabed Minerals Authority
+corrections: []
+akn_expression_uri: /akn/nr/act/2024-08-20/seabed-minerals-authority-act-2024/eng
+akn_uri: /akn/nr/act/2024-08-20/seabed-minerals-authority-act-2024
+akn_uri_basis: iso3166
+akn_uri_note: ''
