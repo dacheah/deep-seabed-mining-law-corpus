@@ -1,8 +1,8 @@
-# Source monitor report — 2026-09-15T00:36:08Z
+# Source monitor report — 2026-10-01T12:35:54Z
 
 _monitor v3.10 · schema mode on_
 
-0 changed · 0 suspect · 0 schema-suspect · 0 manual-review · 0 error · 22 total
+2 changed · 0 suspect · 0 schema-suspect · 0 manual-review · 0 error · 23 total
 
 ## Schema-mode sources
 
@@ -16,7 +16,18 @@ _monitor v3.10 · schema mode on_
 - **ISA — Exploitation: Official documents** — ✅ unchanged (38 records)
 - **ITLOS — List of cases (new cases / advisory opinions)** — ✅ unchanged (35 records)
 
-## ✅ unchanged (13)
+## 🔶 CHANGED (2)
+- **ISA — 31st session (2026)**
+    - was `sha256:645604f65c9dd647441c3229e026c31107bdc9077f950ea4b32af6974d3b2794`
+    - now `sha256:f141f88cb350dc53d64c26fb9d33241962ed85d506ca96baed4109fe560d2f9a`
+- **US NOAA — Deep Seabed Hard Minerals Mining**
+    - was `sha256:8e330785d291f80cee2a792dd57786c5ebc31d282dbfd52f74da7e2e29f09544`
+    - now `sha256:89282d22819dcac9871a6f3e9b350edcb9aec125a8b770546a570e41f393652a`
+
+## 🟦 baseline set (1)
+- **ISA — 32nd session (2027)**
+
+## ✅ unchanged (11)
 - **ISA — The Mining Code (exploitation regulations)**
 - **ISA — Exploration regulations**
 - **ISA — 30th session (2025)**
@@ -26,9 +37,7 @@ _monitor v3.10 · schema mode on_
 - **ISA — Draft Standards and Guidelines (Mining Code)**
 - **ISA — Mining Code Recommendations and guidance (LTC)**
 - **ISA — Legal and Technical Commission**
-- **ISA — 31st session (2026)**
 - **ISA — The Council**
 - **US Federal Register — deep seabed mining (newest docs, JSON)**
-- **US NOAA — Deep Seabed Hard Minerals Mining**
 
 _Automation only watches and queues. A flag may be a genuinely new or amended instrument OR a cosmetic page update — the maintainer triages. **MANUAL** sources are JavaScript apps a stdlib fetch cannot see. **SUSPECT** means too little text to trust. **SCHEMA SUSPECT** means selectors probably broke. Nothing is ingested automatically._
