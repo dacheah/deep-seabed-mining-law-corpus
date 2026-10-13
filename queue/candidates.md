@@ -13,6 +13,8 @@ without a dated note in `docs/design/judgement-calls.md`.
 | ITLOS Cases 34 and 35 — four hearing transcripts (`ITLOS_PV26_C34-35_1..4_E.pdf`) | verbatim records of what was said; no operative text, least authoritative rendition in the case file | recorded — NOT ingested (JC-007, 2026-09-17) | 2026-09-17 |
 | ITLOS Cases 34 and 35 — final submissions (NORI, TOML), written statement (Nauru), `ISA_Response_25.06.2026` | party documents: a party's case, not law; `binding_force` inapplicable | recorded — NOT ingested (JC-007, 2026-09-17) | 2026-09-17 |
 | ITLOS Cases 34 and 35 — compliance reports filed 31 August 2026 (`Applicants_Report_on_Compliance_with_Provisional_Measures`, `Letter_ITLOS_Registrar_ISA_Initial_Report`) | self-reported filings by the parties, unverified by the Tribunal — not instruments | recorded — NOT ingested (JC-007, 2026-09-17); a case-state layer would be a new layer, not an extension of `authoritative/` | 2026-09-17 |
+| ISA 31st session — `ISBA/31/A/11`, Provisional Measures Orders prescribed by the Seabed Disputes Chamber on 18 July 2026 (Cases No. 34 and 35), note by the secretariat | the operative content is the Chamber's, and this is the Authority's own summary of it — the Authority being the respondent; carries no operative text of its own | recorded — NOT ingested (JC-015) | 2026-10-14 |
+| The Metals Company USA — consolidation application record (Federal Register 2026-16869; notice of intent 2026-16722) | administrative process toward a permit, not law; a notice of receipt states no rule and grants nothing | recorded — NOT ingested (JC-016) | 2026-10-14 |
 
 ## Recorded but not ingested — official URLs
 
@@ -29,6 +31,30 @@ layer (JC-007). If scope is ever extended to case files, start here.
 Both case pages also carry ITLOS **press releases**, which are communications *about* proceedings and
 never enter `authoritative/`. The extraction schema excludes them structurally: case documents sit
 under `/documents/cases/`, press releases under `/documents/press_releases_english/`.
+
+## Recorded, not ingested — added 2026-10-14 (issue #16, JC-015, JC-016)
+
+- **ISA 31st session — `ISBA/31/A/11`**, "Provisional Measures Orders prescribed by the Seabed
+  Disputes Chamber of the International Tribunal for the Law of the Sea on 18 July 2026 in Cases
+  No. 34 and 35 — Note by the secretariat", advance unedited version, 26 July 2026, English only
+  (`sha256 220fb1ed324ec8eaf5313f3220e1789f78c81b0851e01557628f83c3e672ca6a`) —
+  `https://isa.org.jm/wp-content/uploads/2026/07/ISBA_31_A_11-Provisional-Measures-Orders-prescribed-by-the-Seabed-Disputes-Chamber-of-the-ITLOS-on-18-July-2026-in-Cases-No.-34-and-35fv-AUV.pdf`
+  · the 31st session page `https://www.isa.org.jm/sessions/31st-session-2026/` serves the final
+  six-language set for the same symbol, under the Authority's numbered files; the symbol is the
+  canonical citation. The note's own paragraph 5 states it refers solely to publicly available
+  information, does not address the merits, and reports the state of proceedings pending before the
+  Chamber.
+- **The Metals Company USA** — "Deep Seabed Mining: Notice of Receipt of Consolidated Application
+  for Deep Seabed Mining Exploration License and Commercial Recovery Permit and Announcement of
+  Public Comment Period and Virtual Public Hearing", Federal Register 91 FR (19 August 2026),
+  document 2026-16869, Docket No. 260706-0163 —
+  `https://www.federalregister.gov/d/2026-16869` · and "Notice of Intent To Prepare an
+  Environmental Impact Statement for the Proposed Issuance of an Exploration License to The Metals
+  Company USA, LLC for `USA-B` (EISX-006-48-2CM-1779948024)", publication date 17 August 2026,
+  document 2026-16722, Docket No. 260707-0164 — `https://www.federalregister.gov/d/2026-16722`.
+  Recorded from the NOAA source watch (`US NOAA — Deep Seabed Hard Minerals Mining`), whose
+  23 September 2026 update listed them; the comment period ran to 19 October 2026 and the virtual
+  public hearing was 13 October 2026.
 
 ## The wider case file — ruled out 2026-09-17 (issue #9, JC-007)
 

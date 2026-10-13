@@ -373,3 +373,51 @@ invent it. Wrinkle worth stating plainly: the mint labels a code-bearing body's 
 `unmapped` (a gap in our mapping), while Tonga's missing slot is arguably a fact about the source —
 which that vocabulary reserves for `none`. Left as written rather than special-cased in shared code;
 what a reader may rely on is the note, which names the failing slot.
+
+## JC-015 — ISBA/31/A/11 is a secretariat note about the proceedings, not an instrument
+**Date:** 2026-10-14 (issue #16)
+**Context:** the 31st session finalised its document set and `ISBA/31/A/11` appeared on the session page
+under the Assembly's Item 21 (Other matters). The document was read before any decision was taken:
+"Provisional Measures Orders prescribed by the Seabed Disputes Chamber of the International Tribunal
+for the Law of the Sea on 18 July 2026 in Cases No. 34 and 35 — Note by the secretariat",
+advance unedited version, 26 July 2026, English only. Its paragraph 5 states that it refers solely to
+publicly available information, does not address matters pertaining to the merits, and reports the
+state of proceedings pending before the Chamber.
+**Options:** (a) ingest it as an ISA session document, on the strength of its `ISBA/` symbol; (b) record
+the symbol and its URLs in `queue/candidates.md` and mint no record; (c) ingest it as the corpus's text
+of the 18 July 2026 orders.
+**Decision:** (b).
+**Reason:** (c) is the error JC-007 exists to prevent — the note's operative content belongs to the
+Chamber, and this is the Authority's own summary of it, the Authority being the respondent in both
+cases; a litigant's summary must not become the corpus's record of another body's act. The authentic
+text is the Tribunal's, and the ITLOS renditions are already queued in `queue/manifests/`
+(`ready__itlos-order-case34-order-18jul2026.json`, `ready__itlos-order-case35-order-18jul2026.json`),
+the case file as a whole having been ruled out of `authoritative/` on 2026-09-17 (issue #9). (a) would
+put a status update into a layer whose rule is the authentic text of instruments (doc 03). What the
+note is good for is the trail: it is the Authority's dated statement that the orders were before the
+Assembly under Other matters.
+**Status (2026-10-14):** applied — candidate row added, no record minted, the session page remains a
+watched source.
+
+## JC-016 — A notice of receipt of a deep seabed mining application is recorded, not ingested
+**Date:** 2026-10-14 (issue #16)
+**Context:** the NOAA deep-seabed-mining page's 23 September 2026 update added The Metals Company
+USA's consolidation application (exploration licence plus commercial recovery permit): Federal
+Register document 2026-16869, published 19 August 2026, Docket No. 260706-0163, with a comment period
+to 19 October 2026 and a virtual public hearing on 13 October 2026 — plus a notice of intent to
+prepare an Environmental Impact Statement for the proposed issuance of an exploration licence for
+`USA-B`, document 2026-16722, published 17 August 2026, Docket No. 260707-0164. The US track holds
+the statute and the regulations (JC-001: `usa/statute/dshmra-1980`, `usa/regulation/cfr15-970-2026`,
+`cfr15-971-2026`).
+**Options:** (a) ingest the Federal Register notices as US-track instruments; (b) record them, with
+their URLs and docket numbers, in `queue/candidates.md` and leave the US track unchanged; (c) treat
+the application itself as a document of the corpus.
+**Decision:** (b).
+**Reason:** a notice of receipt states no rule and grants nothing; the application, the EIS notice and
+the hearing are administrative steps toward a permit, and a company's application is not law — the
+same distinction as JC-007's party documents. (c) confuses the application with the permit that may
+follow it. What a reader needs from these notices is the state of the application queue, which the
+candidate row carries with dates. **If a commercial recovery permit is issued, that is a State act and
+a new scope question** — not covered by this decision.
+**Status (2026-10-14):** applied — candidate row added; nothing in `authoritative/usa/` changed; the
+NOAA page remains a watched source, being the only place the application queue is listed in one place.
