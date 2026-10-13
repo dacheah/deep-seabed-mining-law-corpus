@@ -77,3 +77,41 @@ Case pages (official): Case 34
 `https://www.itlos.org/en/main/cases/list-of-cases/case-concerning-an-inquiry-by-the-international-seabed-authority-nauru-ocean-resources-inc-v-international-seabed-authority/`
 · Case 35
 `https://www.itlos.org/en/main/cases/list-of-cases/case-concerning-an-inquiry-by-the-international-seabed-authority-tonga-offshore-mining-ltd-v-international-seabed-authority/`
+
+## Recorded, not ingested — added 2026-10-14, second pass (JC-017, JC-018)
+
+- **Eco Minerals, Inc.** — "Deep Seabed Mining: Notice of Receipt of Application for Deep Seabed
+  Mining Exploration License and Announcement of Public Comment Period and Virtual Public Hearing",
+  Federal Register document **2026-20830**, published **13 October 2026**, **91 FR 64880–64881**,
+  Docket No. 260930-0006 (National Oceanic and Atmospheric Administration, Department of Commerce) —
+  `https://www.federalregister.gov/d/2026-20830` · the only document on the watched Federal Register
+  source published since the 1 October 2026 baseline, and the **second applicant** in the US queue
+  after The Metals Company USA (JC-016). Written comments close **14 December 2026**; one virtual
+  public hearing. A notice of receipt grants nothing; if an exploration licence is issued under the
+  Act and its implementing regulations, that is a State act and a new scope question.
+- **ISA 31st session, second part** (Council session part II, Kingston, 13–24 July 2026) — the part's
+  documents, none held as text and none worth holding, recorded here by symbol and date:
+  - `ISBA/31/C/38` (24 July 2026) — "Decision of the Council of the International Seabed Authority on
+    the approach to the continuation of the elaboration of rules, regulations and procedures relating
+    to exploitation and resolution of the remaining key outstanding issues", taken under agenda item
+    11, "Consideration, with a view to adoption, of the draft regulations on exploitation of mineral
+    resources in the Area"; its draft `ISBA/31/C/L.13`, against the revised indicative list
+    `ISBA/31/C/CRP.7` (4 July 2026, English only), whose explanatory note records that elaboration
+    continues under the thematic approach set by the Council at its thirtieth session
+    (`ISBA/30/C/18`). **Its outcome is already carried by this corpus** — adoption did not follow
+    (`docs/annual-review-2026.md`, `docs/design/judgement-calls.md`, and the draft-code record's
+    provenance note) — so this row adds the citation, not the fact.
+  - `ISBA/31/C/19/Rev.1/Add.1` (advance unedited version, **11 September 2026**, English only) —
+    "Statement of the President on the work of the Council of the International Seabed Authority
+    during the second part of the thirty-first session", opening at the 355th meeting of the Council,
+    on 13 July 2026. The one document of the part cited nowhere in this corpus; the *first* part's
+    statement (`ISBA/31/C/19/Rev.1`, para. 43) is cited as authority for a procedural fact, and by
+    JC-018 the statements are citable but not held as records — a convention question, not this one.
+  - Administrative, no operative text for the corpus: `ISBA/31/C/30` (relinquishment report under the
+    Republic of Korea's cobalt-rich ferromanganese crusts contract), `ISBA/31/C/32` (election to fill
+    a vacancy on the Legal and Technical Commission under UNCLOS article 163(7)), `ISBA/31/C/33`,
+    `ISBA/31/C/34` ("Decision of the Council … relating to the reports of the Chair of the Legal and
+    Technical Commission", 24 July 2026, agenda item 13), `ISBA/31/C/37`.
+  - Session pages: `https://www.isa.org.jm/sessions/31st-session-2026/`, with per-symbol pages at
+    `https://isa.org.jm/documents/<symbol-slug>/` — the reliable route, since the session page's row
+    order associates a document's per-language links with the *following* row.

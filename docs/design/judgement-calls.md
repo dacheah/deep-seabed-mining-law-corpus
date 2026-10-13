@@ -421,3 +421,68 @@ candidate row carries with dates. **If a commercial recovery permit is issued, t
 a new scope question** — not covered by this decision.
 **Status (2026-10-14):** applied — candidate row added; nothing in `authoritative/usa/` changed; the
 NOAA page remains a watched source, being the only place the application queue is listed in one place.
+
+## JC-017 — A second notice of receipt adds a queue entry, not an instrument
+**Date:** 2026-10-14 (issue #16, second triage pass)
+**Context:** the triage of the nine sources whose baselines date from 1 October 2026 read the watched
+Federal Register JSON feed directly, and exactly one document has been published on it since:
+**2026-20830**, published **13 October 2026**, **91 FR 64880–64881**, Docket No. 260930-0006 (National
+Oceanic and Atmospheric Administration, Department of Commerce) — "Deep Seabed Mining: Notice of
+Receipt of Application for Deep Seabed Mining Exploration License and Announcement of Public Comment
+Period and Virtual Public Hearing", on **Eco Minerals, Inc.**'s application for an exploration
+licence, with comments closing **14 December 2026**. The US track holds the statute and the
+regulations (JC-001); the earlier Metals Company USA documents are recorded at JC-016.
+**Options:** (a) ingest the notice as a US-track instrument; (b) record it in `queue/candidates.md`
+and leave the US track unchanged; (c) treat the application as a document of the corpus.
+**Decision:** (b).
+**Reason:** JC-016's reason applies unchanged — a notice of receipt states no rule and grants
+nothing, and the class does not change with the applicant. What this row adds that JC-016's could not
+is that the US queue now carries a **second applicant**: the record is worth keeping precisely
+because the corpus holds the statute and the regulations and not the queue, which is the only place
+the queue is listed. An exploration licence issued under the Act and its implementing regulations
+would be a State act and would open the same scope question JC-016 left open for a commercial
+recovery permit.
+**Status (2026-10-14):** applied — candidate row added; nothing in `authoritative/usa/` changed.
+
+## JC-018 — The 31st session's second part holds no operative text the corpus lacks
+**Date:** 2026-10-14 (issue #16, second triage pass)
+**Context:** the September-2026 ISA documents were resolved through the Authority's per-symbol
+document pages rather than the session page's row order, which associates a document's per-language
+links with the *following* row — the file first fetched for `ISBA/31/C/38` was internally
+`ISBA/31/C/37`, and the one fetched for `ISBA/31/C/L.13` was internally `ISBA/31/C/L.12`. Verified
+this way: `ISBA/31/C/38` (24 July 2026), the Council's "Decision … on the approach to the
+continuation of the elaboration of rules, regulations and procedures relating to exploitation and
+resolution of the remaining key outstanding issues", under agenda item 11, "Consideration, with a
+view to adoption, of the draft regulations on exploitation of mineral resources in the Area"; its
+draft `ISBA/31/C/L.13`; the revised indicative list `ISBA/31/C/CRP.7` (4 July 2026, English only),
+whose explanatory note records that elaboration continues under the thematic approach set by the
+Council at its thirtieth session (`ISBA/30/C/18`); and `ISBA/31/C/19/Rev.1/Add.1` (advance unedited
+version, **11 September 2026**, English only), "Statement of the President on the work of the Council
+… during the second part of the thirty-first session", opening at the 355th meeting on 13 July 2026.
+Administrative documents of the same part: `ISBA/31/C/30` (relinquishment report, Republic of
+Korea's cobalt-rich ferromanganese crusts contract), `ISBA/31/C/32` (election to fill a Legal and
+Technical Commission vacancy under article 163(7) of the Convention), `ISBA/31/C/33`,
+`ISBA/31/C/34` (decision relating to the reports of the Chair of the Legal and Technical Commission),
+`ISBA/31/C/37`.
+**Options:** (a) ingest C/38 and the part's documents as ISA-track instruments; (b) record them in
+`queue/candidates.md`, noting that C/38's outcome is already carried by the corpus; (c) ingest the
+President's statement alone as a session record.
+**Decision:** (b), with the statement recorded rather than ingested.
+**Reason:** adoption did not follow, and the corpus already carries both the fact and the citation —
+`docs/annual-review-2026.md` and the draft-code record's provenance note date the Council's decision
+against `ISBA/31/C/CRP.7` and its draft `ISBA/31/C/L.13`. So (a) would fill no gap in the account of
+the code's status: it would add a Council decision to an ISA track whose record types are
+`isa_regulation` and `isa_draft` only — an instrument-type question for the maintainer, not a
+gap-filling one. Nothing else in the part holds operative text the corpus lacks: C/38 defers
+elaboration, and the remainder is administration. The President's statement is a **summary record of
+proceedings**, the class JC-015 declined to ingest, and here the boundary is sharper still: the
+corpus cites the *first* part's statement (`ISBA/31/C/19/Rev.1`, para. 43) as authority for the
+President's proposal at the 354th meeting, so statements of the President are citable in this corpus
+whilst not being held as records; the Add.1 is the same class for the part whose outcome the corpus
+already records. Holding them as a class is a convention question, not a per-document decision.
+**Also recorded:** the watched source "ISA — Exploitation: Official documents" ends its document list
+at `ISBA/29/C9`, so it is stale by two sessions and its digest movement is not instrument movement;
+the session pages are the live watch for code documents.
+**Status (2026-10-14):** applied — candidate rows added; no record minted; the draft-code record's
+status (draft, not in force) stands. The source page's staleness is noted here rather than patched in
+`monitoring/sources.json`, since replacing a watched source is a maintainer decision.
