@@ -234,14 +234,14 @@
       "url": "https://www.isa.org.jm/sessions/31st-session-2026/",
       "capture_type": "pdf",
       "scope": "isa_sessions",
-      "last_sha256": "sha256:f141f88cb350dc53d64c26fb9d33241962ed85d506ca96baed4109fe560d2f9a",
-      "last_checked": "2026-10-01T12:35:54Z",
+      "last_sha256": "sha256:11df90262bb67cc73c69662c71a85d4d27e0b635b0a0b473fc911d8083515042",
+      "last_checked": "2026-10-13T13:48:36Z",
       "expect_contains": "31st",
       "ignore_patterns": [
         "\\b\\d{1,2}(?:st|nd|rd|th)\\s+[Ss]ession\\s+20\\d{2}\\b",
         "\\(S\\.?H\\.?E\\.?\\)"
       ],
-      "_note": "[2026-09-14: ignore_patterns added for the site chrome that re-flags every sweep — the footer session-list nav entries and the '(SHE)' programme link, both template-level on every ISA page. Deliberately NOT added: any date pattern. On the Draft Exploitation Regulations page the date-like strings are that instrument's own development chronology ('released on 16 February 2024', 'on 29 November 2024 the President presented…'); on the 31st-session page they are the meeting schedule and document citations. A pattern broad enough to absorb those would hide genuine developments. Also not added because they do not exist on the text surface: the newsletter widget and the anti-bot puzzle, which sit in markup to_text strips.]"
+      "_note": "[2026-09-14: ignore_patterns added for the site chrome that re-flags every sweep — the footer session-list nav entries and the '(SHE)' programme link, both template-level on every ISA page. Deliberately NOT added: any date pattern. On the Draft Exploitation Regulations page the date-like strings are that instrument's own development chronology ('released on 16 February 2024', 'on 29 November 2024 the President presented…'); on the 31st-session page they are the meeting schedule and document citations. A pattern broad enough to absorb those would hide genuine developments. Also not added because they do not exist on the text surface: the newsletter widget and the anti-bot puzzle, which sit in markup to_text strips.] [2026-10-14, issue #16 triage - REAL DEVELOPMENT, re-baselined. The session documents were finalised: rows reading '(Advance Unedited Version) EN' in the 2026-08-31 capture now carry all six languages (AR, CH, EN, ES, FR, RU) - ISBA/31/A/2/Add.1 (Secretary-General's report under article 166), the Finance Committee series ISBA/31/A/10 .. ISBA/31/C/28, ISBA/31/A/11 (Provisional Measures Orders prescribed by the Seabed Disputes Chamber on 18 July 2026 in Cases No. 34 and 35), ISBA/31/A/12 .. A/16 (credentials, budget 2027-2028, Assembly decisions), ISBA/31/C/L.9 and ISBA/31/C/CRP.6. A '32nd session 2027' nav entry also appeared, already absorbed by the session-list pattern. NO new ignore_pattern: on this page the document numbers and dates ARE the signal. Held-revision check re-run after this change (scripts/check_revisions.py --no-report): still CURRENT at ISBA/31/C/CRP.1/Rev.3, check not broken. INGEST CANDIDATE: ISBA/31/A/11 - the corpus holds the 18 July ITLOS declaration (site/i_itlos_declaration_case34-35-kittichaisaree-18jul2026.html) but nothing citing that order.]"
     },
     {
       "name": "ISA — 32nd session (2027)",
@@ -294,8 +294,9 @@
       "capture_type": "html",
       "scope": "us_dsm",
       "last_sha256": "sha256:89282d22819dcac9871a6f3e9b350edcb9aec125a8b770546a570e41f393652a",
-      "last_checked": "2026-10-01T12:35:54Z",
-      "expect_contains": "seabed"
+      "last_checked": "2026-10-13T13:48:36Z",
+      "expect_contains": "seabed",
+      "_note": " [2026-10-14, issue #16 triage - REAL DEVELOPMENT, re-baselined. The page's 23 September 2026 update (stamp 'Last updated: 09/23/26') added The Metals Company USA's consolidation application - exploration licence plus commercial recovery permit - with the Federal Register notice published 19 August 2026, comment period 19 August to 19 October 2026 and a virtual public hearing on 13 October 2026; plus a notice of intent to prepare an Environmental Impact Statement for Application B (notice posted 19 August 2026). NO ignore_pattern for the 'Last updated' stamp: it cannot move without the content moving, so a pattern would add risk and remove no recurring noise.]"
     }
   ],
   "_expect_contains_note": "expect_contains added 2026-07-22 (task: verify each source watches the right page). VERIFIED present by direct fetch: the 3 ITLOS case pages + List of Cases (Case No. 17 / Nauru Ocean Resources / Tonga Offshore Mining), UNCLOS Part XI Section 1 ('polymetallic nodules' — note the page renders 'Article133' with no space, so an 'Article 133' anchor would FALSELY flag), the Federal Register API ('deep seabed mining'), and the two eCFR parts (970/971). PROPOSED but not yet live-verified: the 9 ISA pages, the 1994 Agreement, and NOAA — their anchors are the instrument's own name and should be confirmed by running `python scripts/audit_sources.py` on a networked machine; any 'EXPECTED CONTENT ABSENT' is either a wrong anchor to fix or a wrong page to investigate."
